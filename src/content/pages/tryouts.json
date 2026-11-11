@@ -1,0 +1,18 @@
+{
+  "hero": {
+    "eyebrow": "Youth Soccer",
+    "title": "Find Your Next Tryout",
+    "subtitle": "Verified listings from clubs across Colorado, Arizona, California, Oregon, Washington, and Nevada."
+  },
+  "liveScanner": {
+    "title": "Live Club Scanner",
+    "description": "Checks club websites directly for tryout announcements not yet in the verified database.",
+    "emptyTitle": "Click Scan Now to check club websites for tryout announcements.",
+    "emptyNote": "Results depend on what clubs have posted publicly. Some sites use JavaScript rendering or require login, which limits what the scanner can read."
+  },
+  "submitCta": {
+    "title": "Running a Tryout?",
+    "body": "Submit your club's tryout information to be listed in our verified database.",
+    "buttonLabel": "Submit a Tryout"
+  }
+}

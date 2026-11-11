@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "title": "Locked In Demo — Soccer Center Parent Portal",
+    "description": "Interactive demonstration of player registration brought together. Sample data only — no real documents or payments."
+  },
+  "banner": {
+    "label": "Interactive demonstration — sample data",
+    "resetButton": "Reset demo",
+    "backButton": "Back to Parent Portal"
+  },
+  "header": {
+    "heading": "Locked In",
+    "tagline": "Player registration, brought together.",
+    "subheading": "Interactive demonstration — sample data and proposed service connections.",
+    "playerContextNote": "Launched from {playerName}'s profile for context. All demonstrated records are samples and are not associated with this player."
+  },
+  "progress": {
+    "label": "{count} of 3 requirements complete",
+    "completeLabel": "3 of 3 requirements complete"
+  },
+  "ageSection": {
+    "number": "1",
+    "heading": "Age verification",
+    "ctaButton": "National Sports ID verification ↗",
+    "ctaUrl": "https://www.nationalsportsid.com/sports-age-and-grade-verification/",
+    "ctaSupporting": "Explore an external age-verification service.",
+    "simulateButton": "Simulate verification complete",
+    "statusComplete": "Demo verification complete.",
+    "statusPending": "Not yet simulated"
+  },
+  "healthSection": {
+    "number": "2",
+    "heading": "Secure document repository",
+    "ctaButton": "Open secure document repository ↗",
+    "ctaUrl": "https://netorgft16967656-my.sharepoint.com/:f:/g/personal/tom_shaw_la02uk_com/IgBB0MxHAAn0QKHKYy0CFiqYAbFqSxwv9GPebLrWrNGe86Q?e=klVh42",
+    "ctaSupporting": "Preview sample registration documents in OneDrive.",
+    "ctaNote": "Demo folder — synthetic documents only. Production security and access controls are not demonstrated.",
+    "simulateButton": "Simulate documents complete",
+    "statusComplete": "Demo documents complete.",
+    "statusPending": "Not yet simulated"
+  },
+  "paymentSection": {
+    "number": "3",
+    "heading": "Payment method",
+    "ctaButton": "Fiserv card services ↗",
+    "ctaUrl": "https://www.fiserv.com/en/insights/articles-and-blogs/how-tokenization-enables-isvs-to-deliver-a-seamless-secure-integrated-payment-experience.html",
+    "ctaSupporting": "View an example of Fiserv's embedded card-payment experience.",
+    "ctaNote": "Visual example — payment service not connected.",
+    "simulateButton": "Simulate payment setup complete",
+    "statusComplete": "Demo payment method added.",
+    "statusPending": "Not yet simulated"
+  },
+  "completionSection": {
+    "previewButton": "Preview completed registration",
+    "summaryHeading": "Registration summary",
+    "samplePlayer": "Sample player",
+    "ageLabel": "Age verification",
+    "docsLabel": "Document repository",
+    "paymentLabel": "Payment method",
+    "recipientLabel": "Intended recipient",
+    "recipientValue": "Your club or governing body",
+    "handoffButton": "Preview club handoff",
+    "handoffHeading": "Sample completion summary",
+    "handoffNotice": "Demonstration only. No verification, document submission, payment or club handoff has occurred. External services are examples; no partnership is implied.",
+    "disclosure": "Demonstration only. No verification, document submission, payment or club handoff has occurred. External services are examples; no partnership is implied."
+  },
+  "lockedInCard": {
+    "heading": "Locked In",
+    "body": "Preview a simpler way to manage player verification, health documents and registration.",
+    "badge": "Coming soon",
+    "button": "Explore demo"
+  }
+}

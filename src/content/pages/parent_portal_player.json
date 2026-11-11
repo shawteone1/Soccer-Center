@@ -1,0 +1,55 @@
+{
+  "identityCard": {
+    "editButton": "Edit player",
+    "backButton": "Back to family",
+    "parentManagedBadge": "Parent-managed",
+    "footLabel": "foot",
+    "profileCompleteLabel": "Profile complete",
+    "profilePctLabel": "Profile complete"
+  },
+  "privacyNotice": "This profile is private. Only you and accepted guardians can view it. Player profiles are never publicly discoverable.",
+  "setupCta": {
+    "heading": "Complete this player's profile",
+    "body": "Add positions, club, and training preferences to unlock personalized recommendations.",
+    "button": "Continue setup",
+    "pctSuffix": "% complete"
+  },
+  "about": {
+    "heading": "About my soccer",
+    "ageGroupLabel": "Age group",
+    "birthYearLabel": "Birth year",
+    "jerseyLabel": "Jersey #",
+    "levelLabel": "Level",
+    "footLabel": "Preferred foot"
+  },
+  "positions": {
+    "heading": "Positions & goals",
+    "positionsLabel": "Positions",
+    "primarySuffix": "Primary",
+    "goalsLabel": "Development goals"
+  },
+  "club": {
+    "heading": "Club & team",
+    "parentEnteredBadge": "Parent-entered",
+    "directoryMatchBadge": "Directory match",
+    "seasonNotSet": "Season not set",
+    "ageGroupNotSet": "Age group not set"
+  },
+  "training": {
+    "heading": "Training preferences",
+    "modeLabel": "Mode",
+    "sessionLengthLabel": "Session length",
+    "frequencyLabel": "Frequency",
+    "focusAreasLabel": "Focus areas",
+    "interestsLabel": "Development interests"
+  },
+  "events": {
+    "heading": "Upcoming events",
+    "noCalendarBody": "No calendar connected for this player. Connect PlayMetrics or TeamSnap in the Calendar tab to see upcoming events here."
+  },
+  "tryouts": {
+    "heading": "Tryout listings",
+    "onLabel": "Showing Colorado tryout opportunities for this player",
+    "offLabel": "Tryout listings hidden for this player"
+  }
+}

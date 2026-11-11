@@ -1,0 +1,345 @@
+{
+  "logo/horizontal": {
+    "mediaType": "logo",
+    "currentUrl": "/airo-assets/uploads/logo-horizontal-785fdc22.jpg",
+    "searchQuery": "",
+    "alternatives": [
+      "/airo-assets/uploads/logo-horizontal-c2ee1e98.jpg",
+      "/airo-assets/uploads/16c67f50f3e03eb36e6240e04902d715.svg"
+    ],
+    "userModified": true,
+    "createdAt": "2026-10-03T15:22:20.880Z",
+    "lastUpdated": "2026-10-07T18:46:45.011Z",
+    "uploadSources": {
+      "/airo-assets/uploads/logo-horizontal-c2ee1e98.jpg": "d04bacca5f728182c00fe23dd2ef2e3f.png",
+      "/airo-assets/uploads/logo-horizontal-785fdc22.jpg": "tosph3z3kh_1791398511805_file_c-O76-KmUi.jpg"
+    },
+    "uploadContentHash": "bf614ee37da2e8c200c4f823a9c7cf65fd32d60a9e53e23f04550c9d3a4a9cd7",
+    "naturalOrientation": "horizontal",
+    "surfaceMode": "dark",
+    "darkSurfaceUrl": "/airo-assets/uploads/logo-horizontal-785fdc22.jpg"
+  },
+  "pages/home/hero": {
+    "orientations": "horizontal",
+    "minimumSize": "large",
+    "mediaType": "image",
+    "currentUrl": "/airo-assets/uploads/pages-home-hero-a840f52e.jpg",
+    "searchQuery": "soccer stadium night match floodlights",
+    "alternatives": [
+      "https://img1.wsimg.com/isteam/getty/2164732846",
+      "https://img1.wsimg.com/isteam/getty/2252279697",
+      "https://img1.wsimg.com/isteam/getty/2187713852",
+      "https://img1.wsimg.com/isteam/getty/2164885032",
+      "https://img1.wsimg.com/isteam/getty/2233753448"
+    ],
+    "userModified": true,
+    "createdAt": "2026-10-03T15:22:57.818Z",
+    "lastUpdated": "2026-10-10T02:50:10.007Z",
+    "alternativeGettyIds": [
+      "2164732846",
+      "2252279697",
+      "2187713852",
+      "2164885032",
+      "2233753448"
+    ],
+    "uploadSources": {
+      "/airo-assets/uploads/pages-home-hero-a840f52e.jpg": "tosph3z3kh_1791600586422_file_E2Tn5PejNo.jpg"
+    },
+    "uploadContentHash": "47741e5284990ae52d928e6d0367d01cae8aab70bea2189324fc3da28fcc06bb",
+    "caption": "soccer stadium night match floodlights"
+  },
+  "pages/home/welcome-action": {
+    "orientations": "horizontal",
+    "minimumSize": "large",
+    "mediaType": "image",
+    "currentUrl": "https://img1.wsimg.com/isteam/getty/2196213553",
+    "searchQuery": "diverse soccer players celebrating stadium lights action",
+    "alternatives": [
+      "https://img1.wsimg.com/isteam/getty/1126695187",
+      "https://img1.wsimg.com/isteam/getty/2269023300",
+      "https://img1.wsimg.com/isteam/getty/1397939148",
+      "https://img1.wsimg.com/isteam/getty/2273704637"
+    ],
+    "userModified": false,
+    "createdAt": "2026-10-03T15:22:59.767Z",
+    "lastUpdated": "2026-10-03T15:22:59.767Z",
+    "gettyId": "2196213553",
+    "alternativeGettyIds": [
+      "1126695187",
+      "2269023300",
+      "1397939148",
+      "2273704637"
+    ]
+  },
+  "logo/primary": {
+    "surfaceMode": "dark",
+    "currentUrl": "/airo-assets/uploads/logo-primary-d03fd0a3.png",
+    "userModified": true,
+    "mediaType": "logo",
+    "searchQuery": "",
+    "alternatives": [
+      "/airo-assets/uploads/logo-primary-d9cb3a6b.png"
+    ],
+    "uploadSources": {
+      "/airo-assets/uploads/logo-primary-d9cb3a6b.png": "d04bacca5f728182c00fe23dd2ef2e3f.png",
+      "/airo-assets/uploads/logo-primary-d03fd0a3.png": "tosph3z3kh_1791398511805_file_c-O76-KmUi.jpg"
+    },
+    "uploadContentHash": "bf614ee37da2e8c200c4f823a9c7cf65fd32d60a9e53e23f04550c9d3a4a9cd7",
+    "createdAt": "2026-10-03T15:23:10.310Z",
+    "lastUpdated": "2026-10-07T18:46:45.013Z",
+    "naturalOrientation": "square",
+    "darkSurfaceUrl": "/airo-assets/uploads/logo-primary-d03fd0a3.png"
+  },
+  "logo/vertical": {
+    "surfaceMode": "dark",
+    "currentUrl": "/airo-assets/uploads/logo-vertical-c9c75f1b.png",
+    "userModified": true,
+    "mediaType": "logo",
+    "searchQuery": "",
+    "alternatives": [
+      "/airo-assets/uploads/logo-vertical-89b12bb3.png"
+    ],
+    "uploadSources": {
+      "/airo-assets/uploads/logo-vertical-89b12bb3.png": "d04bacca5f728182c00fe23dd2ef2e3f.png",
+      "/airo-assets/uploads/logo-vertical-c9c75f1b.png": "tosph3z3kh_1791398511805_file_c-O76-KmUi.jpg"
+    },
+    "uploadContentHash": "bf614ee37da2e8c200c4f823a9c7cf65fd32d60a9e53e23f04550c9d3a4a9cd7",
+    "createdAt": "2026-10-03T15:23:10.310Z",
+    "lastUpdated": "2026-10-07T18:46:45.013Z",
+    "naturalOrientation": "vertical",
+    "darkSurfaceUrl": "/airo-assets/uploads/logo-vertical-c9c75f1b.png"
+  },
+  "logo/favicon": {
+    "surfaceMode": "dark",
+    "currentUrl": "/airo-assets/uploads/logo-favicon-e1b5fe98.png",
+    "userModified": true,
+    "mediaType": "logo",
+    "searchQuery": "",
+    "alternatives": [
+      "/airo-assets/uploads/logo-favicon-cf34bf25.png"
+    ],
+    "uploadSources": {
+      "/airo-assets/uploads/logo-favicon-cf34bf25.png": "d04bacca5f728182c00fe23dd2ef2e3f.png",
+      "/airo-assets/uploads/logo-favicon-e1b5fe98.png": "tosph3z3kh_1791398511805_file_c-O76-KmUi.jpg"
+    },
+    "uploadContentHash": "bf614ee37da2e8c200c4f823a9c7cf65fd32d60a9e53e23f04550c9d3a4a9cd7",
+    "createdAt": "2026-10-03T15:23:10.310Z",
+    "lastUpdated": "2026-10-07T18:46:45.013Z",
+    "darkSurfaceUrl": "/airo-assets/uploads/logo-favicon-e1b5fe98.png"
+  },
+  "pages/resources/hero": {
+    "requestedSize": {
+      "width": 1600,
+      "height": 600,
+      "fit": "cover"
+    },
+    "orientations": "horizontal",
+    "minimumSize": "large",
+    "mediaType": "image",
+    "currentUrl": "https://img1.wsimg.com/isteam/getty/1295885893",
+    "searchQuery": "soccer players training field Colorado youth",
+    "alternatives": [
+      "https://img1.wsimg.com/isteam/getty/2271505157",
+      "https://img1.wsimg.com/isteam/getty/829049804",
+      "https://img1.wsimg.com/isteam/getty/147080712",
+      "https://img1.wsimg.com/isteam/getty/1005743894"
+    ],
+    "userModified": false,
+    "createdAt": "2026-10-03T15:35:56.382Z",
+    "lastUpdated": "2026-10-03T15:35:56.382Z",
+    "gettyId": "1295885893",
+    "alternativeGettyIds": [
+      "2271505157",
+      "829049804",
+      "147080712",
+      "1005743894"
+    ]
+  },
+  "pages/og/default": {
+    "requestedSize": {
+      "width": 1200,
+      "height": 630,
+      "fit": "cover"
+    },
+    "orientations": "horizontal",
+    "minimumSize": "large",
+    "mediaType": "image",
+    "currentUrl": "https://img1.wsimg.com/isteam/getty/1438480192",
+    "searchQuery": "soccer field aerial view stadium lights Colorado mountains",
+    "alternatives": [
+      "https://img1.wsimg.com/isteam/getty/1156303244",
+      "https://img1.wsimg.com/isteam/getty/2252569570"
+    ],
+    "userModified": false,
+    "createdAt": "2026-10-07T15:01:41.938Z",
+    "lastUpdated": "2026-10-07T15:01:41.938Z",
+    "gettyId": "1438480192",
+    "alternativeGettyIds": [
+      "1156303244",
+      "2252569570"
+    ]
+  },
+  "pages/lp/youth-tryouts-hero": {
+    "requestedSize": {
+      "width": 1440,
+      "height": 600,
+      "fit": "cover"
+    },
+    "orientations": "horizontal",
+    "minimumSize": "large",
+    "mediaType": "image",
+    "currentUrl": "https://img1.wsimg.com/isteam/getty/1997723367",
+    "searchQuery": "youth soccer players training field action",
+    "alternatives": [
+      "https://img1.wsimg.com/isteam/getty/2163482184",
+      "https://img1.wsimg.com/isteam/getty/1904589046",
+      "https://img1.wsimg.com/isteam/getty/2252371574"
+    ],
+    "userModified": false,
+    "createdAt": "2026-10-07T22:45:20.310Z",
+    "lastUpdated": "2026-10-07T22:45:28.134Z",
+    "gettyId": "1997723367",
+    "alternativeGettyIds": [
+      "2163482184",
+      "1904589046",
+      "2252371574"
+    ]
+  },
+  "blog/how-to-find-youth-soccer-club-colorado": {
+    "orientations": "horizontal",
+    "minimumSize": "large",
+    "mediaType": "image",
+    "currentUrl": "https://img1.wsimg.com/isteam/getty/921045850",
+    "searchQuery": "kids soccer practice field sunny day",
+    "alternatives": [
+      "https://img1.wsimg.com/isteam/getty/2270841458",
+      "https://img1.wsimg.com/isteam/getty/1710055619",
+      "https://img1.wsimg.com/isteam/getty/1487005863"
+    ],
+    "userModified": false,
+    "createdAt": "2026-10-07T22:47:08.905Z",
+    "lastUpdated": "2026-10-07T22:47:20.797Z",
+    "gettyId": "921045850",
+    "alternativeGettyIds": [
+      "2270841458",
+      "1710055619",
+      "1487005863"
+    ]
+  },
+  "pages/my-soccer/fan-profile-cover": {
+    "requestedSize": {
+      "width": 1200,
+      "height": 400,
+      "fit": "cover"
+    },
+    "orientations": "horizontal",
+    "minimumSize": "large",
+    "mediaType": "image",
+    "currentUrl": "/airo-assets/uploads/pages-my-soccer-fan-profile-cover-401a620f.png",
+    "searchQuery": "soccer match packed stadium afternoon",
+    "alternatives": [
+      "https://img1.wsimg.com/isteam/getty/869065688",
+      "https://img1.wsimg.com/isteam/getty/2276926911",
+      "https://img1.wsimg.com/isteam/getty/466285358",
+      "https://img1.wsimg.com/isteam/getty/502666315",
+      "https://img1.wsimg.com/isteam/getty/1178573654"
+    ],
+    "userModified": true,
+    "createdAt": "2026-10-10T00:42:13.551Z",
+    "lastUpdated": "2026-10-10T19:34:21.041Z",
+    "alternativeGettyIds": [
+      "869065688",
+      "2276926911",
+      "466285358",
+      "502666315",
+      "1178573654"
+    ],
+    "uploadSources": {
+      "/airo-assets/uploads/pages-my-soccer-fan-profile-cover-401a620f.png": "tosph3z3kh_1791660833997_file_3w5jACwTtM.png"
+    },
+    "uploadContentHash": "7cc677056c6f2dda5ef28d9841fbe46d580903c4da0d0f4c7c4e8af582f4ae60",
+    "resizedUrl": "/airo-assets/uploads/variants/ff49d662299fdb8aaabae5e6682da0f2.png",
+    "resizedFrom": {
+      "currentUrl": "/airo-assets/uploads/pages-my-soccer-fan-profile-cover-401a620f.png",
+      "sourceBytes": 252954,
+      "requestedSize": {
+        "width": 1200,
+        "height": 400,
+        "fit": "cover"
+      }
+    },
+    "caption": "soccer match packed stadium afternoon"
+  },
+  "pages/home/arena-parent": {
+    "requestedSize": {
+      "width": 900,
+      "height": 600,
+      "fit": "cover"
+    },
+    "orientations": "horizontal",
+    "graphicalStyles": "photography",
+    "minimumSize": "large",
+    "mediaType": "image",
+    "currentUrl": "https://img1.wsimg.com/isteam/getty/1487005854",
+    "searchQuery": "youth soccer kids playing field action training",
+    "alternatives": [
+      "https://img1.wsimg.com/isteam/getty/1487005863",
+      "https://img1.wsimg.com/isteam/getty/2225395595",
+      "https://img1.wsimg.com/isteam/getty/1164736873",
+      "https://img1.wsimg.com/isteam/getty/1137071684"
+    ],
+    "userModified": false,
+    "createdAt": "2026-10-10T03:10:16.460Z",
+    "lastUpdated": "2026-10-10T03:10:16.460Z",
+    "gettyId": "1487005854",
+    "alternativeGettyIds": [
+      "1487005863",
+      "2225395595",
+      "1164736873",
+      "1137071684"
+    ]
+  },
+  "pages/home/arena-fan": {
+    "requestedSize": {
+      "width": 900,
+      "height": 600,
+      "fit": "cover"
+    },
+    "orientations": "horizontal",
+    "graphicalStyles": "photography",
+    "minimumSize": "large",
+    "mediaType": "image",
+    "currentUrl": "https://img1.wsimg.com/isteam/getty/2273504065",
+    "searchQuery": "soccer stadium supporters crowd floodlights night atmosphere",
+    "alternatives": [
+      "https://img1.wsimg.com/isteam/getty/2275333039",
+      "https://img1.wsimg.com/isteam/getty/2278913620",
+      "https://img1.wsimg.com/isteam/getty/526850202",
+      "https://img1.wsimg.com/isteam/getty/2273504016"
+    ],
+    "userModified": false,
+    "createdAt": "2026-10-10T03:10:19.041Z",
+    "lastUpdated": "2026-10-10T03:10:19.041Z",
+    "gettyId": "2273504065",
+    "alternativeGettyIds": [
+      "2275333039",
+      "2278913620",
+      "526850202",
+      "2273504016"
+    ]
+  },
+  "reference/fan-profile-canva": {
+    "mediaType": "image",
+    "currentUrl": "/airo-assets/uploads/reference-fan-profile-canva-552008dd.png",
+    "searchQuery": "soccer stadium packed with spectators match",
+    "alternatives": [],
+    "userModified": true,
+    "createdAt": "2026-10-10T03:56:38.589Z",
+    "lastUpdated": "2026-10-10T03:56:38.589Z",
+    "uploadSources": {
+      "/airo-assets/uploads/reference-fan-profile-canva-552008dd.png": "tosph3z3kh_1791593851572_file_-6JzYFC3WW.png"
+    },
+    "uploadContentHash": "839eb2652ef1c25b16339534830ae737eb37943f3062d5bda78b641be49c90ef",
+    "caption": "soccer stadium packed with spectators match"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "headline": "Set up parent access",
+  "subheadline": "Your account currently has fan access. Complete parent setup to use the parent portal.",
+  "noticeTitle": "Before you continue",
+  "noticeBody": "The parent portal lets you manage a player profile and family calendar. Your account type will be upgraded to Parent. This change is recorded and cannot be undone without contacting support.",
+  "checklistItems": [
+    {
+      "id": "c1",
+      "text": "I understand my account type will be upgraded to Parent."
+    },
+    {
+      "id": "c2",
+      "text": "I confirm I am the parent or legal guardian of the player I will add."
+    },
+    {
+      "id": "c3",
+      "text": "I have read and agree to the Soccer Center data-sharing notice."
+    }
+  ],
+  "ctaSetup": "Set up parent access",
+  "ctaFan": "Continue to Fan experience",
+  "emailNotVerifiedTitle": "Verify your email first",
+  "emailNotVerifiedBody": "You need to verify your email address before setting up parent access. Check your inbox for a verification link.",
+  "successTitle": "Parent access activated",
+  "successBody": "Your account has been upgraded. You now have access to the parent portal.",
+  "consentVersion": "v1.0"
+}

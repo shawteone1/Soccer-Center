@@ -1,0 +1,13 @@
+import { beforeEach, expect, it, vi } from 'vitest';
+const m=vi.hoisted(()=>({where:vi.fn(),parse:vi.fn(),auth:vi.fn()}));
+vi.mock('@/server/auth-policy.js',()=>({requireParentAccess:m.auth,setPrivateCacheHeaders:vi.fn()}));
+vi.mock('@/server/db/client.js',()=>({db:{select:()=>({from:()=>({where:m.where})})}}));
+vi.mock('@/server/db/schema.js',()=>({scParentMedia:{id:'id',userId:'user',deletedAt:'deleted'}}));
+vi.mock('@/server/lib/private-uploads.js',()=>({PERSISTENT_UPLOAD_ROOT:'/private/uploads'}));
+vi.mock('multer',()=>({default:Object.assign(()=>({single:()=>m.parse}),{memoryStorage:vi.fn()})}));
+import handler from './POST';
+const response=()=>({statusCode:200,body:{} as any,status(c:number){this.statusCode=c;return this;},json(b:any){this.body=b;return this;}});
+beforeEach(()=>{vi.clearAllMocks();m.auth.mockResolvedValue({id:'owner'});});
+it('rejects a full account before parsing the file',async()=>{m.where.mockResolvedValue(Array.from({length:20},(_,i)=>({id:String(i)})));const res=response();await handler({} as any,res as any);expect(res.statusCode).toBe(400);expect(res.body.code).toBe('MEDIA_QUOTA_REACHED');expect(m.parse).not.toHaveBeenCalled();});
+it('returns a retryable error if capacity cannot be checked',async()=>{m.where.mockRejectedValue(new Error('db'));const res=response();await handler({} as any,res as any);expect(res.statusCode).toBe(503);expect(res.body.code).toBe('MEDIA_USAGE_UNAVAILABLE');expect(m.parse).not.toHaveBeenCalled();});
+it('does not query or parse without authentication',async()=>{m.auth.mockResolvedValue(null);await handler({} as any,response() as any);expect(m.where).not.toHaveBeenCalled();expect(m.parse).not.toHaveBeenCalled();});

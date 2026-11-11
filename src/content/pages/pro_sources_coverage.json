@@ -1,0 +1,36 @@
+{
+  "hero": {
+    "eyebrow": "Source catalog",
+    "title": "Professional source coverage",
+    "description": "Per-competition breakdown of clubs in the catalog, their connection status, and how many have live YouTube feeds vs. verified outbound links."
+  },
+  "legend": {
+    "label": "Legend:",
+    "live": "Live feed",
+    "liveDetail": "YouTube channel connected; videos in Fanzone",
+    "link": "Link only",
+    "linkDetail": "verified website/YouTube URL, no live feed",
+    "unresolved": "Unresolved",
+    "unresolvedDetail": "source known, no verified links yet"
+  },
+  "summary": {
+    "totalClubs": "Total clubs",
+    "liveFeed": "Live feed",
+    "linkOnly": "Link only",
+    "unresolvedLabel": "Unresolved"
+  },
+  "table": {
+    "colCompetition": "Competition",
+    "colTotal": "Total",
+    "colCoverage": "Coverage",
+    "colStatus": "Status",
+    "liveSuffix": "live"
+  },
+  "groups": {
+    "nationalTeams": "National teams",
+    "media": "Media sources"
+  },
+  "note": {
+    "liveExplainer": "Live feed sources have YouTube channels connected — their videos appear in Fanzone Highlights. Link only sources have verified websites and YouTube pages but are not yet integrated."
+  }
+}

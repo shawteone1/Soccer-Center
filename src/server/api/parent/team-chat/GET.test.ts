@@ -1,0 +1,14 @@
+import { beforeEach, expect, it, vi } from 'vitest';
+const m = vi.hoisted(() => ({auth:vi.fn(),where:vi.fn(),cache:vi.fn()}));
+vi.mock('@/server/auth-policy.js',()=>({requireParentAccess:m.auth,setPrivateCacheHeaders:m.cache}));
+vi.mock('@/server/db/client.js',()=>({db:{select:()=>({from:()=>({where:m.where})})}}));
+vi.mock('@/server/db/schema.js',()=>({scPlayerProfiles:{id:'id',label:'label',userId:'owner',deletedAt:'deleted'}}));
+import handler from './GET';
+const channel={id:'team',teamLabel:'Team',provider:'slack',url:'https://app.slack.com/client/T123/C456',members:[{userId:'owner',playerId:'p1'}]};
+const response=()=>({status:vi.fn().mockReturnThis(),json:vi.fn().mockReturnThis()});
+beforeEach(()=>{vi.clearAllMocks();vi.stubEnv('PARENT_TEAM_CHAT_CHANNELS',JSON.stringify([channel]));m.auth.mockResolvedValue({id:'owner'});m.where.mockResolvedValue([{id:'p1',label:'Alex'}]);});
+it('stops unauthenticated requests before querying',async()=>{m.auth.mockResolvedValue(null);const res=response();await handler({} as any,res as any);expect(m.where).not.toHaveBeenCalled();expect(res.json).not.toHaveBeenCalled();expect(m.cache).toHaveBeenCalledWith(res);});
+it('ignores client identity and returns only server-authenticated grants',async()=>{m.auth.mockResolvedValue({id:'intruder'});const res=response();await handler({query:{userId:'owner'}} as any,res as any);expect(res.json).toHaveBeenCalledWith({channels:[]});});
+it('returns no link after the player is deleted',async()=>{m.where.mockResolvedValue([]);const res=response();await handler({} as any,res as any);expect(res.json).toHaveBeenCalledWith({channels:[]});});
+it('returns links without exposing other members',async()=>{const res=response();await handler({} as any,res as any);expect(res.json.mock.calls[0]?.[0].channels[0]).not.toHaveProperty('members');expect(res.json.mock.calls[0]?.[0].channels[0].playerLabel).toBe('Alex');});
+it('fails closed without echoing private configuration',async()=>{vi.stubEnv('PARENT_TEAM_CHAT_CHANNELS','bad secret');const res=response();await handler({} as any,res as any);expect(res.status).toHaveBeenCalledWith(503);expect(JSON.stringify(res.json.mock.calls)).not.toContain('secret');});

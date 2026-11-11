@@ -1,0 +1,26 @@
+[
+  {
+    "id": "storm",
+    "name": "Colorado Storm",
+    "url": "https://coloradostorm.com/",
+    "note": "Use Find Camps on the official club site.",
+    "region": "colorado",
+    "checkedDate": "2026-10-31"
+  },
+  {
+    "id": "united",
+    "name": "Colorado United",
+    "url": "https://www.coloradounitedsoccer.com/training-and-camps",
+    "note": "Official summer and winter camp directory.",
+    "region": "colorado",
+    "checkedDate": "2026-10-31"
+  },
+  {
+    "id": "real",
+    "name": "Real Colorado — South",
+    "url": "https://www.realcolorado.net/south-camps",
+    "note": "Official South camps and off-season programs.",
+    "region": "colorado",
+    "checkedDate": "2026-10-31"
+  }
+]

@@ -1,0 +1,1416 @@
+{
+  "schemaVersion": 1,
+  "asOf": "2026-11-06",
+  "scope": "Sport-independent institution facts and costs. Reusable by Arena Pathway and each sport; does not establish which other varsity sports a school offers.",
+  "institutions": [
+    {
+      "id": "adams-state",
+      "name": "Adams State University",
+      "city": "Alamosa",
+      "state": "CO",
+      "country": "US",
+      "rosterOrigin": "Existing Soccer Center Colorado college catalog",
+      "academicFacts": [
+        {
+          "label": "Published budget period caution",
+          "value": "The affordability page labels its undergraduate annual estimates as 2024/25. Do not present that older budget as 2026/27; current tuition schedules are available separately.",
+          "source": {
+            "url": "https://www.adams.edu/about/value-affordability/",
+            "note": "The affordability page labels its undergraduate annual estimates as 2024/25. Do not present that older budget as 2026/27; current tuition schedules are available separately.",
+            "period": "2024/25",
+            "checkedDate": "2026-11-06",
+            "status": "observed"
+          }
+        },
+        {
+          "label": "Academic options",
+          "value": "Undergraduate admissions describes more than 20 academic programs and over 60 emphasis areas, plus pre-professional pathways.",
+          "source": {
+            "url": "https://www.adams.edu/admissions/undergraduate/",
+            "note": "Undergraduate admissions describes more than 20 academic programs and over 60 emphasis areas, plus pre-professional pathways.",
+            "period": null,
+            "checkedDate": "2026-11-06",
+            "status": "observed"
+          }
+        }
+      ],
+      "costs": [],
+      "sources": [
+        {
+          "url": "https://www.adams.edu/about/value-affordability/",
+          "note": "The affordability page labels its undergraduate annual estimates as 2024/25. Do not present that older budget as 2026/27; current tuition schedules are available separately.",
+          "period": "2024/25",
+          "checkedDate": "2026-11-06",
+          "status": "observed"
+        },
+        {
+          "url": "https://www.adams.edu/admissions/undergraduate/",
+          "note": "Undergraduate admissions describes more than 20 academic programs and over 60 emphasis areas, plus pre-professional pathways.",
+          "period": null,
+          "checkedDate": "2026-11-06",
+          "status": "observed"
+        }
+      ],
+      "asOf": "2026-11-06"
+    },
+    {
+      "id": "colorado-christian",
+      "name": "Colorado Christian University",
+      "city": "Lakewood",
+      "state": "CO",
+      "country": "US",
+      "rosterOrigin": "Existing Soccer Center Colorado college catalog",
+      "academicFacts": [
+        {
+          "label": "Test scores",
+          "value": "CCU currently describes a test-optional admissions policy in its undergraduate aid calculator. This is not a guaranteed admission or athletic eligibility decision.",
+          "source": {
+            "url": "https://www.ccu.edu/undergrad/financial-aid/calculator/",
+            "note": "CCU currently describes a test-optional admissions policy in its undergraduate aid calculator. This is not a guaranteed admission or athletic eligibility decision.",
+            "period": "2026/27",
+            "checkedDate": "2026-11-06",
+            "status": "observed"
+          }
+        },
+        {
+          "label": "Admissions snapshot",
+          "value": "September 2026 census: 288 first-time freshmen; average high-school GPA 3.8; reported acceptance rate 92%. These are institutional figures, not athlete-specific odds or a minimum GPA.",
+          "source": {
+            "url": "https://www.ccu.edu/undergrad/admissions/stats/",
+            "note": "September 2026 census: 288 first-time freshmen; average high-school GPA 3.8; reported acceptance rate 92%. These are institutional figures, not athlete-specific odds or a minimum GPA.",
+            "period": "September 2026",
+            "checkedDate": "2026-11-06",
+            "status": "observed"
+          }
+        },
+        {
+          "label": "Completion context",
+          "value": "Published six-year graduation rate is 72%; the quick-facts page does not identify the entering cohort. Do not compare directly with a named cohort without checking definitions.",
+          "source": {
+            "url": "https://www.ccu.edu/undergrad/admissions/stats/",
+            "note": "Published six-year graduation rate is 72%; the quick-facts page does not identify the entering cohort. Do not compare directly with a named cohort without checking definitions.",
+            "period": "September 2026 census",
+            "checkedDate": "2026-11-06",
+            "status": "observed"
+          }
+        }
+      ],
+      "costs": [
+        {
+          "amount": 63950,
+          "program": "Traditional undergraduate, on campus",
+          "ages": "Full-time undergraduate",
+          "currency": "USD",
+          "unit": "academic year estimate before aid",
+          "period": "2026/27",
+          "status": "observed",
+          "notes": "Includes tuition $43,324, housing/food $15,600 and other published allowances. 12–18 credits per semester. Before aid; course-specific charges may apply.",
+          "source": {
+            "url": "https://www.ccu.edu/undergrad/financial-aid/tuition/detail/",
+            "note": "Includes tuition $43,324, housing/food $15,600 and other published allowances. 12–18 credits per semester. Before aid; course-specific charges may apply.",
+            "period": "2026/27",
+            "checkedDate": "2026-11-06",
+            "status": "observed"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.ccu.edu/undergrad/financial-aid/calculator/",
+          "note": "CCU currently describes a test-optional admissions policy in its undergraduate aid calculator. This is not a guaranteed admission or athletic eligibility decision.",
+          "period": "2026/27",
+          "checkedDate": "2026-11-06",
+          "status": "observed"
+        },
+        {
+          "url": "https://www.ccu.edu/undergrad/admissions/stats/",
+          "note": "September 2026 census: 288 first-time freshmen; average high-school GPA 3.8; reported acceptance rate 92%. These are institutional figures, not athlete-specific odds or a minimum GPA.",
+          "period": "September 2026",
+          "checkedDate": "2026-11-06",
+          "status": "observed"
+        },
+        {
+          "url": "https://www.ccu.edu/undergrad/admissions/stats/",
+          "note": "Published six-year graduation rate is 72%; the quick-facts page does not identify the entering cohort. Do not compare directly with a named cohort without checking definitions.",
+          "period": "September 2026 census",
+          "checkedDate": "2026-11-06",
+          "status": "observed"
+        },
+        {
+          "url": "https://www.ccu.edu/undergrad/financial-aid/tuition/detail/",
+          "note": "Includes tuition $43,324, housing/food $15,600 and other published allowances. 12–18 credits per semester. Before aid; course-specific charges may apply.",
+          "period": "2026/27",
+          "checkedDate": "2026-11-06",
+          "status": "observed"
+        }
+      ],
+      "asOf": "2026-11-06"
+    },
+    {
+      "id": "colorado-college",
+      "name": "Colorado College",
+      "city": "Colorado Springs",
+      "state": "CO",
+      "country": "US",
+      "rosterOrigin": "Existing Soccer Center Colorado college catalog",
+      "academicFacts": [],
+      "costs": [
+        {
+          "amount": 97990,
+          "program": "Nine-month institutional budget",
+          "ages": "Full-time undergraduate",
+          "currency": "USD",
+          "unit": "academic year estimate before aid",
+          "period": "2026/27",
+          "status": "observed",
+          "notes": "Includes published estimated expenses; health insurance listed separately ($5,316) unless qualifying alternative coverage. Before aid.",
+          "source": {
+            "url": "https://www.coloradocollege.edu/offices/sfs/handbook/cost-of-attendance.html",
+            "note": "Includes published estimated expenses; health insurance listed separately ($5,316) unless qualifying alternative coverage. Before aid.",
+            "period": "2026/27",
+            "checkedDate": "2026-11-06",
+            "status": "observed"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.coloradocollege.edu/offices/sfs/handbook/cost-of-attendance.html",
+          "note": "Includes published estimated expenses; health insurance listed separately ($5,316) unless qualifying alternative coverage. Before aid.",
+          "period": "2026/27",
+          "checkedDate": "2026-11-06",
+          "status": "observed"
+        }
+      ],
+      "asOf": "2026-11-06"
+    },
+    {
+      "id": "colorado-mesa",
+      "name": "Colorado Mesa University",
+      "city": "Grand Junction",
+      "state": "CO",
+      "country": "US",
+      "rosterOrigin": "Existing Soccer Center Colorado college catalog",
+      "academicFacts": [
+        {
+          "label": "Budget assumptions",
+          "value": "Financial-aid budgets assume 12 undergraduate credits and average double-occupancy housing with an unlimited meal plan. A 15-credit tuition quote is a different basis.",
+          "source": {
+            "url": "https://www.coloradomesa.edu/financial-aid/tuition/cost-of-attendance.html",
+            "note": "Financial-aid budgets assume 12 undergraduate credits and average double-occupancy housing with an unlimited meal plan. A 15-credit tuition quote is a different basis.",
+            "period": null,
+            "checkedDate": "2026-11-06",
+            "status": "observed"
+          }
+        }
+      ],
+      "costs": [],
+      "sources": [
+        {
+          "url": "https://www.coloradomesa.edu/financial-aid/tuition/cost-of-attendance.html",
+          "note": "Financial-aid budgets assume 12 undergraduate credits and average double-occupancy housing with an unlimited meal plan. A 15-credit tuition quote is a different basis.",
+          "period": null,
+          "checkedDate": "2026-11-06",
+          "status": "observed"
+        }
+      ],
+      "asOf": "2026-11-06"
+    },
+    {
+      "id": "colorado-northwestern",
+      "name": "Colorado Northwestern Community College",
+      "city": "Rangely",
+      "state": "CO",
+      "country": "US",
+      "rosterOrigin": "Existing Soccer Center Colorado college catalog",
+      "academicFacts": [
+        {
+          "label": "Standard tuition basis",
+          "value": "Colorado resident tuition is $183.75 per credit after the $116 College Opportunity Fund stipend; published out-of-state tuition is $306.40 per credit.",
+          "source": {
+            "url": "https://cncc.edu/admissions/tuition-and-costs",
+            "checkedDate": "2026-11-06",
+            "period": "2026–27",
+            "status": "observed",
+            "note": "Official institution page reviewed; no admission probability inferred."
+          }
+        },
+        {
+          "label": "Living and study expenses",
+          "value": "The published annual estimates list room and meal plans at $9,710–$11,780 and books at $1,500–$2,500, separately from tuition and fees.",
+          "source": {
+            "url": "https://cncc.edu/admissions/tuition-and-costs",
+            "checkedDate": "2026-11-06",
+            "period": "2026–27",
+            "status": "observed",
+            "note": "Official institution page reviewed; no admission probability inferred."
+          }
+        },
+        {
+          "label": "Transfer pathways",
+          "value": "General Associate of Arts and Associate of Science degrees are offered at Craig and Rangely. Statewide transfer pathways use a 60-credit associate degree plus a planned bachelor’s completion sequence.",
+          "source": {
+            "url": "https://cncc.edu/degrees/degree-information",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Official institution page reviewed; no admission probability inferred."
+          }
+        },
+        {
+          "label": "Transfer admission caveat",
+          "value": "The transfer policy distinguishes credit-transfer guarantees from admission: students must meet the receiving institution’s admission requirements and deadlines.",
+          "source": {
+            "url": "https://cncc.edu/documents/2025/Academic_Transfer_Programs_2025.pdf",
+            "checkedDate": "2026-11-06",
+            "period": "2025 policy",
+            "status": "observed",
+            "note": "Official institution page reviewed; no admission probability inferred."
+          }
+        }
+      ],
+      "costs": [
+        {
+          "program": "Resident tuition and mandatory fees",
+          "ages": "College students",
+          "amount": 6377.9,
+          "currency": "USD",
+          "unit": "academic year (30 credits)",
+          "period": "2026–27",
+          "status": "observed",
+          "notes": "Colorado resident after COF; 30 credits divided between fall and spring. Excludes housing, meals, books and program-specific charges.",
+          "source": {
+            "url": "https://cncc.edu/admissions/tuition-and-costs",
+            "checkedDate": "2026-11-06",
+            "period": "2026–27",
+            "status": "observed",
+            "note": "Published standard undergraduate rate; program-specific charges and eligibility can differ."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://cncc.edu/admissions/tuition-and-costs",
+          "checkedDate": "2026-11-06",
+          "period": "2026–27",
+          "status": "observed",
+          "note": "Official institution page reviewed; no admission probability inferred."
+        },
+        {
+          "url": "https://cncc.edu/degrees/degree-information",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Official institution page reviewed; no admission probability inferred."
+        },
+        {
+          "url": "https://cncc.edu/documents/2025/Academic_Transfer_Programs_2025.pdf",
+          "checkedDate": "2026-11-06",
+          "period": "2025 policy",
+          "status": "observed",
+          "note": "Official institution page reviewed; no admission probability inferred."
+        },
+        {
+          "url": "https://cncc.edu/admissions/tuition-and-costs",
+          "checkedDate": "2026-11-06",
+          "period": "2026–27",
+          "status": "observed",
+          "note": "Published standard undergraduate rate; program-specific charges and eligibility can differ."
+        }
+      ],
+      "asOf": "2026-11-06"
+    },
+    {
+      "id": "mines",
+      "name": "Colorado School of Mines",
+      "city": "Golden",
+      "state": "CO",
+      "country": "US",
+      "rosterOrigin": "Existing Soccer Center Colorado college catalog",
+      "academicFacts": [
+        {
+          "label": "Test policy",
+          "value": "First-year admissions is test optional. Transcript strength and preparation still matter; no individual acceptance likelihood is inferred.",
+          "source": {
+            "url": "https://undergraduate-admissions.mines.edu/first-year/",
+            "note": "First-year admissions is test optional. Transcript strength and preparation still matter; no individual acceptance likelihood is inferred.",
+            "period": null,
+            "checkedDate": "2026-11-06",
+            "status": "observed"
+          }
+        }
+      ],
+      "costs": [
+        {
+          "amount": 46480,
+          "program": "Colorado resident, on campus",
+          "ages": "Full-time undergraduate",
+          "currency": "USD",
+          "unit": "academic year estimate before aid",
+          "period": "2026/27",
+          "status": "observed",
+          "notes": "Published full annual budget before aid; tuition for 15–19 credits. Student health insurance is not automatically included.",
+          "source": {
+            "url": "https://finaid.mines.edu/cost-of-attendance-undergraduate/",
+            "note": "Published full annual budget before aid; tuition for 15–19 credits. Student health insurance is not automatically included.",
+            "period": "2026/27",
+            "checkedDate": "2026-11-06",
+            "status": "observed"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://undergraduate-admissions.mines.edu/first-year/",
+          "note": "First-year admissions is test optional. Transcript strength and preparation still matter; no individual acceptance likelihood is inferred.",
+          "period": null,
+          "checkedDate": "2026-11-06",
+          "status": "observed"
+        },
+        {
+          "url": "https://finaid.mines.edu/cost-of-attendance-undergraduate/",
+          "note": "Published full annual budget before aid; tuition for 15–19 credits. Student health insurance is not automatically included.",
+          "period": "2026/27",
+          "checkedDate": "2026-11-06",
+          "status": "observed"
+        }
+      ],
+      "asOf": "2026-11-06"
+    },
+    {
+      "id": "csu",
+      "name": "Colorado State University",
+      "city": "Fort Collins",
+      "state": "CO",
+      "country": "US",
+      "rosterOrigin": "Existing Soccer Center Colorado college catalog",
+      "academicFacts": [
+        {
+          "label": "Testing policy",
+          "value": "SAT/ACT submission is optional for domestic freshman admission; no personal admission probability is calculated.",
+          "source": {
+            "url": "https://admissions.colostate.edu/apply/freshmen/",
+            "note": "SAT/ACT submission is optional for domestic freshman admission; no personal admission probability is calculated.",
+            "period": "Observed 2026-11-06",
+            "checkedDate": "2026-11-06",
+            "status": "observed"
+          }
+        }
+      ],
+      "costs": [
+        {
+          "amount": 37126,
+          "program": "Colorado resident, on campus",
+          "ages": "Full-time undergraduate",
+          "currency": "USD",
+          "unit": "academic year estimate before aid",
+          "period": "2026/27",
+          "status": "observed",
+          "notes": "Nine-month estimate. Differential tuition and some course charges may increase the amount; not an aid offer.",
+          "source": {
+            "url": "https://thehub.colostate.edu/billing/cost-of-attendance/",
+            "note": "Nine-month estimate. Differential tuition and some course charges may increase the amount; not an aid offer.",
+            "period": "2026/27",
+            "checkedDate": "2026-11-06",
+            "status": "observed"
+          }
+        },
+        {
+          "amount": 61026,
+          "program": "Nonresident, on campus",
+          "ages": "Full-time undergraduate",
+          "currency": "USD",
+          "unit": "academic year estimate before aid",
+          "period": "2026/27",
+          "status": "observed",
+          "notes": "Nine-month estimate. Differential tuition and some course charges may increase the amount; not an aid offer.",
+          "source": {
+            "url": "https://thehub.colostate.edu/billing/cost-of-attendance/",
+            "note": "Nine-month estimate. Differential tuition and some course charges may increase the amount; not an aid offer.",
+            "period": "2026/27",
+            "checkedDate": "2026-11-06",
+            "status": "observed"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://admissions.colostate.edu/apply/freshmen/",
+          "note": "SAT/ACT submission is optional for domestic freshman admission; no personal admission probability is calculated.",
+          "period": "Observed 2026-11-06",
+          "checkedDate": "2026-11-06",
+          "status": "observed"
+        },
+        {
+          "url": "https://thehub.colostate.edu/billing/cost-of-attendance/",
+          "note": "Nine-month estimate. Differential tuition and some course charges may increase the amount; not an aid offer.",
+          "period": "2026/27",
+          "checkedDate": "2026-11-06",
+          "status": "observed"
+        }
+      ],
+      "asOf": "2026-11-06"
+    },
+    {
+      "id": "fort-lewis",
+      "name": "Fort Lewis College",
+      "city": "Durango",
+      "state": "CO",
+      "country": "US",
+      "rosterOrigin": "Existing Soccer Center Colorado college catalog",
+      "academicFacts": [
+        {
+          "label": "First-year application",
+          "value": "Test scores are optional, and first-year applicants are automatically considered for merit scholarships during admission review.",
+          "source": {
+            "url": "https://www.fortlewis.edu/admission/first-year-students",
+            "note": "Test scores are optional, and first-year applicants are automatically considered for merit scholarships during admission review.",
+            "period": null,
+            "checkedDate": "2026-11-06",
+            "status": "observed"
+          }
+        }
+      ],
+      "costs": [
+        {
+          "amount": 30468,
+          "program": "Colorado resident, on campus",
+          "ages": "Full-time undergraduate",
+          "currency": "USD",
+          "unit": "academic year estimate before aid",
+          "period": "2026/27",
+          "status": "observed",
+          "notes": "30 credits/year; includes housing, dining, books, transportation, personal costs and loan-fee allowance. Before aid.",
+          "source": {
+            "url": "https://www.fortlewis.edu/tuition-aid/tuition-aid-home/cost-of-attendance",
+            "note": "30 credits/year; includes housing, dining, books, transportation, personal costs and loan-fee allowance. Before aid.",
+            "period": "2026/27",
+            "checkedDate": "2026-11-06",
+            "status": "observed"
+          }
+        },
+        {
+          "amount": 43766,
+          "program": "Nonresident, on campus",
+          "ages": "Full-time undergraduate",
+          "currency": "USD",
+          "unit": "academic year estimate before aid",
+          "period": "2026/27",
+          "status": "observed",
+          "notes": "30 credits/year; includes housing, dining and indirect allowances. Before aid.",
+          "source": {
+            "url": "https://www.fortlewis.edu/tuition-aid/tuition-aid-home/cost-of-attendance",
+            "note": "30 credits/year; includes housing, dining and indirect allowances. Before aid.",
+            "period": "2026/27",
+            "checkedDate": "2026-11-06",
+            "status": "observed"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.fortlewis.edu/admission/first-year-students",
+          "note": "Test scores are optional, and first-year applicants are automatically considered for merit scholarships during admission review.",
+          "period": null,
+          "checkedDate": "2026-11-06",
+          "status": "observed"
+        },
+        {
+          "url": "https://www.fortlewis.edu/tuition-aid/tuition-aid-home/cost-of-attendance",
+          "note": "30 credits/year; includes housing, dining, books, transportation, personal costs and loan-fee allowance. Before aid.",
+          "period": "2026/27",
+          "checkedDate": "2026-11-06",
+          "status": "observed"
+        },
+        {
+          "url": "https://www.fortlewis.edu/tuition-aid/tuition-aid-home/cost-of-attendance",
+          "note": "30 credits/year; includes housing, dining and indirect allowances. Before aid.",
+          "period": "2026/27",
+          "checkedDate": "2026-11-06",
+          "status": "observed"
+        }
+      ],
+      "asOf": "2026-11-06"
+    },
+    {
+      "id": "lamar-cc",
+      "name": "Lamar Community College",
+      "city": "Lamar",
+      "state": "CO",
+      "country": "US",
+      "rosterOrigin": "Existing Soccer Center Colorado college catalog",
+      "academicFacts": [
+        {
+          "label": "Resident tuition and COF",
+          "value": "The standard Colorado resident rate is $299.75 per credit before a $116 COF stipend, resulting in $183.75 per credit for eligible students.",
+          "source": {
+            "url": "https://lamarcc.edu/paying-for-college/tuition-fees/",
+            "checkedDate": "2026-11-06",
+            "period": "2026–27",
+            "status": "observed",
+            "note": "Official institution page reviewed; no admission probability inferred."
+          }
+        },
+        {
+          "label": "Nonresident and reciprocity categories",
+          "value": "Standard out-of-state tuition is $306.40 per credit. Kansas and New Mexico residents can apply for the reciprocity rate; eligibility is not automatic.",
+          "source": {
+            "url": "https://lamarcc.edu/paying-for-college/tuition-fees/",
+            "checkedDate": "2026-11-06",
+            "period": "2026–27",
+            "status": "observed",
+            "note": "Official institution page reviewed; no admission probability inferred."
+          }
+        },
+        {
+          "label": "Program and delivery differences",
+          "value": "Rates differ for online courses and some programs. Nursing has a published differential rate; compare the chosen course mix rather than treating one rate as the complete bill.",
+          "source": {
+            "url": "https://lamarcc.edu/paying-for-college/tuition-fees/",
+            "checkedDate": "2026-11-06",
+            "period": "2026–27",
+            "status": "observed",
+            "note": "Official institution page reviewed; no admission probability inferred."
+          }
+        },
+        {
+          "label": "Academic routes",
+          "value": "Lamar offers transfer-oriented associate degrees alongside career and technical programs. Its academic overview describes participating four-year transfer opportunities; admission and major conditions require verification.",
+          "source": {
+            "url": "https://lamarcc.edu/academics/",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Official institution page reviewed; no admission probability inferred."
+          }
+        }
+      ],
+      "costs": [
+        {
+          "program": "Resident tuition only",
+          "ages": "College students",
+          "amount": 183.75,
+          "currency": "USD",
+          "unit": "credit hour",
+          "period": "2026–27",
+          "status": "observed",
+          "notes": "Standard on-campus Colorado resident tuition after COF; mandatory fees, housing, books and differential courses excluded.",
+          "source": {
+            "url": "https://lamarcc.edu/paying-for-college/tuition-fees/",
+            "checkedDate": "2026-11-06",
+            "period": "2026–27",
+            "status": "observed",
+            "note": "Published standard undergraduate rate; program-specific charges and eligibility can differ."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://lamarcc.edu/paying-for-college/tuition-fees/",
+          "checkedDate": "2026-11-06",
+          "period": "2026–27",
+          "status": "observed",
+          "note": "Official institution page reviewed; no admission probability inferred."
+        },
+        {
+          "url": "https://lamarcc.edu/academics/",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Official institution page reviewed; no admission probability inferred."
+        },
+        {
+          "url": "https://lamarcc.edu/paying-for-college/tuition-fees/",
+          "checkedDate": "2026-11-06",
+          "period": "2026–27",
+          "status": "observed",
+          "note": "Published standard undergraduate rate; program-specific charges and eligibility can differ."
+        }
+      ],
+      "asOf": "2026-11-06"
+    },
+    {
+      "id": "metro-state",
+      "name": "Metropolitan State University of Denver",
+      "city": "Denver",
+      "state": "CO",
+      "country": "US",
+      "rosterOrigin": "Existing Soccer Center Colorado college catalog",
+      "academicFacts": [
+        {
+          "label": "Test policy",
+          "value": "First-time admission treats ACT/SAT scores as optional; scores may still affect math or English assessment placement.",
+          "source": {
+            "url": "https://www.msudenver.edu/admissions/student-types/first-time-college-student/",
+            "note": "First-time admission treats ACT/SAT scores as optional; scores may still affect math or English assessment placement.",
+            "period": null,
+            "checkedDate": "2026-11-06",
+            "status": "observed"
+          }
+        }
+      ],
+      "costs": [
+        {
+          "amount": 34880,
+          "program": "Colorado resident, off campus",
+          "ages": "Full-time undergraduate",
+          "currency": "USD",
+          "unit": "academic year estimate before aid",
+          "period": "2026/27",
+          "status": "observed",
+          "notes": "Published full-year total at 24 credits. Includes health-insurance allowance; major and housing change costs. This is not an on-campus budget.",
+          "source": {
+            "url": "https://www.msudenver.edu/bursar/tuition-and-fees/undergraduate/",
+            "note": "Published full-year total at 24 credits. Includes health-insurance allowance; major and housing change costs. This is not an on-campus budget.",
+            "period": "2026/27",
+            "checkedDate": "2026-11-06",
+            "status": "observed"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.msudenver.edu/admissions/student-types/first-time-college-student/",
+          "note": "First-time admission treats ACT/SAT scores as optional; scores may still affect math or English assessment placement.",
+          "period": null,
+          "checkedDate": "2026-11-06",
+          "status": "observed"
+        },
+        {
+          "url": "https://www.msudenver.edu/bursar/tuition-and-fees/undergraduate/",
+          "note": "Published full-year total at 24 credits. Includes health-insurance allowance; major and housing change costs. This is not an on-campus budget.",
+          "period": "2026/27",
+          "checkedDate": "2026-11-06",
+          "status": "observed"
+        }
+      ],
+      "asOf": "2026-11-06"
+    },
+    {
+      "id": "northeastern-jc",
+      "name": "Northeastern Junior College",
+      "city": "Sterling",
+      "state": "CO",
+      "country": "US",
+      "rosterOrigin": "Existing Soccer Center Colorado college catalog",
+      "academicFacts": [
+        {
+          "label": "Resident tuition",
+          "value": "Eligible resident on-campus tuition is $183.75 per credit after COF; the published base is $299.75 less a $116 stipend.",
+          "source": {
+            "url": "https://www.njc.edu/cashier/tuition-and-fees/tuition-costs",
+            "checkedDate": "2026-11-06",
+            "period": "2026–27",
+            "status": "observed",
+            "note": "Official institution page reviewed; no admission probability inferred."
+          }
+        },
+        {
+          "label": "Online pricing differs",
+          "value": "Published online tuition after COF is $301.85 per credit for eligible residents; nonresident online tuition is $460.30 per credit.",
+          "source": {
+            "url": "https://www.njc.edu/cashier/tuition-and-fees/tuition-costs",
+            "checkedDate": "2026-11-06",
+            "period": "2026–27",
+            "status": "observed",
+            "note": "Official institution page reviewed; no admission probability inferred."
+          }
+        },
+        {
+          "label": "Additional charges",
+          "value": "Tuition is not the complete bill: the schedule separately lists registration, technology, bond and activity fees, plus event-center and health charges for students taking 12 or more credits.",
+          "source": {
+            "url": "https://www.njc.edu/cashier/tuition-and-fees/tuition-costs",
+            "checkedDate": "2026-11-06",
+            "period": "2026–27",
+            "status": "observed",
+            "note": "Official institution page reviewed; no admission probability inferred."
+          }
+        },
+        {
+          "label": "Transfer planning",
+          "value": "Northeastern describes 60-credit statewide transfer associate degrees leading to junior standing at participating Colorado public universities. Individual degree requirements and transfer agreements still matter.",
+          "source": {
+            "url": "https://www.njc.edu/transfer-out",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Official institution page reviewed; no admission probability inferred."
+          }
+        },
+        {
+          "label": "General education transfer",
+          "value": "The transfer office describes gtPathways courses earned with C or better as eligible for guaranteed general-education transfer under the state framework.",
+          "source": {
+            "url": "https://www.njc.edu/transfer-out",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Official institution page reviewed; no admission probability inferred."
+          }
+        }
+      ],
+      "costs": [
+        {
+          "program": "Resident tuition only",
+          "ages": "College students",
+          "amount": 183.75,
+          "currency": "USD",
+          "unit": "credit hour",
+          "period": "2026–27",
+          "status": "observed",
+          "notes": "Standard on-campus Colorado resident tuition after COF; excludes separately charged fees, living costs and high-cost course supplements.",
+          "source": {
+            "url": "https://www.njc.edu/cashier/tuition-and-fees/tuition-costs",
+            "checkedDate": "2026-11-06",
+            "period": "2026–27",
+            "status": "observed",
+            "note": "Published standard undergraduate rate; program-specific charges and eligibility can differ."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.njc.edu/cashier/tuition-and-fees/tuition-costs",
+          "checkedDate": "2026-11-06",
+          "period": "2026–27",
+          "status": "observed",
+          "note": "Official institution page reviewed; no admission probability inferred."
+        },
+        {
+          "url": "https://www.njc.edu/transfer-out",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Official institution page reviewed; no admission probability inferred."
+        },
+        {
+          "url": "https://www.njc.edu/cashier/tuition-and-fees/tuition-costs",
+          "checkedDate": "2026-11-06",
+          "period": "2026–27",
+          "status": "observed",
+          "note": "Published standard undergraduate rate; program-specific charges and eligibility can differ."
+        }
+      ],
+      "asOf": "2026-11-06"
+    },
+    {
+      "id": "otero-college",
+      "name": "Otero College",
+      "city": "La Junta",
+      "state": "CO",
+      "country": "US",
+      "rosterOrigin": "Existing Soccer Center Colorado college catalog",
+      "academicFacts": [
+        {
+          "label": "Published semester example",
+          "value": "The 2026–27 resident on-campus table lists 15 credits at $2,756.25 tuition after COF, $269.39 fees and $17.95 registration: $3,043.59 total before living expenses.",
+          "source": {
+            "url": "https://otero.edu/pay-for-college/tuition-fees/",
+            "checkedDate": "2026-11-06",
+            "period": "2026–27",
+            "status": "observed",
+            "note": "Official institution page reviewed; no admission probability inferred."
+          }
+        },
+        {
+          "label": "Bridge to Bachelor’s eligibility",
+          "value": "Otero’s Bridge to Bachelor’s pathway asks first-time students to express interest at the beginning or within their first semester, finish an AA or AS and maintain a 2.0 GPA.",
+          "source": {
+            "url": "https://otero.edu/academics-programs/bridge-to-bachelors/",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Official institution page reviewed; no admission probability inferred."
+          }
+        },
+        {
+          "label": "Transfer admissions scope",
+          "value": "Eligible Bridge to Bachelor’s students receive an admission pathway to participating four-year institutions. This does not establish admission to a selective major or a soccer roster.",
+          "source": {
+            "url": "https://otero.edu/academics-programs/bridge-to-bachelors/",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Official eligibility and partner pathway; program/athletic selection is separate."
+          }
+        }
+      ],
+      "costs": [
+        {
+          "program": "Resident tuition and mandatory fees",
+          "ages": "College students",
+          "amount": 3043.59,
+          "currency": "USD",
+          "unit": "semester (15 credits)",
+          "period": "2026–27",
+          "status": "observed",
+          "notes": "Resident on-campus tuition, listed fees and registration after COF. Excludes housing, meals, books and other expenses.",
+          "source": {
+            "url": "https://otero.edu/pay-for-college/tuition-fees/",
+            "checkedDate": "2026-11-06",
+            "period": "2026–27",
+            "status": "observed",
+            "note": "Published standard undergraduate rate; program-specific charges and eligibility can differ."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://otero.edu/pay-for-college/tuition-fees/",
+          "checkedDate": "2026-11-06",
+          "period": "2026–27",
+          "status": "observed",
+          "note": "Official institution page reviewed; no admission probability inferred."
+        },
+        {
+          "url": "https://otero.edu/academics-programs/bridge-to-bachelors/",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Official institution page reviewed; no admission probability inferred."
+        },
+        {
+          "url": "https://otero.edu/academics-programs/bridge-to-bachelors/",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Official eligibility and partner pathway; program/athletic selection is separate."
+        },
+        {
+          "url": "https://otero.edu/pay-for-college/tuition-fees/",
+          "checkedDate": "2026-11-06",
+          "period": "2026–27",
+          "status": "observed",
+          "note": "Published standard undergraduate rate; program-specific charges and eligibility can differ."
+        }
+      ],
+      "asOf": "2026-11-06"
+    },
+    {
+      "id": "regis",
+      "name": "Regis University",
+      "city": "Denver",
+      "state": "CO",
+      "country": "US",
+      "rosterOrigin": "Existing Soccer Center Colorado college catalog",
+      "academicFacts": [],
+      "costs": [
+        {
+          "amount": 47490,
+          "program": "Traditional undergraduate tuition only",
+          "ages": "Full-time undergraduate",
+          "currency": "USD",
+          "unit": "academic year tuition before aid",
+          "period": "2026/27",
+          "status": "observed",
+          "notes": "Fall and spring tuition only. Housing, food, fees and other living expenses excluded; nursing has a separate rate. Not total attendance cost.",
+          "source": {
+            "url": "https://www.regis.edu/financial-aid/cost-of-attendance/on-campus-daytime-undergraduate-students",
+            "note": "Fall and spring tuition only. Housing, food, fees and other living expenses excluded; nursing has a separate rate. Not total attendance cost.",
+            "period": "2026/27",
+            "checkedDate": "2026-11-06",
+            "status": "observed"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.regis.edu/financial-aid/cost-of-attendance/on-campus-daytime-undergraduate-students",
+          "note": "Fall and spring tuition only. Housing, food, fees and other living expenses excluded; nursing has a separate rate. Not total attendance cost.",
+          "period": "2026/27",
+          "checkedDate": "2026-11-06",
+          "status": "observed"
+        }
+      ],
+      "asOf": "2026-11-06"
+    },
+    {
+      "id": "trinidad-state",
+      "name": "Trinidad State College",
+      "city": "Trinidad",
+      "state": "CO",
+      "country": "US",
+      "rosterOrigin": "Existing Soccer Center Colorado college catalog",
+      "academicFacts": [
+        {
+          "label": "Published semester example",
+          "value": "For Trinidad campus, 15 resident credits total $3,078.61 after COF: $2,756.25 tuition, $304.41 fees and $17.95 registration.",
+          "source": {
+            "url": "https://trinidadstate.edu/tuition/pdf/2026-2027/tuition_schedules_trinidad_campus.pdf",
+            "checkedDate": "2026-11-06",
+            "period": "2026–27",
+            "status": "observed",
+            "note": "Official institution page reviewed; no admission probability inferred."
+          }
+        },
+        {
+          "label": "Nonresident semester example",
+          "value": "The same Trinidad-campus schedule lists $4,918.36 for 15 nonresident credits including listed fees and registration, before housing and other costs.",
+          "source": {
+            "url": "https://trinidadstate.edu/tuition/pdf/2026-2027/tuition_schedules_trinidad_campus.pdf",
+            "checkedDate": "2026-11-06",
+            "period": "2026–27",
+            "status": "observed",
+            "note": "Official institution page reviewed; no admission probability inferred."
+          }
+        },
+        {
+          "label": "Campus and year distinctions",
+          "value": "The tuition landing page explains that campus fees differ. Its separate annual cost-of-attendance estimates are marked 2025–26, so they should not be presented as 2026–27 totals.",
+          "source": {
+            "url": "https://trinidadstate.edu/tuition/index.html",
+            "checkedDate": "2026-11-06",
+            "period": "2025–26 COA; 2026–27 tuition schedules",
+            "status": "observed",
+            "note": "Official institution page reviewed; no admission probability inferred."
+          }
+        },
+        {
+          "label": "Transfer-oriented study",
+          "value": "The Associate of Science program includes general education and gtPathways coursework intended for transfer; students should map courses to their intended bachelor’s program.",
+          "source": {
+            "url": "https://trinidadstate.edu/as-science/index.html",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Official institution page reviewed; no admission probability inferred."
+          }
+        }
+      ],
+      "costs": [
+        {
+          "program": "Resident tuition and mandatory fees",
+          "ages": "College students",
+          "amount": 3078.61,
+          "currency": "USD",
+          "unit": "semester (15 credits)",
+          "period": "2026–27",
+          "status": "observed",
+          "notes": "Trinidad campus resident tuition, listed fees and registration after COF. Excludes housing, meals, books and course-specific extras; not a Valley-campus quote.",
+          "source": {
+            "url": "https://trinidadstate.edu/tuition/pdf/2026-2027/tuition_schedules_trinidad_campus.pdf",
+            "checkedDate": "2026-11-06",
+            "period": "2026–27",
+            "status": "observed",
+            "note": "Published standard undergraduate rate; program-specific charges and eligibility can differ."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://trinidadstate.edu/tuition/pdf/2026-2027/tuition_schedules_trinidad_campus.pdf",
+          "checkedDate": "2026-11-06",
+          "period": "2026–27",
+          "status": "observed",
+          "note": "Official institution page reviewed; no admission probability inferred."
+        },
+        {
+          "url": "https://trinidadstate.edu/tuition/index.html",
+          "checkedDate": "2026-11-06",
+          "period": "2025–26 COA; 2026–27 tuition schedules",
+          "status": "observed",
+          "note": "Official institution page reviewed; no admission probability inferred."
+        },
+        {
+          "url": "https://trinidadstate.edu/as-science/index.html",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Official institution page reviewed; no admission probability inferred."
+        },
+        {
+          "url": "https://trinidadstate.edu/tuition/pdf/2026-2027/tuition_schedules_trinidad_campus.pdf",
+          "checkedDate": "2026-11-06",
+          "period": "2026–27",
+          "status": "observed",
+          "note": "Published standard undergraduate rate; program-specific charges and eligibility can differ."
+        }
+      ],
+      "asOf": "2026-11-06"
+    },
+    {
+      "id": "air-force",
+      "name": "United States Air Force Academy",
+      "city": "Colorado Springs",
+      "state": "CO",
+      "country": "US",
+      "rosterOrigin": "Existing Soccer Center Colorado college catalog",
+      "academicFacts": [
+        {
+          "label": "Education and living support",
+          "value": "The Academy provides tuition, room and board, and medical and dental care. This is a service-academy education with a military commitment, not a conventional tuition-discount comparison.",
+          "source": {
+            "url": "https://www.usafa.edu/admissions/commitment/",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Official institution page reviewed; no admission probability inferred."
+          }
+        },
+        {
+          "label": "Service obligation",
+          "value": "Graduates commit to at least eight years as commissioned officers, including at least five years of active duty and the remainder in inactive reserve; some career paths require longer service.",
+          "source": {
+            "url": "https://www.usafa.edu/admissions/commitment/",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Official institution page reviewed; no admission probability inferred."
+          }
+        },
+        {
+          "label": "Basic applicant eligibility",
+          "value": "The Academy’s student-applicant page lists U.S. citizenship, being at least 17 but not past 23 by July 1 of entry, and being unmarried with no dependents among its basic requirements.",
+          "source": {
+            "url": "https://www.usafa.edu/admissions/student-applicant/grades-11-12/",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Official institution page reviewed; no admission probability inferred."
+          }
+        },
+        {
+          "label": "Application components",
+          "value": "Applicants must pursue a legally authorized nomination separately and complete academic testing, a Candidate Fitness Assessment and medical qualification. A nomination is not itself an appointment.",
+          "source": {
+            "url": "https://www.usafa.edu/admissions/student-applicant/grades-11-12/",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Official institution page reviewed; no admission probability inferred."
+          }
+        },
+        {
+          "label": "Students with prior college study",
+          "value": "Applicants with college experience still enter the Academy as freshmen for its four-year program; some course validation may be available.",
+          "source": {
+            "url": "https://www.usafa.edu/admissions/student-applicant/college-student/",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Official institution page reviewed; no admission probability inferred."
+          }
+        }
+      ],
+      "costs": [],
+      "sources": [
+        {
+          "url": "https://www.usafa.edu/admissions/commitment/",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Official institution page reviewed; no admission probability inferred."
+        },
+        {
+          "url": "https://www.usafa.edu/admissions/student-applicant/grades-11-12/",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Official institution page reviewed; no admission probability inferred."
+        },
+        {
+          "url": "https://www.usafa.edu/admissions/student-applicant/college-student/",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Official institution page reviewed; no admission probability inferred."
+        }
+      ],
+      "asOf": "2026-11-06"
+    },
+    {
+      "id": "cu-boulder",
+      "name": "University of Colorado Boulder",
+      "city": "Boulder",
+      "state": "CO",
+      "country": "US",
+      "rosterOrigin": "Existing Soccer Center Colorado college catalog",
+      "academicFacts": [
+        {
+          "label": "Six-year graduation",
+          "value": "74.3% of summer/fall 2019 first-time full-time entrants; institutional rate, not soccer-specific.",
+          "source": {
+            "url": "https://catalog.colorado.edu/about-cu-boulder/",
+            "note": "74.3% of summer/fall 2019 first-time full-time entrants; institutional rate, not soccer-specific.",
+            "period": "2019 entering cohort, six years",
+            "checkedDate": "2026-11-06",
+            "status": "observed"
+          }
+        }
+      ],
+      "costs": [
+        {
+          "amount": 39992,
+          "program": "Colorado resident, on campus",
+          "ages": "Full-time undergraduate",
+          "currency": "USD",
+          "unit": "academic year estimate before aid",
+          "period": "2026/27",
+          "status": "observed",
+          "notes": "New full-time student, two semesters, base tuition tier. Resident amount assumes COF. $232 one-time student fee excluded; program and housing vary.",
+          "source": {
+            "url": "https://www.colorado.edu/financialaid/cost/example-aid",
+            "note": "New full-time student, two semesters, base tuition tier. Resident amount assumes COF. $232 one-time student fee excluded; program and housing vary.",
+            "period": "2026/27",
+            "checkedDate": "2026-11-06",
+            "status": "observed"
+          }
+        },
+        {
+          "amount": 71784,
+          "program": "Nonresident, on campus",
+          "ages": "Full-time undergraduate",
+          "currency": "USD",
+          "unit": "academic year estimate before aid",
+          "period": "2026/27",
+          "status": "observed",
+          "notes": "New full-time student, two semesters, base tuition tier. Resident amount assumes COF. $232 one-time student fee excluded; program and housing vary.",
+          "source": {
+            "url": "https://www.colorado.edu/financialaid/cost/example-aid",
+            "note": "New full-time student, two semesters, base tuition tier. Resident amount assumes COF. $232 one-time student fee excluded; program and housing vary.",
+            "period": "2026/27",
+            "checkedDate": "2026-11-06",
+            "status": "observed"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://catalog.colorado.edu/about-cu-boulder/",
+          "note": "74.3% of summer/fall 2019 first-time full-time entrants; institutional rate, not soccer-specific.",
+          "period": "2019 entering cohort, six years",
+          "checkedDate": "2026-11-06",
+          "status": "observed"
+        },
+        {
+          "url": "https://www.colorado.edu/financialaid/cost/example-aid",
+          "note": "New full-time student, two semesters, base tuition tier. Resident amount assumes COF. $232 one-time student fee excluded; program and housing vary.",
+          "period": "2026/27",
+          "checkedDate": "2026-11-06",
+          "status": "observed"
+        }
+      ],
+      "asOf": "2026-11-06"
+    },
+    {
+      "id": "uccs",
+      "name": "University of Colorado Colorado Springs",
+      "city": "Colorado Springs",
+      "state": "CO",
+      "country": "US",
+      "rosterOrigin": "Existing Soccer Center Colorado college catalog",
+      "academicFacts": [
+        {
+          "label": "Costs depend on major and class level",
+          "value": "Lower-division tuition is discounted; upper-division and college/program rates differ. Use the official 2026/27 bill estimator rather than a single school-wide tuition figure.",
+          "source": {
+            "url": "https://bursar.uccs.edu/tuition-and-fees/fall-2026",
+            "note": "Lower-division tuition is discounted; upper-division and college/program rates differ. Use the official 2026/27 bill estimator rather than a single school-wide tuition figure.",
+            "period": "2026/27",
+            "checkedDate": "2026-11-06",
+            "status": "observed"
+          }
+        },
+        {
+          "label": "Housing and meals example",
+          "value": "Fall 2026 shared bedroom suite is $4,140 per semester; first-year minimum 300-block meal plan is $3,265 per semester. These are components, not total attendance cost.",
+          "source": {
+            "url": "https://bursar.uccs.edu/bill-estimator-2026-2027",
+            "note": "Fall 2026 shared bedroom suite is $4,140 per semester; first-year minimum 300-block meal plan is $3,265 per semester. These are components, not total attendance cost.",
+            "period": "2026/27",
+            "checkedDate": "2026-11-06",
+            "status": "observed"
+          }
+        }
+      ],
+      "costs": [],
+      "sources": [
+        {
+          "url": "https://bursar.uccs.edu/tuition-and-fees/fall-2026",
+          "note": "Lower-division tuition is discounted; upper-division and college/program rates differ. Use the official 2026/27 bill estimator rather than a single school-wide tuition figure.",
+          "period": "2026/27",
+          "checkedDate": "2026-11-06",
+          "status": "observed"
+        },
+        {
+          "url": "https://bursar.uccs.edu/bill-estimator-2026-2027",
+          "note": "Fall 2026 shared bedroom suite is $4,140 per semester; first-year minimum 300-block meal plan is $3,265 per semester. These are components, not total attendance cost.",
+          "period": "2026/27",
+          "checkedDate": "2026-11-06",
+          "status": "observed"
+        }
+      ],
+      "asOf": "2026-11-06"
+    },
+    {
+      "id": "du",
+      "name": "University of Denver",
+      "city": "Denver",
+      "state": "CO",
+      "country": "US",
+      "rosterOrigin": "Existing Soccer Center Colorado college catalog",
+      "academicFacts": [
+        {
+          "label": "First-time first-year admission rate",
+          "value": "85.7% in the 2025/26 institutional fact sheet. Not athlete-specific and not an individual acceptance prediction.",
+          "source": {
+            "url": "https://www.du.edu/sites/default/files/2026-02/quick_facts.pdf",
+            "note": "85.7% in the 2025/26 institutional fact sheet. Not athlete-specific and not an individual acceptance prediction.",
+            "period": "2025/26",
+            "checkedDate": "2026-11-06",
+            "status": "observed"
+          }
+        },
+        {
+          "label": "Six-year graduation",
+          "value": "74.3% of Fall 2019 first-time first-year cohort.",
+          "source": {
+            "url": "https://www.du.edu/sites/default/files/2026-02/quick_facts.pdf",
+            "note": "74.3% of Fall 2019 first-time first-year cohort.",
+            "period": "Fall 2019 cohort",
+            "checkedDate": "2026-11-06",
+            "status": "observed"
+          }
+        },
+        {
+          "label": "Entering GPA context",
+          "value": "3.68 average high-school GPA in the institutional fact sheet; not a required minimum.",
+          "source": {
+            "url": "https://www.du.edu/sites/default/files/2026-02/quick_facts.pdf",
+            "note": "3.68 average high-school GPA in the institutional fact sheet; not a required minimum.",
+            "period": "2025/26",
+            "checkedDate": "2026-11-06",
+            "status": "observed"
+          }
+        }
+      ],
+      "costs": [
+        {
+          "amount": 87581,
+          "program": "On campus, Colorado resident transportation allowance",
+          "ages": "Full-time undergraduate",
+          "currency": "USD",
+          "unit": "academic year estimate before aid",
+          "period": "2026/27",
+          "status": "observed",
+          "notes": "Three-quarter budget, before aid. Tuition $63,720; nonresident transportation adds $763. Insurance may cost extra.",
+          "source": {
+            "url": "https://www.du.edu/admission-aid/financial-aid-scholarships/undergraduate-financial-aid/price-and-affordability/cost-attendance",
+            "note": "Three-quarter budget, before aid. Tuition $63,720; nonresident transportation adds $763. Insurance may cost extra.",
+            "period": "2026/27",
+            "checkedDate": "2026-11-06",
+            "status": "observed"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.du.edu/sites/default/files/2026-02/quick_facts.pdf",
+          "note": "85.7% in the 2025/26 institutional fact sheet. Not athlete-specific and not an individual acceptance prediction.",
+          "period": "2025/26",
+          "checkedDate": "2026-11-06",
+          "status": "observed"
+        },
+        {
+          "url": "https://www.du.edu/sites/default/files/2026-02/quick_facts.pdf",
+          "note": "74.3% of Fall 2019 first-time first-year cohort.",
+          "period": "Fall 2019 cohort",
+          "checkedDate": "2026-11-06",
+          "status": "observed"
+        },
+        {
+          "url": "https://www.du.edu/sites/default/files/2026-02/quick_facts.pdf",
+          "note": "3.68 average high-school GPA in the institutional fact sheet; not a required minimum.",
+          "period": "2025/26",
+          "checkedDate": "2026-11-06",
+          "status": "observed"
+        },
+        {
+          "url": "https://www.du.edu/admission-aid/financial-aid-scholarships/undergraduate-financial-aid/price-and-affordability/cost-attendance",
+          "note": "Three-quarter budget, before aid. Tuition $63,720; nonresident transportation adds $763. Insurance may cost extra.",
+          "period": "2026/27",
+          "checkedDate": "2026-11-06",
+          "status": "observed"
+        }
+      ],
+      "asOf": "2026-11-06"
+    },
+    {
+      "id": "unco",
+      "name": "University of Northern Colorado",
+      "city": "Greeley",
+      "state": "CO",
+      "country": "US",
+      "rosterOrigin": "Existing Soccer Center Colorado college catalog",
+      "academicFacts": [],
+      "costs": [
+        {
+          "amount": 4869.75,
+          "program": "Colorado resident tuition, 15 credits",
+          "ages": "Full-time undergraduate",
+          "currency": "USD",
+          "unit": "semester tuition before aid",
+          "period": "2026/27",
+          "status": "observed",
+          "notes": "Per semester tuition after COF. Fees, housing, food and indirect costs excluded; not annual total.",
+          "source": {
+            "url": "https://www.unco.edu/admissions-aid/tuition-fees/",
+            "note": "Per semester tuition after COF. Fees, housing, food and indirect costs excluded; not annual total.",
+            "period": "2026/27",
+            "checkedDate": "2026-11-06",
+            "status": "observed"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.unco.edu/admissions-aid/tuition-fees/",
+          "note": "Per semester tuition after COF. Fees, housing, food and indirect costs excluded; not annual total.",
+          "period": "2026/27",
+          "checkedDate": "2026-11-06",
+          "status": "observed"
+        }
+      ],
+      "asOf": "2026-11-06"
+    },
+    {
+      "id": "western-colorado",
+      "name": "Western Colorado University",
+      "city": "Gunnison",
+      "state": "CO",
+      "country": "US",
+      "rosterOrigin": "Existing Soccer Center Colorado college catalog",
+      "academicFacts": [],
+      "costs": [
+        {
+          "amount": 28161,
+          "program": "Colorado resident, double room / 15-meal plan",
+          "ages": "Full-time undergraduate",
+          "currency": "USD",
+          "unit": "academic year estimate before aid",
+          "period": "2026/27",
+          "status": "observed",
+          "notes": "Includes direct and indirect published costs and $450 optional fees. Tuition assumes COF; Rady and nursing have different tuition.",
+          "source": {
+            "url": "https://western.edu/admissions/financial-services/tuition-and-costs/",
+            "note": "Includes direct and indirect published costs and $450 optional fees. Tuition assumes COF; Rady and nursing have different tuition.",
+            "period": "2026/27",
+            "checkedDate": "2026-11-06",
+            "status": "observed"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://western.edu/admissions/financial-services/tuition-and-costs/",
+          "note": "Includes direct and indirect published costs and $450 optional fees. Tuition assumes COF; Rady and nursing have different tuition.",
+          "period": "2026/27",
+          "checkedDate": "2026-11-06",
+          "status": "observed"
+        }
+      ],
+      "asOf": "2026-11-06"
+    }
+  ]
+}

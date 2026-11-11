@@ -1,0 +1,34 @@
+{
+  "hero": {
+    "eyebrow": "FanZone · Watch",
+    "title": "The game. Beyond the whistle.",
+    "subtitle": "Official league videos from Premier League, LaLiga, Bundesliga, and Ligue 1.",
+    "disclaimer": "Official channel uploads · Published dates shown below · Sign in to follow your clubs."
+  },
+  "filters": {
+    "channelLabel": "Channel",
+    "channelAllOption": "All channels",
+    "categoryLabel": "Content",
+    "searchLabel": "Search",
+    "searchPlaceholder": "Club, player or video title"
+  },
+  "statusMessages": {
+    "verificationRequired": "Channel configuration needs owner verification before activation.",
+    "notReady": "The channel feed is not yet available.",
+    "expired": "This channel's cached listings have expired.",
+    "stale": "Latest refresh failed — showing the last verified listings.",
+    "ready": "Updated regularly from this channel's uploads."
+  },
+  "emptyStates": {
+    "ready": "No videos match these filters in the latest 50 uploads.",
+    "unavailable": "Visit the official channel while this feed is unavailable."
+  },
+  "disclosure": {
+    "heading": "Made for matchday and the days between.",
+    "para1": "Click Play to load YouTube's player. YouTube may show ads or restrict playback by country. Use \"Watch on YouTube\" if a video won't play here.",
+    "para2": "Highlights are identified from upload titles; a highlights tag does not guarantee that a video is from the current season. Published dates describe the upload, not the match date.",
+    "para3": "This page uses the YouTube API Services. Videos remain hosted by their publishers on YouTube. By using this page you agree to",
+    "para4": "See Soccer Center's",
+    "footnote": "Soccer Center is an independent resource. Sign in to follow individual clubs in My Soccer."
+  }
+}

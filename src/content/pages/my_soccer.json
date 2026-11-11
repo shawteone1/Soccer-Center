@@ -1,0 +1,85 @@
+{
+  "hero": {
+    "title": "My Soccer",
+    "subtitle": "Your private calendar"
+  },
+  "feeds": {
+    "emptyMessage": "No feeds connected yet. Add your TeamSnap or PlayMetrics subscription URL above.",
+    "addLabel": "Add",
+    "sectionTitle": "Connected Feeds"
+  },
+  "events": {
+    "noFeedsMessage": "Connect a calendar feed to see your events here.",
+    "noEventsMessage": "No events in the selected range."
+  },
+  "account": {
+    "sectionTitle": "Account"
+  },
+  "myFeed": {
+    "tabLabel": "My Feed",
+    "heading": "My Feed",
+    "emptyHeading": "Nothing in your feed yet",
+    "emptyBody": "Follow teams and clubs to see their latest videos and content here.",
+    "emptyCtaLabel": "Pick your teams",
+    "filterAll": "All",
+    "filterHighlights": "Highlights",
+    "filterTraining": "Training",
+    "filterInterviews": "Interviews",
+    "filterFeatures": "Features",
+    "loadMoreLabel": "Load more",
+    "watchLabel": "Watch",
+    "saveLabel": "Save",
+    "savedLabel": "Saved",
+    "clubVideosHeading": "Club & League Videos",
+    "recommendedHeading": "Recommended for You",
+    "matchReasonPrefix": "Why this?"
+  },
+  "podcasts": {
+    "tabLabel": "Podcasts & Media",
+    "heading": "Podcasts & Media",
+    "emptyHeading": "No sources found",
+    "emptyBody": "We're adding podcast and media sources. Check back soon.",
+    "followLabel": "Follow",
+    "followingLabel": "Following",
+    "officialBadge": "Official",
+    "fanBadge": "Fan",
+    "mediaBadge": "Media",
+    "podcastBadge": "Podcast",
+    "videoBadge": "Video",
+    "newsBadge": "News",
+    "youtubeBadge": "YouTube",
+    "visitLabel": "Visit"
+  },
+  "radar": {
+    "sectionHeading": "On My Radar",
+    "tryoutsHeading": "Upcoming Tryouts",
+    "tryoutsEmptyBody": "No tryouts found in your region.",
+    "tryoutsCtaLabel": "See all tryouts",
+    "savedHeading": "Saved Items",
+    "savedEmptyBody": "Nothing saved yet.",
+    "savedCtaLabel": "View saved",
+    "recommendedHeading": "Recommended for You",
+    "recommendedEmptyBody": "Complete your profile to get personalized recommendations.",
+    "viewAllLabel": "View all"
+  },
+  "controls": {
+    "tabLabel": "Controls",
+    "heading": "My Preferences",
+    "teamsHeading": "Teams & Leagues",
+    "teamsBody": "Choose the clubs and competitions you follow.",
+    "interestsHeading": "Fan Interests",
+    "interestsBody": "Select the competitions you care about most.",
+    "regionHeading": "My Region",
+    "memberTypeHeading": "Profile Type",
+    "memberTypeFan": "Fan",
+    "memberTypePlayer": "Player",
+    "memberTypeBoth": "Fan + Player",
+    "notificationsHeading": "Notifications",
+    "notificationsTryouts": "Tryout alerts in my region",
+    "notificationsNewVideos": "New videos from followed teams",
+    "notificationsRecommended": "Weekly recommended content",
+    "saveLabel": "Save preferences",
+    "savedConfirm": "Preferences saved",
+    "savingLabel": "Saving…"
+  }
+}

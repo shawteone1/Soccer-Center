@@ -1,0 +1,1306 @@
+{
+  "hero": {
+    "eyebrow": "Soccer Center / Fan Zone",
+    "headline": "Fan Zone",
+    "subtext": "Watch guides, soccer bars, and supporter groups across the West. Find where to watch, who to watch with, and how to connect with your local soccer community."
+  },
+  "note": "Information compiled October 2026. Broadcast rights, pub schedules, and supporter-group details can change; check the linked provider or venue for current details. Links open in a new tab.",
+  "tvTitle": "How to watch soccer in the U.S.",
+  "tvIntro": "A starting guide for the 2026-27 season, checked October 2026. These listings cover men's club competitions. Women's competitions, national-team tournaments, and domestic cups may have different broadcasters.",
+  "tvOutro": "Before subscribing: check the exact fixture, live versus replay availability, commentary language, and required plan. Cable-channel access and a streaming subscription are not always interchangeable. No single subscription covers everything here. U.S. broadcast rights and channel selections can change.",
+  "tvTimingTip": "Timing tip: use your local timezone in match calendars. The U.S. and Europe change their clocks on different dates, so the usual kickoff-time difference can shift temporarily.",
+  "tvRows": [
+    {
+      "id": "tv-1",
+      "competition": "Premier League (England)",
+      "streaming": "Peacock: selected live matches",
+      "tv": "NBC and USA Network; Spanish selections on Telemundo / Universo",
+      "notes": "Peacock alone does not provide every match live. Check the fixture's listing before choosing a plan.",
+      "link1Label": "Peacock",
+      "link1Url": "https://www.peacocktv.com/sports/premier-league",
+      "link2Label": "NBC schedule",
+      "link2Url": "https://www.nbcsports.com/watch/schedule"
+    },
+    {
+      "id": "tv-2",
+      "competition": "LaLiga (Spain)",
+      "streaming": "ESPN app with ESPN Select (ESPN+ content), or ESPN Unlimited",
+      "tv": "Selected matches on ESPN networks / ESPN Deportes",
+      "notes": "All 380 fixtures available in English and Spanish via ESPN streaming. Confirm your subscription includes ESPN+ content.",
+      "link1Label": "ESPN soccer",
+      "link1Url": "https://plus.espn.com/soccer",
+      "link2Label": "Match listings",
+      "link2Url": "https://www.espn.com/where-to-watch/leagues/esp.1"
+    },
+    {
+      "id": "tv-3",
+      "competition": "UEFA Champions League",
+      "streaming": "Paramount+ (English-language matches)",
+      "tv": "Selected matches on CBS / CBS Sports Network; some selections on free CBS Sports Golazo Network",
+      "notes": "Paramount+ is the main option for complete English-language match coverage.",
+      "link1Label": "Paramount+ sports",
+      "link1Url": "https://www.paramountplus.com/browse/sports/",
+      "link2Label": "CBS coverage",
+      "link2Url": "https://www.paramountpressexpress.com/cbs-sports/shows/uefa-champions-league/about/"
+    },
+    {
+      "id": "tv-4",
+      "competition": "UEFA Europa League",
+      "streaming": "Paramount+ (English-language matches)",
+      "tv": "CBS platforms carry selected UEFA matches; check the match listing",
+      "notes": "Use Paramount+ for the full competition rather than relying on selected TV broadcasts.",
+      "link1Label": "Europa League",
+      "link1Url": "https://www.paramountplus.com/shows/uefa-europa-league/",
+      "link2Label": "",
+      "link2Url": ""
+    },
+    {
+      "id": "tv-5",
+      "competition": "UEFA Conference League",
+      "streaming": "Paramount+ (English-language matches)",
+      "tv": "Check CBS platform listings for any selected coverage",
+      "notes": "This is a separate competition from the Champions League and Europa League.",
+      "link1Label": "Paramount+ sports",
+      "link1Url": "https://www.paramountplus.com/browse/sports/",
+      "link2Label": "",
+      "link2Url": ""
+    },
+    {
+      "id": "tv-6",
+      "competition": "Serie A (Italy)",
+      "streaming": "Paramount+: all league matches in English / Italian",
+      "tv": "Selected CBS Sports coverage; check match listings",
+      "notes": "The published Paramount+ agreement covers the 2026-27 season. Domestic cup matches are separate competitions.",
+      "link1Label": "Paramount+ sports",
+      "link1Url": "https://www.paramountplus.com/browse/sports/",
+      "link2Label": "Serie A rights updates",
+      "link2Url": "https://www.paramountpressexpress.com/cbs-sports/shows/serie-a/releases"
+    },
+    {
+      "id": "tv-7",
+      "competition": "Liga MX (Mexico)",
+      "streaming": "ViX for covered fixtures; Peacock for covered Telemundo fixtures; FOX streaming for applicable matches",
+      "tv": "Match-dependent: Univision / UniMas / TUDN, Telemundo / Universo, or FOX Deportes",
+      "notes": "Rights vary by home club and fixture. No single service should be assumed to carry the entire league. Verify the U.S. listing for your match.",
+      "link1Label": "TUDN",
+      "link1Url": "https://www.tudn.com/futbol/liga-mx",
+      "link2Label": "Peacock / Chivas",
+      "link2Url": "https://www.peacocktv.com/sports/chivas"
+    }
+  ],
+  "pubsTitle": "Where to watch together: soccer bars by region",
+  "pubsIntro": "Top soccer bars across the West, organized by region. Confirm your match will be shown, opening time, sound availability, seating or cover charges, and any age restrictions before heading out.",
+  "pubsOutro": "Know a great soccer bar we're missing? Use the contact form to suggest a venue.",
+  "pubRegions": [
+    {
+      "id": "region-colorado",
+      "label": "Colorado",
+      "pubs": [
+        {
+          "id": "pub-co1",
+          "tag": "Denver / Ballpark",
+          "name": "The British Bulldog",
+          "description": "A strong starting point for early European soccer and mixed-team crowds. Publishes a match schedule and advertises early openings for live games.",
+          "address": "2052 Stout St, Denver, CO 80205",
+          "venueUrl": "https://britishbulldogdenver.com/whats-on/",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20British%20Bulldog%202052%20Stout%20St%2C%20Denver%2C%20CO%2080205"
+        },
+        {
+          "id": "pub-co2",
+          "tag": "Denver / LoDo",
+          "name": "The Celtic on Market",
+          "description": "A hub for multiple club supporter groups, Rapids fans, and U.S. national-team watch parties. Check its soccer page for group links and match plans.",
+          "address": "1400 Market St, Denver, CO 80202",
+          "venueUrl": "https://www.celticonmarket.com/denver-soccer-bar",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Celtic%20on%20Market%201400%20Market%20St%2C%20Denver%2C%20CO%2080202"
+        },
+        {
+          "id": "pub-co3",
+          "tag": "Denver / East Colfax",
+          "name": "The Abbey Tavern",
+          "description": "Denver's official Liverpool supporters-club home. Advertises live Liverpool matches and is a natural choice for Reds fans on matchday.",
+          "address": "5151 E Colfax Ave, Denver, CO 80220",
+          "venueUrl": "https://theabbeytaverndenver.com/liverpool-fc/",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Abbey%20Tavern%205151%20E%20Colfax%20Ave%2C%20Denver%2C%20CO%2080220"
+        },
+        {
+          "id": "pub-co4",
+          "tag": "Denver / Capitol Hill",
+          "name": "Thin Man Tavern",
+          "description": "A neighborhood bar known for showing soccer matches. Popular with local supporters for Premier League and Champions League mornings.",
+          "address": "2015 E 17th Ave, Denver, CO 80206",
+          "venueUrl": "https://www.thinmantavern.com/",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Thin%20Man%20Tavern%202015%20E%2017th%20Ave%2C%20Denver%2C%20CO%2080206"
+        },
+        {
+          "id": "pub-co5",
+          "tag": "Colorado Springs / Downtown",
+          "name": "The Brit Pub",
+          "description": "American Outlaws Colorado Springs' official U.S. national-team watch-party venue. A statewide destination for soccer fans outside the Denver metro.",
+          "address": "645 S Sierra Madre St Suite 100, Colorado Springs, CO 80903",
+          "venueUrl": "https://greatbritish.net/",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Brit%20Pub%20645%20S%20Sierra%20Madre%20St%2C%20Colorado%20Springs%2C%20CO%2080903"
+        },
+        {
+          "id": "pub-co6",
+          "tag": "Colorado Springs / Downtown",
+          "name": "Jack Quinn's Irish Pub",
+          "description": "A popular Irish pub in downtown Colorado Springs known for showing soccer. A natural gathering spot for Premier League and international matches.",
+          "address": "21 S Tejon St, Colorado Springs, CO 80903",
+          "venueUrl": "https://jackquinns.com/",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Jack%20Quinn%27s%20Irish%20Pub%2021%20S%20Tejon%20St%2C%20Colorado%20Springs%2C%20CO%2080903"
+        },
+        {
+          "id": "pub-co7",
+          "tag": "Boulder / Pearl Street",
+          "name": "The West End Tavern",
+          "description": "A rooftop bar on Pearl Street with a great atmosphere. Known for showing soccer and a popular spot for Champions League and Premier League mornings.",
+          "address": "926 Pearl St, Boulder, CO 80302",
+          "venueUrl": "https://www.thewestendtavern.com/",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20West%20End%20Tavern%20926%20Pearl%20St%2C%20Boulder%2C%20CO%2080302"
+        },
+        {
+          "id": "pub-co8",
+          "tag": "Fort Collins / Old Town",
+          "name": "The Forge Publick House",
+          "description": "A popular Old Town Fort Collins pub with a strong soccer following. Known for early Premier League openings and Champions League nights.",
+          "address": "359 Linden St, Fort Collins, CO 80524",
+          "venueUrl": "https://www.theforgepublickhouse.com/",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Forge%20Publick%20House%20359%20Linden%20St%2C%20Fort%20Collins%2C%20CO%2080524"
+        },
+        {
+          "id": "pub-co9",
+          "tag": "Aurora / East Metro",
+          "name": "Soccer City Aurora",
+          "description": "A dedicated soccer bar and community hub in Aurora. Strong ties to the local Latino soccer community and a go-to for Liga MX and international matches.",
+          "address": "Aurora, CO",
+          "venueUrl": "https://www.facebook.com/SoccerCityAurora/",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Soccer%20City%20Aurora%2C%20CO"
+        },
+        {
+          "id": "pub-co10",
+          "tag": "Durango / Western Slope",
+          "name": "Steamworks Brewing Co.",
+          "description": "A Durango institution and one of Colorado's best-known brewpubs. Screens for soccer and a great atmosphere for fans in the Four Corners region.",
+          "address": "801 E 2nd Ave, Durango, CO 81301",
+          "venueUrl": "https://www.steamworksbrewing.com/",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Steamworks%20Brewing%20801%20E%202nd%20Ave%2C%20Durango%2C%20CO%2081301"
+        },
+        {
+          "id": "pub-co11",
+          "tag": "Centennial / South Metro",
+          "name": "Alpha Charlie's Tap & Tavern",
+          "description": "Veteran and locally owned gastropub in Centennial with 30 flat-screen TVs, 28 taps, and signature cocktails. A great south-metro spot for Premier League mornings and Champions League nights.",
+          "address": "6631 South Peoria Street, Centennial, CO 80111",
+          "venueUrl": "https://www.alphacharlies.com/",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Alpha%20Charlie%27s%20Tap%20%26%20Tavern%206631%20South%20Peoria%20Street%2C%20Centennial%2C%20CO%2080111"
+        }
+      ]
+    },
+    {
+      "id": "region-arizona",
+      "label": "Arizona",
+      "pubs": [
+        {
+          "id": "pub-az1",
+          "tag": "Phoenix / Downtown",
+          "name": "The Kettle Black Kitchen & Pub",
+          "description": "A downtown Phoenix soccer pub with a dedicated Man City supporter following. Known for early Premier League openings and a passionate matchday crowd.",
+          "address": "1 N 1st St #108, Phoenix, AZ 85004",
+          "venueUrl": "http://thekettleblackpub.com/",
+          "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=33.4485836,-112.0721521"
+        },
+        {
+          "id": "pub-az2",
+          "tag": "Phoenix / Downtown",
+          "name": "Crown Public House",
+          "description": "Downtown Phoenix's Liverpool supporters' pub. A dedicated soccer bar with a strong Reds following and a welcoming atmosphere for all Premier League fans.",
+          "address": "333 E Jefferson St, Phoenix, AZ 85004",
+          "venueUrl": "http://crownpublichouse.com/",
+          "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=33.446175,-112.0689985"
+        },
+        {
+          "id": "pub-az3",
+          "tag": "Phoenix / Midtown",
+          "name": "George and Dragon",
+          "description": "A Phoenix institution and home to the local Manchester United supporters club. One of the Valley's most established soccer bars with a loyal matchday crowd.",
+          "address": "4240 N Central Ave, Phoenix, AZ 85012",
+          "venueUrl": "http://www.gndphx.com/",
+          "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=33.49776250000001,-112.0740595"
+        },
+        {
+          "id": "pub-az4",
+          "tag": "Phoenix / Midtown",
+          "name": "Title 9 Sports Grill",
+          "description": "A Phoenix sports grill and official USMNT and USWNT watch-party venue. A go-to for U.S. national team matches and a welcoming spot for all soccer fans.",
+          "address": "Phoenix, AZ",
+          "venueUrl": "http://www.titleninesportsgrill.com/",
+          "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=33.4974838,-112.0832669"
+        },
+        {
+          "id": "pub-az5",
+          "tag": "Phoenix / Northeast",
+          "name": "Tombstone Brewery Company",
+          "description": "A Phoenix craft brewery that screens USMNT and USWNT matches. A community gathering spot for soccer fans in the northeast Valley.",
+          "address": "Phoenix, AZ",
+          "venueUrl": "https://tombstone.beer/tombstone-brewing-north/",
+          "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=33.4796106,-111.9965046"
+        },
+        {
+          "id": "pub-az6",
+          "tag": "Tempe / Mill Avenue",
+          "name": "Yucca Tap Room",
+          "description": "Tempe's Arsenal supporters' pub on the south side of Mill Avenue. A lively neighborhood bar known for early Premier League openings and a passionate Gunners crowd.",
+          "address": "29 W Southern Ave, Tempe, AZ 85282",
+          "venueUrl": "https://yuccatap.com/",
+          "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=33.3926526,-111.9405375"
+        },
+        {
+          "id": "pub-az7",
+          "tag": "Scottsdale / Old Town",
+          "name": "Pour Decisions Patio & Kitchen",
+          "description": "Old Town Scottsdale's home for Newcastle United and Leeds United supporters. A lively patio bar with a strong soccer culture and dedicated matchday atmosphere.",
+          "address": "4209 N Craftsman Ct, Scottsdale, AZ 85251",
+          "venueUrl": "https://www.pourdecisionsscottsdale.com/",
+          "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=33.4968976,-111.9275179"
+        },
+        {
+          "id": "pub-az8",
+          "tag": "Mesa / East Valley",
+          "name": "O'Kelley's Sports Bar & Grill",
+          "description": "A Mesa sports bar with a welcoming atmosphere and screens for soccer. A reliable East Valley destination for Premier League and Champions League watch parties.",
+          "address": "2120 W Guadalupe Rd #16, Mesa, AZ 85202",
+          "venueUrl": "https://www.okelleysbar.com/",
+          "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=33.36484,-111.8792754"
+        },
+        {
+          "id": "pub-az9",
+          "tag": "Chandler / Southeast Valley",
+          "name": "Fibber Magees",
+          "description": "Chandler's Tottenham Hotspur supporters' pub. An Irish-style bar with a dedicated soccer following and a welcoming crowd for Premier League mornings.",
+          "address": "1989 W Elliot Rd #19, Chandler, AZ 85224",
+          "venueUrl": "http://fibbermageespub.com/",
+          "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=33.3488789,-111.8746688"
+        },
+        {
+          "id": "pub-az10",
+          "tag": "Flagstaff / Northern AZ",
+          "name": "Beaver Street Brewery",
+          "description": "A Flagstaff institution with a great taproom and screens. A solid soccer destination for fans in northern Arizona.",
+          "address": "11 S Beaver St, Flagstaff, AZ 86001",
+          "venueUrl": "https://www.beaverstreetbrewery.com/",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Beaver+Street+Brewery+11+S+Beaver+St+Flagstaff+AZ"
+        }
+      ]
+    },
+    {
+      "id": "region-socal",
+      "label": "Southern California",
+      "pubs": [
+        {
+          "id": "pub-sc1",
+          "tag": "Studio City / San Fernando Valley",
+          "name": "The Fox and Hounds",
+          "description": "Official home of Arsenal Los Angeles and a hub for nearly every Premier League supporter group in the Valley. Opens as early as 4:30 AM for major matches with an English breakfast menu and British ales. Scarves and signed jerseys cover the walls.",
+          "address": "11100 Ventura Blvd, Studio City, CA 91604",
+          "venueUrl": "https://www.foxandhoundsla.com/",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=The+Fox+and+Hounds+11100+Ventura+Blvd+Studio+City+CA"
+        },
+        {
+          "id": "pub-sc2",
+          "tag": "Culver City",
+          "name": "Joxer Daly's",
+          "description": "Longstanding headquarters for Liverpool and Arsenal supporters, with both clubs' official LA supporters' groups calling it home. Opens early for European matches with Irish breakfasts available. Also shows MLS and international games.",
+          "address": "11168 Washington Blvd, Culver City, CA 90232",
+          "venueUrl": "https://www.joxerdalys.com/",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Joxer+Daly%27s+11168+Washington+Blvd+Culver+City+CA"
+        },
+        {
+          "id": "pub-sc3",
+          "tag": "Downtown LA / LA Live",
+          "name": "Tom's Watch Bar",
+          "description": "Official LA Galaxy watch party venue directly across from Crypto.com Arena. Over 180 screens in a 360-degree setup so every seat has a clear view. Carries the full MLS Season Pass — one of the few bars in LA to reliably show every MLS match.",
+          "address": "1011 S Figueroa St B101, Los Angeles, CA 90015",
+          "venueUrl": "https://www.tomswatchbar.com/los-angeles/",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Tom%27s+Watch+Bar+1011+S+Figueroa+St+Los+Angeles+CA"
+        },
+        {
+          "id": "pub-sc4",
+          "tag": "Van Nuys / San Fernando Valley",
+          "name": "Springbok Bar & Grill",
+          "description": "LA's only South African-owned soccer bar and an official LA Galaxy bar partner. Shows every Galaxy match plus the Africa Cup of Nations and World Cup. Menu features South African specialties like boerewors rolls, peri-peri chicken, and biltong alongside bar classics.",
+          "address": "16153 Victory Blvd, Van Nuys, CA 91406",
+          "venueUrl": "https://www.springbokbar.com/",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Springbok+Bar+Grill+16153+Victory+Blvd+Van+Nuys+CA"
+        },
+        {
+          "id": "pub-sc5",
+          "tag": "Santa Monica",
+          "name": "Ye Olde King's Head",
+          "description": "A second home for British expats and Premier League fans in LA's western stretches. Opens early for Premier League matches with supporter groups for Tottenham, Chelsea, and Manchester United. Features an on-site shop with imported snacks and FC merch, plus afternoon tea until 4 PM.",
+          "address": "116 Santa Monica Blvd, Santa Monica, CA 90401",
+          "venueUrl": "https://www.yeoldekingshead.com/",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Ye+Olde+Kings+Head+116+Santa+Monica+Blvd+Santa+Monica+CA"
+        },
+        {
+          "id": "pub-sc6",
+          "tag": "Highland Park / Northeast LA",
+          "name": "The Greyhound Bar & Grill",
+          "description": "Official home of the Los Angeles Spurs, the Tottenham Hotspur supporters' club in LA. Opens early for every Spurs match with a full English breakfast on match days. Features coordinated chants, halftime raffles, and a spacious outdoor patio.",
+          "address": "5570 N Figueroa St, Los Angeles, CA 90042",
+          "venueUrl": "https://www.thegreyhoundla.com/",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=The+Greyhound+Bar+Grill+5570+N+Figueroa+St+Los+Angeles+CA"
+        },
+        {
+          "id": "pub-sc7",
+          "tag": "Lincoln Heights / East LA",
+          "name": "La Chuperia",
+          "description": "The go-to place for Liga MX and Mexican national team fans in LA. Every El Tri match shown on multiple screens with Spanish commentary. Walls adorned with soccer memorabilia and signature micheladas with tajin rims are a must-order.",
+          "address": "1145 N Mission Rd, Los Angeles, CA 90033",
+          "venueUrl": "https://www.lachuperia.com/",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=La+Chuperia+1145+N+Mission+Rd+Los+Angeles+CA"
+        },
+        {
+          "id": "pub-sc8",
+          "tag": "Inglewood / SoFi Stadium Area",
+          "name": "Cork & Batter",
+          "description": "The closest true sports bar to SoFi Stadium, which hosted 2026 FIFA World Cup matches. A three-story venue with a modern sports lounge, rooftop bar, and restaurant. Wall-to-wall TVs and an elevated bar food menu.",
+          "address": "3900 W Century Blvd, Inglewood, CA 90303",
+          "venueUrl": "https://www.corkandbatter.com/",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Cork+and+Batter+3900+W+Century+Blvd+Inglewood+CA"
+        },
+        {
+          "id": "pub-sc9",
+          "tag": "San Diego / North Park",
+          "name": "The Pub Previews",
+          "description": "San Diego's dedicated soccer pub with a strong supporter culture. Known for early openings, multiple screens, and a passionate soccer crowd in the heart of North Park.",
+          "address": "2121 El Cajon Blvd, San Diego, CA 92104",
+          "venueUrl": "https://www.thepubpreviews.com/",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=The+Pub+Previews+2121+El+Cajon+Blvd+San+Diego+CA"
+        },
+        {
+          "id": "pub-sc10",
+          "tag": "San Diego / Mission Valley",
+          "name": "Oggi's Pizza & Brewing",
+          "description": "A San Diego craft brewery chain with a strong sports-bar setup. Multiple screens and a reliable option for soccer watch parties across San Diego County.",
+          "address": "2245 Fenton Pkwy, San Diego, CA 92108",
+          "venueUrl": "https://www.oggis.com/",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Oggi%27s+Pizza+Brewing+2245+Fenton+Pkwy+San+Diego+CA"
+        }
+      ]
+    },
+    {
+      "id": "region-norcal",
+      "label": "Northern California",
+      "pubs": [
+        {
+          "id": "pub-nc1",
+          "tag": "San Francisco / Mission",
+          "name": "The Residence",
+          "description": "SF's premier soccer bar with a dedicated supporter culture. Home to multiple club supporter groups and known for early Premier League openings.",
+          "address": "718 14th St, San Francisco, CA 94114",
+          "venueUrl": "https://www.theresidencebar.com/",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=The+Residence+718+14th+St+San+Francisco+CA"
+        },
+        {
+          "id": "pub-nc2",
+          "tag": "San Francisco / Castro",
+          "name": "Blackbird Bar",
+          "description": "A Castro neighborhood bar with a strong soccer following. Multiple screens and a welcoming crowd for Premier League and Champions League.",
+          "address": "2124 Market St, San Francisco, CA 94114",
+          "venueUrl": "https://www.blackbirdbar.com/",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Blackbird+Bar+2124+Market+St+San+Francisco+CA"
+        },
+        {
+          "id": "pub-nc3",
+          "tag": "San Jose / Downtown",
+          "name": "The Britannia Arms",
+          "description": "A San Jose British pub institution with a dedicated soccer culture. Home to multiple supporter groups and a reliable destination for Earthquakes and Premier League fans.",
+          "address": "173 W Santa Clara St, San Jose, CA 95113",
+          "venueUrl": "https://www.britanniaarms.com/",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Britannia+Arms+173+W+Santa+Clara+St+San+Jose+CA"
+        },
+        {
+          "id": "pub-nc4",
+          "tag": "Oakland / Uptown",
+          "name": "The Layover Music Bar & Lounge",
+          "description": "An Oakland bar with a great atmosphere and screens for soccer. A community gathering spot for East Bay soccer fans.",
+          "address": "1517 Franklin St, Oakland, CA 94612",
+          "venueUrl": "https://www.thelayoverbar.com/",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=The+Layover+1517+Franklin+St+Oakland+CA"
+        },
+        {
+          "id": "pub-nc5",
+          "tag": "Sacramento / Midtown",
+          "name": "The Shady Lady Saloon",
+          "description": "A Sacramento cocktail bar with a welcoming atmosphere. Screens for soccer and a growing soccer community in the capital region.",
+          "address": "1409 R St, Sacramento, CA 95811",
+          "venueUrl": "https://www.theshadyladysaloon.com/",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Shady+Lady+Saloon+1409+R+St+Sacramento+CA"
+        },
+        {
+          "id": "pub-nc6",
+          "tag": "San Francisco / SoMa",
+          "name": "The Chieftain Irish Pub",
+          "description": "A SoMa Irish pub with a strong soccer culture. Known for early Premier League openings and a passionate supporter crowd.",
+          "address": "198 5th St, San Francisco, CA 94103",
+          "venueUrl": "https://www.thechieftain.com/",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=The+Chieftain+198+5th+St+San+Francisco+CA"
+        },
+        {
+          "id": "pub-nc7",
+          "tag": "Berkeley / Downtown",
+          "name": "The Albatross Pub",
+          "description": "A beloved Berkeley pub with a community feel. Screens for soccer and a welcoming atmosphere for East Bay supporter groups.",
+          "address": "1822 San Pablo Ave, Berkeley, CA 94702",
+          "venueUrl": "https://www.albatrosspub.com/",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Albatross+Pub+1822+San+Pablo+Ave+Berkeley+CA"
+        },
+        {
+          "id": "pub-nc8",
+          "tag": "San Jose / Downtown",
+          "name": "Paper Plane",
+          "description": "A San Jose cocktail bar with a great atmosphere. Hosts soccer watch parties and is a gathering spot for South Bay soccer fans.",
+          "address": "72 S 1st St, San Jose, CA 95113",
+          "venueUrl": "https://www.paperplanesjc.com/",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Paper+Plane+72+S+1st+St+San+Jose+CA"
+        },
+        {
+          "id": "pub-nc9",
+          "tag": "Sacramento / Downtown",
+          "name": "Fieldwork Brewing Co.",
+          "description": "A Sacramento craft brewery taproom with a welcoming atmosphere. Screens for soccer and a community gathering spot for Republic FC fans.",
+          "address": "1805 Capitol Ave, Sacramento, CA 95811",
+          "venueUrl": "https://www.fieldworkbrewing.com/",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Fieldwork+Brewing+1805+Capitol+Ave+Sacramento+CA"
+        },
+        {
+          "id": "pub-nc10",
+          "tag": "San Francisco / North Beach",
+          "name": "Vesuvio Cafe",
+          "description": "A North Beach landmark with a storied history. Screens for soccer and a welcoming crowd for Champions League and international matches.",
+          "address": "255 Columbus Ave, San Francisco, CA 94133",
+          "venueUrl": "https://www.vesuvio.com/",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Vesuvio+Cafe+255+Columbus+Ave+San+Francisco+CA"
+        }
+      ]
+    },
+    {
+      "id": "region-oregon",
+      "label": "Oregon",
+      "pubs": [
+        {
+          "id": "pub-or1",
+          "tag": "Portland / NE",
+          "name": "The Bitter End",
+          "description": "Portland's dedicated soccer bar with a passionate supporter culture. Home to multiple Timbers and Thorns supporter groups and known for early Premier League openings.",
+          "address": "3929 NE Martin Luther King Jr Blvd, Portland, OR 97212",
+          "venueUrl": "https://www.bitterendpdx.com/",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=The+Bitter+End+3929+NE+MLK+Blvd+Portland+OR"
+        },
+        {
+          "id": "pub-or2",
+          "tag": "Portland / SW",
+          "name": "The Cheerful Tortoise",
+          "description": "A Portland sports bar with a strong soccer following. Multiple screens and a welcoming crowd for Premier League and Champions League.",
+          "address": "1939 SW 6th Ave, Portland, OR 97201",
+          "venueUrl": "https://www.cheerfultortoise.com/",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Cheerful+Tortoise+1939+SW+6th+Ave+Portland+OR"
+        },
+        {
+          "id": "pub-or3",
+          "tag": "Portland / SE Division",
+          "name": "Apex Bar",
+          "description": "A beloved Portland craft beer bar with a great atmosphere. Screens for soccer and a community gathering spot for Portland soccer fans.",
+          "address": "1216 SE Division St, Portland, OR 97202",
+          "venueUrl": "https://www.apexbar.com/",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Apex+Bar+1216+SE+Division+St+Portland+OR"
+        },
+        {
+          "id": "pub-or4",
+          "tag": "Portland / N Mississippi",
+          "name": "Prost!",
+          "description": "A German-style beer hall in the Mississippi neighborhood. Hosts soccer watch parties and is a gathering spot for Portland's European soccer community.",
+          "address": "4237 N Mississippi Ave, Portland, OR 97217",
+          "venueUrl": "https://www.prostportland.com/",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Prost+4237+N+Mississippi+Ave+Portland+OR"
+        },
+        {
+          "id": "pub-or5",
+          "tag": "Portland / Pearl District",
+          "name": "Deschutes Brewery Portland",
+          "description": "The Portland outpost of Bend's beloved Deschutes Brewery. A spacious pub with screens for soccer and a great atmosphere for matchday gatherings.",
+          "address": "210 NW 11th Ave, Portland, OR 97209",
+          "venueUrl": "https://www.deschutesbrewery.com/pubs/portland/",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Deschutes+Brewery+210+NW+11th+Ave+Portland+OR"
+        },
+        {
+          "id": "pub-or6",
+          "tag": "Eugene / Downtown",
+          "name": "Ninkasi Brewing Tasting Room",
+          "description": "Eugene's beloved craft brewery with a spacious tasting room. Hosts soccer watch parties and is a community hub for Lane County soccer fans.",
+          "address": "272 Van Buren St, Eugene, OR 97402",
+          "venueUrl": "https://www.ninkasibrewing.com/",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Ninkasi+Brewing+272+Van+Buren+St+Eugene+OR"
+        },
+        {
+          "id": "pub-or7",
+          "tag": "Eugene / Downtown",
+          "name": "The Bier Stein",
+          "description": "A Eugene craft beer bar with an extensive selection and screens for soccer. A welcoming spot for Ducks fans and soccer supporters alike.",
+          "address": "345 E 11th Ave, Eugene, OR 97401",
+          "venueUrl": "https://www.thebierstein.com/",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=The+Bier+Stein+345+E+11th+Ave+Eugene+OR"
+        },
+        {
+          "id": "pub-or8",
+          "tag": "Bend / Downtown",
+          "name": "Deschutes Brewery Bend",
+          "description": "The original Deschutes Brewery pub in downtown Bend. A Central Oregon institution with screens for soccer and a great matchday atmosphere.",
+          "address": "1044 NW Bond St, Bend, OR 97703",
+          "venueUrl": "https://www.deschutesbrewery.com/pubs/bend/",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Deschutes+Brewery+1044+NW+Bond+St+Bend+OR"
+        },
+        {
+          "id": "pub-or9",
+          "tag": "Portland / Hawthorne",
+          "name": "Horse Brass Pub",
+          "description": "A Portland British pub institution with a decades-long soccer tradition. One of the best places in the Pacific Northwest to watch a match.",
+          "address": "4534 SE Belmont St, Portland, OR 97215",
+          "venueUrl": "https://www.horsebrass.com/",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Horse+Brass+Pub+4534+SE+Belmont+St+Portland+OR"
+        },
+        {
+          "id": "pub-or10",
+          "tag": "Salem / Downtown",
+          "name": "Gilgamesh Brewing",
+          "description": "A Salem craft brewery with a welcoming taproom. Screens for soccer and a growing soccer community in the Willamette Valley.",
+          "address": "2065 Madrona Ave SE, Salem, OR 97302",
+          "venueUrl": "https://www.gilgameshbrewing.com/",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Gilgamesh+Brewing+2065+Madrona+Ave+SE+Salem+OR"
+        }
+      ]
+    },
+    {
+      "id": "region-washington",
+      "label": "Washington",
+      "pubs": [
+        {
+          "id": "pub-wa1",
+          "tag": "Seattle / Ballard",
+          "name": "Rough and Tumble Pub",
+          "description": "Seattle's only sports bar that prioritizes women's professional sports and the official home bar for FC Reign fans. Shows all Sounders games and was a top World Cup watch-party destination. Features a boozy brunch menu for early matches. A second location is in Columbia City (4914 Rainier Ave S).",
+          "address": "5309 22nd Ave NW Top Floor, Seattle, WA 98107",
+          "venueUrl": "https://www.roughandtumblepub.com/",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Rough+and+Tumble+Pub+5309+22nd+Ave+NW+Seattle+WA"
+        },
+        {
+          "id": "pub-wa2",
+          "tag": "Seattle / Fremont",
+          "name": "The George & Dragon Pub",
+          "description": "One of Seattle's true soccer bars — not just a sports bar that shows soccer. Opens at 4 AM for Premier League and Champions League. British pub classics including fish and chips, full English breakfast, scotch eggs, and housemade sausage rolls. Two outdoor patios with big-screen TVs.",
+          "address": "206 N 36th St, Seattle, WA 98103",
+          "venueUrl": "https://www.georgeanddragonpub.com/",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=George+and+Dragon+Pub+206+N+36th+St+Seattle+WA"
+        },
+        {
+          "id": "pub-wa3",
+          "tag": "Seattle / Green Lake",
+          "name": "Atlantic Crossing",
+          "description": "An official Sounders FC supporters' bar and home to the Cascadia Gooners (Seattle's Arsenal supporters club). Shows all Premier League, Champions League, MLS, and Seattle Reign matches. Generous happy hour all day Monday and 3–6 PM Tuesday through Friday.",
+          "address": "7200 Woodlawn Ave NE, Seattle, WA 98115",
+          "venueUrl": "https://www.atlanticcrossing.com/",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Atlantic+Crossing+7200+Woodlawn+Ave+NE+Seattle+WA"
+        },
+        {
+          "id": "pub-wa4",
+          "tag": "Seattle / Pioneer Square",
+          "name": "Golden Roosters",
+          "description": "Home to the largest screen of any soccer bar in Seattle — a 180-inch projector. Has MLS Season Pass for every MLS match. Walking distance from Lumen Field, Seattle's World Cup venue. Known for crispy fried chicken and wings in flavors like mango habanero and Korean barbecue.",
+          "address": "115 Occidental Ave S, Seattle, WA 98104",
+          "venueUrl": "https://www.goldenroosters.com/",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Golden+Roosters+115+Occidental+Ave+S+Seattle+WA"
+        },
+        {
+          "id": "pub-wa5",
+          "tag": "Seattle / Capitol Hill",
+          "name": "Rhein Haus Seattle",
+          "description": "Home of Sounders and Reign fans in central Seattle. Shows all regular-season MLS games, the All-Star game, cup playoffs, and league cup games. A German beer hall with bocce courts — ideal for a full day of World Cup watching between games.",
+          "address": "912 12th Ave, Seattle, WA 98122",
+          "venueUrl": "https://www.rheinhausseattle.com/",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Rhein+Haus+912+12th+Ave+Seattle+WA"
+        },
+        {
+          "id": "pub-wa6",
+          "tag": "Seattle / Fremont & Pioneer Square",
+          "name": "Shawn O'Donnell's",
+          "description": "A Seattle institution with multiple locations. Both the Fremont and Pioneer Square locations are official Seattle Sounders supporters' bars and open early for Premier League. The Pioneer Square location is inside a turn-of-the-century building with brick walls and dark wood booths.",
+          "address": "3601 Fremont Ave N Suite 202, Seattle, WA 98103",
+          "venueUrl": "https://www.shawnodonnells.com/",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Shawn+O%27Donnell%27s+3601+Fremont+Ave+N+Seattle+WA"
+        },
+        {
+          "id": "pub-wa7",
+          "tag": "Seattle / Ballard",
+          "name": "Fuel Sports Grill",
+          "description": "Official home of the Emerald City Supporters, the local Sounders fan group. Packed for every Sounders match including cup and playoff games. Weekend breakfast for early East Coast games, 25 flat-screen TVs, and a giant projector. Menu covers vegetarian, vegan, and meat-heavy options.",
+          "address": "8037 15th Ave NW, Seattle, WA 98117",
+          "venueUrl": "https://www.fuelsportsgrill.com/",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Fuel+Sports+Grill+8037+15th+Ave+NW+Seattle+WA"
+        },
+        {
+          "id": "pub-wa8",
+          "tag": "Seattle / Green Lake",
+          "name": "St. Andrews Pub",
+          "description": "Seattle's Liverpool supporters' bar — you'll never watch alone here. Shows most EPL games plus Sounders and Reign. Liverpool matches always take priority. Locals call it the best place for fish and chips in Seattle. Also hosts karaoke Thursdays and poker Mondays.",
+          "address": "7406 Aurora Ave N, Seattle, WA 98103",
+          "venueUrl": "https://www.standrewspub.com/",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=St+Andrews+Pub+7406+Aurora+Ave+N+Seattle+WA"
+        },
+        {
+          "id": "pub-wa9",
+          "tag": "Tacoma / Downtown",
+          "name": "The Red Hot",
+          "description": "A Tacoma craft beer bar with a welcoming atmosphere. Screens for soccer and a community gathering spot for South Sound soccer fans.",
+          "address": "2914 6th Ave, Tacoma, WA 98406",
+          "venueUrl": "https://www.theredhot.com/",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=The+Red+Hot+2914+6th+Ave+Tacoma+WA"
+        },
+        {
+          "id": "pub-wa10",
+          "tag": "Spokane / Downtown",
+          "name": "The Elk Public House",
+          "description": "A Spokane neighborhood pub with a strong soccer following. Multiple screens and a welcoming crowd for Premier League and Champions League.",
+          "address": "1931 W Pacific Ave, Spokane, WA 99201",
+          "venueUrl": "https://www.theelkpublichouse.com/",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=The+Elk+Public+House+1931+W+Pacific+Ave+Spokane+WA"
+        }
+      ]
+    },
+    {
+      "id": "region-nevada",
+      "label": "Nevada",
+      "pubs": [
+        {
+          "id": "pub-nv1",
+          "tag": "Las Vegas / Strip",
+          "name": "The Pub at Monte Carlo",
+          "description": "A Strip-adjacent British pub with a dedicated soccer culture. Known for early Premier League openings and a passionate supporter crowd in Las Vegas.",
+          "address": "3770 S Las Vegas Blvd, Las Vegas, NV 89109",
+          "venueUrl": "https://www.parktheaterlasvegas.com/",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=The+Pub+Monte+Carlo+Las+Vegas+NV"
+        },
+        {
+          "id": "pub-nv2",
+          "tag": "Las Vegas / Downtown",
+          "name": "The Griffin",
+          "description": "A downtown Las Vegas bar with a great atmosphere and screens for soccer. A welcoming spot for Premier League and Champions League watch parties.",
+          "address": "511 Fremont St, Las Vegas, NV 89101",
+          "venueUrl": "https://www.griffinlasvegas.com/",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=The+Griffin+511+Fremont+St+Las+Vegas+NV"
+        },
+        {
+          "id": "pub-nv3",
+          "tag": "Las Vegas / Summerlin",
+          "name": "Khoury's Fine Wine & Spirits",
+          "description": "A Summerlin neighborhood bar with a strong soccer following. Multiple screens and a welcoming crowd for weekend soccer mornings.",
+          "address": "8520 W Desert Inn Rd, Las Vegas, NV 89117",
+          "venueUrl": "https://www.khourys.com/",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Khoury%27s+Fine+Wine+8520+W+Desert+Inn+Rd+Las+Vegas+NV"
+        },
+        {
+          "id": "pub-nv4",
+          "tag": "Henderson / East Valley",
+          "name": "Crafthaus Brewery",
+          "description": "A Henderson craft brewery with a welcoming taproom. Hosts soccer watch parties and is a community gathering spot for Las Vegas soccer fans.",
+          "address": "7350 Eastgate Rd, Henderson, NV 89011",
+          "venueUrl": "https://www.crafthausbrewery.com/",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Crafthaus+Brewery+7350+Eastgate+Rd+Henderson+NV"
+        },
+        {
+          "id": "pub-nv5",
+          "tag": "Las Vegas / Arts District",
+          "name": "Velveteen Rabbit",
+          "description": "A Las Vegas Arts District cocktail bar with a great atmosphere. Screens for soccer and a welcoming crowd for Champions League and international matches.",
+          "address": "1218 S Main St, Las Vegas, NV 89104",
+          "venueUrl": "https://www.velveteenrabbitlv.com/",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Velveteen+Rabbit+1218+S+Main+St+Las+Vegas+NV"
+        },
+        {
+          "id": "pub-nv6",
+          "tag": "Reno / Downtown",
+          "name": "Brasserie Saint James",
+          "description": "Reno's beloved craft brewery pub. Screens for soccer and a community gathering spot for northern Nevada soccer fans.",
+          "address": "901 S Center St, Reno, NV 89501",
+          "venueUrl": "https://www.brasseriestjames.com/",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Brasserie+Saint+James+901+S+Center+St+Reno+NV"
+        },
+        {
+          "id": "pub-nv7",
+          "tag": "Reno / Midtown",
+          "name": "The Depot Craft Brewery Distillery",
+          "description": "A Reno craft brewery in a historic train depot. Screens for soccer and a welcoming atmosphere for northern Nevada soccer fans.",
+          "address": "325 E 4th St, Reno, NV 89512",
+          "venueUrl": "https://www.thedepotreno.com/",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=The+Depot+Craft+Brewery+325+E+4th+St+Reno+NV"
+        },
+        {
+          "id": "pub-nv8",
+          "tag": "Las Vegas / West Side",
+          "name": "PT's Pub",
+          "description": "A Las Vegas neighborhood pub chain with a strong sports-viewing culture. Multiple screens and a reliable option for soccer watch parties across the valley.",
+          "address": "4980 W Flamingo Rd, Las Vegas, NV 89103",
+          "venueUrl": "https://www.ptspub.com/",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=PT%27s+Pub+4980+W+Flamingo+Rd+Las+Vegas+NV"
+        },
+        {
+          "id": "pub-nv9",
+          "tag": "Henderson / Green Valley",
+          "name": "Remedy's Tavern",
+          "description": "A Henderson sports bar with a welcoming atmosphere. Screens for soccer and a reliable destination for Premier League and Champions League watch parties.",
+          "address": "2265 E Warm Springs Rd, Henderson, NV 89014",
+          "venueUrl": "https://www.remedystavern.com/",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Remedy%27s+Tavern+2265+E+Warm+Springs+Rd+Henderson+NV"
+        },
+        {
+          "id": "pub-nv10",
+          "tag": "Reno / University Area",
+          "name": "The Jungle Bar",
+          "description": "A Reno neighborhood bar near UNR with a strong soccer following. A welcoming spot for Premier League mornings and international match days.",
+          "address": "246 West St, Reno, NV 89501",
+          "venueUrl": "https://www.thejunglebarreno.com/",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=The+Jungle+Bar+246+West+St+Reno+NV"
+        }
+      ]
+    }
+  ],
+  "fansTitle": "Meet other soccer fans",
+  "fansOutro": "Want to organize a gathering? Start with a featured match, agree on a venue and local kickoff time, confirm the venue's screening and capacity, and share the organizer's contact and attendance details. Soccer Center does not currently run these events; the linked groups and venues handle their own gatherings.",
+  "fanGroups": [
+    {
+      "id": "fg-co1",
+      "tag": "Colorado — pro teams",
+      "heading": "Colorado Rapids",
+      "body": "Colorado's MLS club competing in the Western Conference. Find tickets, schedules, news, and supporter information on the official Rapids site.",
+      "linkLabel": "Visit Colorado Rapids",
+      "url": "https://www.coloradorapids.com/",
+      "barName": "The Celtic on Market",
+      "barAddress": "1400 Market St, Denver, CO 80202",
+      "barUrl": "https://www.celticonmarket.com/denver-soccer-bar"
+    },
+    {
+      "id": "fg-co2",
+      "tag": "Colorado — pro teams",
+      "heading": "Denver Summit FC",
+      "body": "Denver's professional soccer club. Find match schedules, tickets, and club news on the official Summit FC site.",
+      "linkLabel": "Visit Denver Summit FC",
+      "url": "https://www.denversummitfc.com/",
+      "barName": "The Celtic on Market",
+      "barAddress": "1400 Market St, Denver, CO 80202",
+      "barUrl": "https://www.celticonmarket.com/denver-soccer-bar"
+    },
+    {
+      "id": "fg-co3",
+      "tag": "Colorado — pro teams",
+      "heading": "Colorado Springs Switchbacks FC",
+      "body": "Colorado Springs' USL Championship club. Find tickets, schedules, and club news on the official Switchbacks site.",
+      "linkLabel": "Visit Switchbacks FC",
+      "url": "https://www.switchbacksfc.com/",
+      "barName": "The Brit Pub",
+      "barAddress": "645 S Sierra Madre St, Colorado Springs, CO 80903",
+      "barUrl": "https://greatbritish.net/"
+    },
+    {
+      "id": "fg-co4",
+      "tag": "Colorado — national team",
+      "heading": "American Outlaws Denver",
+      "body": "Find USMNT and USWNT watch-party information and connect with local supporters. Confirm the current venue and event details.",
+      "linkLabel": "Find gatherings",
+      "url": "https://theamericanoutlaws.com/chapters/denver",
+      "barName": "The Celtic on Market",
+      "barAddress": "1400 Market St, Denver, CO 80202",
+      "barUrl": "https://www.celticonmarket.com/denver-soccer-bar"
+    },
+    {
+      "id": "fg-co5",
+      "tag": "Colorado — national team",
+      "heading": "American Outlaws Colorado Springs",
+      "body": "Find the chapter's upcoming watch parties and current venue information for USMNT and USWNT matches.",
+      "linkLabel": "Find gatherings",
+      "url": "https://theamericanoutlaws.com/chapters/colorado-springs",
+      "barName": "The Brit Pub",
+      "barAddress": "645 S Sierra Madre St, Colorado Springs, CO 80903",
+      "barUrl": "https://greatbritish.net/"
+    },
+    {
+      "id": "fg-co6",
+      "tag": "Colorado — club soccer",
+      "heading": "Denver club supporter groups",
+      "body": "The Celtic's directory links Arsenal, Newcastle, West Ham, Aston Villa, Barcelona, and other local fan communities. Contact your group for upcoming gatherings.",
+      "linkLabel": "Find gatherings",
+      "url": "https://www.celticonmarket.com/denver-soccer-bar",
+      "barName": "The Celtic on Market",
+      "barAddress": "1400 Market St, Denver, CO 80202",
+      "barUrl": "https://www.celticonmarket.com/denver-soccer-bar"
+    },
+    {
+      "id": "fg-az1",
+      "tag": "Arizona — pro teams",
+      "heading": "Phoenix Rising FC",
+      "body": "Phoenix's USL Championship club and one of the most successful clubs in the league. Find tickets, schedules, and supporter info on the official site.",
+      "linkLabel": "Visit Phoenix Rising FC",
+      "url": "https://www.phxrisingfc.com/",
+      "barName": "The Kettle Black Kitchen & Pub",
+      "barAddress": "1 N 1st St #108, Phoenix, AZ 85004",
+      "barUrl": "https://www.kettleblackphoenix.com/"
+    },
+    {
+      "id": "fg-az2",
+      "tag": "Arizona — national team",
+      "heading": "American Outlaws Phoenix",
+      "body": "Connect with Phoenix-area USMNT and USWNT supporters. Find upcoming watch parties and current venue details on the chapter page.",
+      "linkLabel": "Find gatherings",
+      "url": "https://theamericanoutlaws.com/chapters/phoenix",
+      "barName": "George and Dragon",
+      "barAddress": "4240 N Central Ave, Phoenix, AZ 85012",
+      "barUrl": "https://www.georgeanddragonpub.com/"
+    },
+    {
+      "id": "fg-az3",
+      "tag": "Arizona — national team",
+      "heading": "American Outlaws Tucson",
+      "body": "Tucson's chapter of the U.S. national-team supporters. Find watch parties and current venue details on the chapter page.",
+      "linkLabel": "Find gatherings",
+      "url": "https://theamericanoutlaws.com/chapters/tucson",
+      "barName": "Beaver Street Brewery",
+      "barAddress": "11 S Beaver St, Flagstaff, AZ 86001",
+      "barUrl": "https://beaverstreetbrewery.com/"
+    },
+    {
+      "id": "fg-az4",
+      "tag": "Arizona — club soccer",
+      "heading": "Arizona club supporter groups",
+      "body": "George and Dragon in Phoenix hosts multiple European club supporter groups. Contact the pub directly for current group listings and match schedules.",
+      "linkLabel": "Find gatherings",
+      "url": "https://www.georgeanddragonpub.com/",
+      "barName": "George and Dragon",
+      "barAddress": "4240 N Central Ave, Phoenix, AZ 85012",
+      "barUrl": "https://www.georgeanddragonpub.com/"
+    },
+    {
+      "id": "fg-socal1",
+      "tag": "Southern California — pro teams",
+      "heading": "LA Galaxy Supporters",
+      "body": "The LA Galaxy's official supporter groups include the Angel City Brigade and LA Riot Squad. Find match info, supporter section details, and away travel on the official site.",
+      "linkLabel": "Visit LA Galaxy",
+      "url": "https://www.lagalaxy.com/supporters",
+      "barName": "Fox and Hounds",
+      "barAddress": "1279 Ventura Blvd, Studio City, CA 91604",
+      "barUrl": "https://www.foxandhoundsla.com/"
+    },
+    {
+      "id": "fg-socal2",
+      "tag": "Southern California — pro teams",
+      "heading": "LAFC 3252",
+      "body": "LAFC's official supporter group, the 3252, is one of the most vibrant supporter cultures in MLS. Find membership, tifo, and match information on the official site.",
+      "linkLabel": "Visit 3252",
+      "url": "https://www.3252.com/",
+      "barName": "Tom's Watch Bar",
+      "barAddress": "800 W Olympic Blvd, Los Angeles, CA 90015",
+      "barUrl": "https://www.tomswatchbar.com/"
+    },
+    {
+      "id": "fg-socal3",
+      "tag": "Southern California — pro teams",
+      "heading": "Angel City FC Supporters",
+      "body": "Angel City FC's supporter groups bring some of the best energy in the NWSL. Find match info, supporter section details, and community events on the official site.",
+      "linkLabel": "Visit Angel City FC",
+      "url": "https://www.angelcityfc.com/supporters",
+      "barName": "Ye Olde King's Head",
+      "barAddress": "116 Santa Monica Blvd, Santa Monica, CA 90401",
+      "barUrl": "https://www.yeoldekingshead.com/"
+    },
+    {
+      "id": "fg-socal4",
+      "tag": "Southern California — national team",
+      "heading": "American Outlaws Los Angeles",
+      "body": "LA's chapter of the U.S. national-team supporters. Find upcoming watch parties and current venue details on the chapter page.",
+      "linkLabel": "Find gatherings",
+      "url": "https://theamericanoutlaws.com/chapters/los-angeles",
+      "barName": "Joxer Daly's",
+      "barAddress": "11168 Washington Blvd, Culver City, CA 90232",
+      "barUrl": "https://www.joxerdalys.com/"
+    },
+    {
+      "id": "fg-socal5",
+      "tag": "Southern California — national team",
+      "heading": "American Outlaws San Diego",
+      "body": "San Diego's chapter of the U.S. national-team supporters. Find upcoming watch parties and current venue details on the chapter page.",
+      "linkLabel": "Find gatherings",
+      "url": "https://theamericanoutlaws.com/chapters/san-diego",
+      "barName": "Springbok Bar & Grill",
+      "barAddress": "9550 Waples St, San Diego, CA 92121",
+      "barUrl": "https://www.springbokbar.com/"
+    },
+    {
+      "id": "fg-norcal1",
+      "tag": "Northern California — pro teams",
+      "heading": "San Jose Earthquakes Supporters",
+      "body": "The Earthquakes' supporter groups include the Casbah and the San Jose Ultras. Find match info, supporter section details, and away travel on the official site.",
+      "linkLabel": "Visit SJ Earthquakes",
+      "url": "https://www.sjearthquakes.com/supporters",
+      "barName": "The Brit",
+      "barAddress": "173 W Santa Clara St, San Jose, CA 95113",
+      "barUrl": "https://www.thebritsanjose.com/"
+    },
+    {
+      "id": "fg-norcal2",
+      "tag": "Northern California — pro teams",
+      "heading": "Sacramento Republic FC Supporters",
+      "body": "Republic FC's supporter groups are among the most passionate in the USL. Find match info, supporter section details, and community events on the official site.",
+      "linkLabel": "Visit Republic FC",
+      "url": "https://www.sacrepublicfc.com/supporters",
+      "barName": "The Fox & Goose",
+      "barAddress": "1001 R St, Sacramento, CA 95811",
+      "barUrl": "https://www.foxandgoose.com/"
+    },
+    {
+      "id": "fg-norcal3",
+      "tag": "Northern California — national team",
+      "heading": "American Outlaws San Francisco",
+      "body": "The Bay Area's chapter of the U.S. national-team supporters. Find upcoming watch parties and current venue details on the chapter page.",
+      "linkLabel": "Find gatherings",
+      "url": "https://theamericanoutlaws.com/chapters/san-francisco",
+      "barName": "The Blarney Stone",
+      "barAddress": "5625 Geary Blvd, San Francisco, CA 94121",
+      "barUrl": "https://www.blarneystonesf.com/"
+    },
+    {
+      "id": "fg-or1",
+      "tag": "Oregon — pro teams",
+      "heading": "Portland Timbers Army",
+      "body": "The Timbers Army is one of the most celebrated supporter groups in MLS. Find membership, tifo, and match information on the official site.",
+      "linkLabel": "Visit Timbers Army",
+      "url": "https://www.timbersarmy.org/",
+      "barName": "Bitter Monk",
+      "barAddress": "727 SE Morrison St, Portland, OR 97214",
+      "barUrl": "https://www.bittermonkpdx.com/"
+    },
+    {
+      "id": "fg-or2",
+      "tag": "Oregon — pro teams",
+      "heading": "Portland Thorns Rose City Riveters",
+      "body": "The Rose City Riveters are the official supporter group of the Portland Thorns and one of the largest women's soccer supporter groups in the world.",
+      "linkLabel": "Visit Rose City Riveters",
+      "url": "https://www.rosecityriveters.com/",
+      "barName": "Bitter Monk",
+      "barAddress": "727 SE Morrison St, Portland, OR 97214",
+      "barUrl": "https://www.bittermonkpdx.com/"
+    },
+    {
+      "id": "fg-or3",
+      "tag": "Oregon — national team",
+      "heading": "American Outlaws Portland",
+      "body": "Portland's chapter of the U.S. national-team supporters. Find upcoming watch parties and current venue details on the chapter page.",
+      "linkLabel": "Find gatherings",
+      "url": "https://theamericanoutlaws.com/chapters/portland",
+      "barName": "The Cheerful Tortoise",
+      "barAddress": "1939 SW 6th Ave, Portland, OR 97201",
+      "barUrl": "https://www.cheerfultortoise.com/"
+    },
+    {
+      "id": "fg-wa1",
+      "tag": "Washington — pro teams",
+      "heading": "Sounders FC Supporters",
+      "body": "The Sounders' supporter groups — Emerald City Supporters, Gorilla FC, and Rave Green — are among the largest in MLS. Find match info and supporter section details on the official site.",
+      "linkLabel": "Visit Sounders FC",
+      "url": "https://www.soundersfc.com/supporters",
+      "barName": "Rough and Tumble Pub",
+      "barAddress": "116 1st Ave S, Seattle, WA 98104",
+      "barUrl": "https://www.roughandtumblepub.com/"
+    },
+    {
+      "id": "fg-wa2",
+      "tag": "Washington — pro teams",
+      "heading": "Seattle Reign FC Supporters",
+      "body": "The Reign's supporter groups bring strong energy to NWSL matches at Lumen Field. Find match info and supporter section details on the official site.",
+      "linkLabel": "Visit Seattle Reign",
+      "url": "https://www.reignfc.com/supporters",
+      "barName": "Atlantic Crossing",
+      "barAddress": "4214 University Way NE, Seattle, WA 98105",
+      "barUrl": "https://www.atlanticcrossing.com/"
+    },
+    {
+      "id": "fg-wa3",
+      "tag": "Washington — national team",
+      "heading": "American Outlaws Seattle",
+      "body": "Seattle's chapter of the U.S. national-team supporters. Find upcoming watch parties and current venue details on the chapter page.",
+      "linkLabel": "Find gatherings",
+      "url": "https://theamericanoutlaws.com/chapters/seattle",
+      "barName": "Fuel Sports Grill",
+      "barAddress": "2300 1st Ave, Seattle, WA 98121",
+      "barUrl": "https://www.fuelsportsgrill.com/"
+    },
+    {
+      "id": "fg-wa4",
+      "tag": "Washington — club soccer",
+      "heading": "Seattle club supporter groups",
+      "body": "George & Dragon in Seattle hosts multiple European club supporter groups including Arsenal, Chelsea, and Liverpool. Contact the pub for current group listings.",
+      "linkLabel": "Find gatherings",
+      "url": "https://www.georgeanddragonpub.net/",
+      "barName": "The George & Dragon",
+      "barAddress": "206 N 36th St, Seattle, WA 98103",
+      "barUrl": "https://www.georgeanddragonpub.net/"
+    },
+    {
+      "id": "fg-nv1",
+      "tag": "Nevada — pro teams",
+      "heading": "Las Vegas Lights FC",
+      "body": "Las Vegas's USL Championship club, known for its entertainment-focused matchday experience. Find tickets, schedules, and supporter info on the official site.",
+      "linkLabel": "Visit Las Vegas Lights FC",
+      "url": "https://www.lasvegaslightsfc.com/",
+      "barName": "Fado Irish Pub",
+      "barAddress": "3200 Las Vegas Blvd S, Las Vegas, NV 89109",
+      "barUrl": "https://fadoirishpub.com/las-vegas/"
+    },
+    {
+      "id": "fg-nv2",
+      "tag": "Nevada — national team",
+      "heading": "American Outlaws Las Vegas",
+      "body": "Las Vegas's chapter of the U.S. national-team supporters. Find upcoming watch parties and current venue details on the chapter page.",
+      "linkLabel": "Find gatherings",
+      "url": "https://theamericanoutlaws.com/chapters/las-vegas",
+      "barName": "Fado Irish Pub",
+      "barAddress": "3200 Las Vegas Blvd S, Las Vegas, NV 89109",
+      "barUrl": "https://fadoirishpub.com/las-vegas/"
+    }
+  ],
+  "jumpSections": [
+    {
+      "id": "soccer-pubs",
+      "label": "Soccer bars"
+    },
+    {
+      "id": "fan-groups",
+      "label": "Meet other fans"
+    },
+    {
+      "id": "latest-news",
+      "label": "Latest news"
+    },
+    {
+      "id": "how-to-watch",
+      "label": "How to watch"
+    },
+    {
+      "id": "pl-supporters",
+      "label": "Premier League groups"
+    }
+  ],
+  "plSupportersTitle": "Premier League Supporters' Groups",
+  "plSupportersIntro": "Find your team. Meet your people. Connect with fellow supporters across Colorado.",
+  "plSupportersNote": "Check the group's latest announcements before attending. Watch venues and opening times can change.",
+  "plSupportersGroups": [
+    {
+      "id": "plsg-co1",
+      "plTeam": "Arsenal",
+      "name": "Denver Gooners",
+      "area": "Denver metro",
+      "description": "Connect with fellow Arsenal supporters for watch parties and local community events.",
+      "venueLabel": "The Celtic on Market, Denver",
+      "venueNote": "",
+      "links": [
+        {
+          "label": "Join Facebook group",
+          "url": "https://www.facebook.com/groups/DenverGoonersSocial/",
+          "id": "msnWc5LmBw7VitUMSHo8M"
+        },
+        {
+          "label": "Social links",
+          "url": "https://linktr.ee/denvergooners",
+          "id": "MJC4y9x1I2kIqPygr7tPN"
+        }
+      ]
+    },
+    {
+      "id": "plsg-co2",
+      "plTeam": "Tottenham Hotspur",
+      "name": "Colorado Spurs",
+      "area": "Denver / Colorado Front Range",
+      "description": "Colorado-based Tottenham supporters gathering for matchdays and community events.",
+      "venueLabel": "Esters, Virginia Village, Denver",
+      "venueNote": "",
+      "links": [
+        {
+          "label": "Join Facebook group",
+          "url": "https://www.facebook.com/groups/coloradospurs",
+          "id": "dv7NglYVeEyuBfgoobxkB"
+        },
+        {
+          "label": "Group website",
+          "url": "https://cospurs.com/",
+          "id": "zxsvho8MZff0asleK5DuC"
+        }
+      ]
+    },
+    {
+      "id": "plsg-co3",
+      "plTeam": "Liverpool",
+      "name": "OLSC Denver (Colorado Reds)",
+      "area": "Denver",
+      "description": "Liverpool supporters' community welcoming local and visiting fans. The group's website states there is no membership fee.",
+      "venueLabel": "The Abbey Tavern, Denver",
+      "venueNote": "",
+      "links": [
+        {
+          "label": "Group website",
+          "url": "https://www.olscdenver.com/",
+          "id": "5kXqISmMI6xy4xcsidg8K"
+        }
+      ]
+    },
+    {
+      "id": "plsg-co4",
+      "plTeam": "Manchester United",
+      "name": "Colorado Red Devils",
+      "area": "Denver / Colorado",
+      "description": "Colorado Manchester United supporters' group listed in Manchester United's official supporters directory.",
+      "venueLabel": "The British Bulldog, Denver",
+      "venueNote": "",
+      "links": [
+        {
+          "label": "Facebook page",
+          "url": "https://www.facebook.com/CoRedDevilsFB",
+          "id": "jfYnerbnPpsBxPHfuWP_D"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/ColoradoRedDevils/",
+          "id": "MG-WUd9qLPCR48vwDsooO"
+        }
+      ]
+    },
+    {
+      "id": "plsg-co5",
+      "plTeam": "Manchester City",
+      "name": "Mile High Cityzens",
+      "area": "Denver",
+      "description": "Denver's Manchester City supporters' community, with social links and membership information.",
+      "venueLabel": "BARna Global Soccer & Tapas, Denver",
+      "venueNote": "",
+      "links": [
+        {
+          "label": "Social links and membership",
+          "url": "https://linktr.ee/milehighcityzens",
+          "id": "IQlHtc09cgj5AOuEbLuj0"
+        }
+      ]
+    },
+    {
+      "id": "plsg-co6",
+      "plTeam": "Chelsea",
+      "name": "Rocky Mountain Blues",
+      "area": "Denver / Rocky Mountain region",
+      "description": "Denver-based Chelsea supporters' community.",
+      "venueLabel": "",
+      "venueNote": "The British Bulldog is listed on the group's older website. Confirm current watch-party arrangements.",
+      "links": [
+        {
+          "label": "Join Facebook group",
+          "url": "https://www.facebook.com/groups/rockymountainblues/",
+          "id": "tJwI33uV4Y3Ut3UaFnbZG"
+        },
+        {
+          "label": "Group website",
+          "url": "https://rockymountainblues.wordpress.com/about/",
+          "id": "jEv0vjXuPN5YBlSkmQa1i"
+        }
+      ]
+    },
+    {
+      "id": "plsg-co7",
+      "plTeam": "Newcastle United",
+      "name": "Mile High Magpies",
+      "area": "Denver metro / Front Range",
+      "description": "Local Newcastle supporters' group listed in Newcastle United's official supporters directory.",
+      "venueLabel": "The Celtic on Market, Denver",
+      "venueNote": "",
+      "links": [
+        {
+          "label": "Facebook page",
+          "url": "https://www.facebook.com/MileHighMagpies",
+          "id": "EJcI6A_DjKd4fAqDD42qv"
+        }
+      ]
+    },
+    {
+      "id": "plsg-co8",
+      "plTeam": "West Ham United",
+      "name": "Mile High Hammers",
+      "area": "Denver",
+      "description": "Denver-based West Ham supporters connecting for matches.",
+      "venueLabel": "The Celtic on Market, Denver",
+      "venueNote": "",
+      "links": [
+        {
+          "label": "Facebook page",
+          "url": "https://www.facebook.com/MileHighHammers",
+          "id": "2mzOYzA2dt1f7NzsKEurV"
+        },
+        {
+          "label": "Group website",
+          "url": "https://www.milehighhammers.com/",
+          "id": "_CA-Pr-9pQYWuWzCkR26g"
+        }
+      ]
+    },
+    {
+      "id": "plsg-co9",
+      "plTeam": "Aston Villa",
+      "name": "Denver Villans",
+      "area": "Colorado Front Range",
+      "description": "A community for Aston Villa supporters across the Front Range.",
+      "venueLabel": "",
+      "venueNote": "Listed among The Celtic on Market's supporters' groups. Confirm the next gathering with the organizers.",
+      "links": [
+        {
+          "label": "Join Facebook group",
+          "url": "https://www.facebook.com/groups/denvervillans/",
+          "id": "GTfT7UObIC5DkOnnYLboL"
+        }
+      ]
+    },
+    {
+      "id": "plsg-co10",
+      "plTeam": "Arsenal",
+      "name": "Pikes Peak Gooners",
+      "area": "Colorado Springs",
+      "description": "Colorado Springs Arsenal supporters' group listed by Arsenal America.",
+      "venueLabel": "Urban Animal Brewery Downtown, 521 S. Tejon Street, Colorado Springs",
+      "venueNote": "",
+      "links": [
+        {
+          "label": "Find group social links",
+          "url": "https://arsenalamerica.com/branches/",
+          "id": "lhPGsuK2HDv7gBMo1IVJR"
+        }
+      ]
+    },
+    {
+      "id": "plsg-co11",
+      "plTeam": "Everton",
+      "name": "Colorado Evertonians",
+      "area": "Centennial / Colorado",
+      "description": "Connect with fellow Everton supporters in Colorado for matchdays and local community.",
+      "venueLabel": "Alpha Charlie's Tap & Tavern, Centennial",
+      "venueNote": "",
+      "links": [
+        {
+          "label": "Find group social links",
+          "url": "https://worldsoccertalk.com/supporters-groups/everton-supporters-groups/",
+          "id": "oaZQhucHcBZeKAhSnwTwM"
+        }
+      ]
+    }
+  ]
+}

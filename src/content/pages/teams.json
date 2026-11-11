@@ -1,0 +1,1267 @@
+{
+  "eyebrow": "Soccer Center",
+  "headline": "Soccer Teams by Region",
+  "body": "Professional clubs and college programs across the West. From MLS to USL, NWSL to NCAA — find the teams in your region.",
+  "proTitle": "Watch the Pros & College",
+  "proIntro": "Professional clubs across MLS, NWSL, USL Championship, USL Super League, and USL League One. Check each club's official site for current schedules, tickets, and rosters.",
+  "collegeTitle": "College & University Programs",
+  "collegeIntro": "NCAA Division I, II, and III programs across the region. Check each school's athletics site for current rosters, schedules, and coaching staff.",
+  "collegeNote": "Conference affiliations and program status can change. Verify current membership and active programs with the school's athletics department.",
+  "regions": [
+    {
+      "id": "colorado",
+      "name": "Colorado",
+      "proTeams": [
+        {
+          "id": "pro-rapids",
+          "tier": "MLS",
+          "name": "Colorado Rapids",
+          "location": "Commerce City, CO",
+          "venue": "Dick's Sporting Goods Park",
+          "description": "Colorado's Major League Soccer club, competing in the Western Conference since 1996.",
+          "linkLabel": "coloradorapids.com",
+          "url": "https://www.coloradorapids.com/"
+        },
+        {
+          "id": "pro-switchbacks",
+          "tier": "USL Championship",
+          "name": "Colorado Springs Switchbacks FC",
+          "location": "Colorado Springs, CO",
+          "venue": "Weidner Field",
+          "description": "Colorado Springs' USL Championship club, playing at Weidner Field in the heart of downtown.",
+          "linkLabel": "switchbacksfc.com",
+          "url": "https://www.switchbacksfc.com/"
+        },
+        {
+          "id": "pro-coloradofc",
+          "tier": "USL Super League",
+          "name": "Colorado FC",
+          "location": "Colorado",
+          "venue": "",
+          "description": "Colorado's professional women's club competing in the USL Super League.",
+          "linkLabel": "coloradofc.com",
+          "url": "https://www.coloradofc.com/"
+        },
+        {
+          "id": "pro-fcboulder",
+          "tier": "USL League One",
+          "name": "FC Boulder",
+          "location": "Boulder, CO",
+          "venue": "",
+          "description": "Boulder's USL League One club. Find schedules, tickets, and club information on the official site.",
+          "linkLabel": "fcboulder.com",
+          "url": "https://www.fcboulder.com/"
+        },
+        {
+          "id": "pro-summit",
+          "tier": "Professional",
+          "name": "Denver Summit FC",
+          "location": "Denver, CO",
+          "venue": "",
+          "description": "Denver's professional soccer club. Find current schedules, tickets, and club news on the official site.",
+          "linkLabel": "denversummitfc.com",
+          "url": "https://www.denversummitfc.com/"
+        }
+      ],
+      "collegeTeams": [
+        {
+          "id": "col-cu",
+          "division": "NCAA Division I",
+          "conference": "Pac-12",
+          "name": "CU Buffaloes Soccer",
+          "school": "University of Colorado Boulder",
+          "location": "Boulder, CO",
+          "description": "CU fields both men's and women's varsity soccer programs competing at the Division I level.",
+          "linkLabel": "cubuffs.com",
+          "url": "https://cubuffs.com/sports/womens-soccer"
+        },
+        {
+          "id": "col-csu",
+          "division": "NCAA Division I",
+          "conference": "Mountain West",
+          "name": "CSU Rams Soccer",
+          "school": "Colorado State University",
+          "location": "Fort Collins, CO",
+          "description": "CSU fields women's soccer in the Mountain West Conference.",
+          "linkLabel": "csuram.com",
+          "url": "https://csuram.com/sports/womens-soccer"
+        },
+        {
+          "id": "col-du",
+          "division": "NCAA Division I",
+          "conference": "Summit League",
+          "name": "Denver Pioneers Soccer",
+          "school": "University of Denver",
+          "location": "Denver, CO",
+          "description": "DU fields men's and women's soccer in the Summit League, with a strong tradition in both programs.",
+          "linkLabel": "denverpioneers.com",
+          "url": "https://denverpioneers.com/sports/womens-soccer"
+        },
+        {
+          "id": "col-unco",
+          "division": "NCAA Division I",
+          "conference": "Big Sky",
+          "name": "UNC Bears Soccer",
+          "school": "University of Northern Colorado",
+          "location": "Greeley, CO",
+          "description": "UNC competes in the Big Sky Conference with both men's and women's soccer programs.",
+          "linkLabel": "uncbears.com",
+          "url": "https://uncbears.com/sports/womens-soccer"
+        },
+        {
+          "id": "col-airforce",
+          "division": "NCAA Division I",
+          "conference": "Mountain West",
+          "name": "Air Force Falcons Soccer",
+          "school": "United States Air Force Academy",
+          "location": "Colorado Springs, CO",
+          "description": "The Air Force Academy fields women's soccer in the Mountain West Conference.",
+          "linkLabel": "goairforcefalcons.com",
+          "url": "https://www.goairforcefalcons.com/sports/womens-soccer"
+        },
+        {
+          "id": "col-cc",
+          "division": "NCAA Division III",
+          "conference": "SCAC",
+          "name": "Colorado College Tigers Soccer",
+          "school": "Colorado College",
+          "location": "Colorado Springs, CO",
+          "description": "Colorado College fields men's and women's soccer programs at the Division III level.",
+          "linkLabel": "cctigers.com",
+          "url": "https://cctigers.com/sports/womens-soccer"
+        },
+        {
+          "id": "col-mines",
+          "division": "NCAA Division II",
+          "conference": "RMAC",
+          "name": "Colorado School of Mines Orediggers",
+          "school": "Colorado School of Mines",
+          "location": "Golden, CO",
+          "description": "Mines competes in the RMAC with men's and women's soccer programs.",
+          "linkLabel": "minesathletics.com",
+          "url": "https://minesathletics.com/sports/womens-soccer"
+        },
+        {
+          "id": "col-mesa",
+          "division": "NCAA Division II",
+          "conference": "RMAC",
+          "name": "Colorado Mesa Mavericks Soccer",
+          "school": "Colorado Mesa University",
+          "location": "Grand Junction, CO",
+          "description": "CMU fields men's and women's soccer in the Rocky Mountain Athletic Conference.",
+          "linkLabel": "gomavs.com",
+          "url": "https://gomavs.com/sports/womens-soccer"
+        },
+        {
+          "id": "col-msu",
+          "division": "NCAA Division II",
+          "conference": "RMAC",
+          "name": "MSU Denver Roadrunners Soccer",
+          "school": "Metropolitan State University of Denver",
+          "location": "Denver, CO",
+          "description": "MSU Denver competes in the RMAC with men's and women's soccer programs.",
+          "linkLabel": "msudenverathletics.com",
+          "url": "https://msudenverathletics.com/sports/womens-soccer"
+        },
+        {
+          "id": "col-regis",
+          "division": "NCAA Division II",
+          "conference": "RMAC",
+          "name": "Regis Rangers Soccer",
+          "school": "Regis University",
+          "location": "Denver, CO",
+          "description": "Regis University fields men's and women's soccer in the Rocky Mountain Athletic Conference.",
+          "linkLabel": "regisrangers.com",
+          "url": "https://regisrangers.com/sports/womens-soccer"
+        },
+        {
+          "id": "col-ccu",
+          "division": "NCAA Division II",
+          "conference": "RMAC",
+          "name": "Colorado Christian Cougars Soccer",
+          "school": "Colorado Christian University",
+          "location": "Lakewood, CO",
+          "description": "CCU competes in the RMAC with men's and women's soccer programs.",
+          "linkLabel": "ccucougars.com",
+          "url": "https://ccucougars.com/sports/womens-soccer"
+        },
+        {
+          "id": "col-western",
+          "division": "NCAA Division II",
+          "conference": "RMAC",
+          "name": "Western Colorado Mountaineers Soccer",
+          "school": "Western Colorado University",
+          "location": "Gunnison, CO",
+          "description": "Western Colorado fields men's and women's soccer in the Rocky Mountain Athletic Conference.",
+          "linkLabel": "gowesternmountaineers.com",
+          "url": "https://gowesternmountaineers.com/sports/womens-soccer"
+        },
+        {
+          "id": "col-adams",
+          "division": "NCAA Division II",
+          "conference": "RMAC",
+          "name": "Adams State Grizzlies Soccer",
+          "school": "Adams State University",
+          "location": "Alamosa, CO",
+          "description": "Adams State competes in the RMAC with men's and women's soccer programs.",
+          "linkLabel": "adamsstategrizzlies.com",
+          "url": "https://adamsstategrizzlies.com/sports/womens-soccer"
+        },
+        {
+          "id": "col-fortlewis",
+          "division": "NCAA Division II",
+          "conference": "RMAC",
+          "name": "Fort Lewis Skyhawks Soccer",
+          "school": "Fort Lewis College",
+          "location": "Durango, CO",
+          "description": "Fort Lewis College fields men's and women's soccer in the Rocky Mountain Athletic Conference.",
+          "linkLabel": "fortlewisskyhawks.com",
+          "url": "https://fortlewisskyhawks.com/sports/womens-soccer"
+        }
+      ]
+    },
+    {
+      "id": "arizona",
+      "name": "Arizona",
+      "proTeams": [
+        {
+          "id": "az-rising",
+          "tier": "USL Championship",
+          "name": "Phoenix Rising FC",
+          "location": "Phoenix, AZ",
+          "venue": "Phoenix Rising Soccer Complex",
+          "description": "Phoenix's USL Championship club, one of the most successful clubs in the league's history.",
+          "linkLabel": "phxrisingfc.com",
+          "url": "https://www.phxrisingfc.com/"
+        },
+        {
+          "id": "az-fc-tucson",
+          "tier": "USL League One",
+          "name": "FC Tucson",
+          "location": "Tucson, AZ",
+          "venue": "Kino North Stadium",
+          "description": "Tucson's professional soccer club competing in USL League One.",
+          "linkLabel": "fctucson.com",
+          "url": "https://www.fctucson.com/"
+        }
+      ],
+      "collegeTeams": [
+        {
+          "id": "az-asu",
+          "division": "NCAA Division I",
+          "conference": "Big 12",
+          "name": "Arizona State Sun Devils Soccer",
+          "school": "Arizona State University",
+          "location": "Tempe, AZ",
+          "description": "ASU fields women's soccer in the Big 12 Conference.",
+          "linkLabel": "thesundevils.com",
+          "url": "https://thesundevils.com/sports/womens-soccer"
+        },
+        {
+          "id": "az-ua",
+          "division": "NCAA Division I",
+          "conference": "Big 12",
+          "name": "Arizona Wildcats Soccer",
+          "school": "University of Arizona",
+          "location": "Tucson, AZ",
+          "description": "UA fields women's soccer in the Big 12 Conference.",
+          "linkLabel": "arizonawildcats.com",
+          "url": "https://arizonawildcats.com/sports/womens-soccer"
+        },
+        {
+          "id": "az-nau",
+          "division": "NCAA Division I",
+          "conference": "Big Sky",
+          "name": "NAU Lumberjacks Soccer",
+          "school": "Northern Arizona University",
+          "location": "Flagstaff, AZ",
+          "description": "NAU fields women's soccer in the Big Sky Conference.",
+          "linkLabel": "nauathletics.com",
+          "url": "https://nauathletics.com/sports/womens-soccer"
+        },
+        {
+          "id": "az-gcu",
+          "division": "NCAA Division I",
+          "conference": "WAC",
+          "name": "GCU Antelopes Soccer",
+          "school": "Grand Canyon University",
+          "location": "Phoenix, AZ",
+          "description": "GCU fields men's and women's soccer in the Western Athletic Conference.",
+          "linkLabel": "gcuathletics.com",
+          "url": "https://gcuathletics.com/sports/womens-soccer"
+        },
+        {
+          "id": "az-embry-riddle",
+          "division": "NCAA Division II",
+          "conference": "PacWest",
+          "name": "Embry-Riddle Eagles Soccer",
+          "school": "Embry-Riddle Aeronautical University (Prescott)",
+          "location": "Prescott, AZ",
+          "description": "Embry-Riddle Prescott fields men's and women's soccer in the PacWest Conference.",
+          "linkLabel": "embryriddleathletics.com",
+          "url": "https://embryriddleathletics.com/sports/womens-soccer"
+        },
+        {
+          "id": "az-arizona-christian",
+          "division": "NCAA Division II",
+          "conference": "Independent",
+          "name": "Arizona Christian Firestorm Soccer",
+          "school": "Arizona Christian University",
+          "location": "Phoenix, AZ",
+          "description": "ACU fields men's and women's soccer at the NCAA Division II level.",
+          "linkLabel": "acuathletics.com",
+          "url": "https://acuathletics.com/sports/womens-soccer"
+        },
+        {
+          "id": "az-southwestern",
+          "division": "NCAA Division III",
+          "conference": "Independent",
+          "name": "Southwestern College Storm Soccer",
+          "school": "Southwestern College",
+          "location": "Phoenix, AZ",
+          "description": "Southwestern College fields soccer at the NCAA Division III level.",
+          "linkLabel": "swcstorm.com",
+          "url": "https://swcstorm.com/sports/womens-soccer"
+        }
+      ]
+    },
+    {
+      "id": "socal",
+      "name": "Southern California",
+      "proTeams": [
+        {
+          "id": "socal-lafc",
+          "tier": "MLS",
+          "name": "Los Angeles FC",
+          "location": "Los Angeles, CA",
+          "venue": "BMO Stadium",
+          "description": "LA's MLS club, founded in 2018 and playing at BMO Stadium in Exposition Park.",
+          "linkLabel": "lafc.com",
+          "url": "https://www.lafc.com/"
+        },
+        {
+          "id": "socal-lagalaxy",
+          "tier": "MLS",
+          "name": "LA Galaxy",
+          "location": "Carson, CA",
+          "venue": "Dignity Health Sports Park",
+          "description": "One of MLS's founding clubs and the most decorated team in league history.",
+          "linkLabel": "lagalaxy.com",
+          "url": "https://www.lagalaxy.com/"
+        },
+        {
+          "id": "socal-sandiego",
+          "tier": "MLS",
+          "name": "San Diego FC",
+          "location": "San Diego, CA",
+          "venue": "Snapdragon Stadium",
+          "description": "San Diego's MLS expansion club, joining the league in 2025.",
+          "linkLabel": "sandiegofc.com",
+          "url": "https://www.sandiegofc.com/"
+        },
+        {
+          "id": "socal-angel-city",
+          "tier": "NWSL",
+          "name": "Angel City FC",
+          "location": "Los Angeles, CA",
+          "venue": "BMO Stadium",
+          "description": "LA's NWSL club, founded in 2022 and one of the most prominent women's clubs in the U.S.",
+          "linkLabel": "angelcityfc.com",
+          "url": "https://www.angelcityfc.com/"
+        },
+        {
+          "id": "socal-wave",
+          "tier": "NWSL",
+          "name": "San Diego Wave FC",
+          "location": "San Diego, CA",
+          "venue": "Snapdragon Stadium",
+          "description": "San Diego's NWSL club, competing since 2022.",
+          "linkLabel": "sandiegowavefc.com",
+          "url": "https://www.sandiegowavefc.com/"
+        },
+        {
+          "id": "socal-la-galaxy-ii",
+          "tier": "USL Championship",
+          "name": "LA Galaxy II",
+          "location": "Carson, CA",
+          "venue": "Dignity Health Sports Park",
+          "description": "The LA Galaxy's reserve and development team competing in USL Championship.",
+          "linkLabel": "lagalaxy.com",
+          "url": "https://www.lagalaxy.com/la-galaxy-ii"
+        }
+      ],
+      "collegeTeams": [
+        {
+          "id": "socal-ucla",
+          "division": "NCAA Division I",
+          "conference": "Big Ten",
+          "name": "UCLA Bruins Soccer",
+          "school": "University of California, Los Angeles",
+          "location": "Los Angeles, CA",
+          "description": "UCLA fields men's and women's soccer programs with multiple national championships.",
+          "linkLabel": "uclabruins.com",
+          "url": "https://uclabruins.com/sports/womens-soccer"
+        },
+        {
+          "id": "socal-usc",
+          "division": "NCAA Division I",
+          "conference": "Big Ten",
+          "name": "USC Trojans Soccer",
+          "school": "University of Southern California",
+          "location": "Los Angeles, CA",
+          "description": "USC fields men's and women's soccer in the Big Ten Conference.",
+          "linkLabel": "usctrojans.com",
+          "url": "https://usctrojans.com/sports/womens-soccer"
+        },
+        {
+          "id": "socal-ucsd",
+          "division": "NCAA Division I",
+          "conference": "Big West",
+          "name": "UC San Diego Tritons Soccer",
+          "school": "UC San Diego",
+          "location": "San Diego, CA",
+          "description": "UCSD fields men's and women's soccer in the Big West Conference.",
+          "linkLabel": "ucsdtritons.com",
+          "url": "https://ucsdtritons.com/sports/womens-soccer"
+        },
+        {
+          "id": "socal-ucsb",
+          "division": "NCAA Division I",
+          "conference": "Big West",
+          "name": "UCSB Gauchos Soccer",
+          "school": "UC Santa Barbara",
+          "location": "Santa Barbara, CA",
+          "description": "UCSB fields men's and women's soccer in the Big West Conference.",
+          "linkLabel": "ucsbgauchos.com",
+          "url": "https://ucsbgauchos.com/sports/womens-soccer"
+        },
+        {
+          "id": "socal-sdsu",
+          "division": "NCAA Division I",
+          "conference": "Mountain West",
+          "name": "SDSU Aztecs Soccer",
+          "school": "San Diego State University",
+          "location": "San Diego, CA",
+          "description": "SDSU fields women's soccer in the Mountain West Conference.",
+          "linkLabel": "goaztecs.com",
+          "url": "https://goaztecs.com/sports/womens-soccer"
+        },
+        {
+          "id": "socal-lmu",
+          "division": "NCAA Division I",
+          "conference": "WCC",
+          "name": "LMU Lions Soccer",
+          "school": "Loyola Marymount University",
+          "location": "Los Angeles, CA",
+          "description": "LMU fields men's and women's soccer in the West Coast Conference.",
+          "linkLabel": "lmulions.com",
+          "url": "https://lmulions.com/sports/womens-soccer"
+        },
+        {
+          "id": "socal-calpoly-pomona",
+          "division": "NCAA Division II",
+          "conference": "CCAA",
+          "name": "Cal Poly Pomona Broncos Soccer",
+          "school": "California State Polytechnic University, Pomona",
+          "location": "Pomona, CA",
+          "description": "Cal Poly Pomona fields men's and women's soccer in the California Collegiate Athletic Association.",
+          "linkLabel": "broncoathletics.com",
+          "url": "https://broncoathletics.com/sports/womens-soccer"
+        },
+        {
+          "id": "socal-csudh",
+          "division": "NCAA Division II",
+          "conference": "CCAA",
+          "name": "CSU Dominguez Hills Toros Soccer",
+          "school": "California State University, Dominguez Hills",
+          "location": "Carson, CA",
+          "description": "CSUDH fields men's and women's soccer in the CCAA.",
+          "linkLabel": "csudhtoros.com",
+          "url": "https://csudhtoros.com/sports/womens-soccer"
+        },
+        {
+          "id": "socal-csusb",
+          "division": "NCAA Division II",
+          "conference": "CCAA",
+          "name": "CSU San Bernardino Coyotes Soccer",
+          "school": "California State University, San Bernardino",
+          "location": "San Bernardino, CA",
+          "description": "CSUSB fields men's and women's soccer in the California Collegiate Athletic Association.",
+          "linkLabel": "csusbcoyotes.com",
+          "url": "https://csusbcoyotes.com/sports/womens-soccer"
+        },
+        {
+          "id": "socal-csla",
+          "division": "NCAA Division II",
+          "conference": "CCAA",
+          "name": "Cal State LA Golden Eagles Soccer",
+          "school": "California State University, Los Angeles",
+          "location": "Los Angeles, CA",
+          "description": "Cal State LA fields men's and women's soccer in the CCAA.",
+          "linkLabel": "calstatelasports.com",
+          "url": "https://calstatelasports.com/sports/womens-soccer"
+        },
+        {
+          "id": "socal-ucsd-d2",
+          "division": "NCAA Division II",
+          "conference": "CCAA",
+          "name": "UC San Diego (former D2) — now D1",
+          "school": "UC San Diego",
+          "location": "San Diego, CA",
+          "description": "UCSD transitioned to Division I; listed above under D1.",
+          "linkLabel": "ucsdtritons.com",
+          "url": "https://ucsdtritons.com/sports/womens-soccer"
+        },
+        {
+          "id": "socal-pointloma",
+          "division": "NCAA Division II",
+          "conference": "PacWest",
+          "name": "Point Loma Sea Lions Soccer",
+          "school": "Point Loma Nazarene University",
+          "location": "San Diego, CA",
+          "description": "Point Loma fields men's and women's soccer in the PacWest Conference.",
+          "linkLabel": "pointlomasealions.com",
+          "url": "https://pointlomasealions.com/sports/womens-soccer"
+        },
+        {
+          "id": "socal-biola",
+          "division": "NCAA Division II",
+          "conference": "PacWest",
+          "name": "Biola Eagles Soccer",
+          "school": "Biola University",
+          "location": "La Mirada, CA",
+          "description": "Biola fields men's and women's soccer in the PacWest Conference.",
+          "linkLabel": "biolaeagles.com",
+          "url": "https://biolaeagles.com/sports/womens-soccer"
+        },
+        {
+          "id": "socal-azusa",
+          "division": "NCAA Division II",
+          "conference": "PacWest",
+          "name": "Azusa Pacific Cougars Soccer",
+          "school": "Azusa Pacific University",
+          "location": "Azusa, CA",
+          "description": "APU fields men's and women's soccer in the PacWest Conference.",
+          "linkLabel": "apucougars.com",
+          "url": "https://apucougars.com/sports/womens-soccer"
+        },
+        {
+          "id": "socal-vanguard",
+          "division": "NCAA Division III",
+          "conference": "SCIAC",
+          "name": "Vanguard Lions Soccer",
+          "school": "Vanguard University",
+          "location": "Costa Mesa, CA",
+          "description": "Vanguard fields men's and women's soccer in the Southern California Intercollegiate Athletic Conference.",
+          "linkLabel": "vanguardlions.com",
+          "url": "https://vanguardlions.com/sports/womens-soccer"
+        },
+        {
+          "id": "socal-claremont",
+          "division": "NCAA Division III",
+          "conference": "SCIAC",
+          "name": "Claremont-Mudd-Scripps Stags Soccer",
+          "school": "Claremont McKenna, Harvey Mudd & Scripps Colleges",
+          "location": "Claremont, CA",
+          "description": "CMS fields men's and women's soccer in the SCIAC.",
+          "linkLabel": "cmssports.com",
+          "url": "https://cmssports.com/sports/womens-soccer"
+        },
+        {
+          "id": "socal-pomona-pitzer",
+          "division": "NCAA Division III",
+          "conference": "SCIAC",
+          "name": "Pomona-Pitzer Sagehens Soccer",
+          "school": "Pomona College & Pitzer College",
+          "location": "Claremont, CA",
+          "description": "Pomona-Pitzer fields men's and women's soccer in the SCIAC.",
+          "linkLabel": "sagehens.com",
+          "url": "https://sagehens.com/sports/womens-soccer"
+        },
+        {
+          "id": "socal-caltech",
+          "division": "NCAA Division III",
+          "conference": "SCIAC",
+          "name": "Caltech Beavers Soccer",
+          "school": "California Institute of Technology",
+          "location": "Pasadena, CA",
+          "description": "Caltech fields men's and women's soccer in the Southern California Intercollegiate Athletic Conference.",
+          "linkLabel": "goathletics.caltech.edu",
+          "url": "https://goathletics.caltech.edu/sports/womens-soccer"
+        },
+        {
+          "id": "socal-chapman",
+          "division": "NCAA Division III",
+          "conference": "SCIAC",
+          "name": "Chapman Panthers Soccer",
+          "school": "Chapman University",
+          "location": "Orange, CA",
+          "description": "Chapman fields men's and women's soccer in the SCIAC.",
+          "linkLabel": "chapmanathletics.com",
+          "url": "https://chapmanathletics.com/sports/womens-soccer"
+        },
+        {
+          "id": "socal-laverne",
+          "division": "NCAA Division III",
+          "conference": "SCIAC",
+          "name": "La Verne Leopards Soccer",
+          "school": "University of La Verne",
+          "location": "La Verne, CA",
+          "description": "La Verne fields men's and women's soccer in the SCIAC.",
+          "linkLabel": "lavernesports.com",
+          "url": "https://lavernesports.com/sports/womens-soccer"
+        },
+        {
+          "id": "socal-occidental",
+          "division": "NCAA Division III",
+          "conference": "SCIAC",
+          "name": "Occidental Tigers Soccer",
+          "school": "Occidental College",
+          "location": "Los Angeles, CA",
+          "description": "Occidental fields men's and women's soccer in the SCIAC.",
+          "linkLabel": "oxyathletics.com",
+          "url": "https://oxyathletics.com/sports/womens-soccer"
+        },
+        {
+          "id": "socal-redlands",
+          "division": "NCAA Division III",
+          "conference": "SCIAC",
+          "name": "Redlands Bulldogs Soccer",
+          "school": "University of Redlands",
+          "location": "Redlands, CA",
+          "description": "Redlands fields men's and women's soccer in the SCIAC.",
+          "linkLabel": "redlandsathletics.com",
+          "url": "https://redlandsathletics.com/sports/womens-soccer"
+        },
+        {
+          "id": "socal-whittier",
+          "division": "NCAA Division III",
+          "conference": "SCIAC",
+          "name": "Whittier Poets Soccer",
+          "school": "Whittier College",
+          "location": "Whittier, CA",
+          "description": "Whittier fields men's and women's soccer in the SCIAC.",
+          "linkLabel": "whittiersports.com",
+          "url": "https://whittiersports.com/sports/womens-soccer"
+        }
+      ]
+    },
+    {
+      "id": "norcal",
+      "name": "Northern California",
+      "proTeams": [
+        {
+          "id": "norcal-earthquakes",
+          "tier": "MLS",
+          "name": "San Jose Earthquakes",
+          "location": "San Jose, CA",
+          "venue": "PayPal Park",
+          "description": "One of MLS's founding clubs, the Earthquakes have been a fixture of Bay Area soccer since 1996.",
+          "linkLabel": "sjearthquakes.com",
+          "url": "https://www.sjearthquakes.com/"
+        },
+        {
+          "id": "norcal-republic",
+          "tier": "USL Championship",
+          "name": "Sacramento Republic FC",
+          "location": "Sacramento, CA",
+          "venue": "Heart Health Park",
+          "description": "Sacramento's USL Championship club, one of the most supported clubs in the league.",
+          "linkLabel": "sacrepublicfc.com",
+          "url": "https://www.sacrepublicfc.com/"
+        },
+        {
+          "id": "norcal-bay-fc",
+          "tier": "NWSL",
+          "name": "Bay FC",
+          "location": "San Jose, CA",
+          "venue": "PayPal Park",
+          "description": "The Bay Area's NWSL club, joining the league in 2024.",
+          "linkLabel": "bayfc.com",
+          "url": "https://www.bayfc.com/"
+        }
+      ],
+      "collegeTeams": [
+        {
+          "id": "norcal-stanford",
+          "division": "NCAA Division I",
+          "conference": "ACC",
+          "name": "Stanford Cardinal Soccer",
+          "school": "Stanford University",
+          "location": "Stanford, CA",
+          "description": "Stanford is one of the most decorated college soccer programs in the country, with multiple national championships.",
+          "linkLabel": "gostanford.com",
+          "url": "https://gostanford.com/sports/womens-soccer"
+        },
+        {
+          "id": "norcal-cal",
+          "division": "NCAA Division I",
+          "conference": "ACC",
+          "name": "Cal Bears Soccer",
+          "school": "University of California, Berkeley",
+          "location": "Berkeley, CA",
+          "description": "Cal fields men's and women's soccer in the ACC.",
+          "linkLabel": "calbears.com",
+          "url": "https://calbears.com/sports/womens-soccer"
+        },
+        {
+          "id": "norcal-ucdavis",
+          "division": "NCAA Division I",
+          "conference": "Big West",
+          "name": "UC Davis Aggies Soccer",
+          "school": "UC Davis",
+          "location": "Davis, CA",
+          "description": "UC Davis fields men's and women's soccer in the Big West Conference.",
+          "linkLabel": "ucdavisaggies.com",
+          "url": "https://ucdavisaggies.com/sports/womens-soccer"
+        },
+        {
+          "id": "norcal-scu",
+          "division": "NCAA Division I",
+          "conference": "WCC",
+          "name": "Santa Clara Broncos Soccer",
+          "school": "Santa Clara University",
+          "location": "Santa Clara, CA",
+          "description": "SCU fields men's and women's soccer in the West Coast Conference.",
+          "linkLabel": "santaclarabroncos.com",
+          "url": "https://santaclarabroncos.com/sports/womens-soccer"
+        },
+        {
+          "id": "norcal-sjsu",
+          "division": "NCAA Division I",
+          "conference": "Mountain West",
+          "name": "SJSU Spartans Soccer",
+          "school": "San Jose State University",
+          "location": "San Jose, CA",
+          "description": "SJSU fields women's soccer in the Mountain West Conference.",
+          "linkLabel": "sjsuspartans.com",
+          "url": "https://sjsuspartans.com/sports/womens-soccer"
+        },
+        {
+          "id": "norcal-csueb",
+          "division": "NCAA Division II",
+          "conference": "CCAA",
+          "name": "CSU East Bay Pioneers Soccer",
+          "school": "California State University, East Bay",
+          "location": "Hayward, CA",
+          "description": "CSUEB fields men's and women's soccer in the California Collegiate Athletic Association.",
+          "linkLabel": "csuebpioneers.com",
+          "url": "https://csuebpioneers.com/sports/womens-soccer"
+        },
+        {
+          "id": "norcal-csuchico",
+          "division": "NCAA Division II",
+          "conference": "CCAA",
+          "name": "Chico State Wildcats Soccer",
+          "school": "California State University, Chico",
+          "location": "Chico, CA",
+          "description": "Chico State fields men's and women's soccer in the CCAA.",
+          "linkLabel": "chicostateathleticss.com",
+          "url": "https://chicostateathleticss.com/sports/womens-soccer"
+        },
+        {
+          "id": "norcal-csumonterey",
+          "division": "NCAA Division II",
+          "conference": "CCAA",
+          "name": "CSU Monterey Bay Otters Soccer",
+          "school": "California State University, Monterey Bay",
+          "location": "Seaside, CA",
+          "description": "CSUMB fields men's and women's soccer in the California Collegiate Athletic Association.",
+          "linkLabel": "otterathletics.com",
+          "url": "https://otterathletics.com/sports/womens-soccer"
+        },
+        {
+          "id": "norcal-sfsu",
+          "division": "NCAA Division II",
+          "conference": "CCAA",
+          "name": "SF State Gators Soccer",
+          "school": "San Francisco State University",
+          "location": "San Francisco, CA",
+          "description": "SF State fields men's and women's soccer in the CCAA.",
+          "linkLabel": "sfstategators.com",
+          "url": "https://sfstategators.com/sports/womens-soccer"
+        },
+        {
+          "id": "norcal-sonoma",
+          "division": "NCAA Division II",
+          "conference": "CCAA",
+          "name": "Sonoma State Seawolves Soccer",
+          "school": "Sonoma State University",
+          "location": "Rohnert Park, CA",
+          "description": "Sonoma State fields men's and women's soccer in the California Collegiate Athletic Association.",
+          "linkLabel": "sonomaseawolves.com",
+          "url": "https://sonomaseawolves.com/sports/womens-soccer"
+        },
+        {
+          "id": "norcal-stanislaus",
+          "division": "NCAA Division II",
+          "conference": "CCAA",
+          "name": "CSU Stanislaus Warriors Soccer",
+          "school": "California State University, Stanislaus",
+          "location": "Turlock, CA",
+          "description": "CSU Stanislaus fields men's and women's soccer in the CCAA.",
+          "linkLabel": "csusstanwarriors.com",
+          "url": "https://csusstanwarriors.com/sports/womens-soccer"
+        },
+        {
+          "id": "norcal-dominican",
+          "division": "NCAA Division II",
+          "conference": "PacWest",
+          "name": "Dominican Penguins Soccer",
+          "school": "Dominican University of California",
+          "location": "San Rafael, CA",
+          "description": "Dominican fields men's and women's soccer in the PacWest Conference.",
+          "linkLabel": "dominicanpenguins.com",
+          "url": "https://dominicanpenguins.com/sports/womens-soccer"
+        },
+        {
+          "id": "norcal-holy-names",
+          "division": "NCAA Division II",
+          "conference": "PacWest",
+          "name": "Holy Names Hawks Soccer",
+          "school": "Holy Names University",
+          "location": "Oakland, CA",
+          "description": "Holy Names fields women's soccer in the PacWest Conference.",
+          "linkLabel": "hnuhawks.com",
+          "url": "https://hnuhawks.com/sports/womens-soccer"
+        },
+        {
+          "id": "norcal-ucsc",
+          "division": "NCAA Division III",
+          "conference": "Independent",
+          "name": "UC Santa Cruz Banana Slugs Soccer",
+          "school": "UC Santa Cruz",
+          "location": "Santa Cruz, CA",
+          "description": "UCSC fields men's and women's soccer at the Division III level.",
+          "linkLabel": "goslugs.com",
+          "url": "https://goslugs.com/sports/womens-soccer"
+        },
+        {
+          "id": "norcal-mills",
+          "division": "NCAA Division III",
+          "conference": "Independent",
+          "name": "Mills Cyclones Soccer",
+          "school": "Mills College",
+          "location": "Oakland, CA",
+          "description": "Mills College fields women's soccer at the NCAA Division III level.",
+          "linkLabel": "millsathletics.com",
+          "url": "https://millsathletics.com/sports/womens-soccer"
+        }
+      ]
+    },
+    {
+      "id": "oregon",
+      "name": "Oregon",
+      "proTeams": [
+        {
+          "id": "or-timbers",
+          "tier": "MLS",
+          "name": "Portland Timbers",
+          "location": "Portland, OR",
+          "venue": "Providence Park",
+          "description": "Portland's MLS club, known for one of the most passionate supporter cultures in American soccer.",
+          "linkLabel": "timbers.com",
+          "url": "https://www.timbers.com/"
+        },
+        {
+          "id": "or-thorns",
+          "tier": "NWSL",
+          "name": "Portland Thorns FC",
+          "location": "Portland, OR",
+          "venue": "Providence Park",
+          "description": "Portland's NWSL club and one of the most successful and supported women's clubs in the world.",
+          "linkLabel": "thorns.com",
+          "url": "https://www.thorns.com/"
+        }
+      ],
+      "collegeTeams": [
+        {
+          "id": "or-uoregon",
+          "division": "NCAA Division I",
+          "conference": "Big Ten",
+          "name": "Oregon Ducks Soccer",
+          "school": "University of Oregon",
+          "location": "Eugene, OR",
+          "description": "Oregon fields women's soccer in the Big Ten Conference.",
+          "linkLabel": "goducks.com",
+          "url": "https://goducks.com/sports/womens-soccer"
+        },
+        {
+          "id": "or-osu",
+          "division": "NCAA Division I",
+          "conference": "Big Ten",
+          "name": "Oregon State Beavers Soccer",
+          "school": "Oregon State University",
+          "location": "Corvallis, OR",
+          "description": "OSU fields women's soccer in the Big Ten Conference.",
+          "linkLabel": "osubeavers.com",
+          "url": "https://osubeavers.com/sports/womens-soccer"
+        },
+        {
+          "id": "or-portland",
+          "division": "NCAA Division I",
+          "conference": "WCC",
+          "name": "Portland Pilots Soccer",
+          "school": "University of Portland",
+          "location": "Portland, OR",
+          "description": "UP fields men's and women's soccer in the West Coast Conference, with a strong tradition in both programs.",
+          "linkLabel": "portlandpilots.com",
+          "url": "https://portlandpilots.com/sports/womens-soccer"
+        },
+        {
+          "id": "or-gonzaga",
+          "division": "NCAA Division I",
+          "conference": "WCC",
+          "name": "Gonzaga Bulldogs Soccer",
+          "school": "Gonzaga University",
+          "location": "Spokane, WA",
+          "description": "Gonzaga fields men's and women's soccer in the West Coast Conference.",
+          "linkLabel": "gozags.com",
+          "url": "https://gozags.com/sports/womens-soccer"
+        },
+        {
+          "id": "or-wou",
+          "division": "NCAA Division II",
+          "conference": "GNAC",
+          "name": "Western Oregon Wolves Soccer",
+          "school": "Western Oregon University",
+          "location": "Monmouth, OR",
+          "description": "Western Oregon fields men's and women's soccer in the Great Northwest Athletic Conference.",
+          "linkLabel": "wouwolves.com",
+          "url": "https://wouwolves.com/sports/womens-soccer"
+        },
+        {
+          "id": "or-sou",
+          "division": "NCAA Division II",
+          "conference": "GNAC",
+          "name": "Southern Oregon Raiders Soccer",
+          "school": "Southern Oregon University",
+          "location": "Ashland, OR",
+          "description": "SOU fields men's and women's soccer in the Great Northwest Athletic Conference.",
+          "linkLabel": "sou.edu/athletics",
+          "url": "https://www.sou.edu/athletics/sports/womens-soccer"
+        },
+        {
+          "id": "or-eou",
+          "division": "NCAA Division II",
+          "conference": "Cascade Collegiate",
+          "name": "Eastern Oregon Mountaineers Soccer",
+          "school": "Eastern Oregon University",
+          "location": "La Grande, OR",
+          "description": "Eastern Oregon fields men's and women's soccer in the Cascade Collegiate Conference.",
+          "linkLabel": "eoumountaineers.com",
+          "url": "https://eoumountaineers.com/sports/womens-soccer"
+        },
+        {
+          "id": "or-concordia",
+          "division": "NCAA Division II",
+          "conference": "Cascade Collegiate",
+          "name": "Concordia Cavaliers Soccer",
+          "school": "Concordia University (Portland)",
+          "location": "Portland, OR",
+          "description": "Concordia fields men's and women's soccer in the Cascade Collegiate Conference.",
+          "linkLabel": "cubears.com",
+          "url": "https://cubears.com/sports/womens-soccer"
+        },
+        {
+          "id": "or-linfield",
+          "division": "NCAA Division III",
+          "conference": "NWC",
+          "name": "Linfield Wildcats Soccer",
+          "school": "Linfield University",
+          "location": "McMinnville, OR",
+          "description": "Linfield fields men's and women's soccer in the Northwest Conference.",
+          "linkLabel": "linfield.edu/athletics",
+          "url": "https://www.linfield.edu/athletics/sports/womens-soccer"
+        },
+        {
+          "id": "or-willamette",
+          "division": "NCAA Division III",
+          "conference": "NWC",
+          "name": "Willamette Bearcats Soccer",
+          "school": "Willamette University",
+          "location": "Salem, OR",
+          "description": "Willamette fields men's and women's soccer in the Northwest Conference.",
+          "linkLabel": "willamettebearcats.com",
+          "url": "https://willamettebearcats.com/sports/womens-soccer"
+        },
+        {
+          "id": "or-pacific",
+          "division": "NCAA Division III",
+          "conference": "NWC",
+          "name": "Pacific Boxers Soccer",
+          "school": "Pacific University",
+          "location": "Forest Grove, OR",
+          "description": "Pacific University fields men's and women's soccer in the Northwest Conference.",
+          "linkLabel": "goboxers.com",
+          "url": "https://goboxers.com/sports/womens-soccer"
+        },
+        {
+          "id": "or-george-fox",
+          "division": "NCAA Division III",
+          "conference": "NWC",
+          "name": "George Fox Bruins Soccer",
+          "school": "George Fox University",
+          "location": "Newberg, OR",
+          "description": "George Fox fields men's and women's soccer in the Northwest Conference.",
+          "linkLabel": "georgefoxbruins.com",
+          "url": "https://georgefoxbruins.com/sports/womens-soccer"
+        },
+        {
+          "id": "or-lewis-clark",
+          "division": "NCAA Division III",
+          "conference": "NWC",
+          "name": "Lewis & Clark Pioneers Soccer",
+          "school": "Lewis & Clark College",
+          "location": "Portland, OR",
+          "description": "Lewis & Clark fields men's and women's soccer in the Northwest Conference.",
+          "linkLabel": "lcpioneers.com",
+          "url": "https://lcpioneers.com/sports/womens-soccer"
+        }
+      ]
+    },
+    {
+      "id": "washington",
+      "name": "Washington",
+      "proTeams": [
+        {
+          "id": "wa-sounders",
+          "tier": "MLS",
+          "name": "Seattle Sounders FC",
+          "location": "Seattle, WA",
+          "venue": "Lumen Field",
+          "description": "Seattle's MLS club and two-time MLS Cup champion, with one of the largest supporter bases in the league.",
+          "linkLabel": "soundersfc.com",
+          "url": "https://www.soundersfc.com/"
+        },
+        {
+          "id": "wa-reign",
+          "tier": "NWSL",
+          "name": "Seattle Reign FC",
+          "location": "Seattle, WA",
+          "venue": "Lumen Field",
+          "description": "Seattle's NWSL club, one of the founding members of the league.",
+          "linkLabel": "reignfc.com",
+          "url": "https://www.reignfc.com/"
+        },
+        {
+          "id": "wa-tacoma",
+          "tier": "USL Championship",
+          "name": "Tacoma Defiance",
+          "location": "Tacoma, WA",
+          "venue": "Cheney Stadium",
+          "description": "The Seattle Sounders' USL Championship affiliate, based in Tacoma.",
+          "linkLabel": "soundersfc.com/tacoma-defiance",
+          "url": "https://www.soundersfc.com/tacoma-defiance"
+        }
+      ],
+      "collegeTeams": [
+        {
+          "id": "wa-uw",
+          "division": "NCAA Division I",
+          "conference": "Big Ten",
+          "name": "Washington Huskies Soccer",
+          "school": "University of Washington",
+          "location": "Seattle, WA",
+          "description": "UW fields men's and women's soccer in the Big Ten Conference.",
+          "linkLabel": "gohuskies.com",
+          "url": "https://gohuskies.com/sports/womens-soccer"
+        },
+        {
+          "id": "wa-wsu",
+          "division": "NCAA Division I",
+          "conference": "Pac-12",
+          "name": "Washington State Cougars Soccer",
+          "school": "Washington State University",
+          "location": "Pullman, WA",
+          "description": "WSU fields women's soccer in the Pac-12 Conference.",
+          "linkLabel": "wsucougars.com",
+          "url": "https://wsucougars.com/sports/womens-soccer"
+        },
+        {
+          "id": "wa-seattle-u",
+          "division": "NCAA Division I",
+          "conference": "WAC",
+          "name": "Seattle Redhawks Soccer",
+          "school": "Seattle University",
+          "location": "Seattle, WA",
+          "description": "Seattle U fields men's and women's soccer in the Western Athletic Conference.",
+          "linkLabel": "seattleredhawks.com",
+          "url": "https://seattleredhawks.com/sports/womens-soccer"
+        },
+        {
+          "id": "wa-gonzaga",
+          "division": "NCAA Division I",
+          "conference": "WCC",
+          "name": "Gonzaga Bulldogs Soccer",
+          "school": "Gonzaga University",
+          "location": "Spokane, WA",
+          "description": "Gonzaga fields men's and women's soccer in the West Coast Conference.",
+          "linkLabel": "gozags.com",
+          "url": "https://gozags.com/sports/womens-soccer"
+        },
+        {
+          "id": "wa-cwu",
+          "division": "NCAA Division II",
+          "conference": "GNAC",
+          "name": "Central Washington Wildcats Soccer",
+          "school": "Central Washington University",
+          "location": "Ellensburg, WA",
+          "description": "CWU fields men's and women's soccer in the Great Northwest Athletic Conference.",
+          "linkLabel": "cwuwildcats.com",
+          "url": "https://cwuwildcats.com/sports/womens-soccer"
+        },
+        {
+          "id": "wa-wwu",
+          "division": "NCAA Division II",
+          "conference": "GNAC",
+          "name": "Western Washington Vikings Soccer",
+          "school": "Western Washington University",
+          "location": "Bellingham, WA",
+          "description": "WWU fields men's and women's soccer in the Great Northwest Athletic Conference.",
+          "linkLabel": "wwuvikings.com",
+          "url": "https://wwuvikings.com/sports/womens-soccer"
+        },
+        {
+          "id": "wa-ewu",
+          "division": "NCAA Division I",
+          "conference": "Big Sky",
+          "name": "Eastern Washington Eagles Soccer",
+          "school": "Eastern Washington University",
+          "location": "Cheney, WA",
+          "description": "EWU fields women's soccer in the Big Sky Conference.",
+          "linkLabel": "ewueagles.com",
+          "url": "https://ewueagles.com/sports/womens-soccer"
+        },
+        {
+          "id": "wa-spu",
+          "division": "NCAA Division II",
+          "conference": "GNAC",
+          "name": "Seattle Pacific Falcons Soccer",
+          "school": "Seattle Pacific University",
+          "location": "Seattle, WA",
+          "description": "SPU fields men's and women's soccer in the Great Northwest Athletic Conference.",
+          "linkLabel": "spufalcons.com",
+          "url": "https://spufalcons.com/sports/womens-soccer"
+        },
+        {
+          "id": "wa-sfu",
+          "division": "NCAA Division II",
+          "conference": "GNAC",
+          "name": "Saint Martin's Saints Soccer",
+          "school": "Saint Martin's University",
+          "location": "Lacey, WA",
+          "description": "Saint Martin's fields men's and women's soccer in the Great Northwest Athletic Conference.",
+          "linkLabel": "smusalumni.com/athletics",
+          "url": "https://smusalumni.com/athletics/sports/womens-soccer"
+        },
+        {
+          "id": "wa-nwu",
+          "division": "NCAA Division III",
+          "conference": "NWC",
+          "name": "Whitworth Pirates Soccer",
+          "school": "Whitworth University",
+          "location": "Spokane, WA",
+          "description": "Whitworth fields men's and women's soccer in the Northwest Conference.",
+          "linkLabel": "whitworthpirates.com",
+          "url": "https://whitworthpirates.com/sports/womens-soccer"
+        },
+        {
+          "id": "wa-whitman",
+          "division": "NCAA Division III",
+          "conference": "NWC",
+          "name": "Whitman Missionaries Soccer",
+          "school": "Whitman College",
+          "location": "Walla Walla, WA",
+          "description": "Whitman fields men's and women's soccer in the Northwest Conference.",
+          "linkLabel": "whitmanmissionaries.com",
+          "url": "https://whitmanmissionaries.com/sports/womens-soccer"
+        },
+        {
+          "id": "wa-plu",
+          "division": "NCAA Division III",
+          "conference": "NWC",
+          "name": "PLU Lutes Soccer",
+          "school": "Pacific Lutheran University",
+          "location": "Tacoma, WA",
+          "description": "PLU fields men's and women's soccer in the Northwest Conference.",
+          "linkLabel": "golutes.com",
+          "url": "https://golutes.com/sports/womens-soccer"
+        },
+        {
+          "id": "wa-puget-sound",
+          "division": "NCAA Division III",
+          "conference": "NWC",
+          "name": "Puget Sound Loggers Soccer",
+          "school": "University of Puget Sound",
+          "location": "Tacoma, WA",
+          "description": "Puget Sound fields men's and women's soccer in the Northwest Conference.",
+          "linkLabel": "pugetsoundloggers.com",
+          "url": "https://pugetsoundloggers.com/sports/womens-soccer"
+        }
+      ]
+    },
+    {
+      "id": "nevada",
+      "name": "Nevada",
+      "proTeams": [
+        {
+          "id": "nv-lights",
+          "tier": "USL Championship",
+          "name": "Las Vegas Lights FC",
+          "location": "Las Vegas, NV",
+          "venue": "Cashman Field",
+          "description": "Las Vegas's USL Championship club, known for its entertainment-focused matchday experience.",
+          "linkLabel": "lasvegaslightsfc.com",
+          "url": "https://www.lasvegaslightsfc.com/"
+        }
+      ],
+      "collegeTeams": [
+        {
+          "id": "nv-unlv",
+          "division": "NCAA Division I",
+          "conference": "Mountain West",
+          "name": "UNLV Rebels Soccer",
+          "school": "University of Nevada, Las Vegas",
+          "location": "Las Vegas, NV",
+          "description": "UNLV fields women's soccer in the Mountain West Conference.",
+          "linkLabel": "unlvrebels.com",
+          "url": "https://unlvrebels.com/sports/womens-soccer"
+        },
+        {
+          "id": "nv-unr",
+          "division": "NCAA Division I",
+          "conference": "Mountain West",
+          "name": "Nevada Wolf Pack Soccer",
+          "school": "University of Nevada, Reno",
+          "location": "Reno, NV",
+          "description": "Nevada fields women's soccer in the Mountain West Conference.",
+          "linkLabel": "nevadawolfpack.com",
+          "url": "https://nevadawolfpack.com/sports/womens-soccer"
+        },
+        {
+          "id": "nv-great-basin",
+          "division": "NCAA Division II",
+          "conference": "PacWest",
+          "name": "Great Basin College Soccer",
+          "school": "Great Basin College",
+          "location": "Elko, NV",
+          "description": "Great Basin College fields soccer at the NCAA Division II level in the PacWest Conference.",
+          "linkLabel": "gbcathletics.com",
+          "url": "https://gbcathletics.com/sports/womens-soccer"
+        },
+        {
+          "id": "nv-sierra-nevada",
+          "division": "NCAA Division III",
+          "conference": "Independent",
+          "name": "Sierra Nevada College Eagles Soccer",
+          "school": "Sierra Nevada University",
+          "location": "Incline Village, NV",
+          "description": "Sierra Nevada University fields men's and women's soccer at the Division III level.",
+          "linkLabel": "snuathletics.com",
+          "url": "https://snuathletics.com/sports/womens-soccer"
+        }
+      ]
+    }
+  ]
+}

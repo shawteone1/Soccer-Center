@@ -1,0 +1,106 @@
+/* SC-UX-20261031-R3
+ * Existing member experiences only. Public routes, coach-token pages and demos
+ * have no scope class. No data, feature-gate, media or calendar logic changes.
+ * Keep the accepted R2 homepage stylesheet and its more specific rules intact.
+ */
+.sc-member-polish,
+.sc-fan-polish .fa-shell {
+  --pp-text-muted: 215 15% 39%;
+  --pp-border: 214 19% 87%;
+  --pp-page-bg: 210 20% 96%;
+  --font-heading: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-family: var(--font-heading);
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.5;
+  min-width: 0;
+}
+.sc-member-polish .sc-member-content,
+.sc-fan-polish .fa-shell { background: #f3f5f7; }
+.sc-member-polish .sc-member-content { min-width: 0; }
+.sc-member-polish .pp-shell { --pp-text-muted: 215 15% 39%; --pp-border: 214 19% 87%; }
+.sc-member-polish :is(h1,h2,h3),
+.sc-fan-polish :is(h1,h2,h3) { line-height: 1.3; letter-spacing: -0.02em; overflow-wrap: anywhere; }
+.sc-member-polish :is(p,dd,label),
+.sc-fan-polish :is(p,dd,label) { overflow-wrap: anywhere; }
+.sc-member-polish .pp-card,
+.sc-fan-polish .fa-card { border-radius: 16px; box-shadow: 0 1px 2px rgb(17 35 52 / 0.035); min-width: 0; }
+.sc-member-polish .sc-section-heading { flex-wrap: wrap; gap: 0.75rem; }
+.sc-member-polish .sc-section-heading h3 { font-size: 1rem; font-weight: 650; min-width: 0; }
+.sc-member-polish :is(.pp-btn-primary,.pp-btn-outline,.sc-control),
+.sc-fan-polish .fa-edit-btn {
+  min-height: 44px; border-radius: 8px; display: inline-flex;
+  align-items: center; justify-content: center; gap: 0.5rem;
+  padding: 0.625rem 0.875rem; font-size: 0.875rem; line-height: 1.25;
+  font-weight: 600; max-width: 100%;
+}
+.sc-member-polish .pp-chip { min-height: 40px; padding: 0.5rem 0.75rem; }
+.sc-member-polish :is(button,a,input,select,textarea):focus-visible,
+.sc-fan-polish :is(button,a,input,select,textarea):focus-visible {
+  outline: 2px solid #2563eb !important; outline-offset: 3px;
+}
+.sc-member-polish button:disabled,
+.sc-fan-polish button:disabled { cursor: not-allowed; }
+.sc-member-polish button svg,
+.sc-fan-polish button svg { flex-shrink: 0; }
+.sc-member-polish :is(input:not([type="checkbox"]):not([type="radio"]):not([type="file"]):not([type="range"]):not([type="hidden"]),select,textarea),
+.sc-fan-polish :is(input:not([type="checkbox"]):not([type="radio"]):not([type="file"]):not([type="range"]):not([type="hidden"]),select,textarea) {
+  min-height: 44px; border-radius: 8px; max-width: 100%;
+}
+.sc-member-polish :is(textarea,select),
+.sc-fan-polish :is(textarea,select) { line-height: 1.5; }
+.sc-member-polish header button[aria-label="Account menu"] { min-height: 44px; min-width: 44px; }
+.sc-member-polish [role="menu"] button { min-height: 44px; }
+.sc-member-polish [role="menu"] button:focus-visible { outline-offset: -3px; }
+/* Preserve calendar geometry and intentional horizontal strips; no global
+ * button minimum or overflow-x:hidden that could conceal layout failures. */
+.sc-member-polish .pp-home-columns > *,
+.sc-fan-polish main > * { min-width: 0; }
+.sc-member-polish .pp-home-player-name { overflow-wrap: anywhere; }
+.sc-member-polish .pp-home-player-meta { white-space: normal; overflow-wrap: anywhere; }
+.sc-member-polish .sc-player-content { padding-top: 1.5rem; }
+.sc-member-polish .sc-player-identity { border-radius: 16px; }
+.sc-member-polish .sc-player-cover {
+  position: relative;
+  background-image: linear-gradient(115deg, #0d1926, #183d60) !important;
+}
+.sc-member-polish .sc-player-cover::after {
+  content: ""; position: absolute; inset: 0; pointer-events: none;
+  /* Subtle pitch markings, deliberately decorative and independent of data. */
+  background: linear-gradient(90deg, transparent 49.8%, rgb(255 255 255 / 0.08) 50%, transparent 50.2%);
+}
+.sc-member-polish .sc-player-identity-body { padding: 0 1.5rem 1.5rem; }
+.sc-member-polish .sc-player-identity h1 { font-size: clamp(1.625rem, 3vw, 2.125rem); letter-spacing: -0.035em; }
+.sc-member-polish .sc-player-avatar-row { gap: 1rem; position: relative; }
+.sc-member-polish .sc-player-actions { flex-wrap: wrap; justify-content: flex-end; }
+.sc-member-polish .sc-player-photo-action { width: 44px; height: 44px; right: -8px; bottom: -4px; }
+.sc-member-polish .sc-player-photo-action svg { width: 16px; height: 16px; }
+.sc-member-polish .sc-player-club { display: flex; align-items: center; gap: 0.5rem; margin-top: 0.625rem; font-weight: 600; font-size: 0.9375rem; overflow-wrap: anywhere; }
+.sc-member-polish .sc-player-club img { width: 28px; height: 28px; object-fit: contain; flex-shrink: 0; }
+.sc-member-polish .sc-player-tabs { background: white !important; border: 1px solid #d8dfe5; padding: 0.375rem; gap: 0.375rem; }
+.sc-member-polish .sc-player-tabs button { min-height: 48px; min-width: max-content; padding: 0.625rem 0.875rem; font-size: 0.875rem; border: 1px solid transparent; }
+.sc-member-polish .sc-player-tabs button[aria-pressed="true"] { background: #eaf2fb !important; border-color: #c4d8ec; color: #173e63 !important; box-shadow: none !important; }
+.sc-member-polish .sc-player-tabs button svg { width: 16px; height: 16px; }
+.sc-member-polish .sc-player-sections { display: grid; grid-template-columns: minmax(0,1fr); gap: 1rem; }
+.sc-member-polish .sc-player-sections > * { margin-top: 0 !important; min-width: 0; }
+.sc-member-polish .sc-player-page dl { grid-template-columns: minmax(6rem, 1fr) minmax(0, 1.5fr); }
+.sc-member-polish .sc-player-page dd { min-width: 0; font-weight: 500; }
+.sc-member-polish .sc-player-page :is(.text-\[10px\],.text-\[11px\]) { font-size: 0.75rem; line-height: 1.5; }
+.sc-member-polish .sc-player-page [role="alert"] { line-height: 1.5; }
+@media (max-width: 639px) {
+  .sc-member-polish .sc-player-content { padding: 0.875rem 0.75rem calc(2rem + env(safe-area-inset-bottom,0px)); }
+  .sc-member-polish .sc-player-identity-body { padding: 0 1rem 1.125rem; }
+  .sc-member-polish .sc-player-avatar-row { flex-wrap: wrap; }
+  .sc-member-polish .sc-player-actions { margin-top: 0.5rem; flex: 1 1 100%; justify-content: stretch; }
+  .sc-member-polish .sc-player-actions > button { flex: 1 1 0; }
+  .sc-member-polish .sc-player-tabs button { flex-direction: column; gap: 0.25rem; font-size: 0.75rem; padding: 0.5rem 0.625rem; }
+  .sc-member-polish .pp-card.p-5 { padding: 1rem; }
+  .sc-member-polish :is(input:not([type="checkbox"]):not([type="radio"]):not([type="file"]):not([type="range"]):not([type="hidden"]),select,textarea),
+  .sc-fan-polish :is(input:not([type="checkbox"]):not([type="radio"]):not([type="file"]):not([type="range"]):not([type="hidden"]),select,textarea) { font-size: 16px; }
+}
+@media (max-width: 1023px) {
+  .sc-member-polish .pp-home-body { padding-bottom: calc(6rem + env(safe-area-inset-bottom,0px)); }
+  .sc-fan-polish main { padding-bottom: calc(6rem + env(safe-area-inset-bottom,0px)); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .sc-member-polish :is(button,a), .sc-fan-polish :is(button,a) { transition: none; }
+}

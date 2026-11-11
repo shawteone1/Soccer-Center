@@ -1,0 +1,4028 @@
+{
+  "schemaVersion": 1,
+  "asOf": "2026-11-06",
+  "timezone": "America/Denver",
+  "selection": "15-club research shortlist; not a verified largest-club ranking",
+  "clubs": [
+    {
+      "id": "storm",
+      "name": "Colorado Storm",
+      "kind": "club",
+      "area": "Front Range",
+      "website": "https://coloradostorm.com/",
+      "programs": [
+        "Recreational",
+        "Competitive",
+        "National platform",
+        "Futsal",
+        "Adaptive"
+      ],
+      "summary": "Broad pathway from introductory soccer to national platforms; regional team details need confirmation.",
+      "sources": [
+        {
+          "url": "https://coloradostorm.com/",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Broad pathway from introductory soccer to national platforms; regional team details need confirmation."
+        },
+        {
+          "url": "https://coloradostorm.com/scholarships-fundraising",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Club lists financial-support process; awards are not guaranteed."
+        },
+        {
+          "url": "https://coloradostorm.com/staff/aaron-nagel",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Official biography says tenure with CRYSC since 2016; this is organizational tenure, not a separately verified Executive Director appointment date."
+        },
+        {
+          "url": "https://coloradostorm.com/staff",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Official club staff listing; appointment date not stated."
+        },
+        {
+          "url": "https://coloradostorm.com/soccer-camps-in-castle-rock/labor-day-clinic-castle-rock",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Official club staff listing; appointment date not stated.",
+          "ref": "turn802view4"
+        },
+        {
+          "url": "https://coloradostorm.com/soccer-tournaments/rmfc",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Official club staff listing; appointment date not stated.",
+          "ref": "turn825search7"
+        },
+        {
+          "url": "https://coloradostorm.com/soccer-camps-in-castle-rock/development-day-camp-castle-rock",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Official club staff listing; appointment date not stated.",
+          "ref": "turn825search8"
+        },
+        {
+          "url": "https://coloradostorm.com/",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Sparks, recreational, competitive, national platform, futsal and adaptive soccer are listed.",
+          "ref": "turn798search4"
+        },
+        {
+          "url": "https://coloradostorm.com/",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Club reports educating 600+ coaches annually; this is a club-reported activity count, not an outcome measure.",
+          "ref": "turn798search4"
+        },
+        {
+          "url": "https://coloradostorm.com/",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Club reports 1,000+ college commitments cumulatively, not per season.",
+          "ref": "turn798search4"
+        }
+      ],
+      "size": [],
+      "fees": [],
+      "leadership": [
+        {
+          "name": "Aaron Nagel",
+          "role": "Executive Director",
+          "startDate": null,
+          "joinedDate": "2016",
+          "source": {
+            "url": "https://coloradostorm.com/staff/aaron-nagel",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Official biography says tenure with CRYSC since 2016; this is organizational tenure, not a separately verified Executive Director appointment date."
+          },
+          "dateBasis": "role start as published",
+          "status": "observed",
+          "joinedContext": "CRYSC tenure per biography"
+        },
+        {
+          "name": "Adrian Jones",
+          "role": "Director of National Platforms — Castle Rock",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://coloradostorm.com/staff",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Official club staff listing; appointment date not stated."
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "Ash Hopkins",
+          "role": "Technical Director — Central",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://coloradostorm.com/staff",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Official club staff listing; appointment date not stated."
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "Anthony Presnell",
+          "role": "College Placement Program Director",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://coloradostorm.com/staff",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Official club staff listing; appointment date not stated."
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "Alex Martinez",
+          "role": "U9–U19 Director of Coaching — Castle Rock",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://coloradostorm.com/staff",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Official club staff listing; appointment date not stated."
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "Joe McNab",
+          "role": "Technical Director — Castle Rock",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://coloradostorm.com/soccer-camps-in-castle-rock/labor-day-clinic-castle-rock",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Official club staff listing; appointment date not stated.",
+            "ref": "turn802view4"
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "Marcus Owerko",
+          "role": "Director of Tournaments",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://coloradostorm.com/soccer-tournaments/rmfc",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Official club staff listing; appointment date not stated.",
+            "ref": "turn825search7"
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "Kyle Wilson Kjellberg",
+          "role": "Director of Facilities & Camps — Castle Rock",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://coloradostorm.com/soccer-camps-in-castle-rock/development-day-camp-castle-rock",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Official club staff listing; appointment date not stated.",
+            "ref": "turn825search8"
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        }
+      ],
+      "history": [],
+      "questions": [
+        "Ask for the complete team budget, training locations and weekly commitment.",
+        "Confirm available teams for the player’s age, gender and level."
+      ],
+      "reviewStatus": "partial",
+      "outcomes": null,
+      "turnoverRate": null,
+      "facts": [
+        {
+          "label": "Pathway",
+          "value": "Sparks, recreational, competitive, national platform, futsal and adaptive soccer are listed.",
+          "source": {
+            "url": "https://coloradostorm.com/",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Sparks, recreational, competitive, national platform, futsal and adaptive soccer are listed.",
+            "ref": "turn798search4"
+          }
+        },
+        {
+          "label": "Coach education",
+          "value": "Club reports educating 600+ coaches annually; this is a club-reported activity count, not an outcome measure.",
+          "source": {
+            "url": "https://coloradostorm.com/",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Club reports educating 600+ coaches annually; this is a club-reported activity count, not an outcome measure.",
+            "ref": "turn798search4"
+          }
+        },
+        {
+          "label": "College placement",
+          "value": "Club reports 1,000+ college commitments cumulatively, not per season.",
+          "source": {
+            "url": "https://coloradostorm.com/",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Club reports 1,000+ college commitments cumulatively, not per season.",
+            "ref": "turn798search4"
+          }
+        }
+      ],
+      "gaps": [
+        "Search extraction of /staff incorrectly showed no results. The same public page’s SSR data contains staff; eight-page directory not exhaustively reviewed. Role dates missing unless explicitly noted."
+      ]
+    },
+    {
+      "id": "united",
+      "name": "Colorado United",
+      "kind": "club",
+      "area": "South metro",
+      "website": "https://www.coloradounitedsoccer.com/",
+      "programs": [
+        "Recreational",
+        "Rec+",
+        "Competitive",
+        "National platform"
+      ],
+      "summary": "Competitive U11–U19 programs sit alongside recreational and development pathways.",
+      "sources": [
+        {
+          "url": "https://www.coloradounitedsoccer.com/competitive-overview",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Competitive U11–U19 programs sit alongside recreational and development pathways."
+        },
+        {
+          "url": "https://www.coloradounitedsoccer.com/scholorships",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Need-based partial registration support; confirm current eligibility and deadline."
+        },
+        {
+          "url": "https://www.coloradounitedsoccer.com/staff/staff-bios",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Biography specifies June 1, 2023 as club start date; CEO role appointment date not separately stated.",
+          "ref": "turn792view1"
+        },
+        {
+          "url": "https://www.coloradounitedsoccer.com/staff",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Official club staff listing; appointment date not stated.",
+          "ref": "turn792view0"
+        },
+        {
+          "url": "https://www.coloradounitedsoccer.com/staff/staff-bios",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Joined club in 2017 and held multiple capacities; Operations Director appointment not separately dated.",
+          "ref": "turn792view1"
+        },
+        {
+          "url": "https://www.coloradounitedsoccer.com/staff/staff-bios",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Biography states more than 20 years at the club in various roles; no fixed date inferred from an undated relative-duration statement.",
+          "ref": "turn807view1"
+        },
+        {
+          "url": "https://www.coloradounitedsoccer.com/staff/staff-bios",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Copa/Rec head oversees TOPSoccer, Lollipops, Rec, Rec+ and Copa.",
+          "ref": "turn807view1"
+        },
+        {
+          "url": "https://www.coloradounitedsoccer.com/staff/staff-bios",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "CEO biography lists US Soccer A and UEFA A licenses; Michael Posen lists US Soccer B and TOPSoccer coaching/instructor certifications.",
+          "ref": "turn792view1"
+        },
+        {
+          "url": "https://www.coloradounitedsoccer.com/staff/staff-bios",
+          "checkedDate": "2026-11-06",
+          "period": "2023-06-01",
+          "status": "observed",
+          "note": "Phil Nielsen joined Colorado United; current role is CEO.",
+          "ref": "turn792view1"
+        },
+        {
+          "url": "https://www.coloradounitedsoccer.com/rec--registration",
+          "checkedDate": "2026-11-06",
+          "period": "Fall 2026",
+          "status": "observed",
+          "note": "Published registration price; payment plans offered. Other costs not itemized here."
+        },
+        {
+          "url": "https://www.coloradounitedsoccer.com/rec--registration",
+          "checkedDate": "2026-11-06",
+          "period": "2026/27",
+          "status": "observed",
+          "note": "Published registration price; payment plans offered. Other costs not itemized here."
+        }
+      ],
+      "size": [
+        {
+          "value": 5000,
+          "unit": "players",
+          "period": null,
+          "status": "undated",
+          "note": "Approximately 3,500 recreational and 1,500 competitive; reporting season not stated.",
+          "source": {
+            "url": "https://www.coloradounitedsoccer.com/about",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "undated",
+            "note": "Approximately 3,500 recreational and 1,500 competitive; reporting season not stated."
+          }
+        }
+      ],
+      "fees": [
+        {
+          "program": "Rec+",
+          "ages": "U9–U12",
+          "amount": 390,
+          "currency": "USD",
+          "unit": "one season",
+          "period": "Fall 2026",
+          "notes": "Published registration price; payment plans offered. Other costs not itemized here.",
+          "status": "observed",
+          "source": {
+            "url": "https://www.coloradounitedsoccer.com/rec--registration",
+            "checkedDate": "2026-11-06",
+            "period": "Fall 2026",
+            "status": "observed",
+            "note": "Published registration price; payment plans offered. Other costs not itemized here."
+          }
+        },
+        {
+          "program": "Rec+",
+          "ages": "U9–U12",
+          "amount": 650,
+          "currency": "USD",
+          "unit": "two seasons",
+          "period": "2026/27",
+          "notes": "Published registration price; payment plans offered. Other costs not itemized here.",
+          "status": "observed",
+          "source": {
+            "url": "https://www.coloradounitedsoccer.com/rec--registration",
+            "checkedDate": "2026-11-06",
+            "period": "2026/27",
+            "status": "observed",
+            "note": "Published registration price; payment plans offered. Other costs not itemized here."
+          }
+        }
+      ],
+      "leadership": [
+        {
+          "name": "Phil Nielsen",
+          "role": "Chief Executive Officer",
+          "startDate": null,
+          "joinedDate": "2023-06-01",
+          "source": {
+            "url": "https://www.coloradounitedsoccer.com/staff/staff-bios",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Biography specifies June 1, 2023 as club start date; CEO role appointment date not separately stated.",
+            "ref": "turn792view1"
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "Andy Sweetland",
+          "role": "Chief Financial Officer",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://www.coloradounitedsoccer.com/staff",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Official club staff listing; appointment date not stated.",
+            "ref": "turn792view0"
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "Caitlyn Moses",
+          "role": "Operations Director",
+          "startDate": null,
+          "joinedDate": "2017",
+          "source": {
+            "url": "https://www.coloradounitedsoccer.com/staff/staff-bios",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Joined club in 2017 and held multiple capacities; Operations Director appointment not separately dated.",
+            "ref": "turn792view1"
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "Barry Mantle",
+          "role": "Head of Coaching — Competitive",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://www.coloradounitedsoccer.com/staff/staff-bios",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Biography states more than 20 years at the club in various roles; no fixed date inferred from an undated relative-duration statement.",
+            "ref": "turn807view1"
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "Michael Posen",
+          "role": "Head of Coaching — Copa & Rec",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://www.coloradounitedsoccer.com/staff",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Official club staff listing; appointment date not stated.",
+            "ref": "turn792view0"
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "Amber Matthews",
+          "role": "GA Director & Player Well-Being Coordinator",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://www.coloradounitedsoccer.com/staff",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Official club staff listing; appointment date not stated.",
+            "ref": "turn792view0"
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "Dannelle Lewandowski",
+          "role": "GA Aspire & Girls U15–U19 Director",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://www.coloradounitedsoccer.com/staff",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Official club staff listing; appointment date not stated.",
+            "ref": "turn792view0"
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "Seth Trembly",
+          "role": "MLS Next Director",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://www.coloradounitedsoccer.com/staff",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Official club staff listing; appointment date not stated.",
+            "ref": "turn792view0"
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "Jim “Snoop” Schneiderhahn",
+          "role": "Girls U13–U14 Director & College Recruitment Director",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://www.coloradounitedsoccer.com/staff",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Official club staff listing; appointment date not stated.",
+            "ref": "turn792view0"
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "Shay Trembly",
+          "role": "EA & Boys U13–U14 Director",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://www.coloradounitedsoccer.com/staff",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Official club staff listing; appointment date not stated.",
+            "ref": "turn792view0"
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "Brian Cvilikas",
+          "role": "Futsal & Boys U15–U19 Director",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://www.coloradounitedsoccer.com/staff",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Official club staff listing; appointment date not stated.",
+            "ref": "turn792view0"
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        }
+      ],
+      "history": [
+        {
+          "date": "2023-06-01",
+          "event": "Phil Nielsen joined Colorado United; current role is CEO.",
+          "source": {
+            "url": "https://www.coloradounitedsoccer.com/staff/staff-bios",
+            "checkedDate": "2026-11-06",
+            "period": "2023-06-01",
+            "status": "observed",
+            "note": "Phil Nielsen joined Colorado United; current role is CEO.",
+            "ref": "turn792view1"
+          }
+        }
+      ],
+      "questions": [
+        "Ask for the complete team budget, training locations and weekly commitment.",
+        "Confirm available teams for the player’s age, gender and level."
+      ],
+      "reviewStatus": "partial",
+      "outcomes": null,
+      "turnoverRate": null,
+      "facts": [
+        {
+          "label": "Recreational leadership scope",
+          "value": "Copa/Rec head oversees TOPSoccer, Lollipops, Rec, Rec+ and Copa.",
+          "source": {
+            "url": "https://www.coloradounitedsoccer.com/staff/staff-bios",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Copa/Rec head oversees TOPSoccer, Lollipops, Rec, Rec+ and Copa.",
+            "ref": "turn807view1"
+          }
+        },
+        {
+          "label": "Coaching credentials",
+          "value": "CEO biography lists US Soccer A and UEFA A licenses; Michael Posen lists US Soccer B and TOPSoccer coaching/instructor certifications.",
+          "source": {
+            "url": "https://www.coloradounitedsoccer.com/staff/staff-bios",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "CEO biography lists US Soccer A and UEFA A licenses; Michael Posen lists US Soccer B and TOPSoccer coaching/instructor certifications.",
+            "ref": "turn792view1"
+          }
+        }
+      ],
+      "gaps": [
+        "Most current-role appointment dates are not stated. Barry Mantle’s 20+ years is organizational tenure, not proof of tenure in current role."
+      ]
+    },
+    {
+      "id": "rush",
+      "name": "Colorado Rush",
+      "kind": "club",
+      "area": "Front Range",
+      "website": "https://www.coloradorush.com/",
+      "programs": [
+        "Grassroots",
+        "Competitive",
+        "Camps"
+      ],
+      "summary": "Club-published profile describes six Colorado regions; regional fees and placement must be checked separately.",
+      "sources": [
+        {
+          "url": "https://www.coloradogives.org/organization/ColoradoRushSoccerClub",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Club-published profile describes six Colorado regions; regional fees and placement must be checked separately."
+        },
+        {
+          "url": "https://www.coloradorush.com/colorado-rush-leadership",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Official club staff listing; appointment date not stated.",
+          "ref": "turn792view2"
+        },
+        {
+          "url": "https://www.coloradorush.com/news",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "March 17, 2026 announcement specifies first day Monday March 23.",
+          "ref": "turn847search1"
+        },
+        {
+          "url": "https://www.coloradorush.com/colorado-rush-leadership",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Separate regional staff directories exist for Littleton/Lakewood, Aurora, Colorado Springs, Pueblo, North, NorCO and Evergreen.",
+          "ref": "turn792view2"
+        },
+        {
+          "url": "https://www.coloradorush.com/news",
+          "checkedDate": "2026-11-06",
+          "period": "2026-03-23",
+          "status": "observed",
+          "note": "Blair Quinn scheduled first day as Director of Goalkeeping.",
+          "ref": "turn847search1"
+        },
+        {
+          "url": "https://www.coloradorush.com/news",
+          "checkedDate": "2026-11-06",
+          "period": "2026-03-17",
+          "status": "observed",
+          "note": "Club announced Guillermo Rivarola joining ECNL boys staff; announcement date, not exact employment start.",
+          "ref": "turn847search1"
+        },
+        {
+          "url": "https://www.coloradorush.com/colorado-rush-cos-accepted-in-ea",
+          "checkedDate": "2026-11-06",
+          "period": "2026-05-01",
+          "status": "observed",
+          "note": "Colorado Springs program announced acceptance into Elite Academy League.",
+          "ref": "turn847search6"
+        }
+      ],
+      "size": [],
+      "fees": [],
+      "leadership": [
+        {
+          "name": "John Carroll",
+          "role": "President / CEO",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://www.coloradorush.com/colorado-rush-leadership",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Official club staff listing; appointment date not stated.",
+            "ref": "turn792view2"
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "Mark Hiemenz",
+          "role": "Executive Director",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://www.coloradorush.com/colorado-rush-leadership",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Official club staff listing; appointment date not stated.",
+            "ref": "turn792view2"
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "Sheryl Hopeau",
+          "role": "Executive Director of Operations",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://www.coloradorush.com/colorado-rush-leadership",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Official club staff listing; appointment date not stated.",
+            "ref": "turn792view2"
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "Cacho Cordoba",
+          "role": "Boys Sporting Director",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://www.coloradorush.com/colorado-rush-leadership",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Official club staff listing; appointment date not stated.",
+            "ref": "turn792view2"
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "Mike Haas",
+          "role": "Girls Sporting Director",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://www.coloradorush.com/colorado-rush-leadership",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Official club staff listing; appointment date not stated.",
+            "ref": "turn792view2"
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "Luke Meadows",
+          "role": "College Advisory Director",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://www.coloradorush.com/colorado-rush-leadership",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Official club staff listing; appointment date not stated.",
+            "ref": "turn792view2"
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "Blair Quinn",
+          "role": "Director of Goalkeeping",
+          "startDate": "2026-03-23",
+          "joinedDate": "2026-03-23",
+          "source": {
+            "url": "https://www.coloradorush.com/news",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "March 17, 2026 announcement specifies first day Monday March 23.",
+            "ref": "turn847search1"
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-03-23",
+          "event": "Blair Quinn scheduled first day as Director of Goalkeeping.",
+          "source": {
+            "url": "https://www.coloradorush.com/news",
+            "checkedDate": "2026-11-06",
+            "period": "2026-03-23",
+            "status": "observed",
+            "note": "Blair Quinn scheduled first day as Director of Goalkeeping.",
+            "ref": "turn847search1"
+          }
+        },
+        {
+          "date": "2026-03-17",
+          "event": "Club announced Guillermo Rivarola joining ECNL boys staff; announcement date, not exact employment start.",
+          "source": {
+            "url": "https://www.coloradorush.com/news",
+            "checkedDate": "2026-11-06",
+            "period": "2026-03-17",
+            "status": "observed",
+            "note": "Club announced Guillermo Rivarola joining ECNL boys staff; announcement date, not exact employment start.",
+            "ref": "turn847search1"
+          }
+        },
+        {
+          "date": "2026-05-01",
+          "event": "Colorado Springs program announced acceptance into Elite Academy League.",
+          "source": {
+            "url": "https://www.coloradorush.com/colorado-rush-cos-accepted-in-ea",
+            "checkedDate": "2026-11-06",
+            "period": "2026-05-01",
+            "status": "observed",
+            "note": "Colorado Springs program announced acceptance into Elite Academy League.",
+            "ref": "turn847search6"
+          }
+        }
+      ],
+      "questions": [
+        "Ask for the complete team budget, training locations and weekly commitment.",
+        "Confirm available teams for the player’s age, gender and level."
+      ],
+      "reviewStatus": "partial",
+      "outcomes": null,
+      "turnoverRate": null,
+      "facts": [
+        {
+          "label": "Regional structure",
+          "value": "Separate regional staff directories exist for Littleton/Lakewood, Aurora, Colorado Springs, Pueblo, North, NorCO and Evergreen.",
+          "source": {
+            "url": "https://www.coloradorush.com/colorado-rush-leadership",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Separate regional staff directories exist for Littleton/Lakewood, Aurora, Colorado Springs, Pueblo, North, NorCO and Evergreen.",
+            "ref": "turn792view2"
+          }
+        }
+      ],
+      "gaps": [
+        "Current-role start dates not found for core executive staff. A historical UTSA bio identifies Hiemenz as Rush DOC February 2016–August 2017; not used as current ED start."
+      ]
+    },
+    {
+      "id": "real",
+      "name": "Real Colorado",
+      "kind": "club",
+      "area": "South metro / Northern Colorado",
+      "website": "https://www.realcolorado.net/",
+      "programs": [
+        "Recreational",
+        "Junior academy",
+        "Competitive"
+      ],
+      "summary": "North and South programs belong to the same umbrella. Do not add historical branch membership to a club-wide total.",
+      "sources": [
+        {
+          "url": "https://www.realcolorado.net/jr-academy-north",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "North and South programs belong to the same umbrella. Do not add historical branch membership to a club-wide total."
+        },
+        {
+          "url": "https://www.realcolorado.net/jared-spires",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Current page title and directory say CEO; older biography body says COO and returned in 2005. Record 2005 as return-to-club year only, not CEO appointment.",
+          "ref": "turn807view0"
+        },
+        {
+          "url": "https://www.realcolorado.net/our-people",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Official club staff listing; appointment date not stated.",
+          "ref": "turn792view3"
+        },
+        {
+          "url": "https://www.realcolorado.net/our-people",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "North and South communities; national offerings include boys Academy, boys/girls ECNL and USL pre-professional.",
+          "ref": "turn792view3"
+        },
+        {
+          "url": "https://www.realcolorado.net/our-people",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Site links sports medicine, mental performance, goalkeeping and alumni/college resources.",
+          "ref": "turn792view3"
+        },
+        {
+          "url": "https://www.realcolorado.net/important-news-1/real-colorado-and-ignite-merge",
+          "checkedDate": "2026-11-06",
+          "period": "2025",
+          "status": "observed",
+          "note": "Real Colorado and Ignite merger expanded North programming from fall 2025.",
+          "ref": "turn807search11"
+        },
+        {
+          "url": "https://www.realcolorado.net/important-news-1/real-colorado-welcomes-joe-nasco-as-boys-director-of-goalkeeping",
+          "checkedDate": "2026-11-06",
+          "period": "2026-01-07",
+          "status": "observed",
+          "note": "Announcement welcomed Joe Nasco as boys goalkeeping director; current staff page instead lists Erich Marisheider. Current role needs reconciliation.",
+          "ref": "turn807search10"
+        },
+        {
+          "url": "https://www.realcolorado.net/jr-academy-north",
+          "checkedDate": "2026-11-06",
+          "period": "Fall 2026 / Spring 2027",
+          "status": "tentative",
+          "note": "Club calls this tentative; $1,100 annually. Not a confirmed competitive-team quote."
+        }
+      ],
+      "size": [
+        {
+          "value": 4000,
+          "unit": "families",
+          "period": null,
+          "status": "undated",
+          "note": "Families are not players; over 450 teams also reported.",
+          "source": {
+            "url": "https://www.coloradogives.org/organization/realcolorado",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "undated",
+            "note": "Families are not players; over 450 teams also reported."
+          }
+        }
+      ],
+      "fees": [
+        {
+          "program": "Junior Academy North",
+          "ages": "Confirm age eligibility",
+          "amount": 550,
+          "currency": "USD",
+          "unit": "season",
+          "period": "Fall 2026 / Spring 2027",
+          "notes": "Club calls this tentative; $1,100 annually. Not a confirmed competitive-team quote.",
+          "status": "tentative",
+          "source": {
+            "url": "https://www.realcolorado.net/jr-academy-north",
+            "checkedDate": "2026-11-06",
+            "period": "Fall 2026 / Spring 2027",
+            "status": "tentative",
+            "note": "Club calls this tentative; $1,100 annually. Not a confirmed competitive-team quote."
+          }
+        }
+      ],
+      "leadership": [
+        {
+          "name": "Jared Spires",
+          "role": "Chief Executive Officer",
+          "startDate": null,
+          "joinedDate": "2005",
+          "source": {
+            "url": "https://www.realcolorado.net/jared-spires",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Current page title and directory say CEO; older biography body says COO and returned in 2005. Record 2005 as return-to-club year only, not CEO appointment.",
+            "ref": "turn807view0"
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "Lorne Donaldson",
+          "role": "Senior Advisor",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://www.realcolorado.net/our-people",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Official club staff listing; appointment date not stated.",
+            "ref": "turn792view3"
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "Kelly Thomson",
+          "role": "General Manager — North Community",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://www.realcolorado.net/our-people",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Official club staff listing; appointment date not stated.",
+            "ref": "turn792view3"
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "Shawn Comegys",
+          "role": "Director of Coaching — South",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://www.realcolorado.net/our-people",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Official club staff listing; appointment date not stated.",
+            "ref": "turn792view3"
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "Mike Garnhart",
+          "role": "Academy Director — South",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://www.realcolorado.net/our-people",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Official club staff listing; appointment date not stated.",
+            "ref": "turn792view3"
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "Lyle Lebere",
+          "role": "ECNL Girls Director — South",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://www.realcolorado.net/our-people",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Official club staff listing; appointment date not stated.",
+            "ref": "turn792view3"
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "Theresa Echtermeyer",
+          "role": "Director of Recreational — South",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://www.realcolorado.net/our-people",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Official club staff listing; appointment date not stated.",
+            "ref": "turn792view3"
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "April Kater",
+          "role": "Associate Competitive Director — Junior Girls",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://www.realcolorado.net/our-people",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Official club staff listing; appointment date not stated.",
+            "ref": "turn792view3"
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "Aaron King",
+          "role": "Assistant Competitive Director — Junior Boys",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://www.realcolorado.net/our-people",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Official club staff listing; appointment date not stated.",
+            "ref": "turn792view3"
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        }
+      ],
+      "history": [
+        {
+          "date": "2025",
+          "event": "Real Colorado and Ignite merger expanded North programming from fall 2025.",
+          "source": {
+            "url": "https://www.realcolorado.net/important-news-1/real-colorado-and-ignite-merge",
+            "checkedDate": "2026-11-06",
+            "period": "2025",
+            "status": "observed",
+            "note": "Real Colorado and Ignite merger expanded North programming from fall 2025.",
+            "ref": "turn807search11"
+          }
+        },
+        {
+          "date": "2026-01-07",
+          "event": "Announcement welcomed Joe Nasco as boys goalkeeping director; current staff page instead lists Erich Marisheider. Current role needs reconciliation.",
+          "source": {
+            "url": "https://www.realcolorado.net/important-news-1/real-colorado-welcomes-joe-nasco-as-boys-director-of-goalkeeping",
+            "checkedDate": "2026-11-06",
+            "period": "2026-01-07",
+            "status": "observed",
+            "note": "Announcement welcomed Joe Nasco as boys goalkeeping director; current staff page instead lists Erich Marisheider. Current role needs reconciliation.",
+            "ref": "turn807search10"
+          }
+        }
+      ],
+      "questions": [
+        "Ask for the complete team budget, training locations and weekly commitment.",
+        "Confirm available teams for the player’s age, gender and level."
+      ],
+      "reviewStatus": "partial",
+      "outcomes": null,
+      "turnoverRate": null,
+      "facts": [
+        {
+          "label": "Player pathways",
+          "value": "North and South communities; national offerings include boys Academy, boys/girls ECNL and USL pre-professional.",
+          "source": {
+            "url": "https://www.realcolorado.net/our-people",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "North and South communities; national offerings include boys Academy, boys/girls ECNL and USL pre-professional.",
+            "ref": "turn792view3"
+          }
+        },
+        {
+          "label": "Support services",
+          "value": "Site links sports medicine, mental performance, goalkeeping and alumni/college resources.",
+          "source": {
+            "url": "https://www.realcolorado.net/our-people",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Site links sports medicine, mental performance, goalkeeping and alumni/college resources.",
+            "ref": "turn792view3"
+          }
+        }
+      ],
+      "gaps": [
+        "CEO title vs old COO biography prose conflict; no CEO appointment date asserted. Goalkeeping announcement/current directory conflict retained, not converted into a turnover statistic."
+      ]
+    },
+    {
+      "id": "pride",
+      "name": "Pride Soccer Club",
+      "kind": "club",
+      "area": "Colorado Springs",
+      "website": "https://pridesoccer.com/",
+      "programs": [
+        "Recreational",
+        "Junior academy",
+        "Competitive",
+        "Futsal",
+        "TOPSoccer"
+      ],
+      "summary": "Recreational through competitive pathways; published headcounts conflict between club pages.",
+      "sources": [
+        {
+          "url": "https://pridesoccer.com/about/",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Recreational through competitive pathways; published headcounts conflict between club pages."
+        },
+        {
+          "url": "https://pridesoccer.com/about/office-staff/",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Official club staff listing; appointment date not stated.",
+          "ref": "turn794search0"
+        },
+        {
+          "url": "https://pridesoccer.com/about/coaching-staff/",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Official club staff listing; appointment date not stated.",
+          "ref": "turn798view0"
+        },
+        {
+          "url": "https://pridesoccer.com/about/coaching-staff/",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Site navigation lists recreational U4–U16, junior academy, competitive, boys ECNL, girls ECNL-RL/N1, WPSL, TOPSoccer and futsal.",
+          "ref": "turn798view0"
+        },
+        {
+          "url": "https://pridesoccer.com/programs/recreational-soccer-fall/",
+          "checkedDate": "2026-11-06",
+          "period": "Fall 2026 / Spring 2027",
+          "status": "observed",
+          "note": "Uniform excluded; confirm season selection at checkout."
+        }
+      ],
+      "size": [
+        {
+          "value": 4800,
+          "unit": "players",
+          "period": null,
+          "status": "conflicting",
+          "note": "About page says approximately 4,800; homepage previously showed approximately 4,500. Confirm reporting period.",
+          "source": {
+            "url": "https://pridesoccer.com/about/",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "conflicting",
+            "note": "About page says approximately 4,800; homepage previously showed approximately 4,500. Confirm reporting period."
+          }
+        }
+      ],
+      "fees": [
+        {
+          "program": "Recreational",
+          "ages": "U4–U6",
+          "amount": 115,
+          "currency": "USD",
+          "unit": "season registration",
+          "period": "Fall 2026 / Spring 2027",
+          "notes": "Uniform excluded; confirm season selection at checkout.",
+          "status": "observed",
+          "source": {
+            "url": "https://pridesoccer.com/programs/recreational-soccer-fall/",
+            "checkedDate": "2026-11-06",
+            "period": "Fall 2026 / Spring 2027",
+            "status": "observed",
+            "note": "Uniform excluded; confirm season selection at checkout."
+          }
+        },
+        {
+          "program": "Recreational",
+          "ages": "U7",
+          "amount": 140,
+          "currency": "USD",
+          "unit": "season registration",
+          "period": "Fall 2026 / Spring 2027",
+          "notes": "Uniform excluded; confirm season selection at checkout.",
+          "status": "observed",
+          "source": {
+            "url": "https://pridesoccer.com/programs/recreational-soccer-fall/",
+            "checkedDate": "2026-11-06",
+            "period": "Fall 2026 / Spring 2027",
+            "status": "observed",
+            "note": "Uniform excluded; confirm season selection at checkout."
+          }
+        },
+        {
+          "program": "Recreational",
+          "ages": "U8",
+          "amount": 155,
+          "currency": "USD",
+          "unit": "season registration",
+          "period": "Fall 2026 / Spring 2027",
+          "notes": "Uniform excluded; confirm season selection at checkout.",
+          "status": "observed",
+          "source": {
+            "url": "https://pridesoccer.com/programs/recreational-soccer-fall/",
+            "checkedDate": "2026-11-06",
+            "period": "Fall 2026 / Spring 2027",
+            "status": "observed",
+            "note": "Uniform excluded; confirm season selection at checkout."
+          }
+        },
+        {
+          "program": "Recreational",
+          "ages": "U9–U16",
+          "amount": 205,
+          "currency": "USD",
+          "unit": "season registration",
+          "period": "Fall 2026 / Spring 2027",
+          "notes": "Uniform excluded; confirm season selection at checkout.",
+          "status": "observed",
+          "source": {
+            "url": "https://pridesoccer.com/programs/recreational-soccer-fall/",
+            "checkedDate": "2026-11-06",
+            "period": "Fall 2026 / Spring 2027",
+            "status": "observed",
+            "note": "Uniform excluded; confirm season selection at checkout."
+          }
+        }
+      ],
+      "leadership": [
+        {
+          "name": "Candy Brooks",
+          "role": "Executive Director",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://pridesoccer.com/about/office-staff/",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Official club staff listing; appointment date not stated.",
+            "ref": "turn794search0"
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "Jay Rayner",
+          "role": "Technical Director",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://pridesoccer.com/about/coaching-staff/",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Official club staff listing; appointment date not stated.",
+            "ref": "turn798view0"
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "Brian Contreras",
+          "role": "Senior Boys DOC — U11–U12 & U16–U19",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://pridesoccer.com/about/coaching-staff/",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Official club staff listing; appointment date not stated.",
+            "ref": "turn798view0"
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "Paul Davison",
+          "role": "Boys DOC — U13–U15; ECNL & ECNL-RL",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://pridesoccer.com/about/coaching-staff/",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Official club staff listing; appointment date not stated.",
+            "ref": "turn798view0"
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "Andrew Kummer",
+          "role": "Senior Girls DOC — U11–U14 & ECNL-RL",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://pridesoccer.com/about/coaching-staff/",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Official club staff listing; appointment date not stated.",
+            "ref": "turn798view0"
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "Tarah Patterson",
+          "role": "Girls DOC — U15–U19 & JPL",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://pridesoccer.com/about/coaching-staff/",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Official club staff listing; appointment date not stated.",
+            "ref": "turn798view0"
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "Andi Waterhouse",
+          "role": "College Advisory Director / WPSL General Manager",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://pridesoccer.com/about/coaching-staff/",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Official club staff listing; appointment date not stated.",
+            "ref": "turn798view0"
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "Matt Saul",
+          "role": "Club Development Director / WPSL Head Coach",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://pridesoccer.com/about/coaching-staff/",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Official club staff listing; appointment date not stated.",
+            "ref": "turn798view0"
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        }
+      ],
+      "history": [],
+      "questions": [
+        "Ask for the complete team budget, training locations and weekly commitment.",
+        "Confirm available teams for the player’s age, gender and level."
+      ],
+      "reviewStatus": "partial",
+      "outcomes": null,
+      "turnoverRate": null,
+      "facts": [
+        {
+          "label": "Development pathways",
+          "value": "Site navigation lists recreational U4–U16, junior academy, competitive, boys ECNL, girls ECNL-RL/N1, WPSL, TOPSoccer and futsal.",
+          "source": {
+            "url": "https://pridesoccer.com/about/coaching-staff/",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Site navigation lists recreational U4–U16, junior academy, competitive, boys ECNL, girls ECNL-RL/N1, WPSL, TOPSoccer and futsal.",
+            "ref": "turn798view0"
+          }
+        }
+      ],
+      "gaps": [
+        "No dated appointment biographies were found on the reviewed office/coaching pages. Boys age-group assignments differ from the generic competitive overview; current dedicated coaching page retained."
+      ]
+    },
+    {
+      "id": "arsenal",
+      "name": "Arsenal Colorado",
+      "kind": "club",
+      "area": "Fort Collins",
+      "website": "https://www.soccerfortcollins.org/",
+      "programs": [
+        "Recreational",
+        "Development",
+        "Competitive"
+      ],
+      "summary": "Competitive fees vary by age and team tier; team expenses are additional.",
+      "sources": [
+        {
+          "url": "https://www.soccerfortcollins.org/competitive-fees-and-age-divisions",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Competitive fees vary by age and team tier; team expenses are additional."
+        },
+        {
+          "url": "https://www.soccerfortcollins.org/staff",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Official club staff listing; appointment date not stated.",
+          "ref": "turn802view1"
+        },
+        {
+          "url": "https://www.soccerfortcollins.org/coach-licensing",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Club describes mentoring plus support for recreational and competitive coaching-license courses.",
+          "ref": "turn847search3"
+        },
+        {
+          "url": "https://www.soccerfortcollins.org/competitive-fees-and-age-divisions",
+          "checkedDate": "2026-11-06",
+          "period": "2026/27",
+          "status": "observed",
+          "note": "Uniform, tournaments, coach expenses and travel excluded; team budget varies."
+        }
+      ],
+      "size": [
+        {
+          "value": 3200,
+          "unit": "players",
+          "period": "Fall 2016",
+          "status": "historical",
+          "note": "2,500 recreational plus 700 competitive; historical observation, not a current size estimate.",
+          "source": {
+            "url": "https://www.coloradogives.org/organization/ArsenalColorado",
+            "checkedDate": "2026-11-06",
+            "period": "Fall 2016",
+            "status": "historical",
+            "note": "2,500 recreational plus 700 competitive; historical observation, not a current size estimate."
+          }
+        }
+      ],
+      "fees": [
+        {
+          "program": "Competitive Academy",
+          "ages": "U11–U12",
+          "amount": 2065,
+          "currency": "USD",
+          "unit": "year",
+          "period": "2026/27",
+          "notes": "Uniform, tournaments, coach expenses and travel excluded; team budget varies.",
+          "status": "observed",
+          "source": {
+            "url": "https://www.soccerfortcollins.org/competitive-fees-and-age-divisions",
+            "checkedDate": "2026-11-06",
+            "period": "2026/27",
+            "status": "observed",
+            "note": "Uniform, tournaments, coach expenses and travel excluded; team budget varies."
+          }
+        },
+        {
+          "program": "Competitive Gold",
+          "ages": "U11–U12",
+          "amount": 1945,
+          "currency": "USD",
+          "unit": "year",
+          "period": "2026/27",
+          "notes": "Uniform, tournaments, coach expenses and travel excluded; team budget varies.",
+          "status": "observed",
+          "source": {
+            "url": "https://www.soccerfortcollins.org/competitive-fees-and-age-divisions",
+            "checkedDate": "2026-11-06",
+            "period": "2026/27",
+            "status": "observed",
+            "note": "Uniform, tournaments, coach expenses and travel excluded; team budget varies."
+          }
+        },
+        {
+          "program": "Competitive Royal/Blue/White/Black",
+          "ages": "U11–U12",
+          "amount": 1565,
+          "currency": "USD",
+          "unit": "year",
+          "period": "2026/27",
+          "notes": "Uniform, tournaments, coach expenses and travel excluded; team budget varies.",
+          "status": "observed",
+          "source": {
+            "url": "https://www.soccerfortcollins.org/competitive-fees-and-age-divisions",
+            "checkedDate": "2026-11-06",
+            "period": "2026/27",
+            "status": "observed",
+            "note": "Uniform, tournaments, coach expenses and travel excluded; team budget varies."
+          }
+        },
+        {
+          "program": "Competitive Academy",
+          "ages": "U13–U14",
+          "amount": 2480,
+          "currency": "USD",
+          "unit": "year",
+          "period": "2026/27",
+          "notes": "Uniform, tournaments, coach expenses and travel excluded; team budget varies.",
+          "status": "observed",
+          "source": {
+            "url": "https://www.soccerfortcollins.org/competitive-fees-and-age-divisions",
+            "checkedDate": "2026-11-06",
+            "period": "2026/27",
+            "status": "observed",
+            "note": "Uniform, tournaments, coach expenses and travel excluded; team budget varies."
+          }
+        },
+        {
+          "program": "Competitive Gold",
+          "ages": "U13–U14",
+          "amount": 1945,
+          "currency": "USD",
+          "unit": "year",
+          "period": "2026/27",
+          "notes": "Uniform, tournaments, coach expenses and travel excluded; team budget varies.",
+          "status": "observed",
+          "source": {
+            "url": "https://www.soccerfortcollins.org/competitive-fees-and-age-divisions",
+            "checkedDate": "2026-11-06",
+            "period": "2026/27",
+            "status": "observed",
+            "note": "Uniform, tournaments, coach expenses and travel excluded; team budget varies."
+          }
+        },
+        {
+          "program": "Competitive Royal/Blue/White/Black",
+          "ages": "U13–U14",
+          "amount": 1565,
+          "currency": "USD",
+          "unit": "year",
+          "period": "2026/27",
+          "notes": "Uniform, tournaments, coach expenses and travel excluded; team budget varies.",
+          "status": "observed",
+          "source": {
+            "url": "https://www.soccerfortcollins.org/competitive-fees-and-age-divisions",
+            "checkedDate": "2026-11-06",
+            "period": "2026/27",
+            "status": "observed",
+            "note": "Uniform, tournaments, coach expenses and travel excluded; team budget varies."
+          }
+        },
+        {
+          "program": "Competitive Academy",
+          "ages": "U15–U19",
+          "amount": 1935,
+          "currency": "USD",
+          "unit": "year",
+          "period": "2026/27",
+          "notes": "Uniform, tournaments, coach expenses and travel excluded; team budget varies.",
+          "status": "observed",
+          "source": {
+            "url": "https://www.soccerfortcollins.org/competitive-fees-and-age-divisions",
+            "checkedDate": "2026-11-06",
+            "period": "2026/27",
+            "status": "observed",
+            "note": "Uniform, tournaments, coach expenses and travel excluded; team budget varies."
+          }
+        },
+        {
+          "program": "Competitive Gold",
+          "ages": "U15–U19",
+          "amount": 1270,
+          "currency": "USD",
+          "unit": "year",
+          "period": "2026/27",
+          "notes": "Uniform, tournaments, coach expenses and travel excluded; team budget varies.",
+          "status": "observed",
+          "source": {
+            "url": "https://www.soccerfortcollins.org/competitive-fees-and-age-divisions",
+            "checkedDate": "2026-11-06",
+            "period": "2026/27",
+            "status": "observed",
+            "note": "Uniform, tournaments, coach expenses and travel excluded; team budget varies."
+          }
+        },
+        {
+          "program": "Competitive Royal/Blue/White/Black",
+          "ages": "U15–U19",
+          "amount": 990,
+          "currency": "USD",
+          "unit": "year",
+          "period": "2026/27",
+          "notes": "Uniform, tournaments, coach expenses and travel excluded; team budget varies.",
+          "status": "observed",
+          "source": {
+            "url": "https://www.soccerfortcollins.org/competitive-fees-and-age-divisions",
+            "checkedDate": "2026-11-06",
+            "period": "2026/27",
+            "status": "observed",
+            "note": "Uniform, tournaments, coach expenses and travel excluded; team budget varies."
+          }
+        }
+      ],
+      "leadership": [
+        {
+          "name": "David Thomas",
+          "role": "Executive Director",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://www.soccerfortcollins.org/staff",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Official club staff listing; appointment date not stated.",
+            "ref": "turn802view1"
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "Dave Shaffer",
+          "role": "Technical Director",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://www.soccerfortcollins.org/staff",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Official club staff listing; appointment date not stated.",
+            "ref": "turn802view1"
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "Jayme “Beamer” Halsey",
+          "role": "Director of Coaching — Competitive Girls",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://www.soccerfortcollins.org/staff",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Official club staff listing; appointment date not stated.",
+            "ref": "turn802view1"
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "Peter Nash",
+          "role": "Director of Coaching — Competitive Boys",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://www.soccerfortcollins.org/staff",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Official club staff listing; appointment date not stated.",
+            "ref": "turn802view1"
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "Collin Audley",
+          "role": "Director of Coaching — U11–U12 Competitive",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://www.soccerfortcollins.org/staff",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Official club staff listing; appointment date not stated.",
+            "ref": "turn802view1"
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "Mary Casson",
+          "role": "Director of Coaching — Recreation & PDL",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://www.soccerfortcollins.org/staff",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Official club staff listing; appointment date not stated.",
+            "ref": "turn802view1"
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "Jake Roark",
+          "role": "Director of Operations",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://www.soccerfortcollins.org/staff",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Official club staff listing; appointment date not stated.",
+            "ref": "turn802view1"
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        }
+      ],
+      "history": [],
+      "questions": [
+        "Ask for the complete team budget, training locations and weekly commitment.",
+        "Confirm available teams for the player’s age, gender and level."
+      ],
+      "reviewStatus": "partial",
+      "outcomes": null,
+      "turnoverRate": null,
+      "facts": [
+        {
+          "label": "Coach development",
+          "value": "Club describes mentoring plus support for recreational and competitive coaching-license courses.",
+          "source": {
+            "url": "https://www.soccerfortcollins.org/coach-licensing",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Club describes mentoring plus support for recreational and competitive coaching-license courses.",
+            "ref": "turn847search3"
+          }
+        }
+      ],
+      "gaps": [
+        "Staff directory lists roles and contacts but not appointment dates; coaching education page retains older course names, so do not promise current licensing schedule."
+      ]
+    },
+    {
+      "id": "skyline",
+      "name": "Skyline Soccer Association",
+      "kind": "club",
+      "area": "Denver metro",
+      "website": "https://www.skylinesoccer.org/",
+      "programs": [
+        "Recreational",
+        "Development",
+        "Competitive",
+        "MLS Next2"
+      ],
+      "summary": "Programs span U3 introduction through U19 competition. Membership figures differ across club pages.",
+      "sources": [
+        {
+          "url": "https://www.skylinesoccer.org/",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Programs span U3 introduction through U19 competition. Membership figures differ across club pages."
+        },
+        {
+          "url": "https://www.skylinesoccer.org/CapitalCampaign",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Campaign describes over 3,000 youth annually; does not establish same-period unique membership."
+        },
+        {
+          "url": "https://www.skylinesoccer.org/club/contact-us",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "conflicting",
+          "note": "Contact page lists Melissa Stenger as Executive Director; mission/board page lists Jonni Thordsen in that role. Direct confirmation needed.",
+          "ref": "turn802view0"
+        },
+        {
+          "url": "https://www.skylinesoccer.org/club/contact-us",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Official club staff listing; appointment date not stated.",
+          "ref": "turn802view0"
+        },
+        {
+          "url": "https://www.skylinesoccer.org/club/contact-us",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "conflicting",
+          "note": "English contact page lists Randall Matale; Spanish contact page lists Herman Sullivan for the same platform role. Direct confirmation needed.",
+          "ref": "turn802view0"
+        },
+        {
+          "url": "https://www.skylinesoccer.org/club/mission",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Mission page describes three-year elected board terms, maximum six years, with annual meeting/elections in May.",
+          "ref": "turn794search6"
+        }
+      ],
+      "size": [
+        {
+          "value": 4000,
+          "unit": "players per season",
+          "period": null,
+          "status": "conflicting",
+          "note": "Main site says roughly 4,000 per season; capital campaign says over 3,000 annually. Different scope/period.",
+          "source": {
+            "url": "https://www.skylinesoccer.org/",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "conflicting",
+            "note": "Main site says roughly 4,000 per season; capital campaign says over 3,000 annually. Different scope/period."
+          }
+        }
+      ],
+      "fees": [],
+      "leadership": [
+        {
+          "name": "Melissa Stenger",
+          "role": "Executive Director — contact page listing",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://www.skylinesoccer.org/club/contact-us",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "conflicting",
+            "note": "Contact page lists Melissa Stenger as Executive Director; mission/board page lists Jonni Thordsen in that role. Direct confirmation needed.",
+            "ref": "turn802view0"
+          },
+          "dateBasis": "role start as published",
+          "status": "conflicting"
+        },
+        {
+          "name": "Stuart Sinclair",
+          "role": "Operations Director",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://www.skylinesoccer.org/club/contact-us",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Official club staff listing; appointment date not stated.",
+            "ref": "turn802view0"
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "George Pavlantos",
+          "role": "Technical Director",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://www.skylinesoccer.org/club/contact-us",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Official club staff listing; appointment date not stated.",
+            "ref": "turn802view0"
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "Randall Matale",
+          "role": "MLS Next Boys & DPL Girls Director — English contact page",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://www.skylinesoccer.org/club/contact-us",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "conflicting",
+            "note": "English contact page lists Randall Matale; Spanish contact page lists Herman Sullivan for the same platform role. Direct confirmation needed.",
+            "ref": "turn802view0"
+          },
+          "dateBasis": "role start as published",
+          "status": "conflicting"
+        },
+        {
+          "name": "Dawn Birdsall",
+          "role": "Girls U11–U19 Competitive DOC",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://www.skylinesoccer.org/club/contact-us",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Official club staff listing; appointment date not stated.",
+            "ref": "turn802view0"
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "Stephen Latta",
+          "role": "Boys U11–U19 Competitive & Competitive Futsal DOC",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://www.skylinesoccer.org/club/contact-us",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Official club staff listing; appointment date not stated.",
+            "ref": "turn802view0"
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "Travis Yoakum",
+          "role": "U8–U12 Developmental Recreation DOC",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://www.skylinesoccer.org/club/contact-us",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Official club staff listing; appointment date not stated.",
+            "ref": "turn802view0"
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        }
+      ],
+      "history": [],
+      "questions": [
+        "Ask for the complete team budget, training locations and weekly commitment.",
+        "Confirm available teams for the player’s age, gender and level."
+      ],
+      "reviewStatus": "partial",
+      "outcomes": null,
+      "turnoverRate": null,
+      "facts": [
+        {
+          "label": "Governance",
+          "value": "Mission page describes three-year elected board terms, maximum six years, with annual meeting/elections in May.",
+          "source": {
+            "url": "https://www.skylinesoccer.org/club/mission",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Mission page describes three-year elected board terms, maximum six years, with annual meeting/elections in May.",
+            "ref": "turn794search6"
+          }
+        }
+      ],
+      "gaps": [
+        "Conflicting official Executive Director listings: Melissa Stenger vs Jonni Thordsen. Platform-director language variants disagree (Randall Matale vs Herman Sullivan). No appointment dates asserted."
+      ]
+    },
+    {
+      "id": "albion-boulder",
+      "name": "ALBION SC Boulder County",
+      "kind": "club",
+      "area": "Boulder County",
+      "website": "https://www.albionscbouldercounty.org/",
+      "programs": [
+        "Development",
+        "Competitive"
+      ],
+      "summary": "FC Boulder and Boulder County SC combined in 2021. Shared ALBION elite pathways must not be double counted.",
+      "sources": [
+        {
+          "url": "https://www.albionscbouldercounty.org/about-us/our-club",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "FC Boulder and Boulder County SC combined in 2021. Shared ALBION elite pathways must not be double counted."
+        },
+        {
+          "url": "https://albionscbouldercounty.org/staff/executive-team/executive-director",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Bio describes earlier Boulder roles July 2017–August 2021, then Rapids/Steamboat and return; current Executive Director start date not provided. Do not imply continuous tenure from 2017.",
+          "ref": "turn802view2"
+        },
+        {
+          "url": "https://albionscboulder.ottosport.ai/staff/executive-team/sporting-director",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Coached at FC Boulder from 2017; became FC Boulder Technical Director January 2020. Current Sporting Director appointment is not dated.",
+          "ref": "turn836view0"
+        },
+        {
+          "url": "https://albionscboulder.ottosport.ai/tryouts/competitive-soccer-programs",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Official club staff listing; appointment date not stated.",
+          "ref": "turn807view2"
+        },
+        {
+          "url": "https://albionscboulder.ottosport.ai/tryouts/competitive-soccer-programs",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "2026/27 page lists MLS Next Homegrown/Academy and Elite Academy boys U13–U19; GA Aspire and DPL girls U13–U19; pre-MLS Next boys U9–U12; Academy/Premier U9–U19; Juniors U6–U8.",
+          "ref": "turn802view3"
+        },
+        {
+          "url": "https://albionscboulder.ottosport.ai/tryouts/competitive-soccer-programs",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Named training locations include Pleasant View, East Boulder Community Center, Lafayette, Longmont and Superior facilities; confirm team-specific allocation.",
+          "ref": "turn807view2"
+        },
+        {
+          "url": "https://albionscboulder.ottosport.ai/tryouts/competitive-soccer-programs",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Tryout sign-up includes a financial-aid section linked to Soccer for Life Foundation.",
+          "ref": "turn807view2"
+        },
+        {
+          "url": "https://www.albionscbouldercounty.org/about-us/our-club",
+          "checkedDate": "2026-11-06",
+          "period": "2021",
+          "status": "observed",
+          "note": "Club describes the 2021 combination."
+        },
+        {
+          "url": "https://albionscboulder.ottosport.ai/staff/executive-team/sporting-director",
+          "checkedDate": "2026-11-06",
+          "period": "2020-01",
+          "status": "observed",
+          "note": "Dave Carver became Technical Director at predecessor FC Boulder; not the current Sporting Director appointment.",
+          "ref": "turn836view0"
+        }
+      ],
+      "size": [
+        {
+          "value": 2000,
+          "unit": "players (over)",
+          "period": null,
+          "status": "undated",
+          "note": "Club reports over 2,000; measurement season not given.",
+          "source": {
+            "url": "https://www.albionscbouldercounty.org/about-us/our-club",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "undated",
+            "note": "Club reports over 2,000; measurement season not given."
+          }
+        }
+      ],
+      "fees": [],
+      "leadership": [
+        {
+          "name": "Fields Brown",
+          "role": "Executive Director",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://albionscbouldercounty.org/staff/executive-team/executive-director",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Bio describes earlier Boulder roles July 2017–August 2021, then Rapids/Steamboat and return; current Executive Director start date not provided. Do not imply continuous tenure from 2017.",
+            "ref": "turn802view2"
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "Dave Carver",
+          "role": "Sporting Director",
+          "startDate": null,
+          "joinedDate": "2017",
+          "source": {
+            "url": "https://albionscboulder.ottosport.ai/staff/executive-team/sporting-director",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Coached at FC Boulder from 2017; became FC Boulder Technical Director January 2020. Current Sporting Director appointment is not dated.",
+            "ref": "turn836view0"
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "Taylor Kuhlman",
+          "role": "Goalkeeping Director",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://albionscboulder.ottosport.ai/tryouts/competitive-soccer-programs",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Official club staff listing; appointment date not stated.",
+            "ref": "turn807view2"
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "Zane Barnes",
+          "role": "U9–U12 Boys Director",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://albionscboulder.ottosport.ai/tryouts/competitive-soccer-programs",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Official club staff listing; appointment date not stated.",
+            "ref": "turn807view2"
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "Kim Ramirez",
+          "role": "U13–U19 Boys Director",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://albionscboulder.ottosport.ai/tryouts/competitive-soccer-programs",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Official club staff listing; appointment date not stated.",
+            "ref": "turn807view2"
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "Tony Mortenson",
+          "role": "U13–U19 Boys Elite Platforms Director",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://albionscboulder.ottosport.ai/tryouts/competitive-soccer-programs",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Official club staff listing; appointment date not stated.",
+            "ref": "turn807view2"
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "Will Monty",
+          "role": "U9–U12 Girls Director",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://albionscboulder.ottosport.ai/tryouts/competitive-soccer-programs",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Official club staff listing; appointment date not stated.",
+            "ref": "turn807view2"
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "Clare Weeks",
+          "role": "U13–U19 Girls Director",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://albionscboulder.ottosport.ai/tryouts/competitive-soccer-programs",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Official club staff listing; appointment date not stated.",
+            "ref": "turn807view2"
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "Lucas Schmolesky",
+          "role": "U13–U19 Girls Elite Platforms Director",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://albionscboulder.ottosport.ai/tryouts/competitive-soccer-programs",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Official club staff listing; appointment date not stated.",
+            "ref": "turn807view2"
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        }
+      ],
+      "history": [
+        {
+          "date": "2021",
+          "event": "FC Boulder and Boulder County SC combined",
+          "source": {
+            "url": "https://www.albionscbouldercounty.org/about-us/our-club",
+            "checkedDate": "2026-11-06",
+            "period": "2021",
+            "status": "observed",
+            "note": "Club describes the 2021 combination."
+          }
+        },
+        {
+          "date": "2020-01",
+          "event": "Dave Carver became Technical Director at predecessor FC Boulder; not the current Sporting Director appointment.",
+          "source": {
+            "url": "https://albionscboulder.ottosport.ai/staff/executive-team/sporting-director",
+            "checkedDate": "2026-11-06",
+            "period": "2020-01",
+            "status": "observed",
+            "note": "Dave Carver became Technical Director at predecessor FC Boulder; not the current Sporting Director appointment.",
+            "ref": "turn836view0"
+          }
+        }
+      ],
+      "questions": [
+        "Ask for the complete team budget, training locations and weekly commitment.",
+        "Confirm available teams for the player’s age, gender and level."
+      ],
+      "reviewStatus": "partial",
+      "outcomes": null,
+      "turnoverRate": null,
+      "facts": [
+        {
+          "label": "Programs",
+          "value": "2026/27 page lists MLS Next Homegrown/Academy and Elite Academy boys U13–U19; GA Aspire and DPL girls U13–U19; pre-MLS Next boys U9–U12; Academy/Premier U9–U19; Juniors U6–U8.",
+          "source": {
+            "url": "https://albionscboulder.ottosport.ai/tryouts/competitive-soccer-programs",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "2026/27 page lists MLS Next Homegrown/Academy and Elite Academy boys U13–U19; GA Aspire and DPL girls U13–U19; pre-MLS Next boys U9–U12; Academy/Premier U9–U19; Juniors U6–U8.",
+            "ref": "turn802view3"
+          }
+        },
+        {
+          "label": "Locations",
+          "value": "Named training locations include Pleasant View, East Boulder Community Center, Lafayette, Longmont and Superior facilities; confirm team-specific allocation.",
+          "source": {
+            "url": "https://albionscboulder.ottosport.ai/tryouts/competitive-soccer-programs",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Named training locations include Pleasant View, East Boulder Community Center, Lafayette, Longmont and Superior facilities; confirm team-specific allocation.",
+            "ref": "turn807view2"
+          }
+        },
+        {
+          "label": "Financial aid",
+          "value": "Tryout sign-up includes a financial-aid section linked to Soccer for Life Foundation.",
+          "source": {
+            "url": "https://albionscboulder.ottosport.ai/tryouts/competitive-soccer-programs",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Tryout sign-up includes a financial-aid section linked to Soccer for Life Foundation.",
+            "ref": "turn807view2"
+          }
+        }
+      ],
+      "gaps": [
+        "Current staff listing used over obsolete placeholder executive page. Clare Weeks page title/body have conflicting age groups; current technical staff directory U13–U19 retained with caveat. Relative six-year statements not converted to fixed employment dates."
+      ]
+    },
+    {
+      "id": "edge",
+      "name": "Colorado EDGE",
+      "kind": "club",
+      "area": "Arvada",
+      "website": "https://www.edgesoccer.net/",
+      "programs": [],
+      "summary": "Official site confirms the Arvada organization. Current program detail and membership need a deeper review.",
+      "sources": [
+        {
+          "url": "https://www.edgesoccer.net/",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Official site confirms the Arvada organization. Current program detail and membership need a deeper review."
+        },
+        {
+          "url": "https://www.edgesoccer.net/staff-and-office-info",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Listed on the official current staff page. Appointment date not stated."
+        },
+        {
+          "url": "https://www.edgesoccer.net/staff-and-office-info",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Biography describes more than 15 years with EDGE; no dated baseline, so no start year inferred."
+        },
+        {
+          "url": "https://www.edgesoccer.net/curriculum",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Directors distribute seasonal training curricula; the club links player-development and 6U–14U age-group curricula."
+        },
+        {
+          "url": "https://www.edgesoccer.net/staff-and-office-info",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Club athletic trainer provides scheduled practice coverage at Stenger or Long Lake and offers injury evaluation appointments."
+        }
+      ],
+      "size": [],
+      "fees": [],
+      "leadership": [
+        {
+          "name": "David Kramer",
+          "role": "Chief Executive Officer",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://www.edgesoccer.net/staff-and-office-info",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Listed on the official current staff page. Appointment date not stated."
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "Todd Gette",
+          "role": "Chief Operating Officer",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://www.edgesoccer.net/staff-and-office-info",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Listed on the official current staff page. Appointment date not stated."
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "Jeff Hooker",
+          "role": "Director of Coaching Development",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://www.edgesoccer.net/staff-and-office-info",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Listed on the official current staff page. Appointment date not stated."
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "James Rooks",
+          "role": "Competitive Boys Director",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://www.edgesoccer.net/staff-and-office-info",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Biography describes more than 15 years with EDGE; no dated baseline, so no start year inferred."
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "Jay Hamilton",
+          "role": "Competitive Girls Director",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://www.edgesoccer.net/staff-and-office-info",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Biography describes more than 15 years with EDGE; no dated baseline, so no start year inferred."
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "Kris Peat",
+          "role": "Goalkeeper Director",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://www.edgesoccer.net/staff-and-office-info",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Listed on the official current staff page. Appointment date not stated."
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        }
+      ],
+      "history": [],
+      "questions": [
+        "Ask for the complete team budget, training locations and weekly commitment.",
+        "Confirm available teams for the player’s age, gender and level."
+      ],
+      "reviewStatus": "partial",
+      "outcomes": null,
+      "turnoverRate": null,
+      "facts": [
+        {
+          "label": "Coach development",
+          "value": "Directors distribute seasonal training curricula; the club links player-development and 6U–14U age-group curricula.",
+          "source": {
+            "url": "https://www.edgesoccer.net/curriculum",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Directors distribute seasonal training curricula; the club links player-development and 6U–14U age-group curricula."
+          }
+        },
+        {
+          "label": "Player support",
+          "value": "Club athletic trainer provides scheduled practice coverage at Stenger or Long Lake and offers injury evaluation appointments.",
+          "source": {
+            "url": "https://www.edgesoccer.net/staff-and-office-info",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Club athletic trainer provides scheduled practice coverage at Stenger or Long Lake and offers injury evaluation appointments."
+          }
+        }
+      ],
+      "gaps": [
+        "Current role start dates not published on reviewed staff page. Relative tenure descriptions cannot establish exact hiring dates."
+      ]
+    },
+    {
+      "id": "broomfield",
+      "name": "Broomfield Soccer Club",
+      "kind": "club",
+      "area": "Broomfield",
+      "website": "https://www.broomfieldsoccerclub.org/",
+      "programs": [
+        "Recreational",
+        "Competitive",
+        "Camps"
+      ],
+      "summary": "Recreational FAQ explains age-based practice and team formation; placement is separate from program availability.",
+      "sources": [
+        {
+          "url": "https://www.broomfieldsoccerclub.org/faqs",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Recreational FAQ explains age-based practice and team formation; placement is separate from program availability."
+        },
+        {
+          "url": "https://www.broomfieldsoccerclub.org/staff",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Listed on the official current staff page. Appointment date not stated."
+        },
+        {
+          "url": "https://www.broomfieldsoccerclub.org/governance",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Member-elected seven-person board; published board terms are three years. These are governance terms, not employee tenure."
+        },
+        {
+          "url": "https://www.broomfieldsoccerclub.org/playerplacement",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "FAQ describes three training days weekly during fall and spring, generally 8–10 league matches per season; exact team calendar varies."
+        },
+        {
+          "url": "https://www.broomfieldsoccerclub.org/playerplacement",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Club describes Prestige, Extreme, Thunder, Force, Attack and Surge competitive tiers alongside Academy pathways."
+        },
+        {
+          "url": "https://www.broomfieldsoccerclub.org/governance",
+          "checkedDate": "2026-11-06",
+          "period": "1974",
+          "status": "observed",
+          "note": "Club formed; incorporation followed in 1986."
+        }
+      ],
+      "size": [],
+      "fees": [],
+      "leadership": [
+        {
+          "name": "Mike Schrad",
+          "role": "Executive Director",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://www.broomfieldsoccerclub.org/staff",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Listed on the official current staff page. Appointment date not stated."
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "David Castro",
+          "role": "Academy Director / Director of Coaching — Girls",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://www.broomfieldsoccerclub.org/staff",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Listed on the official current staff page. Appointment date not stated."
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "Liam Sinclair",
+          "role": "Director of Coaching — Boys",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://www.broomfieldsoccerclub.org/staff",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Listed on the official current staff page. Appointment date not stated."
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "Jim Hunter",
+          "role": "GA Aspire Director / U15–U19 Girls",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://www.broomfieldsoccerclub.org/staff",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Listed on the official current staff page. Appointment date not stated."
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "Michael Green",
+          "role": "Director of Developmental Soccer",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://www.broomfieldsoccerclub.org/staff",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Listed on the official current staff page. Appointment date not stated."
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "Paul DeFelice",
+          "role": "MLS Academy Boys Director",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://www.broomfieldsoccerclub.org/staff",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Listed on the official current staff page. Appointment date not stated."
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        }
+      ],
+      "history": [
+        {
+          "date": "1974",
+          "event": "Club formed; incorporation followed in 1986.",
+          "source": {
+            "url": "https://www.broomfieldsoccerclub.org/governance",
+            "checkedDate": "2026-11-06",
+            "period": "1974",
+            "status": "observed",
+            "note": "Club formed; incorporation followed in 1986."
+          }
+        }
+      ],
+      "questions": [
+        "Ask for the complete team budget, training locations and weekly commitment.",
+        "Confirm available teams for the player’s age, gender and level."
+      ],
+      "reviewStatus": "partial",
+      "outcomes": null,
+      "turnoverRate": null,
+      "facts": [
+        {
+          "label": "Governance",
+          "value": "Member-elected seven-person board; published board terms are three years. These are governance terms, not employee tenure.",
+          "source": {
+            "url": "https://www.broomfieldsoccerclub.org/governance",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Member-elected seven-person board; published board terms are three years. These are governance terms, not employee tenure."
+          }
+        },
+        {
+          "label": "Competitive commitment",
+          "value": "FAQ describes three training days weekly during fall and spring, generally 8–10 league matches per season; exact team calendar varies.",
+          "source": {
+            "url": "https://www.broomfieldsoccerclub.org/playerplacement",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "FAQ describes three training days weekly during fall and spring, generally 8–10 league matches per season; exact team calendar varies."
+          }
+        },
+        {
+          "label": "Team pathway",
+          "value": "Club describes Prestige, Extreme, Thunder, Force, Attack and Surge competitive tiers alongside Academy pathways.",
+          "source": {
+            "url": "https://www.broomfieldsoccerclub.org/playerplacement",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Club describes Prestige, Extreme, Thunder, Force, Attack and Surge competitive tiers alongside Academy pathways."
+          }
+        }
+      ],
+      "gaps": [
+        "Staff-page template has placeholder telephone values; excluded. Goalkeeping contact varies between staff and contact-list pages, so not treated as resolved.",
+        "Official appointment date for current executive/directors not established in reviewed club pages; external encyclopedia dates not used."
+      ]
+    },
+    {
+      "id": "albion-denver",
+      "name": "ALBION SC Denver",
+      "kind": "club",
+      "area": "Denver metro",
+      "website": "https://www.albionscdenver.org/",
+      "programs": [
+        "Competitive"
+      ],
+      "summary": "CASA FC became ALBION SC Denver for 2024/25. Cumulative participants and San Diego network statistics are not Denver membership.",
+      "sources": [
+        {
+          "url": "https://www.albionscdenver.org/about-us/club-history/albion-history",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "CASA FC became ALBION SC Denver for 2024/25. Cumulative participants and San Diego network statistics are not Denver membership."
+        },
+        {
+          "url": "https://www.albionscdenver.org/staff/executive-team/executive-director",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Founded predecessor CASA FC in 2008; current presidency appointment date is not stated."
+        },
+        {
+          "url": "https://www.albionscdenver.org/staff/soccer-directors/boys-technical-director",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Bio dates National Technical Director appointment to 2023; current heading says Boys Technical Director. Do not equate those role dates."
+        },
+        {
+          "url": "https://www.albionscdenver.org/staff/soccer-directors/girls-technical-director",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Joined CASA FC in 2016; promoted subsequently, without a dated promotion."
+        },
+        {
+          "url": "https://albionscdenver.org/staff/administrative-staff/director-of-operations",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Listed on the official current staff page. Appointment date not stated."
+        },
+        {
+          "url": "https://www.albionscdenver.org/staff/executive-team/executive-director",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "CASA FC adopted ALBION SC Denver branding for 2024/25; historical experience predates the branding change."
+        },
+        {
+          "url": "https://www.albionscdenver.org/staff/executive-team/executive-director",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Bio describes more than 7,000 youth ever enrolled, not current-season membership. It is unsuitable for ranking current club size."
+        },
+        {
+          "url": "https://www.albionscdenver.org/about-us/club-history/albion-history",
+          "checkedDate": "2026-11-06",
+          "period": "2024/25",
+          "status": "observed",
+          "note": "Club history identifies the rebrand season."
+        },
+        {
+          "url": "https://www.albionscdenver.org/staff/executive-team/executive-director",
+          "checkedDate": "2026-11-06",
+          "period": "2008",
+          "status": "observed",
+          "note": "Maribelia Avalos founded CASA FC."
+        },
+        {
+          "url": "https://www.albionscdenver.org/staff/soccer-directors/boys-technical-director",
+          "checkedDate": "2026-11-06",
+          "period": "2023",
+          "status": "observed",
+          "note": "Carles Gil biography records National Technical Director appointment; current title is Boys Technical Director."
+        },
+        {
+          "url": "https://www.albionscdenver.org/staff/executive-team/executive-director",
+          "checkedDate": "2026-11-06",
+          "period": "2024/25",
+          "status": "observed",
+          "note": "CASA FC adopted ALBION SC Denver name."
+        }
+      ],
+      "size": [],
+      "fees": [],
+      "leadership": [
+        {
+          "name": "Maribelia Avalos",
+          "role": "President / Founding Executive Director",
+          "startDate": null,
+          "joinedDate": "2008",
+          "source": {
+            "url": "https://www.albionscdenver.org/staff/executive-team/executive-director",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Founded predecessor CASA FC in 2008; current presidency appointment date is not stated."
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "Carles Gil",
+          "role": "Boys Technical Director",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://www.albionscdenver.org/staff/soccer-directors/boys-technical-director",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Bio dates National Technical Director appointment to 2023; current heading says Boys Technical Director. Do not equate those role dates."
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "Ramiro Avalos",
+          "role": "Girls Technical Director",
+          "startDate": null,
+          "joinedDate": "2016",
+          "source": {
+            "url": "https://www.albionscdenver.org/staff/soccer-directors/girls-technical-director",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Joined CASA FC in 2016; promoted subsequently, without a dated promotion."
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "Judd Demartini",
+          "role": "Director of Operations",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://albionscdenver.org/staff/administrative-staff/director-of-operations",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Listed on the official current staff page. Appointment date not stated."
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        }
+      ],
+      "history": [
+        {
+          "date": "2024/25",
+          "event": "CASA FC rebrand to ALBION SC Denver",
+          "source": {
+            "url": "https://www.albionscdenver.org/about-us/club-history/albion-history",
+            "checkedDate": "2026-11-06",
+            "period": "2024/25",
+            "status": "observed",
+            "note": "Club history identifies the rebrand season."
+          }
+        },
+        {
+          "date": "2008",
+          "event": "Maribelia Avalos founded CASA FC.",
+          "source": {
+            "url": "https://www.albionscdenver.org/staff/executive-team/executive-director",
+            "checkedDate": "2026-11-06",
+            "period": "2008",
+            "status": "observed",
+            "note": "Maribelia Avalos founded CASA FC."
+          }
+        },
+        {
+          "date": "2023",
+          "event": "Carles Gil biography records National Technical Director appointment; current title is Boys Technical Director.",
+          "source": {
+            "url": "https://www.albionscdenver.org/staff/soccer-directors/boys-technical-director",
+            "checkedDate": "2026-11-06",
+            "period": "2023",
+            "status": "observed",
+            "note": "Carles Gil biography records National Technical Director appointment; current title is Boys Technical Director."
+          }
+        },
+        {
+          "date": "2024/25",
+          "event": "CASA FC adopted ALBION SC Denver name.",
+          "source": {
+            "url": "https://www.albionscdenver.org/staff/executive-team/executive-director",
+            "checkedDate": "2026-11-06",
+            "period": "2024/25",
+            "status": "observed",
+            "note": "CASA FC adopted ALBION SC Denver name."
+          }
+        }
+      ],
+      "questions": [
+        "Ask for the complete team budget, training locations and weekly commitment.",
+        "Confirm available teams for the player’s age, gender and level."
+      ],
+      "reviewStatus": "partial",
+      "outcomes": null,
+      "turnoverRate": null,
+      "facts": [
+        {
+          "label": "Organization continuity",
+          "value": "CASA FC adopted ALBION SC Denver branding for 2024/25; historical experience predates the branding change.",
+          "source": {
+            "url": "https://www.albionscdenver.org/staff/executive-team/executive-director",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "CASA FC adopted ALBION SC Denver branding for 2024/25; historical experience predates the branding change."
+          }
+        },
+        {
+          "label": "Membership interpretation",
+          "value": "Bio describes more than 7,000 youth ever enrolled, not current-season membership. It is unsuitable for ranking current club size.",
+          "source": {
+            "url": "https://www.albionscdenver.org/staff/executive-team/executive-director",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Bio describes more than 7,000 youth ever enrolled, not current-season membership. It is unsuitable for ranking current club size."
+          }
+        }
+      ],
+      "gaps": [
+        "Some pages display Albion Colorado branding; retained Denver-specific bio URLs rather than importing unrelated Boulder personnel.",
+        "Adrian Donoso role headings and biography text conflict across boys/girls responsibilities; excluded pending clarification.",
+        "No exact promotion date for Ramiro or current Boys Technical Director title start for Carles."
+      ]
+    },
+    {
+      "id": "fire",
+      "name": "Grand Junction Fire FC",
+      "kind": "club",
+      "area": "Grand Junction",
+      "website": "https://www.gjsoccer.org/",
+      "programs": [
+        "Recreational",
+        "Competitive"
+      ],
+      "summary": "Grand Valley club with recreational and competitive opportunities. No current annual headcount was verified.",
+      "sources": [
+        {
+          "url": "https://www.gjsoccer.org/about",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Grand Valley club with recreational and competitive opportunities. No current annual headcount was verified."
+        },
+        {
+          "url": "https://www.gjsoccer.org/staff",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Current staff lists role. Bio says moved to Grand Junction in 2010 and soon became Executive Director; exact appointment year not explicit."
+        },
+        {
+          "url": "https://www.gjsoccer.org/new-page",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Coaching at Fire FC since 2013; General Manager promotion date not stated."
+        },
+        {
+          "url": "https://www.gjsoccer.org/staff",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Listed on the official current staff page. Appointment date not stated."
+        },
+        {
+          "url": "https://www.gjsoccer.org/new-page",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Coaching at Fire FC began in 2011; current director appointment date not stated."
+        },
+        {
+          "url": "https://www.gjsoccer.org/landing-page",
+          "checkedDate": "2026-11-06",
+          "period": "Fall 2026",
+          "status": "observed",
+          "note": "U4–U11 recreation plays at Canyon View Park, with parent volunteer coaches and one or two weekly practices by age."
+        },
+        {
+          "url": "https://www.gjsoccer.org/landing-page",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Level Up adds staff-led training for U5–U10 recreational players."
+        },
+        {
+          "url": "https://www.gjsoccer.org/new-page",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Official biographies separately date Ryan Arotin coaching from 2013 and Matt Leach from 2011; those are club service dates, not current-role dates."
+        },
+        {
+          "url": "https://www.gjsoccer.org/landing-page",
+          "checkedDate": "2026-11-06",
+          "period": "Fall 2026",
+          "status": "observed",
+          "note": "Uniform excluded; page lists a $60 kit."
+        }
+      ],
+      "size": [],
+      "fees": [
+        {
+          "program": "Recreational",
+          "ages": "U4",
+          "amount": 85,
+          "currency": "USD",
+          "unit": "season registration",
+          "period": "Fall 2026",
+          "notes": "Uniform excluded; page lists a $60 kit.",
+          "status": "observed",
+          "source": {
+            "url": "https://www.gjsoccer.org/landing-page",
+            "checkedDate": "2026-11-06",
+            "period": "Fall 2026",
+            "status": "observed",
+            "note": "Uniform excluded; page lists a $60 kit."
+          }
+        },
+        {
+          "program": "Recreational",
+          "ages": "U5–U7",
+          "amount": 95,
+          "currency": "USD",
+          "unit": "season registration",
+          "period": "Fall 2026",
+          "notes": "Uniform excluded; page lists a $60 kit.",
+          "status": "observed",
+          "source": {
+            "url": "https://www.gjsoccer.org/landing-page",
+            "checkedDate": "2026-11-06",
+            "period": "Fall 2026",
+            "status": "observed",
+            "note": "Uniform excluded; page lists a $60 kit."
+          }
+        },
+        {
+          "program": "Recreational",
+          "ages": "U8",
+          "amount": 120,
+          "currency": "USD",
+          "unit": "season registration",
+          "period": "Fall 2026",
+          "notes": "Uniform excluded; page lists a $60 kit.",
+          "status": "observed",
+          "source": {
+            "url": "https://www.gjsoccer.org/landing-page",
+            "checkedDate": "2026-11-06",
+            "period": "Fall 2026",
+            "status": "observed",
+            "note": "Uniform excluded; page lists a $60 kit."
+          }
+        },
+        {
+          "program": "Recreational",
+          "ages": "U9–U11",
+          "amount": 135,
+          "currency": "USD",
+          "unit": "season registration",
+          "period": "Fall 2026",
+          "notes": "Uniform excluded; page lists a $60 kit.",
+          "status": "observed",
+          "source": {
+            "url": "https://www.gjsoccer.org/landing-page",
+            "checkedDate": "2026-11-06",
+            "period": "Fall 2026",
+            "status": "observed",
+            "note": "Uniform excluded; page lists a $60 kit."
+          }
+        }
+      ],
+      "leadership": [
+        {
+          "name": "Shaun Howe",
+          "role": "Executive Director",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://www.gjsoccer.org/staff",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Current staff lists role. Bio says moved to Grand Junction in 2010 and soon became Executive Director; exact appointment year not explicit."
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "Ryan Arotin",
+          "role": "General Manager",
+          "startDate": null,
+          "joinedDate": "2013",
+          "source": {
+            "url": "https://www.gjsoccer.org/new-page",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Coaching at Fire FC since 2013; General Manager promotion date not stated."
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "Danny Molineaux",
+          "role": "Girls Technical Director / Office Manager",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://www.gjsoccer.org/staff",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Listed on the official current staff page. Appointment date not stated."
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "Matt Leach",
+          "role": "Boys Technical Director / Adult League Programs",
+          "startDate": null,
+          "joinedDate": "2011",
+          "source": {
+            "url": "https://www.gjsoccer.org/new-page",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Coaching at Fire FC began in 2011; current director appointment date not stated."
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "Marc Halberg",
+          "role": "Registrar / Boys Level Up Director",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://www.gjsoccer.org/staff",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Listed on the official current staff page. Appointment date not stated."
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        }
+      ],
+      "history": [],
+      "questions": [
+        "Ask for the complete team budget, training locations and weekly commitment.",
+        "Confirm available teams for the player’s age, gender and level."
+      ],
+      "reviewStatus": "partial",
+      "outcomes": null,
+      "turnoverRate": null,
+      "facts": [
+        {
+          "label": "Recreation delivery",
+          "value": "U4–U11 recreation plays at Canyon View Park, with parent volunteer coaches and one or two weekly practices by age.",
+          "source": {
+            "url": "https://www.gjsoccer.org/landing-page",
+            "checkedDate": "2026-11-06",
+            "period": "Fall 2026",
+            "status": "observed",
+            "note": "U4–U11 recreation plays at Canyon View Park, with parent volunteer coaches and one or two weekly practices by age."
+          }
+        },
+        {
+          "label": "Development option",
+          "value": "Level Up adds staff-led training for U5–U10 recreational players.",
+          "source": {
+            "url": "https://www.gjsoccer.org/landing-page",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Level Up adds staff-led training for U5–U10 recreational players."
+          }
+        },
+        {
+          "label": "Staff experience",
+          "value": "Official biographies separately date Ryan Arotin coaching from 2013 and Matt Leach from 2011; those are club service dates, not current-role dates.",
+          "source": {
+            "url": "https://www.gjsoccer.org/new-page",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Official biographies separately date Ryan Arotin coaching from 2013 and Matt Leach from 2011; those are club service dates, not current-role dates."
+          }
+        }
+      ],
+      "gaps": [
+        "Executive Director appointment is only described relative to a 2010 move; no exact start assigned.",
+        "Middle-school fee page mixes undated autumn dates with Spring 2026 registration copy; excluded from current fee comparison."
+      ]
+    },
+    {
+      "id": "pueblo",
+      "name": "Pueblo Rangers",
+      "kind": "club",
+      "area": "Pueblo",
+      "website": "https://pueblorangers.net/",
+      "programs": [
+        "Recreational",
+        "Development",
+        "Competitive",
+        "TOPSoccer"
+      ],
+      "summary": "Southern Colorado pathways include recreational, developmental and competitive soccer plus TOPSoccer.",
+      "sources": [
+        {
+          "url": "https://pueblorangers.net/about-us/",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Southern Colorado pathways include recreational, developmental and competitive soccer plus TOPSoccer."
+        },
+        {
+          "url": "https://pueblorangers.net/staff-board-members/",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Listed on the official current staff page. Appointment date not stated."
+        },
+        {
+          "url": "https://pueblorangers.net/about-us/",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Club describes recreational, intermediate, competitive and adaptive TOPSoccer pathways."
+        },
+        {
+          "url": "https://pueblorangers.net/about-us/",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Competitive program describes licensed coaches, Technical Director sessions and supplementary finishing training."
+        },
+        {
+          "url": "https://pueblorangers.net/about-us/",
+          "checkedDate": "2026-11-06",
+          "period": "1982",
+          "status": "observed",
+          "note": "Pueblo Rangers founded."
+        },
+        {
+          "url": "https://pueblorangers.net/about-us/",
+          "checkedDate": "2026-11-06",
+          "period": "1996",
+          "status": "observed",
+          "note": "Four fields completed at the Langoni complex in spring."
+        },
+        {
+          "url": "https://pueblorangers.net/about-us/",
+          "checkedDate": "2026-11-06",
+          "period": "2002",
+          "status": "observed",
+          "note": "U9–U10 intermediate program added."
+        },
+        {
+          "url": "https://pueblorangers.net/about-us/",
+          "checkedDate": "2026-11-06",
+          "period": "2003-12",
+          "status": "observed",
+          "note": "Club hired a professional Director of Coaching; source does not identify this as the current director appointment."
+        },
+        {
+          "url": "https://pueblorangers.net/about-us/",
+          "checkedDate": "2026-11-06",
+          "period": "2016",
+          "status": "observed",
+          "note": "TOPSoccer adaptive program introduced."
+        },
+        {
+          "url": "https://pueblorangers.net/about-us/",
+          "checkedDate": "2026-11-06",
+          "period": "2017-07",
+          "status": "observed",
+          "note": "Club purchased 28 acres for a proposed soccer facility; current completion not established from this history page."
+        }
+      ],
+      "size": [],
+      "fees": [],
+      "leadership": [
+        {
+          "name": "J.D. Carter",
+          "role": "Executive Director / Director of Coaching and Programs",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://pueblorangers.net/staff-board-members/",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Listed on the official current staff page. Appointment date not stated."
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "T.J. Thiebaut",
+          "role": "Technical Director",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://pueblorangers.net/staff-board-members/",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Listed on the official current staff page. Appointment date not stated."
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "Roy Stanley",
+          "role": "Coaching Education",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://pueblorangers.net/staff-board-members/",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Listed on the official current staff page. Appointment date not stated."
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "Katie Champlain",
+          "role": "Registrar / Referee Assignor / Team Managers / Risk Management / Tournament Director",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://pueblorangers.net/staff-board-members/",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Listed on the official current staff page. Appointment date not stated."
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "Steve Johnston",
+          "role": "Board President",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://pueblorangers.net/staff-board-members/",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Listed on the official current staff page. Appointment date not stated."
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        }
+      ],
+      "history": [
+        {
+          "date": "1982",
+          "event": "Pueblo Rangers founded.",
+          "source": {
+            "url": "https://pueblorangers.net/about-us/",
+            "checkedDate": "2026-11-06",
+            "period": "1982",
+            "status": "observed",
+            "note": "Pueblo Rangers founded."
+          }
+        },
+        {
+          "date": "1996",
+          "event": "Four fields completed at the Langoni complex in spring.",
+          "source": {
+            "url": "https://pueblorangers.net/about-us/",
+            "checkedDate": "2026-11-06",
+            "period": "1996",
+            "status": "observed",
+            "note": "Four fields completed at the Langoni complex in spring."
+          }
+        },
+        {
+          "date": "2002",
+          "event": "U9–U10 intermediate program added.",
+          "source": {
+            "url": "https://pueblorangers.net/about-us/",
+            "checkedDate": "2026-11-06",
+            "period": "2002",
+            "status": "observed",
+            "note": "U9–U10 intermediate program added."
+          }
+        },
+        {
+          "date": "2003-12",
+          "event": "Club hired a professional Director of Coaching; source does not identify this as the current director appointment.",
+          "source": {
+            "url": "https://pueblorangers.net/about-us/",
+            "checkedDate": "2026-11-06",
+            "period": "2003-12",
+            "status": "observed",
+            "note": "Club hired a professional Director of Coaching; source does not identify this as the current director appointment."
+          }
+        },
+        {
+          "date": "2016",
+          "event": "TOPSoccer adaptive program introduced.",
+          "source": {
+            "url": "https://pueblorangers.net/about-us/",
+            "checkedDate": "2026-11-06",
+            "period": "2016",
+            "status": "observed",
+            "note": "TOPSoccer adaptive program introduced."
+          }
+        },
+        {
+          "date": "2017-07",
+          "event": "Club purchased 28 acres for a proposed soccer facility; current completion not established from this history page.",
+          "source": {
+            "url": "https://pueblorangers.net/about-us/",
+            "checkedDate": "2026-11-06",
+            "period": "2017-07",
+            "status": "observed",
+            "note": "Club purchased 28 acres for a proposed soccer facility; current completion not established from this history page."
+          }
+        }
+      ],
+      "questions": [
+        "Ask for the complete team budget, training locations and weekly commitment.",
+        "Confirm available teams for the player’s age, gender and level."
+      ],
+      "reviewStatus": "partial",
+      "outcomes": null,
+      "turnoverRate": null,
+      "facts": [
+        {
+          "label": "Player pathway",
+          "value": "Club describes recreational, intermediate, competitive and adaptive TOPSoccer pathways.",
+          "source": {
+            "url": "https://pueblorangers.net/about-us/",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Club describes recreational, intermediate, competitive and adaptive TOPSoccer pathways."
+          }
+        },
+        {
+          "label": "Training support",
+          "value": "Competitive program describes licensed coaches, Technical Director sessions and supplementary finishing training.",
+          "source": {
+            "url": "https://pueblorangers.net/about-us/",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Competitive program describes licensed coaches, Technical Director sessions and supplementary finishing training."
+          }
+        }
+      ],
+      "gaps": [
+        "Current staff appointments are undated. December2003 professional DOC hiring cannot be assigned to current J.D. Carter without evidence.",
+        "History page includes older planned facilities; not represented as completed current amenities."
+      ]
+    },
+    {
+      "id": "rfu",
+      "name": "Roaring Fork United",
+      "kind": "club",
+      "area": "Roaring Fork Valley",
+      "website": "https://www.roaringforkunited.org/",
+      "programs": [
+        "Recreational",
+        "Competitive",
+        "Camps",
+        "Futsal"
+      ],
+      "summary": "Valley organization serves Aspen through Glenwood Springs; 2026/27 pathway lists 4U–19U programs.",
+      "sources": [
+        {
+          "url": "https://www.roaringforkunited.org/copy-of-academy--4u-8u",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Valley organization serves Aspen through Glenwood Springs; 2026/27 pathway lists 4U–19U programs."
+        },
+        {
+          "url": "https://www.roaringforkunited.org/staff922cb157",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Listed on the official current staff page. Appointment date not stated."
+        },
+        {
+          "url": "https://www.roaringforkunited.org/about-us",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "United valley club serves Aspen, Snowmass, Basalt, El Jebel, Carbondale and Glenwood Springs."
+        },
+        {
+          "url": "https://www.roaringforkunited.org/academy--6u-8u",
+          "checkedDate": "2026-11-06",
+          "period": "2025/26",
+          "status": "observed",
+          "note": "Published academy sites include Crown Mountain Park, Crystal River Elementary, Sullivan Park and Rio Grande; Aspen site is excluded for spring in the page schedule."
+        },
+        {
+          "url": "https://www.roaringforkunited.org/academy--6u-8u",
+          "checkedDate": "2026-11-06",
+          "period": "2025/26",
+          "status": "observed",
+          "note": "6U/8U: two weekly sessions of 45–60 minutes; volunteer coaches receive curriculum and training."
+        },
+        {
+          "url": "https://www.roaringforkunited.org/all-valley-league",
+          "checkedDate": "2026-11-06",
+          "period": "2025/26",
+          "status": "observed",
+          "note": "All-Valley recreational bridge to 7v7 uses location-based teams, twice-weekly training and weekend matches."
+        },
+        {
+          "url": "https://www.roaringforkunited.org/academy--6u-8u",
+          "checkedDate": "2026-11-06",
+          "period": "Fall 2025 / Spring 2026",
+          "status": "observed",
+          "note": "Historical published season fee; shirt and listed operating costs included. Additional training/indoor/team extras excluded. Confirm new season pricing."
+        },
+        {
+          "url": "https://www.roaringforkunited.org/academy--6u-8u",
+          "checkedDate": "2026-11-06",
+          "period": "Fall 2025 / Spring 2026",
+          "status": "observed",
+          "note": "Historical published season fee; shirt and listed operating costs included. Confirm new season pricing."
+        },
+        {
+          "url": "https://www.roaringforkunited.org/all-valley-league",
+          "checkedDate": "2026-11-06",
+          "period": "2025/26",
+          "status": "observed",
+          "note": "Historical published program price; confirm current-season package and exclusions."
+        }
+      ],
+      "size": [],
+      "fees": [
+        {
+          "program": "Academy",
+          "ages": "6U",
+          "amount": 150,
+          "currency": "USD",
+          "unit": "season registration",
+          "period": "Fall 2025 / Spring 2026",
+          "notes": "Historical published season fee; shirt and listed operating costs included. Additional training/indoor/team extras excluded. Confirm new season pricing.",
+          "status": "historical",
+          "source": {
+            "url": "https://www.roaringforkunited.org/academy--6u-8u",
+            "checkedDate": "2026-11-06",
+            "period": "Fall 2025 / Spring 2026",
+            "status": "observed",
+            "note": "Historical published season fee; shirt and listed operating costs included. Additional training/indoor/team extras excluded. Confirm new season pricing."
+          }
+        },
+        {
+          "program": "Academy",
+          "ages": "8U",
+          "amount": 175,
+          "currency": "USD",
+          "unit": "season registration",
+          "period": "Fall 2025 / Spring 2026",
+          "notes": "Historical published season fee; shirt and listed operating costs included. Confirm new season pricing.",
+          "status": "historical",
+          "source": {
+            "url": "https://www.roaringforkunited.org/academy--6u-8u",
+            "checkedDate": "2026-11-06",
+            "period": "Fall 2025 / Spring 2026",
+            "status": "observed",
+            "note": "Historical published season fee; shirt and listed operating costs included. Confirm new season pricing."
+          }
+        },
+        {
+          "program": "All-Valley League",
+          "ages": "10U",
+          "amount": 275,
+          "currency": "USD",
+          "unit": "season registration",
+          "period": "2025/26",
+          "notes": "Historical published program price; confirm current-season package and exclusions.",
+          "status": "historical",
+          "source": {
+            "url": "https://www.roaringforkunited.org/all-valley-league",
+            "checkedDate": "2026-11-06",
+            "period": "2025/26",
+            "status": "observed",
+            "note": "Historical published program price; confirm current-season package and exclusions."
+          }
+        }
+      ],
+      "leadership": [
+        {
+          "name": "Molly DeMarr",
+          "role": "Executive Director",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://www.roaringforkunited.org/staff922cb157",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Listed on the official current staff page. Appointment date not stated."
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "Hailey Bird",
+          "role": "Operations & Academy Director",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://www.roaringforkunited.org/staff922cb157",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Listed on the official current staff page. Appointment date not stated."
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "Juan Martinez",
+          "role": "Director of Coaching (11U–19U) & Director of Goalkeeping",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://www.roaringforkunited.org/staff922cb157",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Listed on the official current staff page. Appointment date not stated."
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "Max Cohen",
+          "role": "Recreational Coordinator (4U–10U)",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://www.roaringforkunited.org/staff922cb157",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Listed on the official current staff page. Appointment date not stated."
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        }
+      ],
+      "history": [],
+      "questions": [
+        "Ask for the complete team budget, training locations and weekly commitment.",
+        "Confirm available teams for the player’s age, gender and level."
+      ],
+      "reviewStatus": "partial",
+      "outcomes": null,
+      "turnoverRate": null,
+      "facts": [
+        {
+          "label": "Service area",
+          "value": "United valley club serves Aspen, Snowmass, Basalt, El Jebel, Carbondale and Glenwood Springs.",
+          "source": {
+            "url": "https://www.roaringforkunited.org/about-us",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "United valley club serves Aspen, Snowmass, Basalt, El Jebel, Carbondale and Glenwood Springs."
+          }
+        },
+        {
+          "label": "Academy facilities",
+          "value": "Published academy sites include Crown Mountain Park, Crystal River Elementary, Sullivan Park and Rio Grande; Aspen site is excluded for spring in the page schedule.",
+          "source": {
+            "url": "https://www.roaringforkunited.org/academy--6u-8u",
+            "checkedDate": "2026-11-06",
+            "period": "2025/26",
+            "status": "observed",
+            "note": "Published academy sites include Crown Mountain Park, Crystal River Elementary, Sullivan Park and Rio Grande; Aspen site is excluded for spring in the page schedule."
+          }
+        },
+        {
+          "label": "Academy commitment",
+          "value": "6U/8U: two weekly sessions of 45–60 minutes; volunteer coaches receive curriculum and training.",
+          "source": {
+            "url": "https://www.roaringforkunited.org/academy--6u-8u",
+            "checkedDate": "2026-11-06",
+            "period": "2025/26",
+            "status": "observed",
+            "note": "6U/8U: two weekly sessions of 45–60 minutes; volunteer coaches receive curriculum and training."
+          }
+        },
+        {
+          "label": "10U pathway",
+          "value": "All-Valley recreational bridge to 7v7 uses location-based teams, twice-weekly training and weekend matches.",
+          "source": {
+            "url": "https://www.roaringforkunited.org/all-valley-league",
+            "checkedDate": "2026-11-06",
+            "period": "2025/26",
+            "status": "observed",
+            "note": "All-Valley recreational bridge to 7v7 uses location-based teams, twice-weekly training and weekend matches."
+          }
+        }
+      ],
+      "gaps": [
+        "Retrieved search snippets had older role descriptions; current opened staff page used.",
+        "Program pages still label 2025/26; prices retained as historical, never advanced to2026/27.",
+        "Current leadership appointment dates absent from reviewed staff page."
+      ]
+    },
+    {
+      "id": "steamboat",
+      "name": "Steamboat Soccer Club",
+      "kind": "club",
+      "area": "Yampa Valley",
+      "website": "https://www.steamboat-soccer.com/",
+      "programs": [],
+      "summary": "Club fundraising page describes planned field expansion. Project beneficiaries are not a verified annual youth membership count.",
+      "sources": [
+        {
+          "url": "https://www.coloradogives.org/organization/SteamboatSoccerClub",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Club fundraising page describes planned field expansion. Project beneficiaries are not a verified annual youth membership count."
+        },
+        {
+          "url": "https://www.steamboat-soccer.com/staff",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Listed on the official current staff page. Appointment date not stated."
+        },
+        {
+          "url": "https://www.steamboat-soccer.com/camp-coaches",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Official camp biography explicitly dates Technical Director service to2008; does not date any additional program-director title."
+        },
+        {
+          "url": "https://www.steamboat-soccer.com/staff",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Club separates competitive, recreation/academy, camps and community-event leadership."
+        },
+        {
+          "url": "https://www.steamboat-soccer.com/camp-coaches",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Academy describes on-field coaching, counselors/chaperones and athletic trainer/medical availability during camp."
+        },
+        {
+          "url": "https://www.steamboat-soccer.com/camp-coaches",
+          "checkedDate": "2026-11-06",
+          "period": "1994",
+          "status": "observed",
+          "note": "Steamboat Soccer Academy founded by Coach Bohlmann."
+        },
+        {
+          "url": "https://www.steamboat-soccer.com/camp-coaches",
+          "checkedDate": "2026-11-06",
+          "period": "1994–2021",
+          "status": "observed",
+          "note": "Coach Bohlmann ran the Academy during this period; this is academy leadership, not club director tenure."
+        }
+      ],
+      "size": [],
+      "fees": [],
+      "leadership": [
+        {
+          "name": "Linda John",
+          "role": "Club Director",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://www.steamboat-soccer.com/staff",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Listed on the official current staff page. Appointment date not stated."
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "Jan DePuy",
+          "role": "Director of Administration",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://www.steamboat-soccer.com/staff",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Listed on the official current staff page. Appointment date not stated."
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "Hobey Early",
+          "role": "Club Technical Director & Director of Competitive Programs",
+          "startDate": "2008",
+          "joinedDate": null,
+          "source": {
+            "url": "https://www.steamboat-soccer.com/camp-coaches",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Official camp biography explicitly dates Technical Director service to2008; does not date any additional program-director title."
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "David Vaughan",
+          "role": "Director of Recreational U5–U14, U9–U10 Academy & SSA Camps",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://www.steamboat-soccer.com/staff",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Listed on the official current staff page. Appointment date not stated."
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        },
+        {
+          "name": "Joey Rind",
+          "role": "Director of Community Engagement & Special Events",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://www.steamboat-soccer.com/staff",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Listed on the official current staff page. Appointment date not stated."
+          },
+          "dateBasis": "role start as published",
+          "status": "observed"
+        }
+      ],
+      "history": [
+        {
+          "date": "1994",
+          "event": "Steamboat Soccer Academy founded by Coach Bohlmann.",
+          "source": {
+            "url": "https://www.steamboat-soccer.com/camp-coaches",
+            "checkedDate": "2026-11-06",
+            "period": "1994",
+            "status": "observed",
+            "note": "Steamboat Soccer Academy founded by Coach Bohlmann."
+          }
+        },
+        {
+          "date": "1994–2021",
+          "event": "Coach Bohlmann ran the Academy during this period; this is academy leadership, not club director tenure.",
+          "source": {
+            "url": "https://www.steamboat-soccer.com/camp-coaches",
+            "checkedDate": "2026-11-06",
+            "period": "1994–2021",
+            "status": "observed",
+            "note": "Coach Bohlmann ran the Academy during this period; this is academy leadership, not club director tenure."
+          }
+        }
+      ],
+      "questions": [
+        "Ask for the complete team budget, training locations and weekly commitment.",
+        "Confirm available teams for the player’s age, gender and level."
+      ],
+      "reviewStatus": "partial",
+      "outcomes": null,
+      "turnoverRate": null,
+      "facts": [
+        {
+          "label": "Program responsibilities",
+          "value": "Club separates competitive, recreation/academy, camps and community-event leadership.",
+          "source": {
+            "url": "https://www.steamboat-soccer.com/staff",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Club separates competitive, recreation/academy, camps and community-event leadership."
+          }
+        },
+        {
+          "label": "Camps staffing",
+          "value": "Academy describes on-field coaching, counselors/chaperones and athletic trainer/medical availability during camp.",
+          "source": {
+            "url": "https://www.steamboat-soccer.com/camp-coaches",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Academy describes on-field coaching, counselors/chaperones and athletic trainer/medical availability during camp."
+          }
+        }
+      ],
+      "gaps": [
+        "Original steamboatsoccerclub.com address failed retrieval; current official club content is at steamboat-soccer.com.",
+        "Only Hobey Technical Director start year established; do not infer other staff hiring years from relative experience statements."
+      ]
+    }
+  ]
+}

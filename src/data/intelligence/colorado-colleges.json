@@ -1,0 +1,2788 @@
+{
+  "schemaVersion": 2,
+  "asOf": "2026-11-06",
+  "scope": "Soccer enrichment only. Joins shared institution records by institutionId; program membership remains the existing Colorado soccer catalog.",
+  "colleges": [
+    {
+      "id": "adams-state",
+      "kind": "college",
+      "summary": "Existing Colorado programs with reviewed coaching biographies, dated program context and academic/cost evidence. Read specific gaps before comparing.",
+      "sources": [
+        {
+          "url": "https://asugrizzlies.com/news/2025/2/21/peter-freeman-named-head-coach-of-adams-state-mens-soccer.aspx",
+          "checkedDate": "2026-11-06",
+          "period": "2025-02-21",
+          "status": "observed",
+          "note": "Appointment announced February 21, 2025. Previously served four seasons as an Adams assistant, but the earlier employment dates are not specified."
+        },
+        {
+          "url": "https://asugrizzlies.com/sports/mens-soccer/roster",
+          "checkedDate": "2026-11-06",
+          "period": "2026",
+          "status": "observed",
+          "note": "2026 roster names Peter Freeman as head coach."
+        },
+        {
+          "url": "https://asugrizzlies.com/news/2026/7/30/womens-soccer-bonilla-promoted-to-lead-adams-state-womens-soccer-program.aspx",
+          "checkedDate": "2026-11-06",
+          "period": "2026-07-30",
+          "status": "observed",
+          "note": "Promoted from assistant on July 30, 2026; prior school joining date not specified. Current 2026 roster uses Victoria Bonilla; announcement uses Vic. Old Alex Greco bio remains online but is superseded by departure and appointment announcements."
+        },
+        {
+          "url": "https://asugrizzlies.com/news/2026/10/28/adams-state-mens-soccer-falls-2-0-to-fort-lewis-in-season-finale.aspx",
+          "checkedDate": "2026-11-06",
+          "period": "2026",
+          "status": "observed",
+          "note": "Final-season recap reports 2026 team record."
+        },
+        {
+          "url": "https://asugrizzlies.com/news/2026/7/23/womens-soccer-greco-departs-adams-state-to-lead-saint-leo-womens-soccer-program.aspx",
+          "checkedDate": "2026-11-06",
+          "period": "2026-07-23",
+          "status": "observed",
+          "note": "Official departure announcement."
+        }
+      ],
+      "size": [],
+      "leadership": [
+        {
+          "name": "Peter Freeman",
+          "role": "Men · Head men's soccer coach",
+          "startDate": "2025-02-21",
+          "joinedDate": null,
+          "source": {
+            "url": "https://asugrizzlies.com/news/2025/2/21/peter-freeman-named-head-coach-of-adams-state-mens-soccer.aspx",
+            "checkedDate": "2026-11-06",
+            "period": "2025-02-21",
+            "status": "observed",
+            "note": "Appointment announced February 21, 2025. Previously served four seasons as an Adams assistant, but the earlier employment dates are not specified."
+          },
+          "dateBasis": "appointment announced",
+          "status": "verified",
+          "programImportKey": "adams-state-mens"
+        },
+        {
+          "name": "Victoria (Vic) Bonilla",
+          "role": "Women · Interim head women's soccer coach",
+          "startDate": "2026-07-30",
+          "joinedDate": null,
+          "source": {
+            "url": "https://asugrizzlies.com/news/2026/7/30/womens-soccer-bonilla-promoted-to-lead-adams-state-womens-soccer-program.aspx",
+            "checkedDate": "2026-11-06",
+            "period": "2026-07-30",
+            "status": "observed",
+            "note": "Promoted from assistant on July 30, 2026; prior school joining date not specified. Current 2026 roster uses Victoria Bonilla; announcement uses Vic. Old Alex Greco bio remains online but is superseded by departure and appointment announcements."
+          },
+          "dateBasis": "appointment announced",
+          "status": "verified",
+          "programImportKey": "adams-state-womens"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026",
+          "event": "Men · 2026 season finished 2–13–1 overall and 1–8–0 in RMAC play.",
+          "source": {
+            "url": "https://asugrizzlies.com/news/2026/10/28/adams-state-mens-soccer-falls-2-0-to-fort-lewis-in-season-finale.aspx",
+            "checkedDate": "2026-11-06",
+            "period": "2026",
+            "status": "observed",
+            "note": "Final-season recap reports 2026 team record."
+          }
+        },
+        {
+          "date": "2026-07-23",
+          "event": "Women · Alex Greco departed after four years to lead Saint Leo; this is a documented change, not an inferred turnover rate.",
+          "source": {
+            "url": "https://asugrizzlies.com/news/2026/7/23/womens-soccer-greco-departs-adams-state-to-lead-saint-leo-womens-soccer-program.aspx",
+            "checkedDate": "2026-11-06",
+            "period": "2026-07-23",
+            "status": "observed",
+            "note": "Official departure announcement."
+          }
+        }
+      ],
+      "questions": [
+        "Confirm varsity program and current coach.",
+        "Compare net price, academic fit and roster needs directly with the school."
+      ],
+      "reviewStatus": "partial",
+      "outcomes": null,
+      "turnoverRate": null,
+      "programImportKeys": [
+        "adams-state-womens",
+        "adams-state-mens"
+      ],
+      "facts": [],
+      "gaps": [],
+      "catalogCoaches": [
+        {
+          "name": "Victoria Bonilla",
+          "role": "Women's Soccer Interim Head Coach",
+          "programImportKey": "adams-state-womens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://asugrizzlies.com/sports/womens-soccer/coaches",
+          "status": "corrected"
+        },
+        {
+          "name": "Peter Freeman",
+          "role": "Head Coach",
+          "programImportKey": "adams-state-mens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://asugrizzlies.com/sports/mens-soccer/coaches",
+          "status": "corrected"
+        },
+        {
+          "name": "Avery Richards",
+          "role": "Assistant Men's Soccer Coach",
+          "programImportKey": "adams-state-mens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://asugrizzlies.com/sports/mens-soccer/coaches",
+          "status": "corrected"
+        },
+        {
+          "name": "Dmitri Fong",
+          "role": "Assistant Women's Soccer Coach",
+          "programImportKey": "adams-state-womens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://asugrizzlies.com/sports/womens-soccer/coaches",
+          "status": "corrected"
+        }
+      ],
+      "institutionId": "adams-state",
+      "sport": "soccer"
+    },
+    {
+      "id": "colorado-christian",
+      "kind": "college",
+      "summary": "Existing Colorado programs with reviewed coaching biographies, dated program context and academic/cost evidence. Read specific gaps before comparing.",
+      "sources": [
+        {
+          "url": "https://ccucougars.com/news/2025/7/23/mens-soccer-caleb-cole-named-director-of-soccer.aspx",
+          "checkedDate": "2026-11-06",
+          "period": "2024-03-11",
+          "status": "observed",
+          "note": "Joined CCU in February 2020 as men’s assistant; became women’s head coach in 2024 and Director of Soccer overseeing both teams July 23, 2025. Women’s head-coach appointment announced March 11, 2024."
+        },
+        {
+          "url": "https://ccucougars.com/news/2024/3/11/womens-soccer-caleb-cole-named-womens-soccer-head-coach.aspx",
+          "checkedDate": "2026-11-06",
+          "period": "2024-03-11",
+          "status": "observed",
+          "note": "Women’s head coach appointment."
+        },
+        {
+          "url": "https://ccucougars.com/news/2025/7/23/mens-soccer-caleb-cole-named-director-of-soccer.aspx",
+          "checkedDate": "2026-11-06",
+          "period": "2025-07-23",
+          "status": "observed",
+          "note": "Joined CCU in February 2020 as men’s assistant; became women’s head coach in 2024 and Director of Soccer overseeing both teams July 23, 2025. Women’s head-coach appointment announced March 11, 2024."
+        }
+      ],
+      "size": [],
+      "leadership": [
+        {
+          "name": "Caleb Cole",
+          "role": "Women · Head coach / Director of Soccer",
+          "startDate": "2024-03-11",
+          "joinedDate": "2020-02",
+          "source": {
+            "url": "https://ccucougars.com/news/2025/7/23/mens-soccer-caleb-cole-named-director-of-soccer.aspx",
+            "checkedDate": "2026-11-06",
+            "period": "2024-03-11",
+            "status": "observed",
+            "note": "Joined CCU in February 2020 as men’s assistant; became women’s head coach in 2024 and Director of Soccer overseeing both teams July 23, 2025. Women’s head-coach appointment announced March 11, 2024."
+          },
+          "dateBasis": "appointment announced",
+          "status": "verified",
+          "programImportKey": "colorado-christian-womens"
+        },
+        {
+          "name": "Caleb Cole",
+          "role": "Men · Head coach / Director of Soccer",
+          "startDate": "2025-07-23",
+          "joinedDate": "2020-02",
+          "source": {
+            "url": "https://ccucougars.com/news/2025/7/23/mens-soccer-caleb-cole-named-director-of-soccer.aspx",
+            "checkedDate": "2026-11-06",
+            "period": "2025-07-23",
+            "status": "observed",
+            "note": "Joined CCU in February 2020 as men’s assistant; became women’s head coach in 2024 and Director of Soccer overseeing both teams July 23, 2025. Women’s head-coach appointment announced March 11, 2024."
+          },
+          "dateBasis": "appointment announced",
+          "status": "verified",
+          "programImportKey": "colorado-christian-mens"
+        }
+      ],
+      "history": [],
+      "questions": [
+        "Confirm varsity program and current coach.",
+        "Compare net price, academic fit and roster needs directly with the school."
+      ],
+      "reviewStatus": "partial",
+      "outcomes": null,
+      "turnoverRate": null,
+      "programImportKeys": [
+        "colorado-christian-womens",
+        "colorado-christian-mens"
+      ],
+      "facts": [],
+      "gaps": [],
+      "catalogCoaches": [
+        {
+          "name": "Caleb Cole",
+          "role": "Head Coach | Director of Soccer",
+          "programImportKey": "colorado-christian-womens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://ccucougars.com/sports/womens-soccer/coaches",
+          "status": "corrected"
+        },
+        {
+          "name": "Caleb Cole",
+          "role": "Head Coach | Director of Soccer",
+          "programImportKey": "colorado-christian-mens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://ccucougars.com/sports/mens-soccer/coaches",
+          "status": "corrected"
+        },
+        {
+          "name": "Hayden Rus",
+          "role": "Volunteer Goalkeeper Coach",
+          "programImportKey": "colorado-christian-mens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://ccucougars.com/sports/mens-soccer/coaches",
+          "status": "corrected"
+        },
+        {
+          "name": "Jack Dickhausen",
+          "role": "First Assistant Coach",
+          "programImportKey": "colorado-christian-mens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://ccucougars.com/sports/mens-soccer/coaches",
+          "status": "corrected"
+        },
+        {
+          "name": "Hayden Rus",
+          "role": "Volunteer Goalkeeper Coach",
+          "programImportKey": "colorado-christian-womens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://ccucougars.com/sports/womens-soccer/coaches",
+          "status": "corrected"
+        },
+        {
+          "name": "Jess Sims",
+          "role": "Graduate Assistant",
+          "programImportKey": "colorado-christian-womens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://ccucougars.com/sports/womens-soccer/coaches",
+          "status": "corrected"
+        },
+        {
+          "name": "Zoe Sims",
+          "role": "First Assistant Coach",
+          "programImportKey": "colorado-christian-womens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://ccucougars.com/sports/womens-soccer/coaches",
+          "status": "corrected"
+        }
+      ],
+      "institutionId": "colorado-christian",
+      "sport": "soccer"
+    },
+    {
+      "id": "colorado-college",
+      "kind": "college",
+      "summary": "Existing Colorado programs with reviewed coaching biographies, dated program context and academic/cost evidence. Read specific gaps before comparing.",
+      "sources": [
+        {
+          "url": "https://stories.coloradocollege.edu/viewbook-2026-27/",
+          "note": "Viewbook identifies women’s soccer as D1 and men’s soccer as D3.",
+          "period": "2026/27",
+          "checkedDate": "2026-11-06",
+          "status": "observed"
+        },
+        {
+          "url": "https://cctigers.com/news/2015/2/6/MSOC_0206151729.aspx?path=MSOC",
+          "checkedDate": "2026-11-06",
+          "period": "2015-02-06",
+          "status": "observed",
+          "note": "Joined as assistant for 2013 season; promoted February 6, 2015 after Horst Richardson retired."
+        },
+        {
+          "url": "https://cctigers.com/staff-directory/keri-sanchez/338",
+          "checkedDate": "2026-11-06",
+          "period": "2021-12",
+          "status": "observed",
+          "note": "Named eighth head coach in December 2021; first playing season 2022. Biography explicitly identifies the program as Division I."
+        },
+        {
+          "url": "https://cctigers.com/sports/mens-soccer/roster/coaches/scott-palguta/1598",
+          "checkedDate": "2026-11-06",
+          "period": "2024",
+          "status": "observed",
+          "note": "Dated 2024 results from official biography."
+        },
+        {
+          "url": "https://cctigers.com/staff-directory/keri-sanchez/338",
+          "checkedDate": "2026-11-06",
+          "period": "2025",
+          "status": "observed",
+          "note": "2025 team record and academic recognition from official biography."
+        },
+        {
+          "url": "https://cctigers.com/staff-directory/keri-sanchez/338",
+          "checkedDate": "2026-11-06",
+          "period": "2024",
+          "status": "observed",
+          "note": "2024 team results, not a current season forecast."
+        }
+      ],
+      "size": [],
+      "leadership": [
+        {
+          "name": "Scott Palguta",
+          "role": "Men · Head men's soccer coach",
+          "startDate": "2015-02-06",
+          "joinedDate": "2013",
+          "source": {
+            "url": "https://cctigers.com/news/2015/2/6/MSOC_0206151729.aspx?path=MSOC",
+            "checkedDate": "2026-11-06",
+            "period": "2015-02-06",
+            "status": "observed",
+            "note": "Joined as assistant for 2013 season; promoted February 6, 2015 after Horst Richardson retired."
+          },
+          "dateBasis": "appointment announced",
+          "status": "verified",
+          "programImportKey": "colorado-college-mens"
+        },
+        {
+          "name": "Keri Sanchez",
+          "role": "Women · Head women's soccer coach",
+          "startDate": "2021-12",
+          "joinedDate": null,
+          "source": {
+            "url": "https://cctigers.com/staff-directory/keri-sanchez/338",
+            "checkedDate": "2026-11-06",
+            "period": "2021-12",
+            "status": "observed",
+            "note": "Named eighth head coach in December 2021; first playing season 2022. Biography explicitly identifies the program as Division I."
+          },
+          "dateBasis": "appointment month",
+          "status": "verified",
+          "programImportKey": "colorado-college-womens"
+        }
+      ],
+      "history": [
+        {
+          "date": "2024",
+          "event": "Men · Team finished 16–3–3, won SCAC regular-season title and reached NCAA second round.",
+          "source": {
+            "url": "https://cctigers.com/sports/mens-soccer/roster/coaches/scott-palguta/1598",
+            "checkedDate": "2026-11-06",
+            "period": "2024",
+            "status": "observed",
+            "note": "Dated 2024 results from official biography."
+          }
+        },
+        {
+          "date": "2025",
+          "event": "Women · Team finished 5–6–7; 22 players earned Mountain West All-Academic recognition.",
+          "source": {
+            "url": "https://cctigers.com/staff-directory/keri-sanchez/338",
+            "checkedDate": "2026-11-06",
+            "period": "2025",
+            "status": "observed",
+            "note": "2025 team record and academic recognition from official biography."
+          }
+        },
+        {
+          "date": "2024",
+          "event": "Women · Team finished 8–9–3; home record was 7–1–3.",
+          "source": {
+            "url": "https://cctigers.com/staff-directory/keri-sanchez/338",
+            "checkedDate": "2026-11-06",
+            "period": "2024",
+            "status": "observed",
+            "note": "2024 team results, not a current season forecast."
+          }
+        }
+      ],
+      "questions": [
+        "Confirm varsity program and current coach.",
+        "Compare net price, academic fit and roster needs directly with the school."
+      ],
+      "reviewStatus": "partial",
+      "outcomes": null,
+      "turnoverRate": null,
+      "programImportKeys": [
+        "colorado-college-womens",
+        "colorado-college-mens"
+      ],
+      "facts": [],
+      "gaps": [],
+      "catalogCoaches": [
+        {
+          "name": "Keri Sanchez",
+          "role": "Head Coach, Women's Soccer",
+          "programImportKey": "colorado-college-womens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://cctigers.com/sports/womens-soccer/coaches",
+          "status": "corrected"
+        },
+        {
+          "name": "Scott Palguta",
+          "role": "Head Coach, Men's Soccer",
+          "programImportKey": "colorado-college-mens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://cctigers.com/sports/mens-soccer/coaches",
+          "status": "corrected"
+        },
+        {
+          "name": "Kevin Doyle",
+          "role": "Assistant Coach, Men's Soccer",
+          "programImportKey": "colorado-college-mens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://cctigers.com/sports/mens-soccer/coaches",
+          "status": "corrected"
+        },
+        {
+          "name": "Tomas Martinez",
+          "role": "Assistant Coach, Men's Soccer",
+          "programImportKey": "colorado-college-mens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://cctigers.com/sports/mens-soccer/coaches",
+          "status": "corrected"
+        },
+        {
+          "name": "Chris Dodd",
+          "role": "Assistant Coach, Women's Soccer",
+          "programImportKey": "colorado-college-womens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://cctigers.com/sports/womens-soccer/coaches",
+          "status": "corrected"
+        },
+        {
+          "name": "Frankie LaManna",
+          "role": "Assistant Coach, Women's Soccer",
+          "programImportKey": "colorado-college-womens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://cctigers.com/sports/womens-soccer/coaches",
+          "status": "corrected"
+        },
+        {
+          "name": "Kelsey Brouwer",
+          "role": "Assistant Coach, Women's Soccer",
+          "programImportKey": "colorado-college-womens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://cctigers.com/sports/womens-soccer/coaches",
+          "status": "corrected"
+        }
+      ],
+      "institutionId": "colorado-college",
+      "sport": "soccer"
+    },
+    {
+      "id": "colorado-mesa",
+      "kind": "college",
+      "summary": "Existing Colorado programs with reviewed coaching biographies, dated program context and academic/cost evidence. Read specific gaps before comparing.",
+      "sources": [
+        {
+          "url": "https://cmumavericks.com/news/2020/12/16/fridal-named-as-head-mens-soccer-coach.aspx",
+          "checkedDate": "2026-11-06",
+          "period": "2021-01-04",
+          "status": "observed",
+          "note": "Hiring announced December 16, 2020 with official duties beginning January 4, 2021. First season was the pandemic-delayed 2020 season played spring 2021."
+        },
+        {
+          "url": "https://cmumavericks.com/sports/mens-soccer/roster/coaches/jon-fridal/2953",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Current head-coach biography confirms role and first-season context."
+        },
+        {
+          "url": "https://cmumavericks.com/news/2024/5/14/lingafeldt-named-as-cmus-head-womens-soccer-coach.aspx",
+          "checkedDate": "2026-11-06",
+          "period": "2024-05-14",
+          "status": "observed",
+          "note": "Hiring announced May 14, 2024; sixth head coach in program history."
+        },
+        {
+          "url": "https://cmumavericks.com/sports/mens-soccer/roster/coaches/jon-fridal/2953",
+          "checkedDate": "2026-11-06",
+          "period": "2021",
+          "status": "observed",
+          "note": "Fall 2021 achievements; distinct from spring pandemic season."
+        },
+        {
+          "url": "https://cmumavericks.com/sports/womens-soccer/roster/coaches/jody-lingafeldt/3251",
+          "checkedDate": "2026-11-06",
+          "period": "2024",
+          "status": "observed",
+          "note": "First-season record from official biography."
+        }
+      ],
+      "size": [],
+      "leadership": [
+        {
+          "name": "Jon Fridal",
+          "role": "Men · Head men's soccer coach",
+          "startDate": "2021-01-04",
+          "joinedDate": null,
+          "source": {
+            "url": "https://cmumavericks.com/news/2020/12/16/fridal-named-as-head-mens-soccer-coach.aspx",
+            "checkedDate": "2026-11-06",
+            "period": "2021-01-04",
+            "status": "observed",
+            "note": "Hiring announced December 16, 2020 with official duties beginning January 4, 2021. First season was the pandemic-delayed 2020 season played spring 2021."
+          },
+          "dateBasis": "effective start",
+          "status": "verified",
+          "programImportKey": "colorado-mesa-mens"
+        },
+        {
+          "name": "Jody Lingafeldt",
+          "role": "Women · Head women's soccer coach",
+          "startDate": "2024-05-14",
+          "joinedDate": null,
+          "source": {
+            "url": "https://cmumavericks.com/news/2024/5/14/lingafeldt-named-as-cmus-head-womens-soccer-coach.aspx",
+            "checkedDate": "2026-11-06",
+            "period": "2024-05-14",
+            "status": "observed",
+            "note": "Hiring announced May 14, 2024; sixth head coach in program history."
+          },
+          "dateBasis": "appointment announced",
+          "status": "verified",
+          "programImportKey": "colorado-mesa-womens"
+        }
+      ],
+      "history": [
+        {
+          "date": "2021",
+          "event": "Men · Fall 2021 team won the RMAC Tournament and a game in the NCAA Tournament.",
+          "source": {
+            "url": "https://cmumavericks.com/sports/mens-soccer/roster/coaches/jon-fridal/2953",
+            "checkedDate": "2026-11-06",
+            "period": "2021",
+            "status": "observed",
+            "note": "Fall 2021 achievements; distinct from spring pandemic season."
+          }
+        },
+        {
+          "date": "2024",
+          "event": "Women · First season finished 14–2–4 overall and 11–1 in RMAC play.",
+          "source": {
+            "url": "https://cmumavericks.com/sports/womens-soccer/roster/coaches/jody-lingafeldt/3251",
+            "checkedDate": "2026-11-06",
+            "period": "2024",
+            "status": "observed",
+            "note": "First-season record from official biography."
+          }
+        }
+      ],
+      "questions": [
+        "Confirm varsity program and current coach.",
+        "Compare net price, academic fit and roster needs directly with the school."
+      ],
+      "reviewStatus": "partial",
+      "outcomes": null,
+      "turnoverRate": null,
+      "programImportKeys": [
+        "colorado-mesa-womens",
+        "colorado-mesa-mens"
+      ],
+      "facts": [],
+      "gaps": [],
+      "catalogCoaches": [
+        {
+          "name": "Jody Lingafeldt",
+          "role": "Head Women's Soccer Coach",
+          "programImportKey": "colorado-mesa-womens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://cmumavericks.com/sports/womens-soccer/coaches",
+          "status": "corrected"
+        },
+        {
+          "name": "Jon Fridal",
+          "role": "Head Men's Soccer Coach",
+          "programImportKey": "colorado-mesa-mens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://cmumavericks.com/sports/mens-soccer/coaches",
+          "status": "corrected"
+        },
+        {
+          "name": "Ramses Atahualpa",
+          "role": "Assistant Coach",
+          "programImportKey": "colorado-mesa-mens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://cmumavericks.com/sports/mens-soccer/coaches",
+          "status": "corrected"
+        },
+        {
+          "name": "Bonnie Young",
+          "role": "Volunteer Assistant Women's Soccer Coach",
+          "programImportKey": "colorado-mesa-womens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://cmumavericks.com/sports/womens-soccer/coaches",
+          "status": "corrected"
+        },
+        {
+          "name": "Felix Maurer",
+          "role": "Assistant Women's Soccer Coach",
+          "programImportKey": "colorado-mesa-womens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://cmumavericks.com/sports/womens-soccer/coaches",
+          "status": "corrected"
+        }
+      ],
+      "institutionId": "colorado-mesa",
+      "sport": "soccer"
+    },
+    {
+      "id": "colorado-northwestern",
+      "kind": "college",
+      "summary": "Existing Colorado programs with reviewed coaching biographies, dated program context and academic/cost evidence. Read specific gaps before comparing.",
+      "sources": [
+        {
+          "url": "https://athletics.cncc.edu/staff-directory/justin-motzkus/97",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Current biography names Dave Brown and says first season, but supplies no dated appointment. The URL retains Justin Motzkus’s slug; an older cached directory names Motzkus. Current staff listing and biography agree on Brown; no date inferred."
+        },
+        {
+          "url": "https://athletics.cncc.edu/staff.aspx",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Current directory names Dave Brown as men’s head coach."
+        },
+        {
+          "url": "https://athletics.cncc.edu/news/2026/1/5/womens-soccer-cncc-names-austin-schafer-head-womens-soccer-coach.aspx",
+          "checkedDate": "2026-11-06",
+          "period": "2026-01-05",
+          "status": "observed",
+          "note": "Hiring announced January 5, 2026 after serving as CNCC assistant. Official pages alternate Shafer/Schafer spellings; staff directory uses Shafer. Earlier 2025–26 coaches page retains Eldon Brough and is not the current appointment."
+        }
+      ],
+      "size": [],
+      "leadership": [
+        {
+          "name": "Dave Brown",
+          "role": "Men · Head men's soccer coach",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://athletics.cncc.edu/staff-directory/justin-motzkus/97",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Current biography names Dave Brown and says first season, but supplies no dated appointment. The URL retains Justin Motzkus’s slug; an older cached directory names Motzkus. Current staff listing and biography agree on Brown; no date inferred."
+          },
+          "dateBasis": "date unavailable",
+          "status": "verified",
+          "programImportKey": "colorado-northwestern-mens"
+        },
+        {
+          "name": "Austin Shafer",
+          "role": "Women · Head women's soccer coach",
+          "startDate": "2026-01-05",
+          "joinedDate": null,
+          "source": {
+            "url": "https://athletics.cncc.edu/news/2026/1/5/womens-soccer-cncc-names-austin-schafer-head-womens-soccer-coach.aspx",
+            "checkedDate": "2026-11-06",
+            "period": "2026-01-05",
+            "status": "observed",
+            "note": "Hiring announced January 5, 2026 after serving as CNCC assistant. Official pages alternate Shafer/Schafer spellings; staff directory uses Shafer. Earlier 2025–26 coaches page retains Eldon Brough and is not the current appointment."
+          },
+          "dateBasis": "appointment announced",
+          "status": "verified",
+          "programImportKey": "colorado-northwestern-womens"
+        }
+      ],
+      "history": [],
+      "questions": [
+        "Confirm varsity program and current coach.",
+        "Compare net price, academic fit and roster needs directly with the school."
+      ],
+      "reviewStatus": "partial",
+      "outcomes": null,
+      "turnoverRate": null,
+      "programImportKeys": [
+        "colorado-northwestern-womens",
+        "colorado-northwestern-mens"
+      ],
+      "facts": [],
+      "gaps": [
+        "No athlete-specific admission probability or net cost established. Transfer eligibility must be checked for the intended receiving school and major."
+      ],
+      "catalogCoaches": [],
+      "institutionId": "colorado-northwestern",
+      "sport": "soccer"
+    },
+    {
+      "id": "mines",
+      "kind": "college",
+      "summary": "Existing Colorado programs with reviewed coaching biographies, dated program context and academic/cost evidence. Read specific gaps before comparing.",
+      "sources": [
+        {
+          "url": "https://minesathletics.com/news/2026/6/15/mens-soccer-fredrickson-elevated-to-interim-head-coach.aspx",
+          "checkedDate": "2026-11-06",
+          "period": "2026-06-15",
+          "status": "observed",
+          "note": "Interim promotion announced June 15, 2026. Biography gives May 22, 2025 for joining as assistant; appointment story describes joining in fall 2025. Preserve the explicit biography date with this discrepancy rather than treating it as an exact payroll date."
+        },
+        {
+          "url": "https://minesathletics.com/staff-directory/ben-fredrickson/448",
+          "checkedDate": "2026-11-06",
+          "period": "2025-05-22",
+          "status": "observed",
+          "note": "Biography explicitly states assistant appointment May 22, 2025."
+        },
+        {
+          "url": "https://minesathletics.com/news/2010/7/6/7_6_2010_4014.aspx",
+          "checkedDate": "2026-11-06",
+          "period": "2010-07-06",
+          "status": "observed",
+          "note": "Head appointment announced July 6, 2010. Prior men’s assistant service 1998–2006 and assistant to both teams in 2009; not continuous head-coach service since 1998."
+        },
+        {
+          "url": "https://minesathletics.com/sports/womens-soccer/roster/coaches/kevin-fickes/1066",
+          "checkedDate": "2026-11-06",
+          "period": "2025",
+          "status": "observed",
+          "note": "Current bio describes 16 completed head-coach seasons through 2025."
+        },
+        {
+          "url": "https://minesathletics.com/news/2026/6/15/mens-soccer-fredrickson-elevated-to-interim-head-coach.aspx",
+          "checkedDate": "2026-11-06",
+          "period": "2017–2025",
+          "status": "observed",
+          "note": "Published predecessor tenure and record."
+        }
+      ],
+      "size": [],
+      "leadership": [
+        {
+          "name": "Ben Fredrickson",
+          "role": "Men · Interim head men's soccer coach",
+          "startDate": "2026-06-15",
+          "joinedDate": "2025-05-22",
+          "source": {
+            "url": "https://minesathletics.com/news/2026/6/15/mens-soccer-fredrickson-elevated-to-interim-head-coach.aspx",
+            "checkedDate": "2026-11-06",
+            "period": "2026-06-15",
+            "status": "observed",
+            "note": "Interim promotion announced June 15, 2026. Biography gives May 22, 2025 for joining as assistant; appointment story describes joining in fall 2025. Preserve the explicit biography date with this discrepancy rather than treating it as an exact payroll date."
+          },
+          "dateBasis": "appointment announced",
+          "status": "verified",
+          "programImportKey": "mines-mens"
+        },
+        {
+          "name": "Kevin Fickes",
+          "role": "Women · Head women's soccer coach",
+          "startDate": "2010-07-06",
+          "joinedDate": "1998",
+          "source": {
+            "url": "https://minesathletics.com/news/2010/7/6/7_6_2010_4014.aspx",
+            "checkedDate": "2026-11-06",
+            "period": "2010-07-06",
+            "status": "observed",
+            "note": "Head appointment announced July 6, 2010. Prior men’s assistant service 1998–2006 and assistant to both teams in 2009; not continuous head-coach service since 1998."
+          },
+          "dateBasis": "appointment announced",
+          "status": "verified",
+          "programImportKey": "mines-womens"
+        }
+      ],
+      "history": [
+        {
+          "date": "2017–2025",
+          "event": "Men · Predecessor Greg Mulholland held role for nine seasons, compiling 99–45–24 according to the successor announcement.",
+          "source": {
+            "url": "https://minesathletics.com/news/2026/6/15/mens-soccer-fredrickson-elevated-to-interim-head-coach.aspx",
+            "checkedDate": "2026-11-06",
+            "period": "2017–2025",
+            "status": "observed",
+            "note": "Published predecessor tenure and record."
+          }
+        }
+      ],
+      "questions": [
+        "Confirm varsity program and current coach.",
+        "Compare net price, academic fit and roster needs directly with the school."
+      ],
+      "reviewStatus": "partial",
+      "outcomes": null,
+      "turnoverRate": null,
+      "programImportKeys": [
+        "mines-womens",
+        "mines-mens"
+      ],
+      "facts": [],
+      "gaps": [],
+      "catalogCoaches": [
+        {
+          "name": "Ben Fredrickson",
+          "role": "Interim Head Coach",
+          "programImportKey": "mines-mens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://minesathletics.com/sports/mens-soccer/coaches",
+          "status": "corrected"
+        },
+        {
+          "name": "Patrick Alvarez",
+          "role": "Assistant Coach",
+          "programImportKey": "mines-mens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://minesathletics.com/sports/mens-soccer/coaches",
+          "status": "corrected"
+        },
+        {
+          "name": "Ryszard Gorski",
+          "role": "Goalkeeper Coach",
+          "programImportKey": "mines-mens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://minesathletics.com/sports/mens-soccer/coaches",
+          "status": "corrected"
+        },
+        {
+          "name": "Kevin Fickes",
+          "role": "Head Coach",
+          "programImportKey": "mines-womens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://minesathletics.com/sports/womens-soccer/coaches",
+          "status": "corrected"
+        },
+        {
+          "name": "Brett O'Connor",
+          "role": "Goalkeeper Coach",
+          "programImportKey": "mines-womens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://minesathletics.com/sports/womens-soccer/coaches",
+          "status": "corrected"
+        },
+        {
+          "name": "Emily Townsend",
+          "role": "Volunteer Assistant Coach",
+          "programImportKey": "mines-womens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://minesathletics.com/sports/womens-soccer/coaches",
+          "status": "corrected"
+        },
+        {
+          "name": "Shannon DeVoe",
+          "role": "Assistant Coach",
+          "programImportKey": "mines-womens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://minesathletics.com/sports/womens-soccer/coaches",
+          "status": "corrected"
+        }
+      ],
+      "institutionId": "mines",
+      "sport": "soccer"
+    },
+    {
+      "id": "csu",
+      "kind": "college",
+      "summary": "Existing Colorado programs with reviewed coaching biographies, dated program context and academic/cost evidence. Read specific gaps before comparing.",
+      "sources": [
+        {
+          "url": "https://csurams.com/news/2021/6/1/womens-soccer-keeley-hagen-named-head-soccer-coach-at-colorado-state",
+          "checkedDate": "2026-11-06",
+          "period": "2021-06-01",
+          "status": "observed",
+          "note": "Named second head coach June 1, 2021; current bio corroborates date. A later preview says August 1, conflicting with original announcement, so June appointment is retained."
+        },
+        {
+          "url": "https://csurams.com/staff-directory/keeley-hagen/2512",
+          "checkedDate": "2026-11-06",
+          "period": "2023",
+          "status": "observed",
+          "note": "2023 postseason milestones in official biography."
+        }
+      ],
+      "size": [],
+      "leadership": [
+        {
+          "name": "Keeley Hagen",
+          "role": "Women · Head women's soccer coach",
+          "startDate": "2021-06-01",
+          "joinedDate": null,
+          "source": {
+            "url": "https://csurams.com/news/2021/6/1/womens-soccer-keeley-hagen-named-head-soccer-coach-at-colorado-state",
+            "checkedDate": "2026-11-06",
+            "period": "2021-06-01",
+            "status": "observed",
+            "note": "Named second head coach June 1, 2021; current bio corroborates date. A later preview says August 1, conflicting with original announcement, so June appointment is retained."
+          },
+          "dateBasis": "appointment announced",
+          "status": "verified",
+          "programImportKey": "csu-womens"
+        }
+      ],
+      "history": [
+        {
+          "date": "2023",
+          "event": "Women · Team earned first Mountain West Tournament win and advanced to its first tournament championship game.",
+          "source": {
+            "url": "https://csurams.com/staff-directory/keeley-hagen/2512",
+            "checkedDate": "2026-11-06",
+            "period": "2023",
+            "status": "observed",
+            "note": "2023 postseason milestones in official biography."
+          }
+        }
+      ],
+      "questions": [
+        "Confirm varsity program and current coach.",
+        "Compare net price, academic fit and roster needs directly with the school."
+      ],
+      "reviewStatus": "partial",
+      "outcomes": null,
+      "turnoverRate": null,
+      "programImportKeys": [
+        "csu-womens"
+      ],
+      "facts": [],
+      "gaps": [],
+      "catalogCoaches": [
+        {
+          "name": "Keeley Hagen",
+          "role": "Head Coach",
+          "programImportKey": "csu-womens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://csurams.com/sports/womens-soccer/roster/coaches/keeley-hagen/3600",
+          "status": "corrected"
+        },
+        {
+          "name": "Michael Wilson",
+          "role": "Assistant Coach",
+          "programImportKey": "csu-womens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://csurams.com/sports/womens-soccer/coaches",
+          "status": "corrected"
+        },
+        {
+          "name": "Sean Mapson",
+          "role": "Assistant Coach - Goalkeepers",
+          "programImportKey": "csu-womens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://csurams.com/sports/womens-soccer/coaches",
+          "status": "corrected"
+        }
+      ],
+      "institutionId": "csu",
+      "sport": "soccer"
+    },
+    {
+      "id": "fort-lewis",
+      "kind": "college",
+      "summary": "Existing Colorado programs with reviewed coaching biographies, dated program context and academic/cost evidence. Read specific gaps before comparing.",
+      "sources": [
+        {
+          "url": "https://goskyhawks.com/sports/mens-soccer/roster/coaches/david-oberholtzer/48",
+          "checkedDate": "2026-11-06",
+          "period": "2016",
+          "status": "observed",
+          "note": "Head coach since 2016; previously Fort Lewis assistant 2009–2012, then Dayton assistant 2013–2015. School joining year reflects first assistant tenure, not continuous current service."
+        },
+        {
+          "url": "https://goskyhawks.com/news/2018/2/9/womens-soccer-clarke-returns-to-fort-lewis-college.aspx",
+          "checkedDate": "2026-11-06",
+          "period": "2018-02-26",
+          "status": "observed",
+          "note": "Current head-coach term began February 26, 2018, announced February 9. First head-coach tenure covered 2007–2013; do not calculate uninterrupted tenure from 2007."
+        },
+        {
+          "url": "https://goskyhawks.com/sports/mens-soccer/roster/coaches/david-oberholtzer/48",
+          "checkedDate": "2026-11-06",
+          "period": "2025",
+          "status": "observed",
+          "note": "2025 season results in official bio."
+        },
+        {
+          "url": "https://goskyhawks.com/sports/womens-soccer/roster/coaches/damian-clarke/562",
+          "checkedDate": "2026-11-06",
+          "period": "2025",
+          "status": "observed",
+          "note": "Dated 2025 performance from official bio."
+        },
+        {
+          "url": "https://goskyhawks.com/sports/womens-soccer/roster/coaches/damian-clarke/562",
+          "checkedDate": "2026-11-06",
+          "period": "2024",
+          "status": "observed",
+          "note": "Dated 2024 season summary."
+        }
+      ],
+      "size": [],
+      "leadership": [
+        {
+          "name": "David Oberholtzer",
+          "role": "Men · Head men's soccer coach",
+          "startDate": "2016",
+          "joinedDate": "2009",
+          "source": {
+            "url": "https://goskyhawks.com/sports/mens-soccer/roster/coaches/david-oberholtzer/48",
+            "checkedDate": "2026-11-06",
+            "period": "2016",
+            "status": "observed",
+            "note": "Head coach since 2016; previously Fort Lewis assistant 2009–2012, then Dayton assistant 2013–2015. School joining year reflects first assistant tenure, not continuous current service."
+          },
+          "dateBasis": "first head-coach season",
+          "status": "verified",
+          "programImportKey": "fort-lewis-mens"
+        },
+        {
+          "name": "Damian Clarke",
+          "role": "Women · Head women's soccer coach",
+          "startDate": "2018-02-26",
+          "joinedDate": null,
+          "source": {
+            "url": "https://goskyhawks.com/news/2018/2/9/womens-soccer-clarke-returns-to-fort-lewis-college.aspx",
+            "checkedDate": "2026-11-06",
+            "period": "2018-02-26",
+            "status": "observed",
+            "note": "Current head-coach term began February 26, 2018, announced February 9. First head-coach tenure covered 2007–2013; do not calculate uninterrupted tenure from 2007."
+          },
+          "dateBasis": "effective return date",
+          "status": "verified",
+          "programImportKey": "fort-lewis-womens"
+        }
+      ],
+      "history": [
+        {
+          "date": "2025",
+          "event": "Men · Finished 9–4–4 overall and 5–3–2 in RMAC play.",
+          "source": {
+            "url": "https://goskyhawks.com/sports/mens-soccer/roster/coaches/david-oberholtzer/48",
+            "checkedDate": "2026-11-06",
+            "period": "2025",
+            "status": "observed",
+            "note": "2025 season results in official bio."
+          }
+        },
+        {
+          "date": "2025",
+          "event": "Women · Finished 11–5–3; set school marks of 10 consecutive shutouts and 987 minutes without conceding.",
+          "source": {
+            "url": "https://goskyhawks.com/sports/womens-soccer/roster/coaches/damian-clarke/562",
+            "checkedDate": "2026-11-06",
+            "period": "2025",
+            "status": "observed",
+            "note": "Dated 2025 performance from official bio."
+          }
+        },
+        {
+          "date": "2024",
+          "event": "Women · Finished 9–6–6 and reached the RMAC Tournament championship match.",
+          "source": {
+            "url": "https://goskyhawks.com/sports/womens-soccer/roster/coaches/damian-clarke/562",
+            "checkedDate": "2026-11-06",
+            "period": "2024",
+            "status": "observed",
+            "note": "Dated 2024 season summary."
+          }
+        }
+      ],
+      "questions": [
+        "Confirm varsity program and current coach.",
+        "Compare net price, academic fit and roster needs directly with the school."
+      ],
+      "reviewStatus": "partial",
+      "outcomes": null,
+      "turnoverRate": null,
+      "programImportKeys": [
+        "fort-lewis-womens",
+        "fort-lewis-mens"
+      ],
+      "facts": [],
+      "gaps": [],
+      "catalogCoaches": [
+        {
+          "name": "Damian Clarke",
+          "role": "Head Women's Soccer Coach",
+          "programImportKey": "fort-lewis-womens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://goskyhawks.com/sports/womens-soccer/coaches",
+          "status": "corrected"
+        },
+        {
+          "name": "David Oberholtzer",
+          "role": "Head Men's Soccer Coach",
+          "programImportKey": "fort-lewis-mens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://goskyhawks.com/sports/mens-soccer/coaches",
+          "status": "corrected"
+        },
+        {
+          "name": "Matt Baldridge",
+          "role": "Assistant Men's Soccer Coach",
+          "programImportKey": "fort-lewis-mens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://goskyhawks.com/sports/mens-soccer/coaches",
+          "status": "corrected"
+        },
+        {
+          "name": "Hayley Hollenga",
+          "role": "Assistant Coach",
+          "programImportKey": "fort-lewis-womens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://goskyhawks.com/sports/womens-soccer/coaches",
+          "status": "corrected"
+        },
+        {
+          "name": "Hope Fredrick",
+          "role": "Associate Head Coach",
+          "programImportKey": "fort-lewis-womens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://goskyhawks.com/sports/womens-soccer/coaches",
+          "status": "corrected"
+        },
+        {
+          "name": "Janet Mosher",
+          "role": "Volunteer Assistant Coach",
+          "programImportKey": "fort-lewis-womens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://goskyhawks.com/sports/womens-soccer/coaches",
+          "status": "corrected"
+        }
+      ],
+      "institutionId": "fort-lewis",
+      "sport": "soccer"
+    },
+    {
+      "id": "lamar-cc",
+      "kind": "college",
+      "summary": "Existing Colorado programs with reviewed coaching biographies, dated program context and academic/cost evidence. Read specific gaps before comparing.",
+      "sources": [
+        {
+          "url": "https://lamarcc.edu/about-lcc/staff-directory/",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Main directory lists Kamara as men’s and women’s head coach. Men’s role corroborated by official work-study contact page. July 2025 president report welcomed him as assistant, so head-coach start date remains unknown."
+        },
+        {
+          "url": "https://lamarcc.edu/wp-content/uploads/2025/11/July-2025-Presidents-Report.pdf",
+          "checkedDate": "2026-11-06",
+          "period": "2025-07",
+          "status": "observed",
+          "note": "July 2025 president report welcomes Alieu Kamara as new assistant men’s soccer coach. Joining month is report period, not payroll date."
+        },
+        {
+          "url": "https://lamarcc.edu/about-lcc/staff-directory/",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Unresolved current head coach: main directory lists Alieu Kamara for both teams, but official CCCS job 493189 advertises women’s head soccer role October 22–November 22, 2026. Vacancy alone does not prove nobody is acting in role. Do not publish an asserted current head coach or tenure pending school confirmation."
+        },
+        {
+          "url": "https://careers.pageuppeople.com/1234/cw/en-us/job/493189/womens-head-soccer-coach",
+          "checkedDate": "2026-11-06",
+          "period": "2026-10-22",
+          "status": "observed",
+          "note": "Official posting advertises women’s head soccer coach Oct22–Nov22 2026; some boilerplate erroneously says basketball, while title and duties specify soccer."
+        }
+      ],
+      "size": [],
+      "leadership": [
+        {
+          "name": "Alieu Kamara",
+          "role": "Men · Head men's soccer coach",
+          "startDate": null,
+          "joinedDate": "2025-07",
+          "source": {
+            "url": "https://lamarcc.edu/about-lcc/staff-directory/",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Main directory lists Kamara as men’s and women’s head coach. Men’s role corroborated by official work-study contact page. July 2025 president report welcomed him as assistant, so head-coach start date remains unknown."
+          },
+          "dateBasis": "head appointment date unavailable",
+          "status": "verified",
+          "programImportKey": "lamar-cc-mens"
+        }
+      ],
+      "history": [],
+      "questions": [
+        "Confirm varsity program and current coach.",
+        "Compare net price, academic fit and roster needs directly with the school."
+      ],
+      "reviewStatus": "partial",
+      "outcomes": null,
+      "turnoverRate": null,
+      "programImportKeys": [
+        "lamar-cc-womens",
+        "lamar-cc-mens"
+      ],
+      "facts": [],
+      "gaps": [
+        "Women: Unresolved current head coach: main directory lists Alieu Kamara for both teams, but official CCCS job 493189 advertises women’s head soccer role October 22–November 22, 2026. Vacancy alone does not prove nobody is acting in role. Do not publish an asserted current head coach or tenure pending school confirmation.",
+        "No complete current annual cost-of-attendance figure verified in this pass. Transfer and reciprocity conditions require individual confirmation."
+      ],
+      "catalogCoaches": [],
+      "institutionId": "lamar-cc",
+      "sport": "soccer"
+    },
+    {
+      "id": "metro-state",
+      "kind": "college",
+      "summary": "Existing Colorado programs with reviewed coaching biographies, dated program context and academic/cost evidence. Read specific gaps before comparing.",
+      "sources": [
+        {
+          "url": "https://roadrunnersathletics.com/sports/mens-soccer/roster/coaches/nick-kirchhof/1401",
+          "checkedDate": "2026-11-06",
+          "period": "2020-12-28",
+          "status": "observed",
+          "note": "Named December 28, 2020; first playing season was pandemic-delayed spring 2021."
+        },
+        {
+          "url": "https://roadrunnersathletics.com/news/2025/3/31/womens-soccer-msudenverwsoc-hooker-named-new-head-coach-of-womens-soccer-program.aspx",
+          "checkedDate": "2026-11-06",
+          "period": "2025-03-31",
+          "status": "observed",
+          "note": "Hiring announced March 31, 2025 after coaching at University of Denver. Current bio calls 2026 second season."
+        },
+        {
+          "url": "https://roadrunnersathletics.com/sports/mens-soccer/roster/coaches/nick-kirchhof/1401",
+          "checkedDate": "2026-11-06",
+          "period": "2024",
+          "status": "observed",
+          "note": "2024 coaching-record row."
+        },
+        {
+          "url": "https://roadrunnersathletics.com/sports/mens-soccer/roster/coaches/nick-kirchhof/1401",
+          "checkedDate": "2026-11-06",
+          "period": "2023",
+          "status": "observed",
+          "note": "2023 record; not current-season data."
+        },
+        {
+          "url": "https://roadrunnersathletics.com/staff-directory/katie-hooker/311",
+          "checkedDate": "2026-11-06",
+          "period": "2025",
+          "status": "observed",
+          "note": "Overall record matches across prose/table; conference record inconsistent."
+        }
+      ],
+      "size": [],
+      "leadership": [
+        {
+          "name": "Nick Kirchhof",
+          "role": "Men · Head men's soccer coach",
+          "startDate": "2020-12-28",
+          "joinedDate": null,
+          "source": {
+            "url": "https://roadrunnersathletics.com/sports/mens-soccer/roster/coaches/nick-kirchhof/1401",
+            "checkedDate": "2026-11-06",
+            "period": "2020-12-28",
+            "status": "observed",
+            "note": "Named December 28, 2020; first playing season was pandemic-delayed spring 2021."
+          },
+          "dateBasis": "appointment announced",
+          "status": "verified",
+          "programImportKey": "metro-state-mens"
+        },
+        {
+          "name": "Katie Hooker",
+          "role": "Women · Head women's soccer coach",
+          "startDate": "2025-03-31",
+          "joinedDate": null,
+          "source": {
+            "url": "https://roadrunnersathletics.com/news/2025/3/31/womens-soccer-msudenverwsoc-hooker-named-new-head-coach-of-womens-soccer-program.aspx",
+            "checkedDate": "2026-11-06",
+            "period": "2025-03-31",
+            "status": "observed",
+            "note": "Hiring announced March 31, 2025 after coaching at University of Denver. Current bio calls 2026 second season."
+          },
+          "dateBasis": "appointment announced",
+          "status": "verified",
+          "programImportKey": "metro-state-womens"
+        }
+      ],
+      "history": [
+        {
+          "date": "2024",
+          "event": "Men · Official coaching table reports 7–8–4 overall and 4–4–2 in conference.",
+          "source": {
+            "url": "https://roadrunnersathletics.com/sports/mens-soccer/roster/coaches/nick-kirchhof/1401",
+            "checkedDate": "2026-11-06",
+            "period": "2024",
+            "status": "observed",
+            "note": "2024 coaching-record row."
+          }
+        },
+        {
+          "date": "2023",
+          "event": "Men · Finished 7–8–4 overall and 5–3–2 in RMAC play.",
+          "source": {
+            "url": "https://roadrunnersathletics.com/sports/mens-soccer/roster/coaches/nick-kirchhof/1401",
+            "checkedDate": "2026-11-06",
+            "period": "2023",
+            "status": "observed",
+            "note": "2023 record; not current-season data."
+          }
+        },
+        {
+          "date": "2025",
+          "event": "Women · First season finished 2–9–7 overall. Conference record is not reproduced because the official bio prose and table disagree.",
+          "source": {
+            "url": "https://roadrunnersathletics.com/staff-directory/katie-hooker/311",
+            "checkedDate": "2026-11-06",
+            "period": "2025",
+            "status": "observed",
+            "note": "Overall record matches across prose/table; conference record inconsistent."
+          }
+        }
+      ],
+      "questions": [
+        "Confirm varsity program and current coach.",
+        "Compare net price, academic fit and roster needs directly with the school."
+      ],
+      "reviewStatus": "partial",
+      "outcomes": null,
+      "turnoverRate": null,
+      "programImportKeys": [
+        "metro-state-womens",
+        "metro-state-mens"
+      ],
+      "facts": [],
+      "gaps": [],
+      "catalogCoaches": [
+        {
+          "name": "Katie Hooker",
+          "role": "Head Coach",
+          "programImportKey": "metro-state-womens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://roadrunnersathletics.com/sports/womens-soccer/coaches",
+          "status": "corrected"
+        },
+        {
+          "name": "Nick Kirchhof",
+          "role": "Head Coach",
+          "programImportKey": "metro-state-mens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://roadrunnersathletics.com/sports/mens-soccer/coaches",
+          "status": "corrected"
+        },
+        {
+          "name": "Eric Bracy",
+          "role": "Associate Head Coach",
+          "programImportKey": "metro-state-mens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://roadrunnersathletics.com/sports/mens-soccer/coaches",
+          "status": "corrected"
+        },
+        {
+          "name": "Matthew Hundley",
+          "role": "Assistant Coach",
+          "programImportKey": "metro-state-mens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://roadrunnersathletics.com/sports/mens-soccer/coaches",
+          "status": "corrected"
+        },
+        {
+          "name": "Andrew Sanchez",
+          "role": "Assistant Coach",
+          "programImportKey": "metro-state-womens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://roadrunnersathletics.com/sports/womens-soccer/coaches",
+          "status": "corrected"
+        },
+        {
+          "name": "Jeff Hooker",
+          "role": "Volunteer Assistant Coach",
+          "programImportKey": "metro-state-womens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://roadrunnersathletics.com/sports/womens-soccer/coaches",
+          "status": "corrected"
+        },
+        {
+          "name": "Kristin Dedycker",
+          "role": "Part-Time Assistant Coach",
+          "programImportKey": "metro-state-womens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://roadrunnersathletics.com/sports/womens-soccer/coaches",
+          "status": "corrected"
+        }
+      ],
+      "institutionId": "metro-state",
+      "sport": "soccer"
+    },
+    {
+      "id": "northeastern-jc",
+      "kind": "college",
+      "summary": "Existing Colorado programs with reviewed coaching biographies, dated program context and academic/cost evidence. Read specific gaps before comparing.",
+      "sources": [
+        {
+          "url": "https://www.njc.edu/athletics",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Current college athletics directory names Blanco as men’s head coach; appointment date not published in reviewed pages."
+        },
+        {
+          "url": "https://www.njc.edu/athletics",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Current college athletics directory names Burton as women’s head coach, with Caitlyn Waller as assistant. No appointment date published in reviewed directory."
+        }
+      ],
+      "size": [],
+      "leadership": [
+        {
+          "name": "Hubert Blanco",
+          "role": "Men · Head Men’s Soccer Coach",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://www.njc.edu/athletics",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Current college athletics directory names Blanco as men’s head coach; appointment date not published in reviewed pages."
+          },
+          "dateBasis": "appointment announcement",
+          "status": "observed",
+          "programImportKey": "northeastern-jc-mens"
+        },
+        {
+          "name": "Joshua Burton",
+          "role": "Women · Head Women’s Soccer Coach",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://www.njc.edu/athletics",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Current college athletics directory names Burton as women’s head coach, with Caitlyn Waller as assistant. No appointment date published in reviewed directory."
+          },
+          "dateBasis": "appointment announcement",
+          "status": "observed",
+          "programImportKey": "northeastern-jc-womens"
+        }
+      ],
+      "history": [],
+      "questions": [
+        "Confirm varsity program and current coach.",
+        "Compare net price, academic fit and roster needs directly with the school."
+      ],
+      "reviewStatus": "partial",
+      "outcomes": null,
+      "turnoverRate": null,
+      "programImportKeys": [
+        "northeastern-jc-womens",
+        "northeastern-jc-mens"
+      ],
+      "facts": [],
+      "gaps": [
+        "Men: Official sports-site biography inaccessible; no supported appointment date found.",
+        "Women: Official sports-site biography returned 403; no supported appointment date found.",
+        "No current complete annual cost-of-attendance figure verified in this pass. No athletic scholarship or team-specific net-price estimate inferred."
+      ],
+      "catalogCoaches": [],
+      "institutionId": "northeastern-jc",
+      "sport": "soccer"
+    },
+    {
+      "id": "otero-college",
+      "kind": "college",
+      "summary": "Existing Colorado programs with reviewed coaching biographies, dated program context and academic/cost evidence. Read specific gaps before comparing.",
+      "sources": [
+        {
+          "url": "https://otero.edu/alberto-garcia-named-head-mens-soccer-coach/",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Announcement dated May 24, 2024; release describes prior eight months working with the team without giving an exact assistant hire date. Current campus directory confirms role."
+        },
+        {
+          "url": "https://otero.edu/about/directory/",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Current campus directory lists Carlos Quintero as women’s head coach; March 2026 organization chart also lists Quintero among head coaches. May 2025 chart naming Johnny Adame is superseded; Adame is now listed as Dean of Students."
+        },
+        {
+          "url": "https://otero.edu/alberto-garcia-named-head-mens-soccer-coach/",
+          "checkedDate": "2026-11-06",
+          "period": "Before May 2024",
+          "status": "observed",
+          "note": "Assistant with Otero before promotion; previously second assistant at CSU Pueblo."
+        }
+      ],
+      "size": [],
+      "leadership": [
+        {
+          "name": "Alberto Garcia",
+          "role": "Men · Head Men’s Soccer Coach",
+          "startDate": "2024-05-24",
+          "joinedDate": null,
+          "source": {
+            "url": "https://otero.edu/alberto-garcia-named-head-mens-soccer-coach/",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Announcement dated May 24, 2024; release describes prior eight months working with the team without giving an exact assistant hire date. Current campus directory confirms role."
+          },
+          "dateBasis": "appointment announcement",
+          "status": "observed",
+          "programImportKey": "otero-college-mens"
+        },
+        {
+          "name": "Carlos Quintero",
+          "role": "Women · Head Women’s Soccer Coach",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://otero.edu/about/directory/",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Current campus directory lists Carlos Quintero as women’s head coach; March 2026 organization chart also lists Quintero among head coaches. May 2025 chart naming Johnny Adame is superseded; Adame is now listed as Dean of Students."
+          },
+          "dateBasis": "appointment announcement",
+          "status": "observed",
+          "programImportKey": "otero-college-womens"
+        }
+      ],
+      "history": [],
+      "questions": [
+        "Confirm varsity program and current coach.",
+        "Compare net price, academic fit and roster needs directly with the school."
+      ],
+      "reviewStatus": "partial",
+      "outcomes": null,
+      "turnoverRate": null,
+      "programImportKeys": [
+        "otero-college-womens",
+        "otero-college-mens"
+      ],
+      "facts": [
+        {
+          "label": "Men · Earlier role",
+          "value": "Assistant with Otero before promotion; previously second assistant at CSU Pueblo.",
+          "source": {
+            "url": "https://otero.edu/alberto-garcia-named-head-mens-soccer-coach/",
+            "checkedDate": "2026-11-06",
+            "period": "Before May 2024",
+            "status": "observed",
+            "note": "Assistant with Otero before promotion; previously second assistant at CSU Pueblo."
+          }
+        }
+      ],
+      "gaps": [
+        "Women: No appointment date located; official athletics site returned 403.",
+        "A broader cost-of-attendance chart appears above the 2026–27 tuition table without a clear matching year; not reused as a verified 2026–27 annual total."
+      ],
+      "catalogCoaches": [],
+      "institutionId": "otero-college",
+      "sport": "soccer"
+    },
+    {
+      "id": "regis",
+      "kind": "college",
+      "summary": "Existing Colorado programs with reviewed coaching biographies, dated program context and academic/cost evidence. Read specific gaps before comparing.",
+      "sources": [
+        {
+          "url": "https://regisrangers.com/news/2021/10/5/taylor-diem-named-head-mens-soccer-coach.aspx",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Appointment announcement October 5, 2021, following three assistant seasons. Do not derive a precise assistant employment date from season counts."
+        },
+        {
+          "url": "https://regisrangers.com/sports/womens-soccer/roster/coaches/jeff-frykholm/533",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Biography states head coach named May 2022 and assistant service in 2021–22; only month precision for appointment."
+        },
+        {
+          "url": "https://regisrangers.com/news/2026/11/5/mens-soccer-rangers-collect-four-major-awards-six-players-earn-all-rmac.aspx",
+          "checkedDate": "2026-11-06",
+          "period": "2026",
+          "status": "observed",
+          "note": "Regis won the 2026 RMAC men’s soccer championship; Diem was named conference Coach of the Year."
+        },
+        {
+          "url": "https://regisrangers.com/sports/womens-soccer/roster/coaches/jeff-frykholm/533",
+          "checkedDate": "2026-11-06",
+          "period": "2021–22",
+          "status": "observed",
+          "note": "Assistant coach during the 2021–22 season before promotion."
+        },
+        {
+          "url": "https://regisrangers.com/news/2026/11/3/womens-soccer-frykholm-and-payne-highlight-rangers-on-all-rmac-squads.aspx",
+          "checkedDate": "2026-11-06",
+          "period": "2026",
+          "status": "observed",
+          "note": "Frykholm earned RMAC Coach of the Year."
+        }
+      ],
+      "size": [],
+      "leadership": [
+        {
+          "name": "Taylor Diem",
+          "role": "Men · Head Men’s Soccer Coach",
+          "startDate": "2021-10-05",
+          "joinedDate": null,
+          "source": {
+            "url": "https://regisrangers.com/news/2021/10/5/taylor-diem-named-head-mens-soccer-coach.aspx",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Appointment announcement October 5, 2021, following three assistant seasons. Do not derive a precise assistant employment date from season counts."
+          },
+          "dateBasis": "appointment announcement",
+          "status": "observed",
+          "programImportKey": "regis-mens"
+        },
+        {
+          "name": "Jeff Frykholm",
+          "role": "Women · Head Women’s Soccer Coach",
+          "startDate": "2022-05",
+          "joinedDate": null,
+          "source": {
+            "url": "https://regisrangers.com/sports/womens-soccer/roster/coaches/jeff-frykholm/533",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Biography states head coach named May 2022 and assistant service in 2021–22; only month precision for appointment."
+          },
+          "dateBasis": "appointment announcement",
+          "status": "observed",
+          "programImportKey": "regis-womens"
+        }
+      ],
+      "history": [],
+      "questions": [
+        "Confirm varsity program and current coach.",
+        "Compare net price, academic fit and roster needs directly with the school."
+      ],
+      "reviewStatus": "partial",
+      "outcomes": null,
+      "turnoverRate": null,
+      "programImportKeys": [
+        "regis-womens",
+        "regis-mens"
+      ],
+      "facts": [
+        {
+          "label": "Men · 2026 conference recognition",
+          "value": "Regis won the 2026 RMAC men’s soccer championship; Diem was named conference Coach of the Year.",
+          "source": {
+            "url": "https://regisrangers.com/news/2026/11/5/mens-soccer-rangers-collect-four-major-awards-six-players-earn-all-rmac.aspx",
+            "checkedDate": "2026-11-06",
+            "period": "2026",
+            "status": "observed",
+            "note": "Regis won the 2026 RMAC men’s soccer championship; Diem was named conference Coach of the Year."
+          }
+        },
+        {
+          "label": "Women · Prior Regis role",
+          "value": "Assistant coach during the 2021–22 season before promotion.",
+          "source": {
+            "url": "https://regisrangers.com/sports/womens-soccer/roster/coaches/jeff-frykholm/533",
+            "checkedDate": "2026-11-06",
+            "period": "2021–22",
+            "status": "observed",
+            "note": "Assistant coach during the 2021–22 season before promotion."
+          }
+        },
+        {
+          "label": "Women · 2026 conference recognition",
+          "value": "Frykholm earned RMAC Coach of the Year.",
+          "source": {
+            "url": "https://regisrangers.com/news/2026/11/3/womens-soccer-frykholm-and-payne-highlight-rangers-on-all-rmac-squads.aspx",
+            "checkedDate": "2026-11-06",
+            "period": "2026",
+            "status": "observed",
+            "note": "Frykholm earned RMAC Coach of the Year."
+          }
+        }
+      ],
+      "gaps": [
+        "Men: Separate assistant joined date not explicitly established. 2026 season-preview season count conflicts with November award article; use dated appointment release."
+      ],
+      "catalogCoaches": [
+        {
+          "name": "Jeff Frykholm",
+          "role": "Head Women's Soccer Coach",
+          "programImportKey": "regis-womens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://regisrangers.com/sports/womens-soccer/coaches",
+          "status": "corrected"
+        },
+        {
+          "name": "Taylor Diem",
+          "role": "Head Men's Soccer Coach",
+          "programImportKey": "regis-mens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://regisrangers.com/sports/mens-soccer/coaches",
+          "status": "corrected"
+        },
+        {
+          "name": "Steven Cahill",
+          "role": "Assistant Coach",
+          "programImportKey": "regis-mens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://regisrangers.com/sports/mens-soccer/coaches",
+          "status": "corrected"
+        },
+        {
+          "name": "Dani Hansen",
+          "role": "Volunteer Goalkeepers Coach",
+          "programImportKey": "regis-womens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://regisrangers.com/sports/womens-soccer/coaches",
+          "status": "corrected"
+        },
+        {
+          "name": "Josh Dworsky",
+          "role": "Volunteer Assistant Coach",
+          "programImportKey": "regis-womens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://regisrangers.com/sports/womens-soccer/coaches",
+          "status": "corrected"
+        },
+        {
+          "name": "Luke Meadows",
+          "role": "Assistant Women's Soccer Coach",
+          "programImportKey": "regis-womens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://regisrangers.com/sports/womens-soccer/coaches",
+          "status": "corrected"
+        }
+      ],
+      "institutionId": "regis",
+      "sport": "soccer"
+    },
+    {
+      "id": "trinidad-state",
+      "kind": "college",
+      "summary": "Existing Colorado programs with reviewed coaching biographies, dated program context and academic/cost evidence. Read specific gaps before comparing.",
+      "sources": [
+        {
+          "url": "https://www.trinidadstate.edu/pdf/orgchart.pdf",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "historical",
+          "note": "Official 2025–26 organization chart identifies Wilt as men’s and women’s soccer head coach. Current employee directory retains Wilt but role fields are TBD; 2026 athletics site returned 403. Retain as last supported role, not a newly verified 2026 appointment."
+        }
+      ],
+      "size": [],
+      "leadership": [
+        {
+          "name": "Tyler Wilt",
+          "role": "Men · Head Men’s Soccer Coach",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://www.trinidadstate.edu/pdf/orgchart.pdf",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "historical",
+            "note": "Official 2025–26 organization chart identifies Wilt as men’s and women’s soccer head coach. Current employee directory retains Wilt but role fields are TBD; 2026 athletics site returned 403. Retain as last supported role, not a newly verified 2026 appointment."
+          },
+          "dateBasis": "appointment announcement",
+          "status": "historical",
+          "programImportKey": "trinidad-state-mens"
+        },
+        {
+          "name": "Tyler Wilt",
+          "role": "Women · Head Women’s Soccer Coach",
+          "startDate": null,
+          "joinedDate": null,
+          "source": {
+            "url": "https://www.trinidadstate.edu/pdf/orgchart.pdf",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "historical",
+            "note": "Official 2025–26 organization chart identifies Wilt as men’s and women’s soccer head coach. Current employee directory retains Wilt but role fields are TBD; 2026 athletics site returned 403. Retain as last supported role, not a newly verified 2026 appointment."
+          },
+          "dateBasis": "appointment announcement",
+          "status": "historical",
+          "programImportKey": "trinidad-state-womens"
+        }
+      ],
+      "history": [],
+      "questions": [
+        "Confirm varsity program and current coach.",
+        "Compare net price, academic fit and roster needs directly with the school."
+      ],
+      "reviewStatus": "partial",
+      "outcomes": null,
+      "turnoverRate": null,
+      "programImportKeys": [
+        "trinidad-state-womens",
+        "trinidad-state-mens"
+      ],
+      "facts": [],
+      "gaps": [
+        "Men: Current athletics directory unavailable (403); appointment date unknown. Last supported role period is 2025–26.",
+        "Women: Current athletics directory unavailable (403); appointment date unknown. Last supported role period is 2025–26.",
+        "No 2026–27 complete annual cost-of-attendance estimate verified. Transfer admission and athletic recruiting remain separate decisions."
+      ],
+      "catalogCoaches": [],
+      "institutionId": "trinidad-state",
+      "sport": "soccer"
+    },
+    {
+      "id": "air-force",
+      "kind": "college",
+      "summary": "Existing Colorado programs with reviewed coaching biographies, dated program context and academic/cost evidence. Read specific gaps before comparing.",
+      "sources": [
+        {
+          "url": "https://goairforcefalcons.com/sports/mens-soccer/roster/coaches/greg-dalby/2806",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Official coach biography records appointment announcement January 13, 2025; current staff directory still lists Dalby."
+        },
+        {
+          "url": "https://goairforcefalcons.com/news/2022/2/21/womens-soccer-laura-busby-named-womens-soccer-head-coach",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Named head coach February 21, 2022; current biography describes fifth season in 2026."
+        },
+        {
+          "url": "https://goairforcefalcons.com/staff-directory/laura-busby/802",
+          "checkedDate": "2026-11-06",
+          "period": "2025",
+          "status": "observed",
+          "note": "8–7–4 overall; 6–2–2 Mountain West; No. 2 conference tournament seed."
+        },
+        {
+          "url": "https://goairforcefalcons.com/staff-directory/laura-busby/802",
+          "checkedDate": "2026-11-06",
+          "period": "2025",
+          "status": "observed",
+          "note": "Mountain West Coach of the Year in 2025."
+        }
+      ],
+      "size": [],
+      "leadership": [
+        {
+          "name": "Greg Dalby",
+          "role": "Men · Head Men’s Soccer Coach",
+          "startDate": "2025-01-13",
+          "joinedDate": null,
+          "source": {
+            "url": "https://goairforcefalcons.com/sports/mens-soccer/roster/coaches/greg-dalby/2806",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Official coach biography records appointment announcement January 13, 2025; current staff directory still lists Dalby."
+          },
+          "dateBasis": "appointment announcement",
+          "status": "observed",
+          "programImportKey": "air-force-mens"
+        },
+        {
+          "name": "Laura Busby",
+          "role": "Women · Head Women’s Soccer Coach",
+          "startDate": "2022-02-21",
+          "joinedDate": null,
+          "source": {
+            "url": "https://goairforcefalcons.com/news/2022/2/21/womens-soccer-laura-busby-named-womens-soccer-head-coach",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Named head coach February 21, 2022; current biography describes fifth season in 2026."
+          },
+          "dateBasis": "appointment announcement",
+          "status": "observed",
+          "programImportKey": "air-force-womens"
+        }
+      ],
+      "history": [],
+      "questions": [
+        "Confirm varsity program and current coach.",
+        "Compare net price, academic fit and roster needs directly with the school."
+      ],
+      "reviewStatus": "partial",
+      "outcomes": null,
+      "turnoverRate": null,
+      "programImportKeys": [
+        "air-force-womens",
+        "air-force-mens"
+      ],
+      "facts": [
+        {
+          "label": "Women · 2025 season",
+          "value": "8–7–4 overall; 6–2–2 Mountain West; No. 2 conference tournament seed.",
+          "source": {
+            "url": "https://goairforcefalcons.com/staff-directory/laura-busby/802",
+            "checkedDate": "2026-11-06",
+            "period": "2025",
+            "status": "observed",
+            "note": "8–7–4 overall; 6–2–2 Mountain West; No. 2 conference tournament seed."
+          }
+        },
+        {
+          "label": "Women · Coaching recognition",
+          "value": "Mountain West Coach of the Year in 2025.",
+          "source": {
+            "url": "https://goairforcefalcons.com/staff-directory/laura-busby/802",
+            "checkedDate": "2026-11-06",
+            "period": "2025",
+            "status": "observed",
+            "note": "Mountain West Coach of the Year in 2025."
+          }
+        }
+      ],
+      "gaps": [
+        "No athlete-specific acceptance rate, individual appointment probability or recruiting guarantee established. Verify current application and nomination deadlines directly; service obligations vary by career path."
+      ],
+      "catalogCoaches": [
+        {
+          "name": "Laura Busby",
+          "role": "Head Coach",
+          "programImportKey": "air-force-womens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://goairforcefalcons.com/sports/womens-soccer/coaches",
+          "status": "corrected"
+        },
+        {
+          "name": "Greg Dalby",
+          "role": "Head Coach",
+          "programImportKey": "air-force-mens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://goairforcefalcons.com/sports/mens-soccer/coaches",
+          "status": "corrected"
+        },
+        {
+          "name": "Christian Madrigal",
+          "role": "Assistant Coach",
+          "programImportKey": "air-force-mens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://goairforcefalcons.com/sports/mens-soccer/coaches",
+          "status": "corrected"
+        },
+        {
+          "name": "Clint Long",
+          "role": "Assistant Coach",
+          "programImportKey": "air-force-mens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://goairforcefalcons.com/sports/mens-soccer/coaches",
+          "status": "corrected"
+        },
+        {
+          "name": "Alex Schultz",
+          "role": "Assistant Coach",
+          "programImportKey": "air-force-womens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://goairforcefalcons.com/sports/womens-soccer/coaches",
+          "status": "corrected"
+        },
+        {
+          "name": "Kaylyn Farrell",
+          "role": "Assistant Coach",
+          "programImportKey": "air-force-womens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://goairforcefalcons.com/sports/womens-soccer/coaches",
+          "status": "corrected"
+        }
+      ],
+      "institutionId": "air-force",
+      "sport": "soccer"
+    },
+    {
+      "id": "cu-boulder",
+      "kind": "college",
+      "summary": "Existing Colorado programs with reviewed coaching biographies, dated program context and academic/cost evidence. Read specific gaps before comparing.",
+      "sources": [
+        {
+          "url": "https://cubuffs.com/staff-directory/danny-sanchez/121",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Official biography gives appointment on December 19, 2011 and identifies 2026 as his 15th CU season. Appointment date is not a separately verified employment-effective date."
+        },
+        {
+          "url": "https://cubuffs.com/staff-directory/danny-sanchez/121",
+          "checkedDate": "2026-11-06",
+          "period": "2013–2025",
+          "status": "observed",
+          "note": "Appearances in 2013, 2014, 2016, 2017, 2019, 2020, 2023, 2024 and 2025 under Sanchez."
+        },
+        {
+          "url": "https://cubuffs.com/staff-directory/danny-sanchez/121",
+          "checkedDate": "2026-11-06",
+          "period": "2016",
+          "status": "observed",
+          "note": "Second in the Pac-12 in 2016."
+        }
+      ],
+      "size": [],
+      "leadership": [
+        {
+          "name": "Danny Sanchez",
+          "role": "Women · Head Women’s Soccer Coach",
+          "startDate": "2011-12-19",
+          "joinedDate": null,
+          "source": {
+            "url": "https://cubuffs.com/staff-directory/danny-sanchez/121",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Official biography gives appointment on December 19, 2011 and identifies 2026 as his 15th CU season. Appointment date is not a separately verified employment-effective date."
+          },
+          "dateBasis": "appointment announcement",
+          "status": "observed",
+          "programImportKey": "cu-boulder-womens"
+        }
+      ],
+      "history": [],
+      "questions": [
+        "Confirm varsity program and current coach.",
+        "Compare net price, academic fit and roster needs directly with the school."
+      ],
+      "reviewStatus": "partial",
+      "outcomes": null,
+      "turnoverRate": null,
+      "programImportKeys": [
+        "cu-boulder-womens"
+      ],
+      "facts": [
+        {
+          "label": "Women · NCAA tournament history",
+          "value": "Appearances in 2013, 2014, 2016, 2017, 2019, 2020, 2023, 2024 and 2025 under Sanchez.",
+          "source": {
+            "url": "https://cubuffs.com/staff-directory/danny-sanchez/121",
+            "checkedDate": "2026-11-06",
+            "period": "2013–2025",
+            "status": "observed",
+            "note": "Appearances in 2013, 2014, 2016, 2017, 2019, 2020, 2023, 2024 and 2025 under Sanchez."
+          }
+        },
+        {
+          "label": "Women · Historical conference finish",
+          "value": "Second in the Pac-12 in 2016.",
+          "source": {
+            "url": "https://cubuffs.com/staff-directory/danny-sanchez/121",
+            "checkedDate": "2026-11-06",
+            "period": "2016",
+            "status": "observed",
+            "note": "Second in the Pac-12 in 2016."
+          }
+        }
+      ],
+      "gaps": [],
+      "catalogCoaches": [
+        {
+          "name": "Danny Sanchez",
+          "role": "Head Coach",
+          "programImportKey": "cu-boulder-womens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://cubuffs.com/sports/womens-soccer/coaches",
+          "status": "corrected"
+        },
+        {
+          "name": "Dave Morgan",
+          "role": "Associate Head Coach/Recruiting Coordinator",
+          "programImportKey": "cu-boulder-womens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://cubuffs.com/sports/womens-soccer/coaches",
+          "status": "corrected"
+        },
+        {
+          "name": "Jason Green",
+          "role": "Senior Associate Head Coach",
+          "programImportKey": "cu-boulder-womens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://cubuffs.com/sports/womens-soccer/coaches",
+          "status": "corrected"
+        }
+      ],
+      "institutionId": "cu-boulder",
+      "sport": "soccer"
+    },
+    {
+      "id": "uccs",
+      "kind": "college",
+      "summary": "Existing Colorado programs with reviewed coaching biographies, dated program context and academic/cost evidence. Read specific gaps before comparing.",
+      "sources": [
+        {
+          "url": "https://gomountainlions.com/news/2021/11/24/mens-soccer-uccs-athletics-names-wilcox-head-mens-soccer-coach.aspx",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Release announces permanent appointment November 24, 2021, effective December 1. Joined as assistant in 2019 and served as interim head coach for the 2021 season."
+        },
+        {
+          "url": "https://gomountainlions.com/news/2020/2/26/belzer-named-womens-soccer-head-coach.aspx",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Appointment announced February 26, 2020 with staff start explicitly set for March 2, 2020. 2026 staff hiring announcement confirms current head-coach role."
+        },
+        {
+          "url": "https://gomountainlions.com/news/2021/11/24/mens-soccer-uccs-athletics-names-wilcox-head-mens-soccer-coach.aspx",
+          "checkedDate": "2026-11-06",
+          "period": "2021",
+          "status": "observed",
+          "note": "Led the team to 8–8–1 in the 2021 interim season."
+        },
+        {
+          "url": "https://gomountainlions.com/news/2026/10/30/mens-soccer-preview-mountain-lions-set-to-host-westminster-in-rmac-quarterfinal-match.aspx",
+          "checkedDate": "2026-11-06",
+          "period": "2026-10-30",
+          "status": "observed",
+          "note": "Official October 30 preview reported a 65–30–25 head-coaching record at UCCS; this is a dated snapshot, not a final 2026 total."
+        },
+        {
+          "url": "https://gomountainlions.com/news/2020/2/26/belzer-named-womens-soccer-head-coach.aspx",
+          "checkedDate": "2026-11-06",
+          "period": "Before March 2020",
+          "status": "observed",
+          "note": "Previously led Regis women for 24 seasons, recording eight RMAC championships."
+        },
+        {
+          "url": "https://gomountainlions.com/news/2021/11/24/mens-soccer-uccs-athletics-names-wilcox-head-mens-soccer-coach.aspx",
+          "checkedDate": "2026-11-06",
+          "period": "2021",
+          "status": "observed",
+          "note": "Served as interim head coach before permanent appointment."
+        }
+      ],
+      "size": [],
+      "leadership": [
+        {
+          "name": "Lewis Wilcox",
+          "role": "Men · Head Men’s Soccer Coach",
+          "startDate": "2021-12-01",
+          "joinedDate": "2019",
+          "source": {
+            "url": "https://gomountainlions.com/news/2021/11/24/mens-soccer-uccs-athletics-names-wilcox-head-mens-soccer-coach.aspx",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Release announces permanent appointment November 24, 2021, effective December 1. Joined as assistant in 2019 and served as interim head coach for the 2021 season."
+          },
+          "dateBasis": "permanent role effective date",
+          "status": "observed",
+          "programImportKey": "uccs-mens"
+        },
+        {
+          "name": "J. B. Belzer",
+          "role": "Women · Head Women’s Soccer Coach",
+          "startDate": "2020-03-02",
+          "joinedDate": "2020-03-02",
+          "source": {
+            "url": "https://gomountainlions.com/news/2020/2/26/belzer-named-womens-soccer-head-coach.aspx",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Appointment announced February 26, 2020 with staff start explicitly set for March 2, 2020. 2026 staff hiring announcement confirms current head-coach role."
+          },
+          "dateBasis": "employment effective date",
+          "status": "observed",
+          "programImportKey": "uccs-womens"
+        }
+      ],
+      "history": [
+        {
+          "date": "2021",
+          "event": "Men · Served as interim head coach before permanent appointment.",
+          "source": {
+            "url": "https://gomountainlions.com/news/2021/11/24/mens-soccer-uccs-athletics-names-wilcox-head-mens-soccer-coach.aspx",
+            "checkedDate": "2026-11-06",
+            "period": "2021",
+            "status": "observed",
+            "note": "Served as interim head coach before permanent appointment."
+          }
+        }
+      ],
+      "questions": [
+        "Confirm varsity program and current coach.",
+        "Compare net price, academic fit and roster needs directly with the school."
+      ],
+      "reviewStatus": "partial",
+      "outcomes": null,
+      "turnoverRate": null,
+      "programImportKeys": [
+        "uccs-womens",
+        "uccs-mens"
+      ],
+      "facts": [
+        {
+          "label": "Men · Interim season",
+          "value": "Led the team to 8–8–1 in the 2021 interim season.",
+          "source": {
+            "url": "https://gomountainlions.com/news/2021/11/24/mens-soccer-uccs-athletics-names-wilcox-head-mens-soccer-coach.aspx",
+            "checkedDate": "2026-11-06",
+            "period": "2021",
+            "status": "observed",
+            "note": "Led the team to 8–8–1 in the 2021 interim season."
+          }
+        },
+        {
+          "label": "Men · 2026 snapshot",
+          "value": "Official October 30 preview reported a 65–30–25 head-coaching record at UCCS; this is a dated snapshot, not a final 2026 total.",
+          "source": {
+            "url": "https://gomountainlions.com/news/2026/10/30/mens-soccer-preview-mountain-lions-set-to-host-westminster-in-rmac-quarterfinal-match.aspx",
+            "checkedDate": "2026-11-06",
+            "period": "2026-10-30",
+            "status": "observed",
+            "note": "Official October 30 preview reported a 65–30–25 head-coaching record at UCCS; this is a dated snapshot, not a final 2026 total."
+          }
+        },
+        {
+          "label": "Women · Prior program experience",
+          "value": "Previously led Regis women for 24 seasons, recording eight RMAC championships.",
+          "source": {
+            "url": "https://gomountainlions.com/news/2020/2/26/belzer-named-womens-soccer-head-coach.aspx",
+            "checkedDate": "2026-11-06",
+            "period": "Before March 2020",
+            "status": "observed",
+            "note": "Previously led Regis women for 24 seasons, recording eight RMAC championships."
+          }
+        }
+      ],
+      "gaps": [],
+      "catalogCoaches": [
+        {
+          "name": "J. B. Belzer",
+          "role": "Head Women's Soccer Coach",
+          "programImportKey": "uccs-womens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://gomountainlions.com/sports/womens-soccer/coaches",
+          "status": "corrected"
+        },
+        {
+          "name": "Lewis Wilcox",
+          "role": "Head Men's Soccer Coach",
+          "programImportKey": "uccs-mens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://gomountainlions.com/sports/mens-soccer/coaches",
+          "status": "corrected"
+        },
+        {
+          "name": "Bjarne Huth",
+          "role": "Graduate Assistant",
+          "programImportKey": "uccs-mens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://gomountainlions.com/sports/mens-soccer/coaches",
+          "status": "corrected"
+        },
+        {
+          "name": "Joe Mellars",
+          "role": "Assistant Men's Soccer Coach",
+          "programImportKey": "uccs-mens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://gomountainlions.com/sports/mens-soccer/coaches",
+          "status": "corrected"
+        },
+        {
+          "name": "Mario Ruiz",
+          "role": "Volunteer Assistant Coach",
+          "programImportKey": "uccs-mens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://gomountainlions.com/sports/mens-soccer/coaches",
+          "status": "corrected"
+        },
+        {
+          "name": "Nik Penn",
+          "role": "Volunteer Assistant Coach",
+          "programImportKey": "uccs-mens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://gomountainlions.com/sports/mens-soccer/coaches",
+          "status": "corrected"
+        },
+        {
+          "name": "Sybren Russell",
+          "role": "Graduate Assistant",
+          "programImportKey": "uccs-mens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://gomountainlions.com/sports/mens-soccer/coaches",
+          "status": "corrected"
+        },
+        {
+          "name": "Anne Louthan",
+          "role": "Volunteer Assistant Coach",
+          "programImportKey": "uccs-womens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://gomountainlions.com/sports/womens-soccer/coaches",
+          "status": "corrected"
+        },
+        {
+          "name": "Bjarne Huth",
+          "role": "Graduate Assistant",
+          "programImportKey": "uccs-womens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://gomountainlions.com/sports/womens-soccer/coaches",
+          "status": "corrected"
+        },
+        {
+          "name": "Jade Kinsey",
+          "role": "Volunteer Assistant Coach",
+          "programImportKey": "uccs-womens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://gomountainlions.com/sports/womens-soccer/coaches",
+          "status": "corrected"
+        },
+        {
+          "name": "Justin Stones",
+          "role": "Associate Head Women's Soccer Coach",
+          "programImportKey": "uccs-womens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://gomountainlions.com/sports/womens-soccer/coaches",
+          "status": "corrected"
+        },
+        {
+          "name": "Nieves Fernández López",
+          "role": "Graduate Assistant",
+          "programImportKey": "uccs-womens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://gomountainlions.com/sports/womens-soccer/coaches",
+          "status": "corrected"
+        }
+      ],
+      "institutionId": "uccs",
+      "sport": "soccer"
+    },
+    {
+      "id": "du",
+      "kind": "college",
+      "summary": "Existing Colorado programs with reviewed coaching biographies, dated program context and academic/cost evidence. Read specific gaps before comparing.",
+      "sources": [
+        {
+          "url": "https://denverpioneers.com/news/2015/1/30/Franks_Named_Denver_Men_s_Soccer_Head_Coach",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Promoted from assistant; announcement dated January 30, 2015. Official current biography says joined staff as assistant in 2012."
+        },
+        {
+          "url": "https://denverpioneers.com/news/2023/6/7/womens-soccer-julianne-sitch-named-denver-womens-soccer-head-coach",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Appointment announced June 7, 2023. Current biography identifies 2026 as fourth season."
+        },
+        {
+          "url": "https://denverpioneers.com/staff-directory/jamie-franks/56",
+          "checkedDate": "2026-11-06",
+          "period": "2021–2025",
+          "status": "observed",
+          "note": "2021: 10–4–5; 2022: 14–3–5; 2023: 12–3–5; 2024: 15–3–5; 2025: 12–7–3."
+        },
+        {
+          "url": "https://denverpioneers.com/staff-directory/jamie-franks/56",
+          "checkedDate": "2026-11-06",
+          "period": "2016–2025",
+          "status": "observed",
+          "note": "College Cup appearances in 2016 and 2024; NCAA second round in 2021, 2022, 2023 and 2025."
+        },
+        {
+          "url": "https://denverpioneers.com/staff-directory/julianne-sitch/541",
+          "checkedDate": "2026-11-06",
+          "period": "2023–2025",
+          "status": "observed",
+          "note": "2023: 9–2–7; 2024: 11–6–2; 2025: 9–5–4."
+        },
+        {
+          "url": "https://denverpioneers.com/staff-directory/julianne-sitch/541",
+          "checkedDate": "2026-11-06",
+          "period": "2025",
+          "status": "observed",
+          "note": "Shared the Summit League regular-season title in 2025 with a 6–1–1 conference record."
+        }
+      ],
+      "size": [],
+      "leadership": [
+        {
+          "name": "Jamie Franks",
+          "role": "Men · Head Men’s Soccer Coach",
+          "startDate": "2015-01-30",
+          "joinedDate": "2012",
+          "source": {
+            "url": "https://denverpioneers.com/news/2015/1/30/Franks_Named_Denver_Men_s_Soccer_Head_Coach",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Promoted from assistant; announcement dated January 30, 2015. Official current biography says joined staff as assistant in 2012."
+          },
+          "dateBasis": "appointment announcement",
+          "status": "observed",
+          "programImportKey": "du-mens"
+        },
+        {
+          "name": "Julianne Sitch",
+          "role": "Women · Head Women’s Soccer Coach",
+          "startDate": "2023-06-07",
+          "joinedDate": null,
+          "source": {
+            "url": "https://denverpioneers.com/news/2023/6/7/womens-soccer-julianne-sitch-named-denver-womens-soccer-head-coach",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Appointment announced June 7, 2023. Current biography identifies 2026 as fourth season."
+          },
+          "dateBasis": "appointment announcement",
+          "status": "observed",
+          "programImportKey": "du-womens"
+        }
+      ],
+      "history": [],
+      "questions": [
+        "Confirm varsity program and current coach.",
+        "Compare net price, academic fit and roster needs directly with the school."
+      ],
+      "reviewStatus": "partial",
+      "outcomes": null,
+      "turnoverRate": null,
+      "programImportKeys": [
+        "du-womens",
+        "du-mens"
+      ],
+      "facts": [
+        {
+          "label": "Men · Completed season records (W–L–D)",
+          "value": "2021: 10–4–5; 2022: 14–3–5; 2023: 12–3–5; 2024: 15–3–5; 2025: 12–7–3.",
+          "source": {
+            "url": "https://denverpioneers.com/staff-directory/jamie-franks/56",
+            "checkedDate": "2026-11-06",
+            "period": "2021–2025",
+            "status": "observed",
+            "note": "2021: 10–4–5; 2022: 14–3–5; 2023: 12–3–5; 2024: 15–3–5; 2025: 12–7–3."
+          }
+        },
+        {
+          "label": "Men · Postseason",
+          "value": "College Cup appearances in 2016 and 2024; NCAA second round in 2021, 2022, 2023 and 2025.",
+          "source": {
+            "url": "https://denverpioneers.com/staff-directory/jamie-franks/56",
+            "checkedDate": "2026-11-06",
+            "period": "2016–2025",
+            "status": "observed",
+            "note": "College Cup appearances in 2016 and 2024; NCAA second round in 2021, 2022, 2023 and 2025."
+          }
+        },
+        {
+          "label": "Women · Completed season records (W–L–D)",
+          "value": "2023: 9–2–7; 2024: 11–6–2; 2025: 9–5–4.",
+          "source": {
+            "url": "https://denverpioneers.com/staff-directory/julianne-sitch/541",
+            "checkedDate": "2026-11-06",
+            "period": "2023–2025",
+            "status": "observed",
+            "note": "2023: 9–2–7; 2024: 11–6–2; 2025: 9–5–4."
+          }
+        },
+        {
+          "label": "Women · Conference achievement",
+          "value": "Shared the Summit League regular-season title in 2025 with a 6–1–1 conference record.",
+          "source": {
+            "url": "https://denverpioneers.com/staff-directory/julianne-sitch/541",
+            "checkedDate": "2026-11-06",
+            "period": "2025",
+            "status": "observed",
+            "note": "Shared the Summit League regular-season title in 2025 with a 6–1–1 conference record."
+          }
+        }
+      ],
+      "gaps": [],
+      "catalogCoaches": [
+        {
+          "name": "Julianne Sitch",
+          "role": "Head Coach",
+          "programImportKey": "du-womens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://denverpioneers.com/sports/womens-soccer/coaches",
+          "status": "corrected"
+        },
+        {
+          "name": "Jamie Franks",
+          "role": "Jack and Sheila Weinberg Head Men's Soccer Coach",
+          "programImportKey": "du-mens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://denverpioneers.com/sports/mens-soccer/coaches",
+          "status": "corrected"
+        },
+        {
+          "name": "Brad Franks",
+          "role": "Men's Soccer Associate Head Coach",
+          "programImportKey": "du-mens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://denverpioneers.com/sports/mens-soccer/coaches",
+          "status": "corrected"
+        },
+        {
+          "name": "Jacob Lissek",
+          "role": "Goalkeeper Coach",
+          "programImportKey": "du-mens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://denverpioneers.com/sports/mens-soccer/coaches",
+          "status": "corrected"
+        },
+        {
+          "name": "Jose Arenas",
+          "role": "Men's Soccer Assistant Coach",
+          "programImportKey": "du-mens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://denverpioneers.com/sports/mens-soccer/coaches",
+          "status": "corrected"
+        },
+        {
+          "name": "Aaron Manahan",
+          "role": "Assistant Coach",
+          "programImportKey": "du-womens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://denverpioneers.com/sports/womens-soccer/coaches",
+          "status": "corrected"
+        },
+        {
+          "name": "Cassie Ulrich",
+          "role": "Assistant Coach",
+          "programImportKey": "du-womens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://denverpioneers.com/sports/womens-soccer/coaches",
+          "status": "corrected"
+        },
+        {
+          "name": "Marlon McKenzie",
+          "role": "Assistant Coach",
+          "programImportKey": "du-womens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://denverpioneers.com/sports/womens-soccer/coaches",
+          "status": "corrected"
+        }
+      ],
+      "institutionId": "du",
+      "sport": "soccer"
+    },
+    {
+      "id": "unco",
+      "kind": "college",
+      "summary": "Existing Colorado programs with reviewed coaching biographies, dated program context and academic/cost evidence. Read specific gaps before comparing.",
+      "sources": [
+        {
+          "url": "https://uncbears.com/staff-directory/tim-barrera/33",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Official biography and year-by-year table identify 1999 as first season. Month/day not published in reviewed source."
+        },
+        {
+          "url": "https://uncbears.com/staff-directory/tim-barrera/33",
+          "checkedDate": "2026-11-06",
+          "period": "2021–2025",
+          "status": "observed",
+          "note": "2021: 10–8–2; 2022: 4–11–3; 2023: 1–13–4; 2024: 4–14–1; 2025: 3–10–6."
+        },
+        {
+          "url": "https://uncbears.com/staff-directory/tim-barrera/33",
+          "checkedDate": "2026-11-06",
+          "period": "2015 / 2019",
+          "status": "observed",
+          "note": "NCAA Division I appearances in 2015 and 2019."
+        }
+      ],
+      "size": [],
+      "leadership": [
+        {
+          "name": "Tim Barrera",
+          "role": "Women · Head Women’s Soccer Coach",
+          "startDate": "1999",
+          "joinedDate": "1999",
+          "source": {
+            "url": "https://uncbears.com/staff-directory/tim-barrera/33",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Official biography and year-by-year table identify 1999 as first season. Month/day not published in reviewed source."
+          },
+          "dateBasis": "first season",
+          "status": "observed",
+          "programImportKey": "unco-womens"
+        }
+      ],
+      "history": [],
+      "questions": [
+        "Confirm varsity program and current coach.",
+        "Compare net price, academic fit and roster needs directly with the school."
+      ],
+      "reviewStatus": "partial",
+      "outcomes": null,
+      "turnoverRate": null,
+      "programImportKeys": [
+        "unco-womens"
+      ],
+      "facts": [
+        {
+          "label": "Women · Completed season records (W–L–D)",
+          "value": "2021: 10–8–2; 2022: 4–11–3; 2023: 1–13–4; 2024: 4–14–1; 2025: 3–10–6.",
+          "source": {
+            "url": "https://uncbears.com/staff-directory/tim-barrera/33",
+            "checkedDate": "2026-11-06",
+            "period": "2021–2025",
+            "status": "observed",
+            "note": "2021: 10–8–2; 2022: 4–11–3; 2023: 1–13–4; 2024: 4–14–1; 2025: 3–10–6."
+          }
+        },
+        {
+          "label": "Women · NCAA tournament history",
+          "value": "NCAA Division I appearances in 2015 and 2019.",
+          "source": {
+            "url": "https://uncbears.com/staff-directory/tim-barrera/33",
+            "checkedDate": "2026-11-06",
+            "period": "2015 / 2019",
+            "status": "observed",
+            "note": "NCAA Division I appearances in 2015 and 2019."
+          }
+        }
+      ],
+      "gaps": [
+        "Women: Established catalog programUrl uses uncobears.com; official current athletics source is uncbears.com. Preserve import key, recommend URL correction."
+      ],
+      "catalogCoaches": [
+        {
+          "name": "Tim Barrera",
+          "role": "Head Soccer Coach",
+          "programImportKey": "unco-womens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://uncbears.com/sports/womens-soccer/coaches",
+          "status": "corrected"
+        },
+        {
+          "name": "Amy Sickler",
+          "role": "Assistant Soccer Coach",
+          "programImportKey": "unco-womens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://uncbears.com/sports/womens-soccer/coaches",
+          "status": "corrected"
+        },
+        {
+          "name": "Everton do Prado",
+          "role": "Assistant Soccer Coach",
+          "programImportKey": "unco-womens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://uncbears.com/sports/womens-soccer/coaches",
+          "status": "corrected"
+        },
+        {
+          "name": "Murray Oliver",
+          "role": "Assistant Coach",
+          "programImportKey": "unco-womens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://uncbears.com/sports/womens-soccer/coaches",
+          "status": "corrected"
+        }
+      ],
+      "institutionId": "unco",
+      "sport": "soccer"
+    },
+    {
+      "id": "western-colorado",
+      "kind": "college",
+      "summary": "Existing Colorado programs with reviewed coaching biographies, dated program context and academic/cost evidence. Read specific gaps before comparing.",
+      "sources": [
+        {
+          "url": "https://gomountaineers.com/story.aspx?file_date=1-9-2024&filename=womens-soccer-alcala-named-mountaineer-womens-soccer-coach",
+          "checkedDate": "2026-11-06",
+          "period": null,
+          "status": "observed",
+          "note": "Hiring announced January 9, 2024; release explicitly states work begins January 15. 2026 staff list confirms role."
+        },
+        {
+          "url": "https://gomountaineers.com/story.aspx?file_date=1-9-2024&filename=womens-soccer-alcala-named-mountaineer-womens-soccer-coach",
+          "checkedDate": "2026-11-06",
+          "period": "2022–2023",
+          "status": "observed",
+          "note": "Colorado College women’s assistant in 2022 and 2023 before joining Western."
+        }
+      ],
+      "size": [],
+      "leadership": [
+        {
+          "name": "Joshua Alcala",
+          "role": "Women · Head Women’s Soccer Coach",
+          "startDate": "2024-01-15",
+          "joinedDate": "2024-01-15",
+          "source": {
+            "url": "https://gomountaineers.com/story.aspx?file_date=1-9-2024&filename=womens-soccer-alcala-named-mountaineer-womens-soccer-coach",
+            "checkedDate": "2026-11-06",
+            "period": null,
+            "status": "observed",
+            "note": "Hiring announced January 9, 2024; release explicitly states work begins January 15. 2026 staff list confirms role."
+          },
+          "dateBasis": "employment effective date",
+          "status": "observed",
+          "programImportKey": "western-colorado-womens"
+        }
+      ],
+      "history": [],
+      "questions": [
+        "Confirm varsity program and current coach.",
+        "Compare net price, academic fit and roster needs directly with the school."
+      ],
+      "reviewStatus": "partial",
+      "outcomes": null,
+      "turnoverRate": null,
+      "programImportKeys": [
+        "western-colorado-womens"
+      ],
+      "facts": [
+        {
+          "label": "Women · Prior coaching role",
+          "value": "Colorado College women’s assistant in 2022 and 2023 before joining Western.",
+          "source": {
+            "url": "https://gomountaineers.com/story.aspx?file_date=1-9-2024&filename=womens-soccer-alcala-named-mountaineer-womens-soccer-coach",
+            "checkedDate": "2026-11-06",
+            "period": "2022–2023",
+            "status": "observed",
+            "note": "Colorado College women’s assistant in 2022 and 2023 before joining Western."
+          }
+        }
+      ],
+      "gaps": [],
+      "catalogCoaches": [
+        {
+          "name": "Joshua Alcala",
+          "role": "Head Women's Soccer Coach",
+          "programImportKey": "western-colorado-womens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://gomountaineers.com/sports/womens-soccer/coaches",
+          "status": "corrected"
+        },
+        {
+          "name": "Aubree Orosco",
+          "role": "Women's Soccer Graduate Assistant Coach",
+          "programImportKey": "western-colorado-womens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://gomountaineers.com/sports/womens-soccer/coaches",
+          "status": "corrected"
+        },
+        {
+          "name": "Cianna Thomas",
+          "role": "Women's Soccer Graduate Assistant Coach",
+          "programImportKey": "western-colorado-womens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://gomountaineers.com/sports/womens-soccer/coaches",
+          "status": "corrected"
+        },
+        {
+          "name": "Ernesto Hidalgo",
+          "role": "Assistant Women's Soccer Coach",
+          "programImportKey": "western-colorado-womens",
+          "checkedDate": "2026-10-25",
+          "sourceUrl": "https://gomountaineers.com/sports/womens-soccer/coaches",
+          "status": "corrected"
+        }
+      ],
+      "institutionId": "western-colorado",
+      "sport": "soccer"
+    }
+  ]
+}

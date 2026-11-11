@@ -1,0 +1,7 @@
+import {afterEach,expect,it,vi} from 'vitest';
+import {cleanup,fireEvent,render,screen} from '@testing-library/react';
+import PodcastAudioPlayer from './PodcastAudioPlayer';
+afterEach(()=>{cleanup();vi.restoreAllMocks();});
+it('exposes native controls and a clearly labeled new-tab option',()=>{const pause=vi.spyOn(HTMLMediaElement.prototype,'pause').mockImplementation(()=>{});const {container}=render(<PodcastAudioPlayer src="https://example.org/audio.mp3" title="Episode"/>);expect(container.querySelector('audio')).toHaveAttribute('controls');const link=screen.getByRole('link',{name:/Open audio in new tab/});expect(link).toHaveAttribute('target','_blank');fireEvent.click(link);expect(pause).toHaveBeenCalled();});
+it('rejects insecure or executable URLs',()=>{render(<PodcastAudioPlayer src="javascript:alert(1)" title="Episode"/>);expect(screen.queryByRole('link')).toBeNull();expect(screen.getByRole('status')).toHaveTextContent('no supported secure audio link');});
+it('exposes playback failure and a retry',()=>{vi.spyOn(HTMLMediaElement.prototype,'load').mockImplementation(()=>{});vi.spyOn(HTMLMediaElement.prototype,'play').mockResolvedValue();const {container}=render(<PodcastAudioPlayer src="https://example.org/audio.mp3" title="Episode"/>);fireEvent.error(container.querySelector('audio')!);expect(screen.getByRole('alert')).toHaveTextContent('Audio could not play');fireEvent.click(screen.getByRole('button',{name:'Retry playback'}));expect(HTMLMediaElement.prototype.load).toHaveBeenCalled();});

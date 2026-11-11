@@ -1,0 +1,3 @@
+duplicate_import_key,canonical_import_key,institution,gender,reason,action
+uc-san-diego-socal-womens,uc-san-diego-womens,UC San Diego,womens,"Exact duplicate — same institution, city, state, and athletics URLs. Added later with url-inferred status.",deactivated — canonical record retained
+uc-san-diego-socal-mens,uc-san-diego-mens,UC San Diego,mens,"Exact duplicate — same institution, city, state, and athletics URLs. Added later with url-inferred status.",deactivated — canonical record retained

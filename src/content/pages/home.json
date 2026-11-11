@@ -1,0 +1,53 @@
+{
+  "hero": {
+    "eyebrow": "Your home for soccer.",
+    "headline": "The Soccer Center",
+    "subtext": "Your go-to resource for clubs, leagues, tutorials, and community events across the region.",
+    "cta": "Get in Touch"
+  },
+  "mission": {
+    "label": "Our Mission",
+    "headline": "Built for Soccer Fans",
+    "body": "Soccer Center is your go-to resource for everything soccer — from youth clubs and college programs to pro teams, fan groups, and community events across the region."
+  },
+  "welcome": {
+    "eyebrow": "Welcome",
+    "headline": "Your Soccer Community",
+    "body": "From local clubs to regional leagues, Soccer Center brings together clubs, facilities, supporters, and fans under one roof.",
+    "cta": "Explore the Community"
+  },
+  "about": {
+    "eyebrow": "A message from the founder",
+    "siteTitle": "Welcome to the Soccer Center",
+    "paragraphs": [
+      {
+        "id": "p1",
+        "text": "We built the Soccer Center with you—the soccer enthusiast—in mind."
+      },
+      {
+        "id": "p2",
+        "text": "From a player's or parent's perspective, we wanted to make it easy to explore club information from across the region, discover curated tutorials, and connect app calendars to help manage busy schedules."
+      },
+      {
+        "id": "p3",
+        "text": "From a fan's perspective, our goal is to be your guide to local soccer experiences. Whether you're looking for highlights, information about where to watch games, supporters' groups, teams, or even a great pub to catch a match, we've got you covered."
+      },
+      {
+        "id": "p4",
+        "text": "Thanks for stopping by. We look forward to seeing you out there."
+      }
+    ],
+    "signatureName": "Tom Shaw",
+    "signatureTitle": "Founder, Soccer Center",
+    "regionCta": "Choose your region"
+  },
+  "contact": {
+    "headline": "Get in Touch",
+    "subheading": "Have a question, suggestion, or want to add your club or facility? Reach out and we'll get back to you.",
+    "recaptchaNote": "We respect your privacy and will never share your information."
+  },
+  "newsletter": {
+    "headline": "Stay in the Loop",
+    "body": "Get the latest on clubs, events, and soccer news across Colorado."
+  }
+}

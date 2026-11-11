@@ -1,0 +1,22 @@
+[
+  { "slug": "arsenal",           "name": "Arsenal",                "channelSlug": "arsenal",           "verified": true,  "crest": null },
+  { "slug": "aston-villa",       "name": "Aston Villa",            "channelSlug": "aston-villa",       "verified": true,  "crest": null },
+  { "slug": "afc-bournemouth",   "name": "AFC Bournemouth",        "channelSlug": "afc-bournemouth",   "verified": true,  "crest": null },
+  { "slug": "brentford",         "name": "Brentford",              "channelSlug": "brentford",         "verified": true,  "crest": null },
+  { "slug": "brighton",          "name": "Brighton & Hove Albion", "channelSlug": "brighton",          "verified": true,  "crest": null },
+  { "slug": "chelsea",           "name": "Chelsea",                "channelSlug": "chelsea",           "verified": true,  "crest": null },
+  { "slug": "crystal-palace",    "name": "Crystal Palace",         "channelSlug": "crystal-palace",    "verified": true,  "crest": null },
+  { "slug": "everton",           "name": "Everton",                "channelSlug": "everton",           "verified": true,  "crest": null },
+  { "slug": "fulham",            "name": "Fulham",                 "channelSlug": "fulham",            "verified": true,  "crest": null },
+  { "slug": "ipswich-town",      "name": "Ipswich Town",           "channelSlug": "ipswich-town",      "verified": true,  "crest": null },
+  { "slug": "leeds-united",      "name": "Leeds United",           "channelSlug": "leeds-united",      "verified": true,  "crest": null },
+  { "slug": "liverpool",         "name": "Liverpool",              "channelSlug": "liverpool",         "verified": true,  "crest": null },
+  { "slug": "manchester-city",   "name": "Manchester City",        "channelSlug": "manchester-city",   "verified": true,  "crest": null },
+  { "slug": "manchester-united", "name": "Manchester United",      "channelSlug": "manchester-united", "verified": true,  "crest": null },
+  { "slug": "newcastle-united",  "name": "Newcastle United",       "channelSlug": "newcastle-united",  "verified": true,  "crest": null },
+  { "slug": "nottingham-forest", "name": "Nottingham Forest",      "channelSlug": "nottingham-forest", "verified": true,  "crest": null },
+  { "slug": "sunderland",        "name": "Sunderland",             "channelSlug": "sunderland",        "verified": true,  "crest": null },
+  { "slug": "tottenham-hotspur", "name": "Tottenham Hotspur",      "channelSlug": "tottenham-hotspur", "verified": true,  "crest": null },
+  { "slug": "coventry-city",     "name": "Coventry City",          "channelSlug": "coventry-city",     "verified": true,  "crest": null },
+  { "slug": "hull-city",         "name": "Hull City",              "channelSlug": "hull-city",         "verified": true,  "crest": null }
+]

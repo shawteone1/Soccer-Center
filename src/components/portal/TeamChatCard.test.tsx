@@ -1,0 +1,7 @@
+import {afterEach,expect,it,vi} from 'vitest';
+import {cleanup,fireEvent,render,screen} from '@testing-library/react';
+import TeamChatCard from './TeamChatCard';
+afterEach(()=>{cleanup();vi.unstubAllGlobals();});
+it('shows an honest unconfigured state without a dummy link',async()=>{vi.stubGlobal('fetch',vi.fn().mockResolvedValue({ok:true,json:async()=>({channels:[]})}));render(<TeamChatCard/>);expect(await screen.findByText(/hasn’t been connected/)).toBeInTheDocument();expect(screen.queryByRole('link')).toBeNull();});
+it('opens the approved external channel and explains membership',async()=>{vi.stubGlobal('fetch',vi.fn().mockResolvedValue({ok:true,json:async()=>({channels:[{id:'c',teamLabel:'Storm U16',playerLabel:'Alex',provider:'slack',url:'https://app.slack.com/client/T123/C456'}]})}));render(<TeamChatCard/>);const link=await screen.findByRole('link',{name:/Open Slack for Storm U16/});expect(link).toHaveAttribute('target','_blank');expect(link).toHaveAttribute('rel','noopener noreferrer');expect(screen.getByText(/unread counts are not synced/)).toBeInTheDocument();});
+it('retries failed requests and never treats failure as unconfigured',async()=>{const fetcher=vi.fn().mockResolvedValueOnce({ok:false}).mockResolvedValueOnce({ok:true,json:async()=>({channels:[]})});vi.stubGlobal('fetch',fetcher);render(<TeamChatCard/>);fireEvent.click(await screen.findByRole('button',{name:'Retry team chat'}));expect(await screen.findByText(/hasn’t been connected/)).toBeInTheDocument();expect(fetcher).toHaveBeenCalledTimes(2);});

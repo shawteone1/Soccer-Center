@@ -1,0 +1,21 @@
+{
+  "pageTitle": "Content Admin",
+  "pageSubtitle": "items · approved · pending review",
+  "importCsvLabel": "Import CSV",
+  "hideCsvLabel": "Hide import",
+  "refreshLabel": "Refresh",
+  "importHeading": "CSV Import",
+  "importPlaceholder": "Paste CSV content here (with header row)…",
+  "importButtonLabel": "Import CSV",
+  "importingLabel": "Importing…",
+  "noItemsMessage": "No items match the current filter.",
+  "allTypesLabel": "All types",
+  "statusAll": "All",
+  "statusApproved": "Approved",
+  "statusPending": "Pending",
+  "statusUnpublished": "Unpublished",
+  "statusArchived": "Archived",
+  "previewRequiredLabel": "Preview required",
+  "expandLabel": "Expand",
+  "collapseLabel": "Collapse"
+}

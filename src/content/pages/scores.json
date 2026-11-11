@@ -1,0 +1,17 @@
+{
+  "header": {
+    "title": "SOCCER CENTER · SCORES",
+    "liveLabel": "LIVE"
+  },
+  "empty": {
+    "noFixtures": "No fixtures",
+    "loading": "Loading…",
+    "cached": "cached"
+  },
+  "nav": {
+    "today": "Today",
+    "yesterday": "Yesterday",
+    "tomorrow": "Tomorrow",
+    "allScores": "All scores →"
+  }
+}

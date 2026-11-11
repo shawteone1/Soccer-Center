@@ -1,0 +1,13 @@
+import {it,expect,vi,beforeEach} from 'vitest';
+import {MySqlDialect} from 'drizzle-orm/mysql-core';
+const state=vi.hoisted(()=>({player:true,feed:true,scope:'["sibling"]' as string|null,writes:[] as unknown[],queries:[] as string[]}));
+vi.mock('@/server/auth-policy.js',()=>({requireParentAccess:vi.fn(async()=>({id:'parent'})),setPrivateCacheHeaders:vi.fn()}));
+vi.mock('@/server/db/client.js',()=>({db:{transaction:async(fn:(tx:unknown)=>unknown)=>fn({execute:async(query:never)=>{const q=new MySqlDialect().sqlToQuery(query);state.queries.push(q.sql);if(q.sql.includes('FROM sc_player_profiles'))return [state.player?[{id:'p'}]:[]];if(q.sql.includes('SELECT player_ids'))return [state.feed?[{player_ids:state.scope}]:[]];state.writes.push(q.params[0]);return [{affectedRows:1}];}})}}));
+import handler from './PATCH';
+const response=()=>{const r={status:vi.fn(),json:vi.fn()};r.status.mockReturnValue(r);return r;};
+beforeEach(()=>{state.player=true;state.feed=true;state.scope='["sibling"]';state.writes=[];state.queries=[];});
+it('adds a player without dropping siblings and locks the owned parent feed',async()=>{const r=response();await handler({params:{feedId:'feed'},body:{addPlayerId:'p'}} as never,r as never);expect(state.writes).toEqual(['["sibling","p"]']);expect(r.json).toHaveBeenCalledWith({ok:true,playerIds:['sibling','p']});expect(state.queries[1]).toContain('FOR UPDATE');expect(state.queries[1]).toContain('portal_context');});
+it('is idempotent',async()=>{state.scope='["p"]';await handler({params:{feedId:'feed'},body:{addPlayerId:'p'}} as never,response() as never);expect(state.writes).toEqual(['["p"]']);});
+it.each([null,'[]'])('preserves family-wide scope %s',async(scope)=>{state.scope=scope;await handler({params:{feedId:'feed'},body:{addPlayerId:'p'}} as never,response() as never);expect(state.writes).toEqual([null]);});
+it.each(['player','feed'] as const)('rejects missing or foreign %s without writing',async(key)=>{state[key]=false;const r=response();await handler({params:{feedId:'feed'},body:{addPlayerId:'p'}} as never,r as never);expect(r.status).toHaveBeenCalledWith(404);expect(state.writes).toEqual([]);});
+it('rejects conflicting replacement and addition',async()=>{const r=response();await handler({params:{feedId:'feed'},body:{addPlayerId:'p',playerIds:[]}} as never,r as never);expect(r.status).toHaveBeenCalledWith(400);expect(state.queries).toEqual([]);});

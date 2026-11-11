@@ -1,0 +1,1602 @@
+{
+  "eyebrow": "Soccer Center / Community",
+  "headline": "Community",
+  "body": "Helpful starting points for players, parents, coaches, and referees across the West. Explore state associations, city programs, coaching education, and financial assistance. No Soccer Center account needed.",
+  "datasetNote": "Resource links compiled October 2026. Program offerings, fees, eligibility, and deadlines can change; check the linked provider for current details. External course enrollment, program registration, or assistance applications may require an account. Links open in a new tab.",
+  "regions": [
+    {
+      "id": "region-colorado",
+      "label": "Colorado",
+      "categories": [
+        {
+          "id": "co-assoc",
+          "label": "State soccer association",
+          "resources": [
+            {
+              "id": "co-csa",
+              "tag": "State association",
+              "name": "Colorado Soccer Association",
+              "description": "The governing body for soccer in Colorado. Find league information, club registration, policies, statewide news, and pathways for players, coaches, and referees.",
+              "linkLabel": "Visit CSA",
+              "url": "https://www.coloradosoccer.org/"
+            },
+            {
+              "id": "co-ussf",
+              "tag": "National federation",
+              "name": "U.S. Soccer Federation",
+              "description": "The national governing body for soccer in the United States. Find national team news, player development programs, and federation policies.",
+              "linkLabel": "Visit U.S. Soccer",
+              "url": "https://www.ussoccer.com/"
+            },
+            {
+              "id": "co-usyouth",
+              "tag": "Youth governing body",
+              "name": "US Youth Soccer",
+              "description": "The largest youth sports organization in the U.S. Find state association links, national programs, and resources for youth players and clubs.",
+              "linkLabel": "Visit US Youth Soccer",
+              "url": "https://www.usyouthsoccer.org/"
+            }
+          ]
+        },
+        {
+          "id": "co-parks",
+          "label": "Park & rec programs",
+          "resources": [
+            {
+              "id": "co-denver-parks",
+              "tag": "City-run youth sports",
+              "name": "Denver Parks & Recreation",
+              "description": "Explore Denver's youth soccer leagues, camps, and introductory programs. Check the program page for current ages, locations, and registration.",
+              "linkLabel": "Explore Denver soccer",
+              "url": "https://www.denveryouthsports.org/soccer"
+            },
+            {
+              "id": "co-aurora-parks",
+              "tag": "City recreation",
+              "name": "Aurora Parks & Recreation",
+              "description": "Find Aurora Parks & Recreation soccer programs, leagues, and registration information for youth and adult players.",
+              "linkLabel": "Explore Aurora soccer",
+              "url": "https://www.auroragov.org/things_to_do/parks___recreation/sports___athletics/soccer"
+            },
+            {
+              "id": "co-south-suburban",
+              "tag": "Recreation district",
+              "name": "South Suburban Parks & Recreation",
+              "description": "Youth indoor soccer leagues at the Sports Dome and Sports Complex. The current league page lists U11 and older divisions with team-based registration.",
+              "linkLabel": "Explore youth leagues",
+              "url": "https://www.southsuburbansports.com/youth-soccer"
+            },
+            {
+              "id": "co-boulder-parks",
+              "tag": "City recreation",
+              "name": "Boulder Parks & Recreation",
+              "description": "Browse youth sports instruction offered through recreation centers and parks. Use the recreation guide for current soccer offerings.",
+              "linkLabel": "Explore Boulder sports",
+              "url": "https://bouldercolorado.gov/services/sports"
+            },
+            {
+              "id": "co-parker-parks",
+              "tag": "Town-run youth sports",
+              "name": "Parker Parks & Recreation",
+              "description": "Explore seasonal youth soccer leagues. Confirm current divisions, registration dates, and locations on the official page.",
+              "linkLabel": "Explore Parker soccer",
+              "url": "https://www.parkerrec.com/1166/Youth-Soccer"
+            }
+          ]
+        },
+        {
+          "id": "co-coaching",
+          "label": "Coaching programs",
+          "resources": [
+            {
+              "id": "co-csa-coaching",
+              "tag": "State coaching education",
+              "name": "CSA coaching education",
+              "description": "Explore Colorado coaching education opportunities, course calendars, and licensing pathways administered through the Colorado Soccer Association.",
+              "linkLabel": "Explore coaching",
+              "url": "https://www.coloradosoccer.org/coaches"
+            },
+            {
+              "id": "co-ussf-learning",
+              "tag": "National coaching education",
+              "name": "U.S. Soccer Learning Center",
+              "description": "The official platform for U.S. Soccer coaching and referee education. Course enrollment may require a U.S. Soccer account.",
+              "linkLabel": "Visit Learning Center",
+              "url": "https://learning.ussoccer.com/"
+            },
+            {
+              "id": "co-nscaa",
+              "tag": "Coaching association",
+              "name": "United Soccer Coaches",
+              "description": "The largest soccer coaches' association in the world. Find coaching courses, clinics, and professional development resources.",
+              "linkLabel": "Visit United Soccer Coaches",
+              "url": "https://unitedsoccercoaches.org/"
+            }
+          ]
+        },
+        {
+          "id": "co-financial",
+          "label": "Financial assistance",
+          "resources": [
+            {
+              "id": "co-every-kid",
+              "tag": "Youth sports fee assistance",
+              "name": "Every Kid Sports Pass",
+              "description": "Check current soccer and location eligibility, application windows, and funding availability. Assistance depends on the program's current requirements.",
+              "linkLabel": "Explore fee assistance",
+              "url": "https://pass.everykidsports.org/"
+            },
+            {
+              "id": "co-cu-scholarships",
+              "tag": "Club-specific assistance",
+              "name": "Colorado United scholarships",
+              "description": "Explore need-based help with a portion of player registration fees. Review eligibility, application requirements, and deadlines with the club.",
+              "linkLabel": "View scholarship information",
+              "url": "https://www.coloradounitedsoccer.com/scholorships"
+            },
+            {
+              "id": "co-topsoccer",
+              "tag": "Inclusive soccer",
+              "name": "Colorado TOPSoccer",
+              "description": "Find Colorado TOPSoccer program information and contacts for player participation or volunteering as a Buddy. Open to players with disabilities.",
+              "linkLabel": "Explore TOPSoccer",
+              "url": "https://www.coloradosoccer.org/topsoccer"
+            },
+            {
+              "id": "co-safesport",
+              "tag": "Player safety",
+              "name": "SafeSport parent resources",
+              "description": "Find parent education and resources for supporting safer sport environments. Includes the parent and guardian handbook.",
+              "linkLabel": "View safety resources",
+              "url": "https://uscenterforsafesport.org/parents/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "region-arizona",
+      "label": "Arizona",
+      "categories": [
+        {
+          "id": "az-assoc",
+          "label": "State soccer association",
+          "resources": [
+            {
+              "id": "az-asa",
+              "tag": "State association",
+              "name": "Arizona Soccer Association",
+              "description": "The governing body for amateur soccer in Arizona. Find club registration, league information, referee pathways, and statewide news for players, coaches, and families.",
+              "linkLabel": "Visit Arizona Soccer",
+              "url": "https://www.arizonasoccer.org/"
+            },
+            {
+              "id": "az-ayso",
+              "tag": "Youth recreational soccer",
+              "name": "AYSO Arizona regions",
+              "description": "American Youth Soccer Organization regions across Arizona offer recreational soccer for all ages and skill levels. Find your local region on the AYSO national site.",
+              "linkLabel": "Find AYSO regions",
+              "url": "https://www.ayso.org/find-a-region"
+            },
+            {
+              "id": "az-usyouth",
+              "tag": "Youth governing body",
+              "name": "US Youth Soccer",
+              "description": "The national governing body for youth soccer. Find state association links, national programs, and resources for youth players and clubs.",
+              "linkLabel": "Visit US Youth Soccer",
+              "url": "https://www.usyouthsoccer.org/"
+            }
+          ]
+        },
+        {
+          "id": "az-parks",
+          "label": "Park & rec programs",
+          "resources": [
+            {
+              "id": "az-phoenix-parks",
+              "tag": "City recreation",
+              "name": "Phoenix Parks & Recreation",
+              "description": "Explore youth and adult soccer programs offered through the City of Phoenix Parks and Recreation Department. Check the current activity guide for registration.",
+              "linkLabel": "Explore Phoenix programs",
+              "url": "https://www.phoenix.gov/parks/sports/youth"
+            },
+            {
+              "id": "az-mesa-parks",
+              "tag": "City recreation",
+              "name": "Mesa Parks & Recreation",
+              "description": "Find youth soccer leagues and recreational programs offered by the City of Mesa. Check the current program guide for ages, locations, and registration windows.",
+              "linkLabel": "Explore Mesa programs",
+              "url": "https://www.mesaparks.com/parks-facilities/sports/youth-sports"
+            },
+            {
+              "id": "az-scottsdale-parks",
+              "tag": "City recreation",
+              "name": "Scottsdale Parks & Recreation",
+              "description": "Browse youth soccer and sports programs offered through Scottsdale Recreation. Check the current catalog for seasonal offerings and registration.",
+              "linkLabel": "Explore Scottsdale programs",
+              "url": "https://www.scottsdaleaz.gov/parks/recreation-programs"
+            },
+            {
+              "id": "az-tucson-parks",
+              "tag": "City recreation",
+              "name": "Tucson Parks & Recreation",
+              "description": "Find youth soccer leagues and programs offered through the City of Tucson. Check the current program guide for registration and locations.",
+              "linkLabel": "Explore Tucson programs",
+              "url": "https://www.tucsonaz.gov/parks/sports-and-recreation"
+            },
+            {
+              "id": "az-chandler-parks",
+              "tag": "City recreation",
+              "name": "Chandler Parks & Recreation",
+              "description": "Explore youth soccer and sports programs offered by the City of Chandler. Check the current activity guide for seasonal registration.",
+              "linkLabel": "Explore Chandler programs",
+              "url": "https://www.chandleraz.gov/residents/parks-recreation/sports-athletics"
+            }
+          ]
+        },
+        {
+          "id": "az-coaching",
+          "label": "Coaching programs",
+          "resources": [
+            {
+              "id": "az-asa-coaching",
+              "tag": "State coaching education",
+              "name": "Arizona Soccer Association \u2014 coaches",
+              "description": "Find coaching education opportunities, licensing pathways, and course information administered through the Arizona Soccer Association.",
+              "linkLabel": "Explore coaching",
+              "url": "https://www.arizonasoccer.org/coaches"
+            },
+            {
+              "id": "az-ussf-learning",
+              "tag": "National coaching education",
+              "name": "U.S. Soccer Learning Center",
+              "description": "The official platform for U.S. Soccer coaching and referee education. Course enrollment may require a U.S. Soccer account.",
+              "linkLabel": "Visit Learning Center",
+              "url": "https://learning.ussoccer.com/"
+            },
+            {
+              "id": "az-united-coaches",
+              "tag": "Coaching association",
+              "name": "United Soccer Coaches",
+              "description": "Find coaching courses, clinics, and professional development resources from the largest soccer coaches' association in the world.",
+              "linkLabel": "Visit United Soccer Coaches",
+              "url": "https://unitedsoccercoaches.org/"
+            }
+          ]
+        },
+        {
+          "id": "az-financial",
+          "label": "Financial assistance",
+          "resources": [
+            {
+              "id": "az-every-kid",
+              "tag": "Youth sports fee assistance",
+              "name": "Every Kid Sports Pass",
+              "description": "Check current soccer and location eligibility, application windows, and funding availability for Arizona youth. Assistance depends on the program's current requirements.",
+              "linkLabel": "Explore fee assistance",
+              "url": "https://pass.everykidsports.org/"
+            },
+            {
+              "id": "az-topsoccer",
+              "tag": "Inclusive soccer",
+              "name": "TOPSoccer \u2014 Arizona",
+              "description": "Find Arizona TOPSoccer program information and contacts for players with disabilities. Contact the Arizona Soccer Association for current program locations.",
+              "linkLabel": "Find TOPSoccer programs",
+              "url": "https://www.arizonasoccer.org/topsoccer"
+            },
+            {
+              "id": "az-safesport",
+              "tag": "Player safety",
+              "name": "SafeSport parent resources",
+              "description": "Find parent education and resources for supporting safer sport environments. Includes the parent and guardian handbook.",
+              "linkLabel": "View safety resources",
+              "url": "https://uscenterforsafesport.org/parents/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "region-socal",
+      "label": "Southern California",
+      "categories": [
+        {
+          "id": "sc-assoc",
+          "label": "State soccer association",
+          "resources": [
+            {
+              "id": "sc-cysa-s",
+              "tag": "State association \u2014 south",
+              "name": "Cal South (CYSA-South)",
+              "description": "The governing body for youth soccer in Southern California. Find club registration, league information, referee pathways, and statewide news for players, coaches, and families.",
+              "linkLabel": "Visit Cal South",
+              "url": "https://www.calsouth.com/"
+            },
+            {
+              "id": "sc-csa",
+              "tag": "State association \u2014 adult",
+              "name": "California Soccer Association South",
+              "description": "Governing body for adult amateur soccer in Southern California. Find league information, club registration, and adult competition pathways.",
+              "linkLabel": "Visit CSA South",
+              "url": "https://www.csasoccer.com/"
+            },
+            {
+              "id": "sc-usyouth",
+              "tag": "Youth governing body",
+              "name": "US Youth Soccer",
+              "description": "The national governing body for youth soccer. Find state association links, national programs, and resources for youth players and clubs.",
+              "linkLabel": "Visit US Youth Soccer",
+              "url": "https://www.usyouthsoccer.org/"
+            }
+          ]
+        },
+        {
+          "id": "sc-parks",
+          "label": "Park & rec programs",
+          "resources": [
+            {
+              "id": "sc-la-parks",
+              "tag": "City recreation",
+              "name": "LA City Parks & Recreation",
+              "description": "Explore youth soccer leagues and programs offered through the City of Los Angeles Department of Recreation and Parks. Check the current program guide for registration.",
+              "linkLabel": "Explore LA programs",
+              "url": "https://www.laparks.org/sports/soccer"
+            },
+            {
+              "id": "sc-sd-parks",
+              "tag": "City recreation",
+              "name": "San Diego Parks & Recreation",
+              "description": "Find youth soccer leagues and recreational programs offered by the City of San Diego. Check the current activity guide for ages, locations, and registration.",
+              "linkLabel": "Explore San Diego programs",
+              "url": "https://www.sandiego.gov/park-and-recreation/activities/sports/soccer"
+            },
+            {
+              "id": "sc-long-beach-parks",
+              "tag": "City recreation",
+              "name": "Long Beach Parks & Recreation",
+              "description": "Browse youth soccer programs offered through the City of Long Beach. Check the current catalog for seasonal offerings and registration windows.",
+              "linkLabel": "Explore Long Beach programs",
+              "url": "https://www.longbeach.gov/park/recreation-programs/sports/"
+            },
+            {
+              "id": "sc-anaheim-parks",
+              "tag": "City recreation",
+              "name": "Anaheim Community Services",
+              "description": "Find youth sports and soccer programs offered through the City of Anaheim Community Services Department.",
+              "linkLabel": "Explore Anaheim programs",
+              "url": "https://www.anaheim.net/1120/Youth-Sports"
+            },
+            {
+              "id": "sc-ayso",
+              "tag": "Youth recreational soccer",
+              "name": "AYSO Southern California regions",
+              "description": "American Youth Soccer Organization regions across Southern California offer recreational soccer for all ages and skill levels. Find your local region on the AYSO national site.",
+              "linkLabel": "Find AYSO regions",
+              "url": "https://www.ayso.org/find-a-region"
+            }
+          ]
+        },
+        {
+          "id": "sc-coaching",
+          "label": "Coaching programs",
+          "resources": [
+            {
+              "id": "sc-calsouth-coaching",
+              "tag": "State coaching education",
+              "name": "Cal South \u2014 coaches",
+              "description": "Find coaching education opportunities, licensing pathways, and course information administered through Cal South for Southern California coaches.",
+              "linkLabel": "Explore coaching",
+              "url": "https://www.calsouth.com/coaches"
+            },
+            {
+              "id": "sc-ussf-learning",
+              "tag": "National coaching education",
+              "name": "U.S. Soccer Learning Center",
+              "description": "The official platform for U.S. Soccer coaching and referee education. Course enrollment may require a U.S. Soccer account.",
+              "linkLabel": "Visit Learning Center",
+              "url": "https://learning.ussoccer.com/"
+            },
+            {
+              "id": "sc-united-coaches",
+              "tag": "Coaching association",
+              "name": "United Soccer Coaches",
+              "description": "Find coaching courses, clinics, and professional development resources from the largest soccer coaches' association in the world.",
+              "linkLabel": "Visit United Soccer Coaches",
+              "url": "https://unitedsoccercoaches.org/"
+            }
+          ]
+        },
+        {
+          "id": "sc-financial",
+          "label": "Financial assistance",
+          "resources": [
+            {
+              "id": "sc-every-kid",
+              "tag": "Youth sports fee assistance",
+              "name": "Every Kid Sports Pass",
+              "description": "Check current soccer and location eligibility, application windows, and funding availability for Southern California youth. Assistance depends on the program's current requirements.",
+              "linkLabel": "Explore fee assistance",
+              "url": "https://pass.everykidsports.org/"
+            },
+            {
+              "id": "sc-calsouth-assistance",
+              "tag": "Association assistance",
+              "name": "Cal South player assistance",
+              "description": "Contact Cal South directly to ask about financial assistance programs, scholarship opportunities, and inclusive soccer initiatives for Southern California players.",
+              "linkLabel": "Contact Cal South",
+              "url": "https://www.calsouth.com/contact"
+            },
+            {
+              "id": "sc-topsoccer",
+              "tag": "Inclusive soccer",
+              "name": "TOPSoccer \u2014 Southern California",
+              "description": "Find TOPSoccer program information and contacts for players with disabilities in Southern California. Contact Cal South for current program locations.",
+              "linkLabel": "Find TOPSoccer programs",
+              "url": "https://www.calsouth.com/topsoccer"
+            },
+            {
+              "id": "sc-safesport",
+              "tag": "Player safety",
+              "name": "SafeSport parent resources",
+              "description": "Find parent education and resources for supporting safer sport environments. Includes the parent and guardian handbook.",
+              "linkLabel": "View safety resources",
+              "url": "https://uscenterforsafesport.org/parents/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "region-norcal",
+      "label": "Northern California",
+      "categories": [
+        {
+          "id": "nc-assoc",
+          "label": "State soccer association",
+          "resources": [
+            {
+              "id": "nc-cysa-n",
+              "tag": "State association \u2014 north",
+              "name": "Cal North (CYSA-North)",
+              "description": "The governing body for youth soccer in Northern California. Find club registration, league information, referee pathways, and statewide news for players, coaches, and families.",
+              "linkLabel": "Visit Cal North",
+              "url": "https://www.calnorth.org/"
+            },
+            {
+              "id": "nc-csa-n",
+              "tag": "State association \u2014 adult",
+              "name": "California Soccer Association North",
+              "description": "Governing body for adult amateur soccer in Northern California. Find league information, club registration, and adult competition pathways.",
+              "linkLabel": "Visit CSA North",
+              "url": "https://www.csanorth.org/"
+            },
+            {
+              "id": "nc-usyouth",
+              "tag": "Youth governing body",
+              "name": "US Youth Soccer",
+              "description": "The national governing body for youth soccer. Find state association links, national programs, and resources for youth players and clubs.",
+              "linkLabel": "Visit US Youth Soccer",
+              "url": "https://www.usyouthsoccer.org/"
+            }
+          ]
+        },
+        {
+          "id": "nc-parks",
+          "label": "Park & rec programs",
+          "resources": [
+            {
+              "id": "nc-sf-parks",
+              "tag": "City recreation",
+              "name": "SF Recreation & Parks",
+              "description": "Explore youth soccer leagues and programs offered through San Francisco Recreation and Parks. Check the current program guide for registration.",
+              "linkLabel": "Explore SF programs",
+              "url": "https://sfrecpark.org/programs/sports-and-athletics"
+            },
+            {
+              "id": "nc-sj-parks",
+              "tag": "City recreation",
+              "name": "San Jose Parks & Recreation",
+              "description": "Find youth soccer leagues and recreational programs offered by the City of San Jose. Check the current activity guide for ages, locations, and registration.",
+              "linkLabel": "Explore San Jose programs",
+              "url": "https://www.sanjoseca.gov/your-government/departments-offices/parks-recreation-neighborhood-services/sports-aquatics/youth-sports"
+            },
+            {
+              "id": "nc-oak-parks",
+              "tag": "City recreation",
+              "name": "Oakland Recreation & Parks",
+              "description": "Browse youth soccer programs offered through the City of Oakland. Check the current catalog for seasonal offerings and registration windows.",
+              "linkLabel": "Explore Oakland programs",
+              "url": "https://www.oaklandca.gov/topics/parks-recreation"
+            },
+            {
+              "id": "nc-sac-parks",
+              "tag": "City recreation",
+              "name": "Sacramento Parks & Recreation",
+              "description": "Find youth soccer leagues and programs offered through the City of Sacramento. Check the current program guide for registration and locations.",
+              "linkLabel": "Explore Sacramento programs",
+              "url": "https://www.cityofsacramento.org/parks-recreation/sports"
+            },
+            {
+              "id": "nc-ayso",
+              "tag": "Youth recreational soccer",
+              "name": "AYSO Northern California regions",
+              "description": "American Youth Soccer Organization regions across Northern California offer recreational soccer for all ages and skill levels. Find your local region on the AYSO national site.",
+              "linkLabel": "Find AYSO regions",
+              "url": "https://www.ayso.org/find-a-region"
+            }
+          ]
+        },
+        {
+          "id": "nc-coaching",
+          "label": "Coaching programs",
+          "resources": [
+            {
+              "id": "nc-calnorth-coaching",
+              "tag": "State coaching education",
+              "name": "Cal North \u2014 coaches",
+              "description": "Find coaching education opportunities, licensing pathways, and course information administered through Cal North for Northern California coaches.",
+              "linkLabel": "Explore coaching",
+              "url": "https://www.calnorth.org/coaches"
+            },
+            {
+              "id": "nc-ussf-learning",
+              "tag": "National coaching education",
+              "name": "U.S. Soccer Learning Center",
+              "description": "The official platform for U.S. Soccer coaching and referee education. Course enrollment may require a U.S. Soccer account.",
+              "linkLabel": "Visit Learning Center",
+              "url": "https://learning.ussoccer.com/"
+            },
+            {
+              "id": "nc-united-coaches",
+              "tag": "Coaching association",
+              "name": "United Soccer Coaches",
+              "description": "Find coaching courses, clinics, and professional development resources from the largest soccer coaches' association in the world.",
+              "linkLabel": "Visit United Soccer Coaches",
+              "url": "https://unitedsoccercoaches.org/"
+            }
+          ]
+        },
+        {
+          "id": "nc-financial",
+          "label": "Financial assistance",
+          "resources": [
+            {
+              "id": "nc-every-kid",
+              "tag": "Youth sports fee assistance",
+              "name": "Every Kid Sports Pass",
+              "description": "Check current soccer and location eligibility, application windows, and funding availability for Northern California youth.",
+              "linkLabel": "Explore fee assistance",
+              "url": "https://pass.everykidsports.org/"
+            },
+            {
+              "id": "nc-calnorth-assistance",
+              "tag": "Association assistance",
+              "name": "Cal North player assistance",
+              "description": "Contact Cal North directly to ask about financial assistance programs, scholarship opportunities, and inclusive soccer initiatives for Northern California players.",
+              "linkLabel": "Contact Cal North",
+              "url": "https://www.calnorth.org/contact"
+            },
+            {
+              "id": "nc-topsoccer",
+              "tag": "Inclusive soccer",
+              "name": "TOPSoccer \u2014 Northern California",
+              "description": "Find TOPSoccer program information and contacts for players with disabilities in Northern California. Contact Cal North for current program locations.",
+              "linkLabel": "Find TOPSoccer programs",
+              "url": "https://www.calnorth.org/topsoccer"
+            },
+            {
+              "id": "nc-safesport",
+              "tag": "Player safety",
+              "name": "SafeSport parent resources",
+              "description": "Find parent education and resources for supporting safer sport environments. Includes the parent and guardian handbook.",
+              "linkLabel": "View safety resources",
+              "url": "https://uscenterforsafesport.org/parents/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "region-oregon",
+      "label": "Oregon",
+      "categories": [
+        {
+          "id": "or-assoc",
+          "label": "State soccer association",
+          "resources": [
+            {
+              "id": "or-oysa",
+              "tag": "State association",
+              "name": "Oregon Youth Soccer Association",
+              "description": "The governing body for youth soccer in Oregon. Find club registration, league information, referee pathways, and statewide news for players, coaches, and families.",
+              "linkLabel": "Visit OYSA",
+              "url": "https://www.oregonyouthsoccer.org/"
+            },
+            {
+              "id": "or-osa",
+              "tag": "Adult state association",
+              "name": "Oregon Soccer Association",
+              "description": "Governing body for adult amateur soccer in Oregon. Find league information, club registration, and adult competition pathways.",
+              "linkLabel": "Visit Oregon Soccer",
+              "url": "https://www.oregonsoccer.com/"
+            },
+            {
+              "id": "or-usyouth",
+              "tag": "Youth governing body",
+              "name": "US Youth Soccer",
+              "description": "The national governing body for youth soccer. Find state association links, national programs, and resources for youth players and clubs.",
+              "linkLabel": "Visit US Youth Soccer",
+              "url": "https://www.usyouthsoccer.org/"
+            }
+          ]
+        },
+        {
+          "id": "or-parks",
+          "label": "Park & rec programs",
+          "resources": [
+            {
+              "id": "or-portland-parks",
+              "tag": "City recreation",
+              "name": "Portland Parks & Recreation",
+              "description": "Explore youth soccer leagues and programs offered through Portland Parks & Recreation. Check the current program guide for registration and locations.",
+              "linkLabel": "Explore Portland programs",
+              "url": "https://www.portland.gov/parks/sports-and-recreation"
+            },
+            {
+              "id": "or-eugene-parks",
+              "tag": "City recreation",
+              "name": "Eugene Parks & Recreation",
+              "description": "Find youth soccer leagues and recreational programs offered by the City of Eugene. Check the current activity guide for ages, locations, and registration.",
+              "linkLabel": "Explore Eugene programs",
+              "url": "https://www.eugene-or.gov/2066/Youth-Sports"
+            },
+            {
+              "id": "or-salem-parks",
+              "tag": "City recreation",
+              "name": "Salem Parks & Recreation",
+              "description": "Browse youth soccer programs offered through the City of Salem. Check the current catalog for seasonal offerings and registration windows.",
+              "linkLabel": "Explore Salem programs",
+              "url": "https://www.cityofsalem.net/community/parks-recreation/youth-sports"
+            },
+            {
+              "id": "or-bend-parks",
+              "tag": "City recreation",
+              "name": "Bend Park & Recreation District",
+              "description": "Find youth soccer leagues and programs offered through the Bend Park & Recreation District. Check the current program guide for registration and locations.",
+              "linkLabel": "Explore Bend programs",
+              "url": "https://www.bendparksandrec.org/activity/soccer/"
+            },
+            {
+              "id": "or-ayso",
+              "tag": "Youth recreational soccer",
+              "name": "AYSO Oregon regions",
+              "description": "American Youth Soccer Organization regions across Oregon offer recreational soccer for all ages and skill levels. Find your local region on the AYSO national site.",
+              "linkLabel": "Find AYSO regions",
+              "url": "https://www.ayso.org/find-a-region"
+            }
+          ]
+        },
+        {
+          "id": "or-coaching",
+          "label": "Coaching programs",
+          "resources": [
+            {
+              "id": "or-oysa-coaching",
+              "tag": "State coaching education",
+              "name": "OYSA \u2014 coaches",
+              "description": "Find coaching education opportunities, licensing pathways, and course information administered through the Oregon Youth Soccer Association.",
+              "linkLabel": "Explore coaching",
+              "url": "https://www.oregonyouthsoccer.org/coaches"
+            },
+            {
+              "id": "or-ussf-learning",
+              "tag": "National coaching education",
+              "name": "U.S. Soccer Learning Center",
+              "description": "The official platform for U.S. Soccer coaching and referee education. Course enrollment may require a U.S. Soccer account.",
+              "linkLabel": "Visit Learning Center",
+              "url": "https://learning.ussoccer.com/"
+            },
+            {
+              "id": "or-united-coaches",
+              "tag": "Coaching association",
+              "name": "United Soccer Coaches",
+              "description": "Find coaching courses, clinics, and professional development resources from the largest soccer coaches' association in the world.",
+              "linkLabel": "Visit United Soccer Coaches",
+              "url": "https://unitedsoccercoaches.org/"
+            }
+          ]
+        },
+        {
+          "id": "or-financial",
+          "label": "Financial assistance",
+          "resources": [
+            {
+              "id": "or-every-kid",
+              "tag": "Youth sports fee assistance",
+              "name": "Every Kid Sports Pass",
+              "description": "Check current soccer and location eligibility, application windows, and funding availability for Oregon youth.",
+              "linkLabel": "Explore fee assistance",
+              "url": "https://pass.everykidsports.org/"
+            },
+            {
+              "id": "or-oysa-assistance",
+              "tag": "Association assistance",
+              "name": "OYSA player assistance",
+              "description": "Contact OYSA directly to ask about financial assistance programs, scholarship opportunities, and inclusive soccer initiatives for Oregon players.",
+              "linkLabel": "Contact OYSA",
+              "url": "https://www.oregonyouthsoccer.org/contact"
+            },
+            {
+              "id": "or-topsoccer",
+              "tag": "Inclusive soccer",
+              "name": "TOPSoccer \u2014 Oregon",
+              "description": "Find TOPSoccer program information and contacts for players with disabilities in Oregon. Contact OYSA for current program locations.",
+              "linkLabel": "Find TOPSoccer programs",
+              "url": "https://www.oregonyouthsoccer.org/topsoccer"
+            },
+            {
+              "id": "or-safesport",
+              "tag": "Player safety",
+              "name": "SafeSport parent resources",
+              "description": "Find parent education and resources for supporting safer sport environments. Includes the parent and guardian handbook.",
+              "linkLabel": "View safety resources",
+              "url": "https://uscenterforsafesport.org/parents/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "region-washington",
+      "label": "Washington",
+      "categories": [
+        {
+          "id": "wa-assoc",
+          "label": "State soccer association",
+          "resources": [
+            {
+              "id": "wa-wsysa",
+              "tag": "State association",
+              "name": "Washington Youth Soccer",
+              "description": "The governing body for youth soccer in Washington State. Find club registration, league information, referee pathways, and statewide news for players, coaches, and families.",
+              "linkLabel": "Visit Washington Youth Soccer",
+              "url": "https://www.washingtonyouthsoccer.org/"
+            },
+            {
+              "id": "wa-wsa",
+              "tag": "Adult state association",
+              "name": "Washington State Soccer Association",
+              "description": "Governing body for adult amateur soccer in Washington. Find league information, club registration, and adult competition pathways.",
+              "linkLabel": "Visit WSSA",
+              "url": "https://www.wssa.net/"
+            },
+            {
+              "id": "wa-usyouth",
+              "tag": "Youth governing body",
+              "name": "US Youth Soccer",
+              "description": "The national governing body for youth soccer. Find state association links, national programs, and resources for youth players and clubs.",
+              "linkLabel": "Visit US Youth Soccer",
+              "url": "https://www.usyouthsoccer.org/"
+            }
+          ]
+        },
+        {
+          "id": "wa-parks",
+          "label": "Park & rec programs",
+          "resources": [
+            {
+              "id": "wa-seattle-parks",
+              "tag": "City recreation",
+              "name": "Seattle Parks & Recreation",
+              "description": "Explore youth soccer leagues and programs offered through Seattle Parks & Recreation. Check the current program guide for registration and locations.",
+              "linkLabel": "Explore Seattle programs",
+              "url": "https://www.seattle.gov/parks/find/sports-and-recreation/soccer"
+            },
+            {
+              "id": "wa-tacoma-parks",
+              "tag": "City recreation",
+              "name": "Metro Parks Tacoma",
+              "description": "Find youth soccer leagues and recreational programs offered through Metro Parks Tacoma. Check the current activity guide for ages, locations, and registration.",
+              "linkLabel": "Explore Tacoma programs",
+              "url": "https://www.metroparkstacoma.org/sports/"
+            },
+            {
+              "id": "wa-spokane-parks",
+              "tag": "City recreation",
+              "name": "Spokane Parks & Recreation",
+              "description": "Browse youth soccer programs offered through the City of Spokane. Check the current catalog for seasonal offerings and registration windows.",
+              "linkLabel": "Explore Spokane programs",
+              "url": "https://my.spokanecity.org/parksrec/sports/"
+            },
+            {
+              "id": "wa-bellevue-parks",
+              "tag": "City recreation",
+              "name": "Bellevue Parks & Community Services",
+              "description": "Find youth soccer leagues and programs offered through the City of Bellevue. Check the current program guide for registration and locations.",
+              "linkLabel": "Explore Bellevue programs",
+              "url": "https://bellevuewa.gov/city-government/departments/parks/recreation/sports-athletics"
+            },
+            {
+              "id": "wa-ayso",
+              "tag": "Youth recreational soccer",
+              "name": "AYSO Washington regions",
+              "description": "American Youth Soccer Organization regions across Washington offer recreational soccer for all ages and skill levels. Find your local region on the AYSO national site.",
+              "linkLabel": "Find AYSO regions",
+              "url": "https://www.ayso.org/find-a-region"
+            }
+          ]
+        },
+        {
+          "id": "wa-coaching",
+          "label": "Coaching programs",
+          "resources": [
+            {
+              "id": "wa-wsysa-coaching",
+              "tag": "State coaching education",
+              "name": "Washington Youth Soccer \u2014 coaches",
+              "description": "Find coaching education opportunities, licensing pathways, and course information administered through Washington Youth Soccer.",
+              "linkLabel": "Explore coaching",
+              "url": "https://www.washingtonyouthsoccer.org/coaches"
+            },
+            {
+              "id": "wa-ussf-learning",
+              "tag": "National coaching education",
+              "name": "U.S. Soccer Learning Center",
+              "description": "The official platform for U.S. Soccer coaching and referee education. Course enrollment may require a U.S. Soccer account.",
+              "linkLabel": "Visit Learning Center",
+              "url": "https://learning.ussoccer.com/"
+            },
+            {
+              "id": "wa-united-coaches",
+              "tag": "Coaching association",
+              "name": "United Soccer Coaches",
+              "description": "Find coaching courses, clinics, and professional development resources from the largest soccer coaches' association in the world.",
+              "linkLabel": "Visit United Soccer Coaches",
+              "url": "https://unitedsoccercoaches.org/"
+            }
+          ]
+        },
+        {
+          "id": "wa-financial",
+          "label": "Financial assistance",
+          "resources": [
+            {
+              "id": "wa-every-kid",
+              "tag": "Youth sports fee assistance",
+              "name": "Every Kid Sports Pass",
+              "description": "Check current soccer and location eligibility, application windows, and funding availability for Washington youth.",
+              "linkLabel": "Explore fee assistance",
+              "url": "https://pass.everykidsports.org/"
+            },
+            {
+              "id": "wa-wsysa-assistance",
+              "tag": "Association assistance",
+              "name": "Washington Youth Soccer \u2014 assistance",
+              "description": "Contact Washington Youth Soccer directly to ask about financial assistance programs, scholarship opportunities, and inclusive soccer initiatives.",
+              "linkLabel": "Contact WYS",
+              "url": "https://www.washingtonyouthsoccer.org/contact"
+            },
+            {
+              "id": "wa-topsoccer",
+              "tag": "Inclusive soccer",
+              "name": "TOPSoccer \u2014 Washington",
+              "description": "Find TOPSoccer program information and contacts for players with disabilities in Washington. Contact Washington Youth Soccer for current program locations.",
+              "linkLabel": "Find TOPSoccer programs",
+              "url": "https://www.washingtonyouthsoccer.org/topsoccer"
+            },
+            {
+              "id": "wa-safesport",
+              "tag": "Player safety",
+              "name": "SafeSport parent resources",
+              "description": "Find parent education and resources for supporting safer sport environments. Includes the parent and guardian handbook.",
+              "linkLabel": "View safety resources",
+              "url": "https://uscenterforsafesport.org/parents/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "region-nevada",
+      "label": "Nevada",
+      "categories": [
+        {
+          "id": "nv-assoc",
+          "label": "State soccer association",
+          "resources": [
+            {
+              "id": "nv-nsysa",
+              "tag": "State association",
+              "name": "Nevada Youth Soccer Association",
+              "description": "The governing body for youth soccer in Nevada. Find club registration, league information, referee pathways, and statewide news for players, coaches, and families.",
+              "linkLabel": "Visit Nevada Youth Soccer",
+              "url": "https://www.nevadayouthsoccer.org/"
+            },
+            {
+              "id": "nv-nsa",
+              "tag": "Adult state association",
+              "name": "Nevada Soccer Association",
+              "description": "Governing body for adult amateur soccer in Nevada. Find league information, club registration, and adult competition pathways.",
+              "linkLabel": "Visit Nevada Soccer",
+              "url": "https://www.nevadasoccer.org/"
+            },
+            {
+              "id": "nv-usyouth",
+              "tag": "Youth governing body",
+              "name": "US Youth Soccer",
+              "description": "The national governing body for youth soccer. Find state association links, national programs, and resources for youth players and clubs.",
+              "linkLabel": "Visit US Youth Soccer",
+              "url": "https://www.usyouthsoccer.org/"
+            }
+          ]
+        },
+        {
+          "id": "nv-parks",
+          "label": "Park & rec programs",
+          "resources": [
+            {
+              "id": "nv-lv-parks",
+              "tag": "City recreation",
+              "name": "Las Vegas Parks & Recreation",
+              "description": "Explore youth soccer leagues and programs offered through the City of Las Vegas Parks and Recreation. Check the current program guide for registration.",
+              "linkLabel": "Explore Las Vegas programs",
+              "url": "https://www.lasvegasnevada.gov/Residents/Parks-Recreation/Sports-Athletics"
+            },
+            {
+              "id": "nv-henderson-parks",
+              "tag": "City recreation",
+              "name": "Henderson Parks & Recreation",
+              "description": "Find youth soccer leagues and recreational programs offered by the City of Henderson. Check the current activity guide for ages, locations, and registration.",
+              "linkLabel": "Explore Henderson programs",
+              "url": "https://www.cityofhenderson.com/parks-recreation/sports-athletics"
+            },
+            {
+              "id": "nv-reno-parks",
+              "tag": "City recreation",
+              "name": "Reno Parks & Recreation",
+              "description": "Browse youth soccer programs offered through the City of Reno. Check the current catalog for seasonal offerings and registration windows.",
+              "linkLabel": "Explore Reno programs",
+              "url": "https://www.reno.gov/government/departments/parks-recreation-community-services/recreation/youth-sports"
+            },
+            {
+              "id": "nv-clark-parks",
+              "tag": "County recreation",
+              "name": "Clark County Parks & Recreation",
+              "description": "Find youth soccer leagues and programs offered through Clark County Parks and Recreation, serving unincorporated areas of the Las Vegas Valley.",
+              "linkLabel": "Explore Clark County programs",
+              "url": "https://www.clarkcountynv.gov/government/departments/parks___recreation/sports___athletics.php"
+            },
+            {
+              "id": "nv-ayso",
+              "tag": "Youth recreational soccer",
+              "name": "AYSO Nevada regions",
+              "description": "American Youth Soccer Organization regions across Nevada offer recreational soccer for all ages and skill levels. Find your local region on the AYSO national site.",
+              "linkLabel": "Find AYSO regions",
+              "url": "https://www.ayso.org/find-a-region"
+            }
+          ]
+        },
+        {
+          "id": "nv-coaching",
+          "label": "Coaching programs",
+          "resources": [
+            {
+              "id": "nv-nsysa-coaching",
+              "tag": "State coaching education",
+              "name": "Nevada Youth Soccer \u2014 coaches",
+              "description": "Find coaching education opportunities, licensing pathways, and course information administered through the Nevada Youth Soccer Association.",
+              "linkLabel": "Explore coaching",
+              "url": "https://www.nevadayouthsoccer.org/coaches"
+            },
+            {
+              "id": "nv-ussf-learning",
+              "tag": "National coaching education",
+              "name": "U.S. Soccer Learning Center",
+              "description": "The official platform for U.S. Soccer coaching and referee education. Course enrollment may require a U.S. Soccer account.",
+              "linkLabel": "Visit Learning Center",
+              "url": "https://learning.ussoccer.com/"
+            },
+            {
+              "id": "nv-united-coaches",
+              "tag": "Coaching association",
+              "name": "United Soccer Coaches",
+              "description": "Find coaching courses, clinics, and professional development resources from the largest soccer coaches' association in the world.",
+              "linkLabel": "Visit United Soccer Coaches",
+              "url": "https://unitedsoccercoaches.org/"
+            }
+          ]
+        },
+        {
+          "id": "nv-financial",
+          "label": "Financial assistance",
+          "resources": [
+            {
+              "id": "nv-every-kid",
+              "tag": "Youth sports fee assistance",
+              "name": "Every Kid Sports Pass",
+              "description": "Check current soccer and location eligibility, application windows, and funding availability for Nevada youth.",
+              "linkLabel": "Explore fee assistance",
+              "url": "https://pass.everykidsports.org/"
+            },
+            {
+              "id": "nv-nsysa-assistance",
+              "tag": "Association assistance",
+              "name": "Nevada Youth Soccer \u2014 assistance",
+              "description": "Contact Nevada Youth Soccer directly to ask about financial assistance programs, scholarship opportunities, and inclusive soccer initiatives.",
+              "linkLabel": "Contact NYSA",
+              "url": "https://www.nevadayouthsoccer.org/contact"
+            },
+            {
+              "id": "nv-topsoccer",
+              "tag": "Inclusive soccer",
+              "name": "TOPSoccer \u2014 Nevada",
+              "description": "Find TOPSoccer program information and contacts for players with disabilities in Nevada. Contact Nevada Youth Soccer for current program locations.",
+              "linkLabel": "Find TOPSoccer programs",
+              "url": "https://www.nevadayouthsoccer.org/topsoccer"
+            },
+            {
+              "id": "nv-safesport",
+              "tag": "Player safety",
+              "name": "SafeSport parent resources",
+              "description": "Find parent education and resources for supporting safer sport environments. Includes the parent and guardian handbook.",
+              "linkLabel": "View safety resources",
+              "url": "https://uscenterforsafesport.org/parents/"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "inclusiveSoccer": {
+    "sectionTitle": "Inclusive Soccer",
+    "sectionDescription": "Adaptive and unified soccer programs across the West \u2014 for players of all abilities.",
+    "categories": {
+      "unified": {
+        "label": "Unified Soccer",
+        "description": "Players with and without intellectual disabilities train and play together."
+      },
+      "power": {
+        "label": "Power Wheelchair Soccer",
+        "description": "Soccer adapted for athletes who use power wheelchairs."
+      },
+      "blind": {
+        "label": "Blind and Visually Impaired Soccer",
+        "description": "Soccer adapted for players with vision impairments, using audible balls and adapted communication."
+      }
+    },
+    "listings": [
+      {
+        "id": "inc-co-unified-socosp",
+        "regionSlug": "colorado",
+        "name": "Special Olympics Colorado \u2014 Unified Sports",
+        "category": "unified",
+        "serviceArea": "Colorado (statewide)",
+        "description": "Players with and without intellectual disabilities train and play together through Special Olympics Colorado's Unified Sports program. Contact the state office to find a local soccer opportunity near you.",
+        "website": "https://specialolympicsco.org/programs/ucs/unifiedsports/",
+        "email": "Info@SpecialOlympicsCO.org",
+        "phone": null,
+        "eligibility": "Contact provider",
+        "listingType": "regional_referral",
+        "availability": "contact_provider",
+        "officialSourceUrl": "https://specialolympicsco.org/programs/ucs/unifiedsports/",
+        "lastCheckedAt": "2026-10-07",
+        "lastVerifiedAt": "2026-10-07",
+        "adminNote": null,
+        "adminStatus": "ok"
+      },
+      {
+        "id": "inc-co-power-crr",
+        "regionSlug": "colorado",
+        "name": "Colorado Rolling Rapids",
+        "category": "power",
+        "serviceArea": "Lakewood / Denver metro",
+        "description": "A local power wheelchair soccer program serving the Denver metro area. Visit the website or reach out to confirm current practice schedules and participation arrangements.",
+        "website": "https://www.coloradorollingrapids.com/",
+        "email": null,
+        "phone": null,
+        "eligibility": "Contact provider",
+        "listingType": "local_program",
+        "availability": "contact_provider",
+        "officialSourceUrl": "https://www.coloradorollingrapids.com/",
+        "lastCheckedAt": "2026-10-07",
+        "lastVerifiedAt": "2026-10-07",
+        "adminNote": null,
+        "adminStatus": "ok"
+      },
+      {
+        "id": "inc-co-blind-usaba",
+        "regionSlug": "colorado",
+        "name": "U.S. Association of Blind Athletes \u2014 Soccer Development Program",
+        "category": "blind",
+        "serviceArea": "National resource",
+        "description": "National resource \u2014 ask about local opportunities. USABA's soccer development program can help connect you with blind and visually impaired soccer opportunities. A previous clinic was held at Colorado School for the Deaf and the Blind; contact USABA to ask about current Colorado programming.",
+        "website": "https://www.usaba.org/soccer-development-program",
+        "email": null,
+        "phone": null,
+        "eligibility": "Contact provider",
+        "listingType": "national_referral",
+        "availability": "contact_provider",
+        "officialSourceUrl": "https://www.usaba.org/soccer-development-program",
+        "lastCheckedAt": "2026-10-07",
+        "lastVerifiedAt": "2026-10-07",
+        "adminNote": "CSDB clinic documented at https://csdb.colorado.gov/blind-soccer-usaba-and-switchbacks-clinic \u2014 previous clinic only, not a verified ongoing program. Kept in national referral until current programming is confirmed.",
+        "adminStatus": "ok"
+      },
+      {
+        "id": "inc-az-unified-soaz",
+        "regionSlug": "arizona",
+        "name": "Special Olympics Arizona \u2014 AIA Unified Sports",
+        "category": "unified",
+        "serviceArea": "Arizona (statewide)",
+        "description": "School-based pathway including soccer, run through Special Olympics Arizona's AIA Unified Sports program. Players with and without intellectual disabilities participate together.",
+        "website": "https://specialolympicsarizona.org/sports/aia-unified-sports/",
+        "email": "Thomas@SpecialOlympicsArizona.org",
+        "phone": null,
+        "eligibility": "Contact provider",
+        "listingType": "regional_referral",
+        "availability": "contact_provider",
+        "officialSourceUrl": "https://specialolympicsarizona.org/sports/aia-unified-sports/",
+        "lastCheckedAt": "2026-10-07",
+        "lastVerifiedAt": "2026-10-07",
+        "adminNote": null,
+        "adminStatus": "ok"
+      },
+      {
+        "id": "inc-az-power-ability360",
+        "regionSlug": "arizona",
+        "name": "Ability360 United / Ability360 Phoenix Rising",
+        "category": "power",
+        "serviceArea": "Phoenix",
+        "description": "Power wheelchair soccer program based in Phoenix. Visit the program page or contact the team to confirm current participation arrangements.",
+        "website": "https://ability360.org/power-soccer/",
+        "email": "tonyj@ability360.org",
+        "phone": null,
+        "eligibility": "Contact provider",
+        "listingType": "local_program",
+        "availability": "contact_provider",
+        "officialSourceUrl": "https://ability360.org/power-soccer/",
+        "lastCheckedAt": "2026-10-07",
+        "lastVerifiedAt": "2026-10-07",
+        "adminNote": null,
+        "adminStatus": "ok"
+      },
+      {
+        "id": "inc-az-power-azheat",
+        "regionSlug": "arizona",
+        "name": "Arizona Heat",
+        "category": "power",
+        "serviceArea": "Mesa",
+        "description": "Power wheelchair soccer team based in Mesa. Listed in the US Power Soccer Association team directory. Contact to confirm current practice arrangements.",
+        "website": "https://www.powersoccerusa.org/discover/find-a-team",
+        "email": "tucker@arizonadisabledsports.com",
+        "phone": null,
+        "eligibility": "Contact provider",
+        "listingType": "local_program",
+        "availability": "contact_provider",
+        "officialSourceUrl": "https://www.powersoccerusa.org/discover/find-a-team",
+        "lastCheckedAt": "2026-10-07",
+        "lastVerifiedAt": "2026-10-07",
+        "adminNote": null,
+        "adminStatus": "ok"
+      },
+      {
+        "id": "inc-az-blind-usaba",
+        "regionSlug": "arizona",
+        "name": "U.S. Association of Blind Athletes \u2014 Soccer Development Program",
+        "category": "blind",
+        "serviceArea": "National resource",
+        "description": "National resource \u2014 ask about local opportunities. No current Arizona blind soccer program has been verified. Contact USABA to ask about opportunities in your area.",
+        "website": "https://www.usaba.org/soccer-development-program",
+        "email": null,
+        "phone": null,
+        "eligibility": "Contact provider",
+        "listingType": "national_referral",
+        "availability": "contact_provider",
+        "officialSourceUrl": "https://www.usaba.org/soccer-development-program",
+        "lastCheckedAt": "2026-10-07",
+        "lastVerifiedAt": "2026-10-07",
+        "adminNote": null,
+        "adminStatus": "ok"
+      },
+      {
+        "id": "inc-cals-unified-sosc",
+        "regionSlug": "cal-south",
+        "name": "Special Olympics Southern California \u2014 Unified Sports",
+        "category": "unified",
+        "serviceArea": "Southern California",
+        "description": "Regional Unified Sports referral pathway for players with and without intellectual disabilities. Confirm soccer availability with your local program or participating school.",
+        "website": "https://sosc.org/unifiedsports/",
+        "email": null,
+        "phone": null,
+        "eligibility": "Contact provider",
+        "listingType": "regional_referral",
+        "availability": "contact_provider",
+        "officialSourceUrl": "https://sosc.org/unifiedsports/",
+        "lastCheckedAt": "2026-10-07",
+        "lastVerifiedAt": "2026-10-07",
+        "adminNote": null,
+        "adminStatus": "ok"
+      },
+      {
+        "id": "inc-cals-power-laangels",
+        "regionSlug": "cal-south",
+        "name": "LA Angels PFC",
+        "category": "power",
+        "serviceArea": "Los Angeles",
+        "description": "Adaptive power wheelchair soccer team based in Los Angeles. Listed in the US Power Soccer Association team directory. Contact to confirm practice locations and participation details.",
+        "website": "https://www.powersoccerusa.org/discover/find-a-team",
+        "email": "la.angel.pfc@gmail.com",
+        "phone": null,
+        "eligibility": "Contact provider",
+        "listingType": "local_program",
+        "availability": "contact_provider",
+        "officialSourceUrl": "https://www.powersoccerusa.org/discover/find-a-team",
+        "lastCheckedAt": "2026-10-07",
+        "lastVerifiedAt": "2026-10-07",
+        "adminNote": null,
+        "adminStatus": "ok"
+      },
+      {
+        "id": "inc-cals-power-lagalaxy",
+        "regionSlug": "cal-south",
+        "name": "LA Galaxy PSC",
+        "category": "power",
+        "serviceArea": "Lakewood, California",
+        "description": "Adaptive power wheelchair soccer team in Lakewood. Listed in the US Power Soccer Association team directory. Contact to confirm practice locations and participation details.",
+        "website": "https://www.powersoccerusa.org/discover/find-a-team",
+        "email": "steve@powersoccerusa.org",
+        "phone": null,
+        "eligibility": "Contact provider",
+        "listingType": "local_program",
+        "availability": "contact_provider",
+        "officialSourceUrl": "https://www.powersoccerusa.org/discover/find-a-team",
+        "lastCheckedAt": "2026-10-07",
+        "lastVerifiedAt": "2026-10-07",
+        "adminNote": null,
+        "adminStatus": "ok"
+      },
+      {
+        "id": "inc-cals-power-lafc",
+        "regionSlug": "cal-south",
+        "name": "Los Angeles Football Club (LAFC) Power Soccer",
+        "category": "power",
+        "serviceArea": "Norco",
+        "description": "Adaptive power wheelchair soccer program affiliated with LAFC, based in Norco. Listed in the US Power Soccer Association team directory. Contact to confirm practice locations and participation details.",
+        "website": "https://www.powersoccerusa.org/discover/find-a-team",
+        "email": "duchennebrothers2@gmail.com",
+        "phone": null,
+        "eligibility": "Contact provider",
+        "listingType": "local_program",
+        "availability": "contact_provider",
+        "officialSourceUrl": "https://www.powersoccerusa.org/discover/find-a-team",
+        "lastCheckedAt": "2026-10-07",
+        "lastVerifiedAt": "2026-10-07",
+        "adminNote": null,
+        "adminStatus": "ok"
+      },
+      {
+        "id": "inc-cals-blind-laplayLA",
+        "regionSlug": "cal-south",
+        "name": "City of Los Angeles \u2014 PlayLA Adaptive Sports",
+        "category": "blind",
+        "serviceArea": "Los Angeles",
+        "description": "Los Angeles blind and visually impaired soccer pathway through the City of LA's PlayLA Adaptive Sports program. Clinic eligibility has included ages 5\u201317; verify the current offering before registering. Do not rely on past clinic dates.",
+        "website": "https://adaptivesportsla.recreation.parks.lacity.gov/",
+        "email": "rap-adaptivesports@lacity.gov",
+        "phone": "213-847-0878",
+        "eligibility": "Contact provider for current schedule",
+        "listingType": "local_program",
+        "availability": "contact_provider",
+        "officialSourceUrl": "https://adaptivesportsla.recreation.parks.lacity.gov/",
+        "lastCheckedAt": "2026-10-07",
+        "lastVerifiedAt": "2026-10-07",
+        "adminNote": null,
+        "adminStatus": "ok"
+      },
+      {
+        "id": "inc-cals-blind-usaba",
+        "regionSlug": "cal-south",
+        "name": "U.S. Association of Blind Athletes \u2014 Soccer Development Program",
+        "category": "blind",
+        "serviceArea": "National resource",
+        "description": "National resource \u2014 ask about local opportunities. Use USABA's soccer development program directory to find blind and visually impaired soccer opportunities in Southern California.",
+        "website": "https://www.usaba.org/soccer-development-program",
+        "email": null,
+        "phone": null,
+        "eligibility": "Contact provider",
+        "listingType": "national_referral",
+        "availability": "contact_provider",
+        "officialSourceUrl": "https://www.usaba.org/soccer-development-program",
+        "lastCheckedAt": "2026-10-07",
+        "lastVerifiedAt": "2026-10-07",
+        "adminNote": null,
+        "adminStatus": "ok"
+      },
+      {
+        "id": "inc-caln-unified-sonc",
+        "regionSlug": "cal-north",
+        "name": "Special Olympics Northern California \u2014 Unified Leagues",
+        "category": "unified",
+        "serviceArea": "Northern California",
+        "description": "School-based Unified Sports pathway including soccer, through Special Olympics Northern California. Players with and without intellectual disabilities participate together.",
+        "website": "https://sonc.org/our-programs/schools-program/unified-sports/unified-leagues/",
+        "email": "info@sonc.org",
+        "phone": null,
+        "eligibility": "Contact provider",
+        "listingType": "regional_referral",
+        "availability": "contact_provider",
+        "officialSourceUrl": "https://sonc.org/our-programs/schools-program/unified-sports/unified-leagues/",
+        "lastCheckedAt": "2026-10-07",
+        "lastVerifiedAt": "2026-10-07",
+        "adminNote": "sonc.org is Special Olympics Northern California. Do not confuse with sonc.net (Special Olympics North Carolina).",
+        "adminStatus": "ok"
+      },
+      {
+        "id": "inc-caln-power-borp",
+        "regionSlug": "cal-north",
+        "name": "BORP Adaptive Sports \u2014 Power Soccer",
+        "category": "power",
+        "serviceArea": "Berkeley / Bay Area",
+        "description": "Mixed-gender power wheelchair soccer program based in Berkeley, serving the Bay Area. Open to participants across ages. Contact BORP to confirm current schedule and participation.",
+        "website": "https://www.borp.org/programs/power-soccer/",
+        "email": "emily@borp.org",
+        "phone": null,
+        "eligibility": "Contact provider",
+        "listingType": "local_program",
+        "availability": "contact_provider",
+        "officialSourceUrl": "https://www.borp.org/programs/power-soccer/",
+        "lastCheckedAt": "2026-10-07",
+        "lastVerifiedAt": "2026-10-07",
+        "adminNote": null,
+        "adminStatus": "ok"
+      },
+      {
+        "id": "inc-caln-power-sjps",
+        "regionSlug": "cal-north",
+        "name": "San Jose Power Soccer (Flash & Steamrollers)",
+        "category": "power",
+        "serviceArea": "San Jose",
+        "description": "San Jose Power Soccer includes the San Jose Flash and San Jose Steamrollers. Visit the website to learn about both teams and current participation opportunities.",
+        "website": "https://www.sanjosepowersoccer.com/",
+        "email": null,
+        "phone": null,
+        "eligibility": "Contact provider",
+        "listingType": "local_program",
+        "availability": "contact_provider",
+        "officialSourceUrl": "https://www.sanjosepowersoccer.com/",
+        "lastCheckedAt": "2026-10-07",
+        "lastVerifiedAt": "2026-10-07",
+        "adminNote": null,
+        "adminStatus": "ok"
+      },
+      {
+        "id": "inc-caln-power-gsducks",
+        "regionSlug": "cal-north",
+        "name": "Golden State Ducks",
+        "category": "power",
+        "serviceArea": "San Francisco",
+        "description": "Power wheelchair soccer team based in San Francisco. Listed in the US Power Soccer Association team directory. Contact to confirm current practice arrangements.",
+        "website": "https://www.powersoccerusa.org/discover/find-a-team",
+        "email": "goldenstateducks@gmail.com",
+        "phone": null,
+        "eligibility": "Contact provider",
+        "listingType": "local_program",
+        "availability": "contact_provider",
+        "officialSourceUrl": "https://www.powersoccerusa.org/discover/find-a-team",
+        "lastCheckedAt": "2026-10-07",
+        "lastVerifiedAt": "2026-10-07",
+        "adminNote": null,
+        "adminStatus": "ok"
+      },
+      {
+        "id": "inc-caln-blind-usaba",
+        "regionSlug": "cal-north",
+        "name": "U.S. Association of Blind Athletes \u2014 Soccer Development Program",
+        "category": "blind",
+        "serviceArea": "National resource",
+        "description": "National resource \u2014 ask about local opportunities. No current Northern California blind soccer program has been verified. Contact USABA to ask about opportunities in your area.",
+        "website": "https://www.usaba.org/soccer-development-program",
+        "email": null,
+        "phone": null,
+        "eligibility": "Contact provider",
+        "listingType": "national_referral",
+        "availability": "contact_provider",
+        "officialSourceUrl": "https://www.usaba.org/soccer-development-program",
+        "lastCheckedAt": "2026-10-07",
+        "lastVerifiedAt": "2026-10-07",
+        "adminNote": null,
+        "adminStatus": "ok"
+      },
+      {
+        "id": "inc-or-unified-soor",
+        "regionSlug": "oregon",
+        "name": "Special Olympics Oregon \u2014 Unified Sports",
+        "category": "unified",
+        "serviceArea": "Oregon (statewide)",
+        "description": "Special Olympics Oregon lists Unified Soccer as a fall school sport. Contact the state office to find a local program near you.",
+        "website": "https://soor.org/unified-champion-schools/unified-sports/",
+        "email": null,
+        "phone": null,
+        "eligibility": "Contact provider",
+        "listingType": "regional_referral",
+        "availability": "contact_provider",
+        "officialSourceUrl": "https://soor.org/unified-champion-schools/unified-sports/",
+        "lastCheckedAt": "2026-10-07",
+        "lastVerifiedAt": "2026-10-07",
+        "adminNote": null,
+        "adminStatus": "ok"
+      },
+      {
+        "id": "inc-or-unified-bendfc",
+        "regionSlug": "oregon",
+        "name": "Bend FC \u2014 Unified Soccer",
+        "category": "unified",
+        "serviceArea": "Bend",
+        "description": "Youth summer Unified Soccer program run by Bend FC Timbers in partnership with Special Olympics. Published 2026 sessions are past \u2014 contact the provider for the next season.",
+        "website": "https://www.bendfctimbers.com/unified-special-olympics",
+        "email": null,
+        "phone": null,
+        "eligibility": "Contact provider for next season",
+        "listingType": "local_program",
+        "availability": "contact_provider",
+        "officialSourceUrl": "https://www.bendfctimbers.com/unified-special-olympics",
+        "lastCheckedAt": "2026-10-07",
+        "lastVerifiedAt": "2026-10-07",
+        "adminNote": "Published 2026 sessions are past. Do not display as upcoming.",
+        "adminStatus": "ok"
+      },
+      {
+        "id": "inc-or-power-renegades",
+        "regionSlug": "oregon",
+        "name": "Rose City Renegades",
+        "category": "power",
+        "serviceArea": "Sherwood",
+        "description": "Power wheelchair soccer team based in Sherwood, Oregon. Listed in the US Power Soccer Association team directory. Contact to confirm current practice arrangements.",
+        "website": "https://www.powersoccerusa.org/discover/find-a-team",
+        "email": "enochstalcup76@gmail.com",
+        "phone": null,
+        "eligibility": "Contact provider",
+        "listingType": "local_program",
+        "availability": "contact_provider",
+        "officialSourceUrl": "https://www.powersoccerusa.org/discover/find-a-team",
+        "lastCheckedAt": "2026-10-07",
+        "lastVerifiedAt": "2026-10-07",
+        "adminNote": null,
+        "adminStatus": "ok"
+      },
+      {
+        "id": "inc-or-blind-usaba",
+        "regionSlug": "oregon",
+        "name": "U.S. Association of Blind Athletes \u2014 Soccer Development Program",
+        "category": "blind",
+        "serviceArea": "National resource",
+        "description": "National resource \u2014 ask about local opportunities. No current Oregon blind soccer program has been verified. Contact USABA to ask about opportunities in your area.",
+        "website": "https://www.usaba.org/soccer-development-program",
+        "email": null,
+        "phone": null,
+        "eligibility": "Contact provider",
+        "listingType": "national_referral",
+        "availability": "contact_provider",
+        "officialSourceUrl": "https://www.usaba.org/soccer-development-program",
+        "lastCheckedAt": "2026-10-07",
+        "lastVerifiedAt": "2026-10-07",
+        "adminNote": null,
+        "adminStatus": "ok"
+      },
+      {
+        "id": "inc-wa-unified-sowa",
+        "regionSlug": "washington",
+        "name": "Special Olympics Washington \u2014 Unified Sports",
+        "category": "unified",
+        "serviceArea": "Washington (statewide)",
+        "description": "School and community referral pathways for Unified Sports in Washington. Confirm soccer availability for your location.",
+        "website": "https://specialolympicswashington.org/unified/",
+        "email": "UnifiedSchools@sowa.org",
+        "phone": null,
+        "eligibility": "Contact provider",
+        "listingType": "regional_referral",
+        "availability": "contact_provider",
+        "officialSourceUrl": "https://specialolympicswashington.org/unified/",
+        "lastCheckedAt": "2026-10-07",
+        "lastVerifiedAt": "2026-10-07",
+        "adminNote": null,
+        "adminStatus": "ok"
+      },
+      {
+        "id": "inc-wa-power-uspsa",
+        "regionSlug": "washington",
+        "name": "US Power Soccer Association \u2014 Team Finder",
+        "category": "power",
+        "serviceArea": "National resource",
+        "description": "National resource \u2014 ask about local opportunities. No current Washington power soccer team has been verified. Use the USPSA team finder to search for programs near you.",
+        "website": "https://www.powersoccerusa.org/discover/find-a-team",
+        "email": null,
+        "phone": null,
+        "eligibility": "Contact provider",
+        "listingType": "national_referral",
+        "availability": "contact_provider",
+        "officialSourceUrl": "https://www.powersoccerusa.org/discover/find-a-team",
+        "lastCheckedAt": "2026-10-07",
+        "lastVerifiedAt": "2026-10-07",
+        "adminNote": null,
+        "adminStatus": "ok"
+      },
+      {
+        "id": "inc-wa-blind-usaba",
+        "regionSlug": "washington",
+        "name": "U.S. Association of Blind Athletes \u2014 Soccer Development Program",
+        "category": "blind",
+        "serviceArea": "National resource",
+        "description": "National resource \u2014 ask about local opportunities. No current Washington blind soccer program has been verified. A Seattle FIFA World Cup 26 blind soccer clinic was listed as a program-development lead; contact USABA to ask about ongoing local availability.",
+        "website": "https://www.usaba.org/soccer-development-program",
+        "email": null,
+        "phone": null,
+        "eligibility": "Contact provider",
+        "listingType": "national_referral",
+        "availability": "contact_provider",
+        "officialSourceUrl": "https://www.usaba.org/soccer-development-program",
+        "lastCheckedAt": "2026-10-07",
+        "lastVerifiedAt": "2026-10-07",
+        "adminNote": "Seattle FWC26 blind soccer clinic at https://www.seattlefwc26.org/events/blind-soccer-clinic is a program-development lead, not a verified ongoing club. Keep as national referral until confirmed.",
+        "adminStatus": "ok"
+      },
+      {
+        "id": "inc-nv-unified-sonv",
+        "regionSlug": "nevada",
+        "name": "Special Olympics Nevada \u2014 Unified Sports",
+        "category": "unified",
+        "serviceArea": "Nevada (statewide)",
+        "description": "School-based soccer training through Special Olympics Nevada's Unified Sports program. Contact the state office to find a local opportunity.",
+        "website": "https://sonv.org/find-a-program/unified-champion-school/unified-sports/",
+        "email": "Schools@sonv.org",
+        "phone": null,
+        "eligibility": "Contact provider",
+        "listingType": "regional_referral",
+        "availability": "contact_provider",
+        "officialSourceUrl": "https://sonv.org/find-a-program/unified-champion-school/unified-sports/",
+        "lastCheckedAt": "2026-10-07",
+        "lastVerifiedAt": "2026-10-07",
+        "adminNote": null,
+        "adminStatus": "ok"
+      },
+      {
+        "id": "inc-nv-power-uspsa",
+        "regionSlug": "nevada",
+        "name": "US Power Soccer Association \u2014 Team Finder",
+        "category": "power",
+        "serviceArea": "National resource",
+        "description": "National resource \u2014 ask about local opportunities. No current Nevada power soccer team or municipal program has been verified. Use the USPSA team finder to search for programs near you.",
+        "website": "https://www.powersoccerusa.org/discover/find-a-team",
+        "email": null,
+        "phone": null,
+        "eligibility": "Contact provider",
+        "listingType": "national_referral",
+        "availability": "contact_provider",
+        "officialSourceUrl": "https://www.powersoccerusa.org/discover/find-a-team",
+        "lastCheckedAt": "2026-10-07",
+        "lastVerifiedAt": "2026-10-07",
+        "adminNote": null,
+        "adminStatus": "ok"
+      },
+      {
+        "id": "inc-nv-blind-usaba",
+        "regionSlug": "nevada",
+        "name": "U.S. Association of Blind Athletes \u2014 Soccer Development Program",
+        "category": "blind",
+        "serviceArea": "National resource",
+        "description": "National resource \u2014 ask about local opportunities. No current Nevada blind soccer program has been verified. Contact USABA to ask about opportunities in your area.",
+        "website": "https://www.usaba.org/soccer-development-program",
+        "email": null,
+        "phone": null,
+        "eligibility": "Contact provider",
+        "listingType": "national_referral",
+        "availability": "contact_provider",
+        "officialSourceUrl": "https://www.usaba.org/soccer-development-program",
+        "lastCheckedAt": "2026-10-07",
+        "lastVerifiedAt": "2026-10-07",
+        "adminNote": null,
+        "adminStatus": "ok"
+      }
+    ]
+  }
+}

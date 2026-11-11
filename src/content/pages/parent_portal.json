@@ -1,0 +1,18 @@
+{
+  "demoEvents": [
+    {
+      "date": "Oct 17",
+      "player": "Avery",
+      "time": "10:00am",
+      "title": "Weekend game",
+      "id": "RRVkClNLuvw1qyF5uocSg"
+    },
+    {
+      "date": "Oct 18",
+      "player": "Casey",
+      "time": "1:00pm",
+      "title": "Weekend game",
+      "id": "XM5LPv389Qt0JKdxp_Csp"
+    }
+  ]
+}

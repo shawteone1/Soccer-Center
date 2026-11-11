@@ -1,0 +1,42 @@
+/* Explicit light surfaces prevent the public site's dark theme leaking into the calendar. */
+.pp-calendar { color: #172e48; background: #fff; min-width: 0; font-family: inherit; }
+.pp-calendar *, .pp-calendar *::before, .pp-calendar *::after { box-sizing: border-box; }
+.pp-calendar button { font: inherit; cursor: pointer; touch-action: manipulation; }
+.pp-calendar button:focus-visible { outline: 3px solid #2468ac; outline-offset: -3px; }
+.pp-calendar .pp-cal-toolbar { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 16px; text-align: center; }
+.pp-calendar .pp-cal-toolbar button { display: grid; place-items: center; min-width: 44px; min-height: 44px; border: 1px solid #d4dde6; border-radius: 10px; background: #fff; color: #193b61; }
+.pp-calendar .pp-cal-toolbar strong { display: block; font-size: 18px; }
+.pp-calendar .pp-cal-toolbar small { display: block; font-size: 12px; color: #4b6075; margin-top: 3px; }
+.pp-calendar .pp-cal-weekdays, .pp-calendar .pp-cal-month { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); }
+.pp-calendar .pp-cal-weekdays span { text-align: center; padding: 8px 0; font-size: 12px; font-weight: 600; }
+.pp-calendar .pp-cal-month { gap: 1px; background: #d4dde6; border: 1px solid #d4dde6; border-radius: 10px; overflow: hidden; }
+.pp-calendar .pp-cal-day { background: #fff; min-width: 0; min-height: 108px; padding: 4px; }
+.pp-calendar .pp-cal-empty { background: #f3f6f9; }
+.pp-calendar .is-today { background: #edf5fe; }
+.pp-calendar .is-selected { box-shadow: inset 0 0 0 2px #2468ac; }
+.pp-calendar .pp-cal-day-select { display: flex; align-items: center; justify-content: center; width: 44px; max-width: 100%; min-height: 44px; border: 0; border-radius: 8px; background: transparent; color: #193b61; font-weight: 700; }
+.pp-calendar .is-today .pp-cal-day-select > span { border-bottom: 3px solid #2468ac; }
+.pp-calendar .pp-cal-event { display: flex; flex-direction: column; gap: 2px; width: 100%; min-height: 44px; text-align: left; border: 1px solid #dce4ec; border-left: 4px solid; border-radius: 6px; background: #f6f8fb; color: #172e48; padding: 6px; margin-bottom: 4px; overflow-wrap: anywhere; }
+.pp-calendar .pp-cal-event strong { font-size: 12px; line-height: 1.35; }
+.pp-calendar .pp-cal-time, .pp-calendar .pp-cal-player { font-size: 11px; line-height: 1.4; color: #455c72; }
+.pp-calendar .pp-cal-more { min-height: 44px; width: 100%; border: 0; background: transparent; text-align: left; color: #174f85; font-size: 12px; font-weight: 600; }
+.pp-calendar .pp-cal-day-agenda { margin-top: 16px; padding: 14px; border: 1px solid #d4dde6; border-radius: 10px; background: #fff; }
+.pp-calendar h3 { margin: 0 0 10px; font-size: 14px; font-weight: 700; }
+.pp-calendar h3 span, .pp-calendar p { color: #4b6075; font-weight: 400; font-size: 13px; }
+.pp-calendar .pp-cal-day-agenda .pp-cal-event strong { font-size: 14px; }
+.pp-calendar .pp-cal-mobile-count { display: none; }
+.pp-calendar .pp-cal-week { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 6px; }
+.pp-calendar .pp-cal-week-day { min-width: 0; padding: 6px; border: 1px solid #d4dde6; border-radius: 8px; }
+@media (max-width: 600px) {
+  .pp-calendar .pp-cal-day { min-height: 58px; padding: 0; }
+  .pp-calendar .pp-cal-day-select { width: 100%; min-height: 58px; flex-direction: column; gap: 3px; }
+  .pp-calendar .pp-cal-mobile-count { display: block; font-size: 10px; font-weight: 500; color: #455c72; }
+  .pp-calendar .pp-cal-month-events { display: none; }
+  .pp-calendar .pp-cal-toolbar strong { font-size: 16px; }
+  .pp-calendar .pp-cal-toolbar small { font-size: 10px; }
+  .pp-calendar .pp-cal-week { grid-template-columns: 1fr; }
+  .pp-calendar .pp-cal-week-day { padding: 12px; }
+}
+
+.pp-calendar .pp-cal-month-events .pp-cal-event strong { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.pp-calendar .pp-cal-month-events .pp-cal-player { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }

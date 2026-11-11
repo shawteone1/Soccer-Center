@@ -1,0 +1,82 @@
+{
+  "pageTitle": "Add player",
+  "backLabel": "My Players",
+  "fields": {
+    "name": {
+      "label": "Player name",
+      "placeholder": "e.g. Alex Smith"
+    },
+    "ageGroup": {
+      "label": "Age group / team",
+      "placeholder": "Select age group…"
+    },
+    "primaryPosition": {
+      "label": "Primary position",
+      "placeholder": "Select position…"
+    },
+    "secondaryPosition": {
+      "label": "Secondary position",
+      "noneOption": "None"
+    },
+    "club": {
+      "label": "Club / team name",
+      "placeholder": "e.g. Colorado Rapids Academy"
+    },
+    "jersey": {
+      "label": "Jersey number",
+      "placeholder": "e.g. 10"
+    },
+    "trainingInterests": {
+      "label": "Training interests"
+    }
+  },
+  "validation": {
+    "nameRequired": "Player name is required."
+  },
+  "actions": {
+    "cancel": "Cancel",
+    "save": "Save player",
+    "saveFailed": "Save failed. Please try again."
+  },
+  "unsavedDialog": {
+    "title": "Discard changes?",
+    "body": "You have unsaved changes. If you leave now they will be lost.",
+    "stay": "Stay",
+    "discard": "Discard"
+  },
+  "SEASONS": [
+    "Fall 2026",
+    "Spring 2026",
+    "Fall 2025",
+    "Spring 2025"
+  ],
+  "TRAINING_INTERESTS": [
+    "Dribbling",
+    "Shooting",
+    "Passing",
+    "Defending",
+    "Goalkeeping",
+    "Fitness",
+    "Tactics",
+    "Set Pieces",
+    "1v1",
+    "Heading"
+  ],
+  "COMMON_PROGRAMS": [
+    "Select",
+    "ECNL",
+    "MLS NEXT",
+    "Academy",
+    "Recreational",
+    "Futsal",
+    "Other"
+  ],
+  "steps": [
+    "club",
+    "program",
+    "season",
+    "agegroup",
+    "team",
+    "details"
+  ]
+}

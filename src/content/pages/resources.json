@@ -1,0 +1,194 @@
+{
+  "hero": {
+    "eyebrow": "Soccer Center / Denver metro",
+    "headline": "Soccer Resources",
+    "subtext": "Helpful starting points for players, parents, coaches, and referees. Explore city and community programs, education, financial assistance, and player safety. No Soccer Center account needed."
+  },
+  "note": "Resource links compiled October 3, 2026. Program offerings, fees, eligibility, and deadlines can change; check the linked provider for current details. External course enrollment, program registration, or assistance applications may require an account. Links open in a new tab.",
+  "categories": [
+    {
+      "id": "sc-resource-0",
+      "title": "Soccer organizations & education",
+      "type": "cards",
+      "articles": [
+        {
+          "id": "art-1",
+          "tag": "State association",
+          "heading": "Colorado Soccer Association",
+          "body": "Find Colorado soccer programs, league information, policies, and statewide news.",
+          "linkLabel": "Visit CSA",
+          "url": "https://www.coloradosoccer.org/"
+        },
+        {
+          "id": "art-2",
+          "tag": "USSF education",
+          "heading": "U.S. Soccer Learning Center",
+          "body": "Start at the official landing page for coaching and referee education. Course enrollment may require a U.S. Soccer account.",
+          "linkLabel": "Visit Learning Center",
+          "url": "https://learning.ussoccer.com/"
+        },
+        {
+          "id": "art-3",
+          "tag": "Coaches",
+          "heading": "CSA coaching education",
+          "body": "Explore Colorado coaching education opportunities and course information.",
+          "linkLabel": "Explore coaching",
+          "url": "https://www.coloradosoccer.org/coaches"
+        }
+      ],
+      "pubs": [],
+      "tvRows": [],
+      "tvIntro": "",
+      "tvOutro": "",
+      "tvTimingTip": ""
+    },
+    {
+      "id": "sc-resource-1",
+      "title": "City & community programs",
+      "type": "cards",
+      "articles": [
+        {
+          "id": "art-4",
+          "tag": "Denver Parks",
+          "heading": "Denver Parks & Recreation soccer",
+          "body": "Find recreational soccer leagues and programs offered through Denver Parks & Recreation.",
+          "linkLabel": "Explore programs",
+          "url": "https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Parks-Recreation/Sports-Programs/Soccer"
+        },
+        {
+          "id": "art-5",
+          "tag": "Aurora Parks",
+          "heading": "Aurora Parks & Recreation soccer",
+          "body": "Browse soccer programs and leagues offered through Aurora Parks & Recreation.",
+          "linkLabel": "Explore programs",
+          "url": "https://auroragov.org/things_to_do/parks___recreation/sports___athletics/soccer"
+        },
+        {
+          "id": "art-6",
+          "tag": "Lakewood Parks",
+          "heading": "Lakewood soccer programs",
+          "body": "Find recreational soccer leagues and programs through Lakewood Parks & Recreation.",
+          "linkLabel": "Explore programs",
+          "url": "https://www.lakewood.org/Government/Departments/Community-Resources/Parks-Forestry-and-Open-Space/Recreation-Programs-and-Activities/Sports/Soccer"
+        }
+      ],
+      "pubs": [],
+      "tvRows": [],
+      "tvIntro": "",
+      "tvOutro": "",
+      "tvTimingTip": ""
+    },
+    {
+      "id": "sc-resource-2",
+      "title": "Financial assistance",
+      "type": "cards",
+      "articles": [
+        {
+          "id": "art-7",
+          "tag": "USSF assistance",
+          "heading": "U.S. Soccer Development Academy grants",
+          "body": "Learn about financial assistance programs available through U.S. Soccer for player development.",
+          "linkLabel": "Learn more",
+          "url": "https://www.ussoccer.com/stories/2019/02/us-soccer-development-academy-announces-financial-assistance-program"
+        },
+        {
+          "id": "art-8",
+          "tag": "Colorado assistance",
+          "heading": "CSA financial assistance",
+          "body": "Explore financial assistance options available through the Colorado Soccer Association.",
+          "linkLabel": "Learn more",
+          "url": "https://www.coloradosoccer.org/financial-assistance"
+        }
+      ],
+      "pubs": [],
+      "tvRows": [],
+      "tvIntro": "",
+      "tvOutro": "",
+      "tvTimingTip": ""
+    },
+    {
+      "id": "sc-resource-3",
+      "title": "Referee resources",
+      "type": "cards",
+      "articles": [
+        {
+          "id": "art-9",
+          "tag": "Referee education",
+          "heading": "U.S. Soccer referee licensing",
+          "body": "Find information on referee licensing, courses, and education through U.S. Soccer.",
+          "linkLabel": "Explore licensing",
+          "url": "https://learning.ussoccer.com/referee"
+        },
+        {
+          "id": "art-10",
+          "tag": "Colorado referees",
+          "heading": "CSA referee resources",
+          "body": "Access Colorado-specific referee resources, assignors, and development programs.",
+          "linkLabel": "Explore resources",
+          "url": "https://www.coloradosoccer.org/referees"
+        }
+      ],
+      "pubs": [],
+      "tvRows": [],
+      "tvIntro": "",
+      "tvOutro": "",
+      "tvTimingTip": ""
+    },
+    {
+      "id": "sc-resource-4",
+      "title": "Coaching resources",
+      "type": "cards",
+      "articles": [
+        {
+          "id": "art-11",
+          "tag": "Coaching education",
+          "heading": "U.S. Soccer coaching licenses",
+          "body": "Find coaching license pathways, courses, and education through U.S. Soccer.",
+          "linkLabel": "Explore licenses",
+          "url": "https://learning.ussoccer.com/coach"
+        },
+        {
+          "id": "art-12",
+          "tag": "Colorado coaches",
+          "heading": "CSA coaching resources",
+          "body": "Access Colorado-specific coaching resources, clinics, and development programs.",
+          "linkLabel": "Explore resources",
+          "url": "https://www.coloradosoccer.org/coaches"
+        }
+      ],
+      "pubs": [],
+      "tvRows": [],
+      "tvIntro": "",
+      "tvOutro": "",
+      "tvTimingTip": ""
+    },
+    {
+      "id": "sc-resource-5",
+      "title": "Player safety",
+      "type": "cards",
+      "articles": [
+        {
+          "id": "art-18",
+          "tag": "Safer sport",
+          "heading": "SafeSport parent resources",
+          "body": "Find parent education and resources for supporting safer sport environments.",
+          "linkLabel": "View safety resources",
+          "url": "https://uscenterforsafesport.org/parents/"
+        },
+        {
+          "id": "art-19",
+          "tag": "Family guide",
+          "heading": "SafeSport parent & guardian handbook",
+          "body": "Read guidance for parents and guardians about recognizing and responding to concerns in sport.",
+          "linkLabel": "Read the handbook",
+          "url": "https://uscenterforsafesport.org/parent-and-guardian-handbook/"
+        }
+      ],
+      "pubs": [],
+      "tvRows": [],
+      "tvIntro": "",
+      "tvOutro": "",
+      "tvTimingTip": ""
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "identityCard": {
+    "roleLabel": "Soccer parent",
+    "editButton": "Edit profile",
+    "fanViewButton": "Fan view",
+    "parentBadge": "Parent account",
+    "privateBadge": "Private profile"
+  },
+  "familyOverview": {
+    "playersHeading": "My Players",
+    "noPlayersBody": "No players added yet. Add your first player to get started.",
+    "addFirstPlayerButton": "Add first player",
+    "addPlayerButton": "Add player",
+    "tryoutsHeading": "Colorado Tryouts",
+    "tryoutsToggleLabel": "Show tryout listings",
+    "tryoutsToggleDescription": "Displays Colorado tryout opportunities across the portal. Turning this off hides tryout content but does not delete saved items.",
+    "regionsLabel": "Regions",
+    "regionsSettingsHint": "Configure regions and age groups in Settings.",
+    "communityHeading": "Community",
+    "communityComingSoon": "Colorado soccer community resources, parent education, and local facilities — coming soon."
+  },
+  "playerCard": {
+    "continueSetupLabel": "Continue setup →",
+    "completeLabel": "Complete",
+    "noDetailsLabel": "No details yet"
+  },
+  "playerDetail": {
+    "positionsHeading": "Positions & Goals",
+    "clubHeading": "Club & Team",
+    "parentEnteredLabel": "Parent-entered",
+    "ageGroupNotSet": "Age group not set",
+    "trainingHeading": "Training Preferences",
+    "modeLabel": "Mode",
+    "sessionLengthLabel": "Session length",
+    "frequencyLabel": "Frequency",
+    "focusAreasLabel": "Focus areas",
+    "tryoutHeading": "Tryout listings",
+    "tryoutOnLabel": "Showing tryout opportunities for this player",
+    "tryoutOffLabel": "Tryout listings hidden for this player",
+    "setupCtaHeading": "Complete this player's profile",
+    "setupCtaBody": "Add positions, club, and training preferences to get personalized recommendations.",
+    "setupCtaButton": "Continue setup",
+    "parentManagedBadge": "Parent-managed",
+    "backButton": "← Back",
+    "editButton": "Edit"
+  },
+  "sidebar": {
+    "familyLabel": "Family",
+    "allPlayersLabel": "All players",
+    "addPlayerLabel": "Add player",
+    "calendarLabel": "Calendar",
+    "tryoutsLabel": "Tryouts",
+    "communityLabel": "Community",
+    "settingsLabel": "Settings",
+    "comingSoonLabel": "Soon"
+  },
+  "rightSidebar": {
+    "setupCtaHeading": "Complete your setup",
+    "setupCtaBody": "Finish the onboarding wizard to unlock personalized tryout listings and calendar features.",
+    "setupCtaButton": "Continue setup",
+    "tryoutsHeading": "Colorado Tryouts",
+    "tryoutsListingsLabel": "Listings",
+    "tryoutsManageHint": "Manage in Settings → Tryouts",
+    "privacyNotice": "Your family's data is private by default. Player profiles are never publicly discoverable."
+  },
+  "wizard": {
+    "welcomeHeading": "Welcome to your Parent Portal",
+    "welcomeBody": "Let's set up your family profile. This takes about 5 minutes and you can save and continue later.",
+    "startButton": "Start setup",
+    "skipButton": "Skip for now"
+  },
+  "statCards": {
+    "playersLabel": "Players",
+    "tryoutInterestLabel": "Tryout interest",
+    "coloradoTryoutsLabel": "Colorado tryouts",
+    "profilesCompleteLabel": "Profiles complete"
+  },
+  "mobileNav": {
+    "familyLabel": "Family",
+    "calendarLabel": "Calendar",
+    "tryoutsLabel": "Tryouts",
+    "settingsLabel": "Settings"
+  }
+}

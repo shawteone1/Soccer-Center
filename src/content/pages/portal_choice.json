@@ -1,0 +1,53 @@
+{
+  "headline": "How would you like to use Soccer Center?",
+  "subheadline": "Choose your experience. You can always switch later.",
+  "fanCard": {
+    "title": "Fan",
+    "description": "Follow your teams, browse news and highlights, discover local tryouts, and build your soccer feed.",
+    "features": [
+      {
+        "id": "f1",
+        "label": "My Feed & team news"
+      },
+      {
+        "id": "f2",
+        "label": "Highlights & podcasts"
+      },
+      {
+        "id": "f3",
+        "label": "Local tryouts"
+      },
+      {
+        "id": "f4",
+        "label": "Development videos"
+      }
+    ],
+    "cta": "Continue as Fan"
+  },
+  "parentCard": {
+    "title": "Parent",
+    "description": "Manage your player's profile, track their development, and stay on top of their schedule.",
+    "features": [
+      {
+        "id": "p1",
+        "label": "Player profile & progress"
+      },
+      {
+        "id": "p2",
+        "label": "Family calendar"
+      },
+      {
+        "id": "p3",
+        "label": "Tryout tracking"
+      },
+      {
+        "id": "p4",
+        "label": "Development resources"
+      }
+    ],
+    "cta": "Continue as Parent"
+  },
+  "alreadyHaveAccount": "Already have an account?",
+  "signInLink": "Sign in",
+  "disclaimer": "Your choice here sets your starting destination — it doesn't change your account permissions."
+}

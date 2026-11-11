@@ -1,0 +1,92 @@
+.sc-explorer .sc-opportunity {
+  padding: clamp(16px, 3vw, 28px);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: var(--paper);
+  margin: 24px 0;
+}
+.sc-opportunity summary {
+  font-size: 22px;
+  color: var(--brand);
+}
+.sc-opportunity h2 {
+  margin: 20px 0 12px;
+}
+.sc-opportunity-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 18px 0;
+}
+.sc-opportunity-fields {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 230px), 1fr));
+  gap: 16px;
+}
+.sc-opportunity label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+.sc-explorer .sc-opportunity textarea {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background: var(--wash);
+  color: var(--ink);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  font: inherit;
+  min-height: 100px;
+  resize: vertical;
+}
+.sc-opportunity fieldset {
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  margin: 20px 0;
+}
+.sc-priorities {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr));
+  gap: 8px;
+}
+.sc-priorities label {
+  flex-direction: row;
+  align-items: center;
+  min-height: 44px;
+  font-weight: 400;
+}
+.sc-priorities input {
+  width: 20px;
+  min-height: 20px;
+  flex-shrink: 0;
+}
+.sc-lead-list {
+  list-style: none;
+  padding: 0 !important;
+  display: grid;
+  gap: 16px;
+}
+.sc-lead-list li {
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+}
+.sc-lead-list button {
+  display: block;
+  margin-top: 12px;
+}
+.sc-opportunity-notice {
+  padding: 16px;
+  border-left: 4px solid var(--brand);
+  background: var(--wash);
+}
+.sc-opportunity article {
+  margin: 16px 0;
+}
+.sc-opportunity p {
+  overflow-wrap: anywhere;
+}
