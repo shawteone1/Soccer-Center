@@ -1,0 +1,17 @@
+
+> test:browser
+> playwright test --config playwright.config.ts
+
+[WebServer] (node:3918) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 4 tests using 1 worker
+
+(node:3967) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/demo.browser.ts:4:1 › complete fictional workflow, cross-tab consistency, sync and reset (3.0s)
+  ✓  2 tests/demo.browser.ts:142:1 › member search, source filters, calendar navigation, failure bounds and stale warnings (861ms)
+  ✓  3 tests/demo.browser.ts:194:1 › responsive portals and keyboard source inspection (827ms)
+  ✓  4 tests/demo.browser.ts:228:1 › corrupt demo storage recovers without touching other keys (334ms)
+
+  4 passed (6.9s)
