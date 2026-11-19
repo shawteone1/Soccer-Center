@@ -106,7 +106,7 @@ test("complete fictional workflow, cross-tab consistency, sync and reset", async
   });
   await page.reload();
   await expect(
-    page.getByRole("heading", { name: "Soccer City operations" }),
+    page.getByRole("heading", { name: "Soccer City Operations Desk" }),
   ).toBeVisible();
   await page
     .getByRole("button", { name: "Member portal", exact: true })

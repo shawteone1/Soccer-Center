@@ -1,5 +1,7 @@
 # Build and validation report — November 13, 2026
 
+Historical baseline for c478169. For the November 19 Operations Desk continuation, current screenshots, preview and validation results, see [OPERATIONS_DESK_HANDOFF.md](OPERATIONS_DESK_HANDOFF.md).
+
 ## Scope verified
 
 - Workspace: `/workspace/soccer-city-connect`; branch: `codex/soccer-city-connect-poc`.

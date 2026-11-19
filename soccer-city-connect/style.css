@@ -420,3 +420,171 @@ footer {
     grid-template-columns: 110px 1fr;
   }
 }
+
+/* Operations Desk additions are scoped; member styling remains unchanged. */
+.ops-shell .brand {
+  max-width: 580px;
+}
+.ops-shell .page-heading h1 {
+  font-size: 32px;
+}
+.ops-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 0 0 22px;
+}
+.ops-nav a {
+  background: white;
+  color: #214e76;
+  border: 1px solid #cbd8e3;
+  padding: 11px 15px;
+  border-radius: 7px;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 600;
+}
+.operations-desk section {
+  scroll-margin-top: 20px;
+}
+.ops-metrics {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 12px;
+  margin: 20px 0;
+}
+.ops-metrics > div {
+  background: #f1f5f9;
+  border: 1px solid #d7e1eb;
+  border-radius: 8px;
+  padding: 16px;
+}
+.ops-metrics span {
+  display: block;
+  font-size: 11px;
+  color: #536d84;
+}
+.ops-metrics strong {
+  display: block;
+  font-size: 28px;
+  margin-top: 9px;
+}
+.ops-sessions {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 14px;
+}
+.ops-sessions article {
+  border: 1px solid #d4e0ea;
+  border-left: 4px solid #406e95;
+  padding: 18px;
+  border-radius: 7px;
+}
+.ops-task {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #cddce9;
+  border-radius: 10px;
+  background: #fcfdff;
+}
+.ops-task h3 {
+  margin: 12px 0 5px;
+  font-size: 18px;
+}
+.ops-fields {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  margin: 18px 0;
+}
+.ops-fields select,
+.ops-fields input {
+  width: 100%;
+}
+.ops-task textarea {
+  display: block;
+  font: inherit;
+  font-weight: 400;
+  color: #284b69;
+  width: 100%;
+  resize: vertical;
+  min-height: 90px;
+  margin: 9px 0 12px;
+  border: 1px solid #bfceda;
+  border-radius: 7px;
+  padding: 12px;
+}
+textarea:focus-visible,
+summary:focus-visible {
+  outline: 3px solid #488ac8;
+  outline-offset: 3px;
+}
+.task-feedback {
+  min-height: 20px;
+}
+.ops-notes {
+  padding-left: 22px;
+}
+.ops-notes li {
+  padding: 6px 0;
+}
+.ops-notes p {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+.ops-notes small {
+  color: #60778d;
+  font-size: 11px;
+}
+.ops-measurements {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+}
+.ops-measurements > div {
+  border: 1px solid #d8e3ed;
+  padding: 16px;
+  border-radius: 8px;
+}
+.ops-measurements dt {
+  font-size: 12px;
+  color: #536d84;
+  line-height: 1.6;
+}
+.ops-measurements dd {
+  margin: 10px 0 0;
+  font-size: 23px;
+  font-weight: bold;
+}
+.operations-desk summary {
+  cursor: pointer;
+  padding: 10px 0;
+  font-size: 13px;
+  font-weight: 600;
+  color: #28587f;
+}
+@media (max-width: 760px) {
+  .ops-metrics {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .ops-fields,
+  .ops-measurements {
+    grid-template-columns: 1fr;
+  }
+  .ops-task {
+    padding: 15px;
+  }
+  .ops-shell .page-heading h1 {
+    font-size: 27px;
+  }
+  .ops-nav a {
+    font-size: 12px;
+    padding: 10px;
+  }
+  .ops-task .section-heading {
+    align-items: flex-start;
+  }
+  .ops-sessions {
+    grid-template-columns: 1fr;
+  }
+}

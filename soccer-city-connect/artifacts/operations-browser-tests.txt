@@ -1,0 +1,43 @@
+
+> pretest:browser
+> npm run preview:export
+
+
+> preview:export
+> npm run build && node scripts/export-preview.mjs
+
+
+> build
+> vite build --config vite.config.ts
+
+vite v6.4.6 building for production...
+transforming...
+✓ 1578 modules transformed.
+rendering chunks...
+computing gzip size...
+build/index.html                   0.79 kB │ gzip:  0.45 kB
+build/assets/index-Djhe5spX.css   11.18 kB │ gzip:  2.80 kB
+build/assets/index-CUux6HA_.js   260.18 kB │ gzip: 80.17 kB
+✓ built in 2.74s
+Exported self-contained preview: /workspace/soccer-city-connect/soccer-city-connect/artifacts/operations-desk-preview.html
+
+> test:browser
+> playwright test --config playwright.config.ts
+
+[WebServer] (node:1616) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 8 tests using 1 worker
+
+(node:1634) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/demo.browser.ts:4:1 › complete fictional workflow, cross-tab consistency, sync and reset (2.6s)
+  ✓  2 tests/demo.browser.ts:142:1 › member search, source filters, calendar navigation, failure bounds and stale warnings (934ms)
+  ✓  3 tests/demo.browser.ts:194:1 › responsive portals and keyboard source inspection (720ms)
+  ✓  4 tests/demo.browser.ts:228:1 › corrupt demo storage recovers without touching other keys (401ms)
+  ✓  5 tests/operations.browser.ts:6:1 › staff assignment, follow-up, source review, completion and operational measurement persist (1.8s)
+  ✓  6 tests/operations.browser.ts:114:1 › daily schedule, overdue work and responsive desk (642ms)
+  ✓  7 tests/operations.browser.ts:148:1 › legacy saved demo keeps its resolution and audit when the desk is opened (489ms)
+  ✓  8 tests/operations.browser.ts:172:1 › downloadable self-contained preview works without an app server (418ms)
+
+  8 passed (10.4s)

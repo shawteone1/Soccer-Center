@@ -14,12 +14,12 @@ import {
   load,
   initial,
   sync,
-  resolve,
   forHousehold,
   markStale,
   findConflicts,
 } from "./store";
 import "./style.css";
+import OperationsDesk from "./OperationsDesk";
 
 function App() {
   const [state, setState] = useState(load);
@@ -33,6 +33,12 @@ function App() {
   const [action, setAction] = useState("");
   const [storageError, setStorageError] = useState("");
   const sourceTrigger = useRef<HTMLElement | null>(null);
+  useEffect(() => {
+    document.title =
+      role === "admin"
+        ? "Soccer City Operations Desk — powered by PlayRcmd"
+        : "Soccer City Connect — Fictional demonstration";
+  }, [role]);
   function openDetail(r: SourceRecord) {
     sourceTrigger.current = document.activeElement as HTMLElement;
     setDetail(r);
@@ -112,7 +118,7 @@ function App() {
     );
   }
   return (
-    <div className="city-shell">
+    <div className={`city-shell ${role === "admin" ? "ops-shell" : ""}`}>
       <div className="demo-banner">
         <span>FICTIONAL DEMONSTRATION · No live provider connections</span>
         <button
@@ -132,8 +138,17 @@ function App() {
         >
           <span className="brand-mark">SC</span>
           <span>
-            SOCCER CITY <b>CONNECT</b>
-            <small>Powered by Soccer Center</small>
+            {role === "admin" ? (
+              <>
+                SOCCER CITY <b>OPERATIONS DESK</b>
+                <small>powered by PlayRcmd</small>
+              </>
+            ) : (
+              <>
+                SOCCER CITY <b>CONNECT</b>
+                <small>Powered by Soccer Center</small>
+              </>
+            )}
           </span>
         </a>
         <div className="role-control">
@@ -161,12 +176,12 @@ function App() {
             <h1>
               {role === "member"
                 ? "Welcome, Jordan."
-                : "Soccer City operations"}
+                : "Soccer City Operations Desk"}
             </h1>
             <p>
               {role === "member"
                 ? "Your family, memberships and upcoming activities — together."
-                : "Review commitments, source health and the next action."}
+                : "powered by PlayRcmd · Your daily member operations workspace."}
             </p>
           </div>
           <span className="date-chip">
@@ -194,27 +209,32 @@ function App() {
               Showing last-known provider records; verify source before acting.
             </p>
           ))}
-        <div className="metrics">
-          <section>
-            <small>MEMBERSHIP</small>
-            <strong>Active</strong>
-            <span>Mindbody · simulated</span>
-          </section>
-          <section>
-            <small>FAMILY ACTIVITIES</small>
-            <strong>{family.filter((r) => r.kind === "event").length}</strong>
-            <span>Across three providers</span>
-          </section>
-          <section>
-            <small>OUTSTANDING ACTIONS</small>
-            <strong>{open}</strong>
-            <span>
-              {open ? "Staff review required" : "Local workflow complete"}
-            </span>
-          </section>
-        </div>
         {role === "admin" && (
-          <section className="panel">
+          <OperationsDesk state={state} update={update} inspect={openDetail} />
+        )}
+        {role === "member" && (
+          <div className="metrics">
+            <section>
+              <small>MEMBERSHIP</small>
+              <strong>Active</strong>
+              <span>Mindbody · simulated</span>
+            </section>
+            <section>
+              <small>FAMILY ACTIVITIES</small>
+              <strong>{family.filter((r) => r.kind === "event").length}</strong>
+              <span>Across three providers</span>
+            </section>
+            <section>
+              <small>OUTSTANDING ACTIONS</small>
+              <strong>{open}</strong>
+              <span>
+                {open ? "Staff review required" : "Local workflow complete"}
+              </span>
+            </section>
+          </div>
+        )}
+        {role === "admin" && (
+          <section className="panel" id="member-lookup">
             <h2>Member and record search</h2>
             <label>
               Search members, programs or source IDs
@@ -231,90 +251,74 @@ function App() {
             </p>
           </section>
         )}
-        <div className="two-columns">
-          <section className="panel">
-            <h2>
-              {role === "member"
-                ? "The Rivera family"
-                : "Family and identity associations"}
-            </h2>
-            {people
-              .filter((p) => role === "admin" || p.household === "rivera")
-              .map((p) => (
-                <div className="person" key={p.id}>
-                  <span className="avatar">
-                    {p.name
-                      .split(" ")
-                      .map((x) => x[0])
-                      .join("")}
-                  </span>
-                  <div>
-                    <strong>{p.name}</strong>
-                    <p>
-                      {p.role} · household: {p.household}
-                    </p>
+        {role === "member" && (
+          <div className="two-columns">
+            <section className="panel">
+              <h2>
+                {role === "member"
+                  ? "The Rivera family"
+                  : "Family and identity associations"}
+              </h2>
+              {people
+                .filter((p) => p.household === "rivera")
+                .map((p) => (
+                  <div className="person" key={p.id}>
+                    <span className="avatar">
+                      {p.name
+                        .split(" ")
+                        .map((x) => x[0])
+                        .join("")}
+                    </span>
+                    <div>
+                      <strong>{p.name}</strong>
+                      <p>
+                        {p.role} · household: {p.household}
+                      </p>
+                    </div>
                   </div>
-                </div>
-              ))}
-            {role === "admin" && (
-              <p className="notice">
-                MB-M-999 has no confirmed identity link. It is excluded from
-                member views and eligibility.
+                ))}
+            </section>
+            <section className="panel">
+              <h2>Notifications and requirements</h2>
+              <p className="muted">
+                Membership renewal: December 13, 2026 · simulated
               </p>
-            )}
-          </section>
-          <section className="panel">
-            <h2>Notifications and requirements</h2>
-            <p className="muted">
-              Membership renewal: December 13, 2026 · simulated
-            </p>
-            {requirements.map((r) => (
-              <article key={recordKey(r)} className="requirement">
-                <span className="badge">Priority · before participation</span>
-                <h3>{r.title} · Alex Rivera</h3>
-                <p>
-                  Provider status: <b>{r.rawStatus}</b> · {r.provider}{" "}
-                  (simulated)
-                </p>
-                <p>
-                  Local workflow:{" "}
-                  <b>
-                    {state.resolutions[recordKey(r)]
-                      ? "Locally resolved"
-                      : "Open"}
-                  </b>
-                </p>
-                {sourceButton(r)}
-                {state.resolutions[recordKey(r)] ? (
-                  <p className="notice">
-                    Simulated resolution — no provider updated. Provider
-                    confirmation still required.
-                  </p>
-                ) : role === "admin" ? (
-                  <button
-                    className="primary"
-                    onClick={() => {
-                      update(resolve(state, r));
-                      setAction(
-                        "Local workflow resolved. Provider status remains Missing. No provider updated.",
-                      );
-                    }}
-                  >
-                    Resolve local workflow (simulated)
-                  </button>
-                ) : (
+              {requirements.map((r) => (
+                <article key={recordKey(r)} className="requirement">
+                  <span className="badge">Priority · before participation</span>
+                  <h3>{r.title} · Alex Rivera</h3>
                   <p>
-                    Staff will review this requirement. Provider eligibility
-                    remains unconfirmed.
+                    Provider status: <b>{r.rawStatus}</b> · {r.provider}{" "}
+                    (simulated)
                   </p>
-                )}
-              </article>
-            ))}
-            {requirements.length === 0 && (
-              <p>No requirements match this view.</p>
-            )}
-          </section>
-        </div>
+                  <p>
+                    Local workflow:{" "}
+                    <b>
+                      {state.resolutions[recordKey(r)]
+                        ? "Locally resolved"
+                        : "Open"}
+                    </b>
+                  </p>
+                  {sourceButton(r)}
+                  {state.resolutions[recordKey(r)] ? (
+                    <p className="notice">
+                      Simulated resolution — no provider updated. Provider
+                      confirmation still required.
+                    </p>
+                  ) : (
+                    <p>
+                      Staff will review this requirement. Provider eligibility
+                      remains unconfirmed.
+                    </p>
+                  )}
+                </article>
+              ))}
+              {requirements.length === 0 && (
+                <p>No requirements match this view.</p>
+              )}
+            </section>
+          </div>
+        )}
         <section className="panel">
           <div className="section-heading">
             <div>
@@ -536,8 +540,10 @@ function App() {
           </>
         )}
         <footer>
-          Soccer City Connect · Fictional functional POC · Existing providers
-          remain authoritative.
+          {role === "admin"
+            ? "Soccer City Operations Desk · powered by PlayRcmd"
+            : "Soccer City Connect"}{" "}
+          · Fictional functional POC · Existing providers remain authoritative.
         </footer>
       </main>
       {detail && (

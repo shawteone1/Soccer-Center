@@ -1,5 +1,7 @@
 # Soccer City Connect — functional demonstration
 
+**November 19 update:** The existing administrator portal is now **Soccer City Operations Desk — powered by PlayRcmd**. [Open/download the self-contained interactive preview](artifacts/operations-desk-preview.html) (save and open in a browser; no server required), or see the [Operations Desk handoff and current test results](OPERATIONS_DESK_HANDOFF.md). The member portal and simulated adapters are preserved.
+
 Powered by Soccer Center. A local member/admin proof of concept with fictional Mindbody, Playpass and Square records. Existing providers remain authoritative. This is not an approved pilot or a membership/payment replacement.
 
 ## Start locally

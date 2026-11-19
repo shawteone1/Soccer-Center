@@ -11,6 +11,7 @@ import {
 import { mindbody } from "./adapters/mindbody";
 import { playpass } from "./adapters/playpass";
 import { square } from "./adapters/square";
+import { seedTasks } from "./operations";
 export const adapters = {
   Mindbody: mindbody,
   Playpass: playpass,
@@ -56,6 +57,7 @@ export function initial(): State {
       ]),
     ) as State["health"],
     resolutions: {},
+    tasks: seedTasks(records),
     audit: [],
   };
 }
@@ -157,7 +159,7 @@ export function load(): State {
         Array.isArray(s.audit) &&
         providers.every((p) => s.health[p])
       )
-        return s;
+        return { ...s, tasks: { ...seedTasks(s.records), ...s.tasks } };
     }
   } catch {
     /* corrupt/unavailable storage falls back to fictional fixtures */

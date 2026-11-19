@@ -69,6 +69,7 @@ export interface State {
   records: Record<string, SourceRecord>;
   health: Record<Provider, Health>;
   resolutions: Record<string, { at: string; note: string }>;
+  tasks: Record<string, LocalTask>;
   audit: Audit[];
 }
 export function source(
@@ -94,4 +95,25 @@ export function source(
     importedAt: CLOCK,
     ...extra,
   };
+}
+
+export const staff = [
+  { id: "morgan", name: "Morgan Lee", role: "Duty lead" },
+  { id: "casey", name: "Casey Brooks", role: "Member services" },
+] as const;
+export interface FollowUpNote {
+  id: number;
+  at: string;
+  actor: string;
+  text: string;
+}
+export interface LocalTask {
+  sourceKey: string;
+  title: string;
+  priority: "High" | "Normal";
+  assigneeId: string | null;
+  dueOn: string;
+  createdAt: string;
+  updatedAt: string;
+  notes: FollowUpNote[];
 }
