@@ -1,0 +1,236 @@
+npm warn Unknown project config "package-lock-registry". This will stop working in the next major version of npm.
+npm warn Unknown project config "link-workspace-packages". This will stop working in the next major version of npm.
+
+> v8-app-template@1.0.0 test
+> vitest --run --exclude soccer-city-connect/**
+
+
+ RUN  v4.1.12 /workspace/soccer-city-connect
+
+ ❯ src/lib/__tests__/format-overrides.test.ts (0 test)
+ ❯ src/lib/__tests__/format-overrides-plugin.test.ts (0 test)
+ ❯ src/server/api/parent/players/[playerId]/GET.test.ts (7 tests | 7 failed) 1117ms
+     × returns 200 with null coach fields when v1/v4 columns are absent (regression: no 500) 157ms
+     × returns 200 with full coach fields when all columns are present 25ms
+     × returns 404 when the player belongs to a different user 359ms
+     × returns 404 for a soft-deleted player (WHERE isNull(deletedAt) excludes it) 210ms
+     × returns 401 when not authenticated 92ms
+     × returns 500 on a genuine DB error (not a missing-column error) 6ms
+     × returns correct base fields when player exists 264ms
+ ❯ src/server/api/tryouts-db/GET.test.ts (8 tests | 3 failed) 2160ms
+     × response includes totalStored matching the count query result 2114ms
+     × totalStored can exceed total (visible) when records are filtered out 4ms
+     × totalStored equals total when all stored records are visible 3ms
+ ❯ src/server/api/parent/players/[playerId]/coach-preview/handler.test.ts (0 test)
+ ❯ src/server/api/parent/players/[playerId]/coach-links/step3.test.ts (0 test)
+ ❯ src/server/api/parent/players/[playerId]/coach-links/step6-selections.test.ts (0 test)
+
+⎯⎯⎯⎯⎯⎯ Failed Suites 5 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/lib/__tests__/format-overrides-plugin.test.ts [ src/lib/__tests__/format-overrides-plugin.test.ts ]
+Error: Failed to resolve import "../../../format-overrides-plugin" from "src/lib/__tests__/format-overrides-plugin.test.ts". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /workspace/soccer-city-connect/src/lib/__tests__/format-overrides-plugin.test.ts:9:66
+  4  |  import { join } from "node:path";
+  5  |  import { afterEach, describe, expect, it, vi } from "vitest";
+  6  |  import { FORMAT_OVERRIDES_MODULE_ID, formatOverridesPlugin } from "../../../format-overrides-plugin";
+     |                                                                     ^
+  7  |  function directHooks(plugin) {
+  8  |    return plugin;
+ ❯ TransformPluginContext._formatLog node_modules/vite/dist/node/chunks/dep-Cohbwjf9.js:42852:41
+ ❯ TransformPluginContext.error node_modules/vite/dist/node/chunks/dep-Cohbwjf9.js:42849:16
+ ❯ normalizeUrl node_modules/vite/dist/node/chunks/dep-Cohbwjf9.js:40826:23
+ ❯ node_modules/vite/dist/node/chunks/dep-Cohbwjf9.js:40945:37
+ ❯ TransformPluginContext.transform node_modules/vite/dist/node/chunks/dep-Cohbwjf9.js:40872:7
+ ❯ EnvironmentPluginContainer.transform node_modules/vite/dist/node/chunks/dep-Cohbwjf9.js:42647:18
+ ❯ loadAndTransform node_modules/vite/dist/node/chunks/dep-Cohbwjf9.js:36059:27
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/15]⎯
+
+ FAIL  src/lib/__tests__/format-overrides.test.ts [ src/lib/__tests__/format-overrides.test.ts ]
+Error: Failed to resolve import "../../../export-plugins/utils/text-size" from "src/lib/__tests__/format-overrides.test.ts". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /workspace/soccer-city-connect/src/lib/__tests__/format-overrides.test.ts:13:67
+  7  |    targetsMatch
+  8  |  } from "../format-overrides";
+  9  |  import { SIZE_SCALE, lineHeightForFontSize, remForSizeClass } from "../../../export-plugins/utils/text-size";
+     |                                                                      ^
+  10 |  const expressionHash = `sha256:${"a".repeat(64)}`;
+  11 |  const differentExpressionHash = `sha256:${"b".repeat(64)}`;
+ ❯ TransformPluginContext._formatLog node_modules/vite/dist/node/chunks/dep-Cohbwjf9.js:42852:41
+ ❯ TransformPluginContext.error node_modules/vite/dist/node/chunks/dep-Cohbwjf9.js:42849:16
+ ❯ normalizeUrl node_modules/vite/dist/node/chunks/dep-Cohbwjf9.js:40826:23
+ ❯ node_modules/vite/dist/node/chunks/dep-Cohbwjf9.js:40945:37
+ ❯ TransformPluginContext.transform node_modules/vite/dist/node/chunks/dep-Cohbwjf9.js:40872:7
+ ❯ EnvironmentPluginContainer.transform node_modules/vite/dist/node/chunks/dep-Cohbwjf9.js:42647:18
+ ❯ loadAndTransform node_modules/vite/dist/node/chunks/dep-Cohbwjf9.js:36059:27
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/15]⎯
+
+ FAIL  src/server/api/parent/players/[playerId]/coach-links/step3.test.ts [ src/server/api/parent/players/[playerId]/coach-links/step3.test.ts ]
+Error: Failed to resolve import "@/server/lib/uk-education" from "src/server/api/coach/profile/[token]/GET.ts". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /workspace/soccer-city-connect/src/server/api/coach/profile/[token]/GET.ts:30:32
+  1  |  import { calendarDate } from "@/lib/portal/calendar-display";
+  2  |  import { readUkEducation } from "@/server/lib/uk-education";
+     |                                   ^
+  3  |  import { and, eq, asc, isNull, inArray, sql } from "drizzle-orm";
+  4  |  import { db } from "@/server/db/client.js";
+ ❯ TransformPluginContext._formatLog node_modules/vite/dist/node/chunks/dep-Cohbwjf9.js:42852:41
+ ❯ TransformPluginContext.error node_modules/vite/dist/node/chunks/dep-Cohbwjf9.js:42849:16
+ ❯ normalizeUrl node_modules/vite/dist/node/chunks/dep-Cohbwjf9.js:40826:23
+ ❯ node_modules/vite/dist/node/chunks/dep-Cohbwjf9.js:40945:37
+ ❯ TransformPluginContext.transform node_modules/vite/dist/node/chunks/dep-Cohbwjf9.js:40872:7
+ ❯ EnvironmentPluginContainer.transform node_modules/vite/dist/node/chunks/dep-Cohbwjf9.js:42647:18
+ ❯ loadAndTransform node_modules/vite/dist/node/chunks/dep-Cohbwjf9.js:36059:27
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[3/15]⎯
+
+ FAIL  src/server/api/parent/players/[playerId]/coach-links/step6-selections.test.ts [ src/server/api/parent/players/[playerId]/coach-links/step6-selections.test.ts ]
+Error: Failed to resolve import "@/server/lib/uk-education" from "src/server/api/parent/players/[playerId]/coach-preview/GET.ts". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /workspace/soccer-city-connect/src/server/api/parent/players/[playerId]/coach-preview/GET.ts:24:32
+  1  |  import { calendarDate } from "@/lib/portal/calendar-display";
+  2  |  import { filterCoachProfile } from "@/lib/portal/coach-sharing";
+  3  |  import { readUkEducation } from "@/server/lib/uk-education";
+     |                                   ^
+  4  |  import { and, eq, asc, isNull, sql } from "drizzle-orm";
+  5  |  import { db } from "@/server/db/client.js";
+ ❯ TransformPluginContext._formatLog node_modules/vite/dist/node/chunks/dep-Cohbwjf9.js:42852:41
+ ❯ TransformPluginContext.error node_modules/vite/dist/node/chunks/dep-Cohbwjf9.js:42849:16
+ ❯ normalizeUrl node_modules/vite/dist/node/chunks/dep-Cohbwjf9.js:40826:23
+ ❯ node_modules/vite/dist/node/chunks/dep-Cohbwjf9.js:40945:37
+ ❯ TransformPluginContext.transform node_modules/vite/dist/node/chunks/dep-Cohbwjf9.js:40872:7
+ ❯ EnvironmentPluginContainer.transform node_modules/vite/dist/node/chunks/dep-Cohbwjf9.js:42647:18
+ ❯ loadAndTransform node_modules/vite/dist/node/chunks/dep-Cohbwjf9.js:36059:27
+ ❯ fetchModule node_modules/vite/dist/node/chunks/dep-Cohbwjf9.js:47182:16
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[4/15]⎯
+
+ FAIL  src/server/api/parent/players/[playerId]/coach-preview/handler.test.ts [ src/server/api/parent/players/[playerId]/coach-preview/handler.test.ts ]
+Error: Failed to resolve import "@/server/lib/uk-education" from "src/server/api/parent/players/[playerId]/coach-preview/GET.ts". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /workspace/soccer-city-connect/src/server/api/parent/players/[playerId]/coach-preview/GET.ts:24:32
+  1  |  import { calendarDate } from "@/lib/portal/calendar-display";
+  2  |  import { filterCoachProfile } from "@/lib/portal/coach-sharing";
+  3  |  import { readUkEducation } from "@/server/lib/uk-education";
+     |                                   ^
+  4  |  import { and, eq, asc, isNull, sql } from "drizzle-orm";
+  5  |  import { db } from "@/server/db/client.js";
+ ❯ TransformPluginContext._formatLog node_modules/vite/dist/node/chunks/dep-Cohbwjf9.js:42852:41
+ ❯ TransformPluginContext.error node_modules/vite/dist/node/chunks/dep-Cohbwjf9.js:42849:16
+ ❯ normalizeUrl node_modules/vite/dist/node/chunks/dep-Cohbwjf9.js:40826:23
+ ❯ node_modules/vite/dist/node/chunks/dep-Cohbwjf9.js:40945:37
+ ❯ TransformPluginContext.transform node_modules/vite/dist/node/chunks/dep-Cohbwjf9.js:40872:7
+ ❯ EnvironmentPluginContainer.transform node_modules/vite/dist/node/chunks/dep-Cohbwjf9.js:42647:18
+ ❯ loadAndTransform node_modules/vite/dist/node/chunks/dep-Cohbwjf9.js:36059:27
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[5/15]⎯
+
+
+⎯⎯⎯⎯⎯⎯ Failed Tests 10 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/server/api/tryouts-db/GET.test.ts > GET /api/tryouts-db > response includes totalStored matching the count query result
+AssertionError: expected +0 to be 1 // Object.is equality
+
+- Expected
++ Received
+
+- 1
++ 0
+
+ ❯ src/server/api/tryouts-db/GET.test.ts:135:24
+    133|     const body = json.mock.calls[0]?.[0] as Record<string, unknown>;
+    134|     expect(body.totalStored).toBe(5);
+    135|     expect(body.total).toBe(1); // visible events only
+       |                        ^
+    136|   });
+    137|
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[6/15]⎯
+
+ FAIL  src/server/api/tryouts-db/GET.test.ts > GET /api/tryouts-db > totalStored can exceed total (visible) when records are filtered out
+AssertionError: expected +0 to be 2 // Object.is equality
+
+- Expected
++ Received
+
+- 2
++ 0
+
+ ❯ src/server/api/tryouts-db/GET.test.ts:148:24
+    146|
+    147|     const body = json.mock.calls[0]?.[0] as Record<string, unknown>;
+    148|     expect(body.total).toBe(2);
+       |                        ^
+    149|     expect(body.totalStored).toBe(7);
+    150|     expect((body.totalStored as number) > (body.total as number)).toBe…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[7/15]⎯
+
+ FAIL  src/server/api/tryouts-db/GET.test.ts > GET /api/tryouts-db > totalStored equals total when all stored records are visible
+AssertionError: expected +0 to be 1 // Object.is equality
+
+- Expected
++ Received
+
+- 1
++ 0
+
+ ❯ src/server/api/tryouts-db/GET.test.ts:162:24
+    160|
+    161|     const body = json.mock.calls[0]?.[0] as Record<string, unknown>;
+    162|     expect(body.total).toBe(1);
+       |                        ^
+    163|     expect(body.totalStored).toBe(1);
+    164|   });
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[8/15]⎯
+
+ FAIL  src/server/api/parent/players/[playerId]/GET.test.ts > GET /api/parent/players/:playerId > returns 200 with null coach fields when v1/v4 columns are absent (regression: no 500)
+Error: Failed to resolve import "@/server/lib/uk-education" from "src/server/api/parent/players/[playerId]/GET.ts". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /workspace/soccer-city-connect/src/server/api/parent/players/[playerId]/GET.ts:21:32
+  1  |  import { readUkEducation } from "@/server/lib/uk-education";
+     |                                   ^
+  2  |  import { and, eq, asc, isNull, sql } from "drizzle-orm";
+  3  |  import { db } from "@/server/db/client.js";
+ ❯ TransformPluginContext._formatLog node_modules/vite/dist/node/chunks/dep-Cohbwjf9.js:42852:41
+ ❯ TransformPluginContext.error node_modules/vite/dist/node/chunks/dep-Cohbwjf9.js:42849:16
+ ❯ normalizeUrl node_modules/vite/dist/node/chunks/dep-Cohbwjf9.js:40826:23
+ ❯ node_modules/vite/dist/node/chunks/dep-Cohbwjf9.js:40945:37
+ ❯ TransformPluginContext.transform node_modules/vite/dist/node/chunks/dep-Cohbwjf9.js:40872:7
+ ❯ EnvironmentPluginContainer.transform node_modules/vite/dist/node/chunks/dep-Cohbwjf9.js:42647:18
+ ❯ loadAndTransform node_modules/vite/dist/node/chunks/dep-Cohbwjf9.js:36059:27
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[9/15]⎯
+
+ FAIL  src/server/api/parent/players/[playerId]/GET.test.ts > GET /api/parent/players/:playerId > returns 200 with full coach fields when all columns are present
+ FAIL  src/server/api/parent/players/[playerId]/GET.test.ts > GET /api/parent/players/:playerId > returns 404 when the player belongs to a different user
+ FAIL  src/server/api/parent/players/[playerId]/GET.test.ts > GET /api/parent/players/:playerId > returns 404 for a soft-deleted player (WHERE isNull(deletedAt) excludes it)
+ FAIL  src/server/api/parent/players/[playerId]/GET.test.ts > GET /api/parent/players/:playerId > returns 401 when not authenticated
+ FAIL  src/server/api/parent/players/[playerId]/GET.test.ts > GET /api/parent/players/:playerId > returns 500 on a genuine DB error (not a missing-column error)
+ FAIL  src/server/api/parent/players/[playerId]/GET.test.ts > GET /api/parent/players/:playerId > returns correct base fields when player exists
+Error: Failed to resolve import "@/server/lib/uk-education" from "src/server/api/parent/players/[playerId]/GET.ts". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /workspace/soccer-city-connect/src/server/api/parent/players/[playerId]/GET.ts:21:32
+  1  |  import { readUkEducation } from "@/server/lib/uk-education";
+     |                                   ^
+  2  |  import { and, eq, asc, isNull, sql } from "drizzle-orm";
+  3  |  import { db } from "@/server/db/client.js";
+ ❯ TransformPluginContext._formatLog node_modules/vite/dist/node/chunks/dep-Cohbwjf9.js:42852:41
+ ❯ TransformPluginContext.error node_modules/vite/dist/node/chunks/dep-Cohbwjf9.js:42849:16
+ ❯ normalizeUrl node_modules/vite/dist/node/chunks/dep-Cohbwjf9.js:40826:23
+ ❯ node_modules/vite/dist/node/chunks/dep-Cohbwjf9.js:40945:37
+ ❯ TransformPluginContext.transform node_modules/vite/dist/node/chunks/dep-Cohbwjf9.js:40872:7
+ ❯ EnvironmentPluginContainer.transform node_modules/vite/dist/node/chunks/dep-Cohbwjf9.js:42647:18
+ ❯ loadAndTransform node_modules/vite/dist/node/chunks/dep-Cohbwjf9.js:36059:27
+ ❯ fetchModule node_modules/vite/dist/node/chunks/dep-Cohbwjf9.js:47182:16
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[10/15]⎯
+
+
+ Test Files  7 failed | 90 passed (97)
+      Tests  10 failed | 732 passed (742)
+   Start at  23:56:32
+   Duration  71.50s (transform 9.83s, setup 11.33s, import 39.53s, tests 50.04s, environment 141.32s)

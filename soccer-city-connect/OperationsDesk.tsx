@@ -45,7 +45,8 @@ function TaskCard({
           <p>
             {people.find((p) => p.id === source.personId)?.name ??
               "Identity not confirmed"}{" "}
-            · {source.provider} · simulated · {source.sourceId}
+            · {source.provider} · {source.dataMode ?? "simulated"} ·{" "}
+            {source.sourceId}
           </p>
         </div>
         <button onClick={() => inspect(source)}>Inspect source</button>
@@ -164,7 +165,9 @@ export default function OperationsDesk({
   state,
   update,
   inspect,
+  authenticatedActor,
 }: {
+  authenticatedActor?: string;
   state: State;
   update: (s: State) => void;
   inspect: (r: SourceRecord) => void;
@@ -323,8 +326,14 @@ export default function OperationsDesk({
             </p>
           </div>
           <label>
-            Acting staff (simulated)
-            <select value={actor} onChange={(e) => setActor(e.target.value)}>
+            {authenticatedActor
+              ? `Authenticated actor: ${authenticatedActor}`
+              : "Acting staff (simulated)"}
+            <select
+              disabled={!!authenticatedActor}
+              value={actor}
+              onChange={(e) => setActor(e.target.value)}
+            >
               {staff.map((s) => (
                 <option key={s.id} value={s.id}>
                   {s.name}

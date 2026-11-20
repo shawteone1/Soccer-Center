@@ -8,6 +8,9 @@
     "test": "vitest run --config vitest.config.ts",
     "test:browser": "playwright test --config playwright.config.ts",
     "preview:export": "npm run build && node scripts/export-preview.mjs",
-    "pretest:browser": "npm run preview:export"
+    "pretest:browser": "npm run preview:export",
+    "pilot:serve": "tsx backend/server.ts",
+    "pilot:provision": "tsx backend/provision.ts",
+    "pilot:credential": "tsx backend/import-credential.ts"
   }
 }

@@ -1,5 +1,7 @@
 # Build and validation report — November 13, 2026
 
+Current pilot-foundation results and activation limits: [PILOT_HARDENING_REPORT.md](PILOT_HARDENING_REPORT.md). The sections below remain historical baseline evidence.
+
 Historical baseline for c478169. For the November 19 Operations Desk continuation, current screenshots, preview and validation results, see [OPERATIONS_DESK_HANDOFF.md](OPERATIONS_DESK_HANDOFF.md).
 
 ## Scope verified

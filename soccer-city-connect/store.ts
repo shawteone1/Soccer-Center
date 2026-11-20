@@ -12,6 +12,7 @@ import { mindbody } from "./adapters/mindbody";
 import { playpass } from "./adapters/playpass";
 import { square } from "./adapters/square";
 import { seedTasks } from "./operations";
+import { setupOf, viewRecords } from "./pilot";
 export const adapters = {
   Mindbody: mindbody,
   Playpass: playpass,
@@ -67,6 +68,13 @@ export function sync(
   fail = false,
   retry = false,
 ): State {
+  const connection = setupOf(s).connections[p];
+  if (
+    connection.disabled ||
+    !connection.selected ||
+    connection.mode !== "simulated"
+  )
+    return s;
   const old = s.health[p];
   const attempts = retry ? old.attempts + 1 : 1;
   if (retry && (!old.error || old.attempts >= adapters[p].maxAttempts))
@@ -142,7 +150,7 @@ export function markStale(s: State, p: Provider): State {
   );
 }
 export function forHousehold(s: State, ids: string[]) {
-  return Object.values(s.records).filter(
+  return viewRecords(s).filter(
     (r) => r.personId !== null && ids.includes(r.personId),
   );
 }

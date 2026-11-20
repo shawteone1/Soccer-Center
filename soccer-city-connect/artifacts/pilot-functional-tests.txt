@@ -1,0 +1,12 @@
+
+> test
+> vitest run --config vitest.config.ts
+
+
+ RUN  v4.1.12 /workspace/soccer-city-connect/soccer-city-connect
+
+
+ Test Files  6 passed (6)
+      Tests  35 passed (35)
+   Start at  00:10:11
+   Duration  3.54s (transform 595ms, setup 0ms, import 1.04s, tests 4.32s, environment 1ms)

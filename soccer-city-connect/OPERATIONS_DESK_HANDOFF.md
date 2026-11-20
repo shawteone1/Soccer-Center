@@ -1,5 +1,7 @@
 # Soccer City Operations Desk — powered by PlayRcmd
 
+Historical Operations Desk handoff. See [PILOT_HARDENING_REPORT.md](PILOT_HARDENING_REPORT.md) for the November 20 continuation, current test counts, onboarding/connection features and backend activation dependencies.
+
 November 19, 2026 · continuation of the original Soccer City Connect build.
 
 ## Recovery and scope

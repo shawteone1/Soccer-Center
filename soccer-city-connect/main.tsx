@@ -20,11 +20,18 @@ import {
 } from "./store";
 import "./style.css";
 import OperationsDesk from "./OperationsDesk";
+import PilotCenter from "./PilotCenter";
+import PilotGate, { type BackendSession } from "./PilotGate";
+import { viewRecords, setupOf } from "./pilot";
+import { clientCommand } from "./client-command";
 
-function App() {
-  const [state, setState] = useState(load);
+function App({ backend }: { backend?: BackendSession }) {
+  const [state, setState] = useState(() => backend?.state ?? load());
+  const revision = useRef(backend?.revision ?? 0);
+  const busy = useRef(false);
+  const [saving, setSaving] = useState(false);
   const [role, setRole] = useState(
-    location.hash === "#admin" ? "admin" : "member",
+    backend || location.hash === "#admin" ? "admin" : "member",
   );
   const [query, setQuery] = useState("");
   const [filter, setFilter] = useState("All");
@@ -44,6 +51,7 @@ function App() {
     setDetail(r);
   }
   useEffect(() => {
+    if (backend) return;
     const onHash = () =>
       setRole(location.hash === "#admin" ? "admin" : "member");
     window.addEventListener("hashchange", onHash);
@@ -67,6 +75,7 @@ function App() {
     };
   }, [detail]);
   useEffect(() => {
+    if (backend) return;
     const listener = (e: StorageEvent) => {
       if (e.key === KEY) setState(load());
     };
@@ -74,6 +83,50 @@ function App() {
     return () => window.removeEventListener("storage", listener);
   }, []);
   function update(next: State) {
+    if (next === state) return;
+    if (backend) {
+      if (busy.current) {
+        setStorageError("Wait for the current server operation.");
+        return;
+      }
+      busy.current = true;
+      setSaving(true);
+      void (async () => {
+        try {
+          const response = await fetch(
+            `/pilot-api/orgs/${encodeURIComponent(backend.organization)}/command`,
+            {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json",
+                "X-CSRF-Token": backend.csrf,
+              },
+              body: JSON.stringify({
+                revision: revision.current,
+                command: clientCommand(state, next),
+              }),
+            },
+          );
+          const data = await response.json();
+          if (!response.ok) throw new Error(data.error);
+          revision.current = data.revision;
+          setState(data.state);
+          setStorageError("");
+          setAction(
+            "Server confirmed and durably saved the local operation. No provider updated.",
+          );
+        } catch (e) {
+          setAction("");
+          setStorageError(
+            `Server rejected operation: ${e instanceof Error ? e.message : "unknown error"}. No change was saved.`,
+          );
+        } finally {
+          busy.current = false;
+          setSaving(false);
+        }
+      })();
+      return;
+    }
     try {
       localStorage.setItem(KEY, JSON.stringify(next));
       setStorageError("");
@@ -84,6 +137,45 @@ function App() {
     }
     setState(next);
   }
+  async function backendConnection(
+    provider: (typeof providers)[number],
+    operation?: string,
+  ) {
+    if (!backend) return;
+    try {
+      const endpoint = operation ? "read" : "oauth/square/start";
+      const response = await fetch(
+        `/pilot-api/orgs/${encodeURIComponent(backend.organization)}/${endpoint}`,
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            "X-CSRF-Token": backend.csrf,
+          },
+          body: JSON.stringify(operation ? { provider, operation } : {}),
+        },
+      );
+      const data = await response.json();
+      if (!response.ok) throw new Error(data.error);
+      if (data.url) {
+        const target = new URL(data.url);
+        if (target.origin !== "https://connect.squareupsandbox.com")
+          throw new Error("UNEXPECTED_AUTHORIZATION_ORIGIN");
+        location.assign(target.toString());
+      } else {
+        revision.current = data.revision;
+        setState(data.state);
+        setAction(
+          "Server completed the approved sandbox read; no production access.",
+        );
+        setStorageError("");
+      }
+    } catch (e) {
+      setStorageError(
+        `Connection dependency: ${e instanceof Error ? e.message : "unavailable"}. No live access was attempted.`,
+      );
+    }
+  }
   function switchRole(next: string) {
     location.hash = next;
     setRole(next);
@@ -93,7 +185,7 @@ function App() {
   const records =
     role === "member"
       ? family
-      : Object.values(state.records).filter(
+      : viewRecords(state).filter(
           (r) =>
             !query ||
             `${r.title} ${r.sourceId} ${people.find((p) => p.id === r.personId)?.name ?? "Unconfirmed identity"}`
@@ -118,7 +210,9 @@ function App() {
     );
   }
   return (
-    <div className={`city-shell ${role === "admin" ? "ops-shell" : ""}`}>
+    <div
+      className={`city-shell ${role === "admin" ? `ops-shell ${backend ? "backend-mode" : ""}` : ""}`}
+    >
       <div className="demo-banner">
         <span>FICTIONAL DEMONSTRATION · No live provider connections</span>
         <button
@@ -152,21 +246,40 @@ function App() {
           </span>
         </a>
         <div className="role-control">
-          <span>Demo view switch · not authentication</span>
-          <nav aria-label="Demo portal">
+          <span>
+            {backend
+              ? `Authenticated local staff: ${backend.user} · ${backend.role}`
+              : "Demo view switch · not authentication"}
+          </span>
+          {!backend && (
+            <nav aria-label="Demo portal">
+              <button
+                aria-pressed={role === "member"}
+                onClick={() => switchRole("member")}
+              >
+                Member portal
+              </button>
+              <button
+                aria-pressed={role === "admin"}
+                onClick={() => switchRole("admin")}
+              >
+                Administrator
+              </button>
+            </nav>
+          )}
+          {backend && (
             <button
-              aria-pressed={role === "member"}
-              onClick={() => switchRole("member")}
+              onClick={async () => {
+                await fetch("/pilot-api/logout", {
+                  method: "POST",
+                  headers: { "X-CSRF-Token": backend.csrf },
+                });
+                location.reload();
+              }}
             >
-              Member portal
+              Sign out locally
             </button>
-            <button
-              aria-pressed={role === "admin"}
-              onClick={() => switchRole("admin")}
-            >
-              Administrator
-            </button>
-          </nav>
+          )}
         </div>
       </header>
       <main>
@@ -205,12 +318,50 @@ function App() {
           .map((p) => (
             <p className="notice" key={p}>
               {p} · simulated ·{" "}
-              {state.health[p].error ? "sync failed" : "stale scenario"}.
-              Showing last-known provider records; verify source before acting.
+              {setupOf(state).connections[p].disabled
+                ? "access paused"
+                : state.health[p].error
+                  ? "sync failed"
+                  : "stale scenario"}
+              . Showing last-known provider records; verify source before
+              acting.
             </p>
           ))}
+        {saving && <p role="status">Waiting for server acknowledgement…</p>}
         {role === "admin" && (
-          <OperationsDesk state={state} update={update} inspect={openDetail} />
+          <PilotCenter
+            state={state}
+            update={update}
+            inspect={openDetail}
+            readOnly={saving || (!!backend && backend.role !== "admin")}
+            authorize={
+              backend
+                ? (p) => {
+                    void backendConnection(p);
+                  }
+                : undefined
+            }
+            readSandbox={
+              backend
+                ? (p, op) => {
+                    void backendConnection(p, op);
+                  }
+                : undefined
+            }
+          />
+        )}
+        {role === "admin" && (
+          <fieldset
+            className="pilot-fieldset"
+            disabled={saving || backend?.role === "viewer"}
+          >
+            <OperationsDesk
+              state={state}
+              update={update}
+              inspect={openDetail}
+              authenticatedActor={backend?.user}
+            />
+          </fieldset>
         )}
         {role === "member" && (
           <div className="metrics">
@@ -333,7 +484,9 @@ function App() {
               )
               .map((r) => (
                 <article className="record" key={recordKey(r)}>
-                  <span className="badge">{r.provider} · simulated</span>
+                  <span className="badge">
+                    {r.provider} · {r.dataMode ?? "simulated"}
+                  </span>
                   <h3>{r.title}</h3>
                   <p>
                     {people.find((p) => p.id === r.personId)?.name ??
@@ -430,7 +583,7 @@ function App() {
                     {people.find((p) => p.id === r.personId)?.name}
                   </p>
                   <span>
-                    {r.provider} · simulated · {r.status}
+                    {r.provider} · {r.dataMode ?? "simulated"} · {r.status}
                   </span>
                 </div>
                 {sourceButton(r)}
@@ -485,20 +638,41 @@ function App() {
                       )}
                       {h.error && <p>{h.error}</p>}
                       <div className="stack">
-                        <button onClick={() => update(sync(state, p))}>
+                        <button
+                          disabled={
+                            setupOf(state).connections[p].disabled ||
+                            !setupOf(state).connections[p].selected ||
+                            setupOf(state).connections[p].mode !== "simulated"
+                          }
+                          onClick={() => update(sync(state, p))}
+                        >
                           Sync {p}
                         </button>
                         <button onClick={() => update(sync(state, p, true))}>
                           Simulate {p} failure
                         </button>
                         <button
-                          disabled={!h.error || h.attempts >= 3}
+                          disabled={
+                            !h.error ||
+                            h.attempts >= 3 ||
+                            setupOf(state).connections[p].disabled ||
+                            setupOf(state).connections[p].mode !==
+                              "simulated" ||
+                            !setupOf(state).connections[p].selected
+                          }
                           onClick={() => update(sync(state, p, false, true))}
                         >
                           Retry {p}
                         </button>
                         <button
-                          disabled={!h.error || h.attempts >= 3}
+                          disabled={
+                            !h.error ||
+                            h.attempts >= 3 ||
+                            setupOf(state).connections[p].disabled ||
+                            setupOf(state).connections[p].mode !==
+                              "simulated" ||
+                            !setupOf(state).connections[p].selected
+                          }
                           onClick={() => update(sync(state, p, true, true))}
                         >
                           Retry {p} with failure
@@ -526,7 +700,7 @@ function App() {
                     <li key={a.id}>
                       <strong>{a.action}</strong>
                       <p>
-                        {a.source} · {a.actor} · simulated
+                        {a.source} · {a.actor} · {a.mode}
                       </p>
                       <p>
                         {a.before} → {a.after}
@@ -582,4 +756,10 @@ function App() {
     </div>
   );
 }
-createRoot(document.getElementById("root")!).render(<App />);
+createRoot(document.getElementById("root")!).render(
+  new URLSearchParams(location.search).has("pilot") ? (
+    <PilotGate>{(session) => <App backend={session} />}</PilotGate>
+  ) : (
+    <App />
+  ),
+);

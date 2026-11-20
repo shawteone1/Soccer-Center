@@ -588,3 +588,59 @@ summary:focus-visible {
     grid-template-columns: 1fr;
   }
 }
+.pilot-fieldset {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  min-width: 0;
+}
+.pilot-center .record {
+  margin: 15px 0;
+}
+.pilot-center input[type="checkbox"] {
+  display: inline-block;
+  width: auto;
+  margin: 0 7px 0 0;
+}
+.pilot-center .setup-steps {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style: none;
+  padding: 15px 0;
+  font-size: 12px;
+}
+.setup-steps li {
+  padding: 8px;
+  background: #edf3f8;
+  border-radius: 5px;
+}
+.setup-steps [aria-current="step"] {
+  background: #214e76;
+  color: white;
+}
+.pilot-login {
+  max-width: 620px;
+  margin: 50px auto;
+}
+.pilot-login label {
+  margin: 18px 0;
+}
+.backend-mode .task-feedback,
+.backend-mode .pilot-center [role="status"] {
+  display: none;
+}
+select[multiple] {
+  min-height: 100px;
+}
+.pilot-center details li {
+  overflow-wrap: anywhere;
+  font-size: 12px;
+}
+.pilot-center button {
+  margin-bottom: 5px;
+}
+
+.audit li {
+  overflow-wrap: anywhere;
+}

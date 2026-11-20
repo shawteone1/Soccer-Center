@@ -1,5 +1,7 @@
 # Soccer City Connect — functional demonstration
 
+**November 20 pilot-foundation update:** [Current build/test report](PILOT_HARDENING_REPORT.md) · [Official integration feasibility](docs/INTEGRATION_FEASIBILITY.md) · [Implemented capabilities, startup and activation checklist](docs/CAPABILITIES_AND_ACTIVATION.md). Guided onboarding and connection management extend the existing desk; an opt-in isolated authenticated backend serves the same app. Live access remains disabled.
+
 **November 19 update:** The existing administrator portal is now **Soccer City Operations Desk — powered by PlayRcmd**. [Open/download the self-contained interactive preview](artifacts/operations-desk-preview.html) (save and open in a browser; no server required), or see the [Operations Desk handoff and current test results](OPERATIONS_DESK_HANDOFF.md). The member portal and simulated adapters are preserved.
 
 Powered by Soccer Center. A local member/admin proof of concept with fictional Mindbody, Playpass and Square records. Existing providers remain authoritative. This is not an approved pilot or a membership/payment replacement.

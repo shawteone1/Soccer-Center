@@ -1,0 +1,12 @@
+npm warn Unknown project config "package-lock-registry". This will stop working in the next major version of npm.
+npm warn Unknown project config "link-workspace-packages". This will stop working in the next major version of npm.
+
+> v8-app-template@1.0.0 type-check
+> if [ -f scripts/airo-typecheck.mjs ]; then node scripts/airo-typecheck.mjs; else npx tsc --noEmit --pretty false; fi
+
+npm warn Unknown env config "package-lock-registry". This will stop working in the next major version of npm.
+npm warn Unknown project config "package-lock-registry". This will stop working in the next major version of npm.
+npm warn Unknown project config "link-workspace-packages". This will stop working in the next major version of npm.
+src/lib/__tests__/format-overrides-plugin.test.ts(9,67): error TS2307: Cannot find module '../../../format-overrides-plugin' or its corresponding type declarations.
+src/lib/__tests__/format-overrides.test.ts(13,68): error TS2307: Cannot find module '../../../export-plugins/utils/text-size' or its corresponding type declarations.
+src/pages/soccer-directory.tsx(8,36): error TS2307: Cannot find module '@airo/content' or its corresponding type declarations.

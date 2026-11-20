@@ -1,3 +1,6 @@
 build/
 test-results/
 playwright-report/
+.pilot/
+*.sqlite*
+*.key

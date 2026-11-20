@@ -1,3 +1,4 @@
+import type { PilotSetup } from "./pilot";
 export const providers = ["Mindbody", "Playpass", "Square"] as const;
 export type Provider = (typeof providers)[number];
 export const CLOCK = "2026-11-13T16:00:00Z";
@@ -24,8 +25,20 @@ export const people = [
 ];
 export interface SourceRecord {
   provider: Provider;
+  organizationId?: string;
+  sourceSubjectId?: string;
+  programId?: string;
+  dataMode?: "contract-fixture" | "sandbox";
   account: string;
-  kind: "membership" | "registration" | "transaction" | "event" | "requirement";
+  kind:
+    | "membership"
+    | "registration"
+    | "transaction"
+    | "event"
+    | "requirement"
+    | "client"
+    | "location"
+    | "program";
   sourceId: string;
   personId: string | null;
   title: string;
@@ -39,7 +52,15 @@ export interface SourceRecord {
   renewal?: string;
 }
 export const recordKey = (r: SourceRecord) =>
-  `${r.provider}:${r.account}:${r.kind}:${r.sourceId}`;
+  r.organizationId
+    ? JSON.stringify([
+        r.organizationId,
+        r.provider,
+        r.account,
+        r.kind,
+        r.sourceId,
+      ])
+    : `${r.provider}:${r.account}:${r.kind}:${r.sourceId}`;
 export interface Adapter {
   provider: Provider;
   mode: "simulated";
@@ -53,6 +74,7 @@ export interface Health {
   error: string | null;
   attempts: number;
   stale: boolean;
+  retryAt?: string;
 }
 export interface Audit {
   id: number;
@@ -62,10 +84,11 @@ export interface Audit {
   source: string;
   before: string;
   after: string;
-  mode: "simulated";
+  mode: "simulated" | "sandbox";
 }
 export interface State {
   version: 1;
+  pilot?: PilotSetup;
   records: Record<string, SourceRecord>;
   health: Record<Provider, Health>;
   resolutions: Record<string, { at: string; note: string }>;

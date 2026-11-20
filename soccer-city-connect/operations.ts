@@ -11,7 +11,12 @@ import { calendarDate } from "../src/lib/portal/calendar-display";
 export function seedTasks(records: State["records"]): State["tasks"] {
   return Object.fromEntries(
     Object.values(records)
-      .filter((r) => r.kind === "requirement" || r.personId === null)
+      .filter(
+        (r) =>
+          r.kind === "requirement" ||
+          (r.personId === null &&
+            ["client", "membership", "registration"].includes(r.kind)),
+      )
       .map((r) => {
         const key = recordKey(r);
         return [

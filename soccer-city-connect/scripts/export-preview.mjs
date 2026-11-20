@@ -22,6 +22,13 @@ html = html.replace(
   "<title>Soccer City Connect — Fictional demonstration</title>",
   "<title>Soccer City Operations Desk — powered by PlayRcmd</title>",
 );
+if (
+  /node:sqlite|node:crypto|SCC_MASTER_KEY_FILE|BEGIN (?:RSA |EC )?PRIVATE KEY/.test(
+    html,
+  )
+) {
+  throw new Error("SERVER_CODE_OR_KEY_MATERIAL_IN_PREVIEW");
+}
 const destination = new URL("artifacts/operations-desk-preview.html", root);
 writeFileSync(destination, html);
 console.log(`Exported self-contained preview: ${fileURLToPath(destination)}`);
